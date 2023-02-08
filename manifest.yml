@@ -1,0 +1,41 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    app: hoteliercms-appdemo
+  name: hoteliercms-appdemo
+spec:
+  replicas: 5
+  selector:
+    matchLabels:
+      app: hoteliercms-appdemo
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: hoteliercms-appdemo
+    spec:
+      containers:
+        - image: hoteliercms
+          name: hoteliercms
+          imagePullPolicy: Never
+          resources: {}
+          ports:
+            - containerPort: 5555
+status: {}
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: hotelier-entrypoint
+  namespace: default
+spec:
+  type: LoadBalancer
+  selector:
+    app: hoteliercms-appdemo
+  ports:
+    - protocol: TCP
+      port: 5555
+      targetPort: 5555

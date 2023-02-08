@@ -1,0 +1,1665 @@
+{
+  "idbName": "/pages/accommodation",
+  "0": {
+    "title": "Rooms & Suites",
+    "image": "/images/pic.jpg",
+    "css": {
+      "title": {
+        "desktop": {
+          "fontStyle": "normal",
+          "fontWeight": 400,
+          "fontSize": "62px",
+          "lineHeight": "74px",
+          "color": "#ffffff",
+          "fontFamily": "Chronicle Display"
+        },
+        "tablet": {
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "fontSize": "24px",
+          "lineHeight": "29px",
+          "color": "#ffffff",
+          "fontFamily": "Chronicle Display"
+        },
+        "mobile": {
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "fontSize": "24px",
+          "lineHeight": "29px",
+          "color": "#ffffff",
+          "fontFamily": "Chronicle Display"
+        }
+      },
+      "image": {
+        "desktop": {
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "fontSize": "24px",
+          "lineHeight": "29px",
+          "color": "#ffffff",
+          "fontFamily": "Chronicle Display"
+        },
+        "tablet": {
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "fontSize": "24px",
+          "lineHeight": "29px",
+          "color": "#ffffff",
+          "fontFamily": "Chronicle Display"
+        },
+        "mobile": {
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "fontSize": "24px",
+          "lineHeight": "29px",
+          "color": "#ffffff",
+          "fontFamily": "Chronicle Display"
+        }
+      }
+    }
+  },
+  "1": {
+    "title": "ROOMS & SUITES",
+    "subtitle": "private repeats 1",
+    "button": {
+      "pathname": "/accommodation",
+      "api": "/pages/rooms",
+      "text": "ALL ROOMS"
+    },
+    "items": [
+      {
+        "image": "/images/rooms/room1.jpg",
+        "info": "Suite with mountain view 1",
+        "button": {
+          "pathname": "/accommodation/room1",
+          "api": "/pages/room/room1",
+          "text": "DISCOVER MORE"
+        }
+      },
+      {
+        "image": "/images/rooms/room2.jpg",
+        "info": "Superior suite with mountain view",
+        "button": {
+          "pathname": "/accommodation/room1",
+          "api": "/pages/room/room1",
+          "text": "DISCOVER MORE"
+        }
+      },
+      {
+        "image": "/images/rooms/room3.jpg",
+        "info": "Panorama suite",
+        "button": {
+          "pathname": "/accommodation/room1",
+          "api": "/pages/room/room1",
+          "text": "DISCOVER MORE"
+        }
+      },
+      {
+        "image": "/images/rooms/room4.jpg",
+        "info": "Grand Forest suite",
+        "button": {
+          "pathname": "/accommodation/room1",
+          "api": "/pages/room/room1",
+          "text": "DISCOVER MORE"
+        }
+      }
+    ],
+    "css": {
+      "title": {
+        "element": "h2",
+        "class": "displayPostTypes-title"
+      },
+      "subtitle": {
+        "element": "h3",
+        "class": "displayPostTypes-subtitle"
+      },
+      "info": {
+        "element":"h4",
+        "class":"single-info"
+      },
+      "button": {
+        "class": "displayPostTypes-button"
+      },
+      "btnText": {
+        "class": "single-button"
+      }
+    }
+  },
+  "2": {
+    "title": false,
+    "subtitle": false,
+    "button": false,
+    "items": [
+      {
+        "image": "/images/rooms/room1.jpg",
+        "name": "Suite with mountain vieww",
+        "info": "Up to 3 person",
+        "link": {
+          "pathname": "/accommodation/room1",
+          "api": "/pages/room/room1",
+          "text": "DISCOVER MORE"
+        }
+      },
+      {
+        "image": "/images/rooms/room1.jpg",
+        "name": "Suite with mountain vie 1",
+        "info": "Up to 3 person",
+        "link": {
+          "pathname": "/accommodation/room1",
+          "api": "/pages/room/room1",
+          "text": "DISCOVER MORE"
+        }
+      },
+      {
+        "image": "/images/rooms/room2.jpg",
+        "name": "Suite with mountain view",
+        "info": "Up to 3 person",
+        "link": {
+          "pathname": "/accommodation/room1",
+          "api": "/pages/room/room1",
+          "text": "DISCOVER MORE"
+        }
+      },
+      {
+        "image": "/images/rooms/room3.jpg",
+        "name": "Suite with mountain view",
+        "info": "Up to 3 person",
+        "link": {
+          "pathname": "/accommodation/room1",
+          "api": "/pages/room/room1",
+          "text": "DISCOVER MORE"
+        }
+      },
+      {
+        "image": "/images/rooms/room4.jpg",
+        "name": "Suite with mountain view",
+        "info": "Up to 3 person",
+        "link": {
+          "pathname": "/accommodation/room1",
+          "api": "/pages/room/room1",
+          "text": "DISCOVER MORE"
+        }
+      }
+    ],
+    "css": {
+      "title": {
+        "element": "h2",
+        "class": "displayPostTypes-title"
+      },
+      "subtitle": {
+        "element": "h3",
+        "class": "displayPostTypes-subtitle"
+      },
+      "name": {
+        "element": "h4",
+        "class": "displayPostTypes-name"
+      },
+      "info": {
+        "element": "div",
+        "class": "displayPostTypes-info"
+      }
+    }
+  },
+  "3": {
+    "title": false,
+    "subtitle": false,
+    "button": false,
+    "items": [
+      {
+        "image": "/images/rooms/room1.jpg",
+        "name": "Suite with mountain view",
+        "info": "SOPHISTICATED CYCLADIC",
+        "room_details": [
+          "85m",
+          "2 guests"
+        ],
+        "facilities": [
+          "Panoramic Island view",
+          "Private pool"
+        ],
+        "link": {
+          "pathname": "/accommodation/room1",
+          "api": "/pages/room/room1",
+          "text": "BOOK NOW"
+        }
+      },
+      {
+        "image": "/images/rooms/room2.jpg",
+        "name": "SOPHISTICATED CYCLADIC",
+        "info": "Up to 3 person",
+        "room_details": [
+          "85m",
+          "2 guests"
+        ],
+        "facilities": [
+          "Panoramic Island view",
+          "Private pool"
+        ],
+        "link": {
+          "pathname": "/accommodation/room1",
+          "api": "/pages/room/room1",
+          "text": "BOOK NOW"
+        }
+      },
+      {
+        "image": "/images/rooms/room3.jpg",
+        "name": "Suite with mountain view",
+        "info": "SOPHISTICATED CYCLADIC",
+        "room_details": [
+          "85m",
+          "2 guests"
+        ],
+        "facilities": [
+          "Panoramic Island view",
+          "Private pool"
+        ],
+        "link": {
+          "pathname": "/accommodation/room1",
+          "api": "/pages/room/room1",
+          "text": "BOOK NOW"
+        }
+      },
+      {
+        "image": "/images/rooms/room4.jpg",
+        "name": "Suite with mountain view",
+        "info": "SOPHISTICATED CYCLADIC",
+        "room_details": [
+          "85m",
+          "2 guests"
+        ],
+        "facilities": [
+          "Panoramic Island view",
+          "Private pool"
+        ],
+        "link": {
+          "pathname": "/accommodation/room1",
+          "api": "/pages/room/room1",
+          "text": "BOOK NOW"
+        }
+      }
+    ],
+    "css": {
+      "title": {
+        "element": "h2",
+        "class": "displayPostTypes-title"
+      },
+      "subtitle": {
+        "element": "h3",
+        "class": "displayPostTypes-subtitle"
+      },
+      "link": {
+        "class" : "displayPostTypes-link"
+      },
+      "details": {
+        "element": "div",
+        "class":"displayPostTypes-details"
+      },
+      "facilities": {
+        "element": "div",
+        "class": "displayPostTypes-facilities"
+      },
+      "name": {
+        "element": "h4",
+        "class": "displayPostTypes-name"
+      },
+      "info": {
+        "element": "div",
+        "class": "displayPostTypes-info"
+      },
+      "button": {
+        "class": ""
+      }
+    }
+  },
+  "4": {
+    "title": false,
+    "subtitle": false,
+    "button": false,
+    "items": [
+      {
+        "image": "/images/rooms/room1.jpg",
+        "name": "Suite with mountain view",
+        "info": "Up to 4 person",
+        "link": {
+          "pathname": "/accommodation/room1",
+          "api": "/pages/room/room1",
+          "text": "DISCOVER MORE"
+        }
+      },
+      {
+        "image": "/images/rooms/room1.jpg",
+        "name": "Suite with mountain vie 1",
+        "info": "Up to 3 person",
+        "link": {
+          "pathname": "/accommodation/room1",
+          "api": "/pages/room/room1",
+          "text": "DISCOVER MORE"
+        }
+      },
+      {
+        "image": "/images/rooms/room2.jpg",
+        "name": "Suite with mountain view",
+        "info": "Up to 3 person",
+        "link": {
+          "pathname": "/accommodation/room1",
+          "api": "/pages/room/room1",
+          "text": "DISCOVER MORE"
+        }
+      },
+      {
+        "image": "/images/rooms/room3.jpg",
+        "name": "Suite with mountain view",
+        "info": "Up to 3 person",
+        "link": {
+          "pathname": "/accommodation/room1",
+          "api": "/pages/room/room1",
+          "text": "DISCOVER MORE"
+        }
+      },
+      {
+        "image": "/images/rooms/room4.jpg",
+        "name": "Suite with mountain view",
+        "info": "Up to 3 person",
+        "link": {
+          "pathname": "/accommodation/room1",
+          "api": "/pages/room/room1",
+          "text": "DISCOVER MORE"
+        }
+      }
+    ],
+    "css": {
+    "title": {
+      "element": "h2",
+      "class": "displayPostTypes-title"
+    },
+    "subtitle": {
+      "element": "h3",
+      "class": "displayPostTypes-subtitle"
+    },
+    "button": {
+      "class": ""
+    },
+    "link": {
+      "class" : "displayPostTypes-link"
+    },
+    "name": {
+        "element": "h4",
+        "class": "displayPostTypes-name"
+      },
+    "info": {
+        "element": "div",
+        "class": "displayPostTypes-info"
+      }
+    }
+  },
+  "5": {
+    "title": false,
+    "subtitle": false,
+    "button": false,
+    "items": [
+      {
+        "image": "/images/rooms/room1.jpg",
+        "name": "TESTINGGGG",
+        "link": {
+          "pathname": "/accommodation/room1",
+          "api": "/pages/room/room1",
+          "text": "DISCOVER MORE"
+        }
+      },
+      {
+        "image": "/images/rooms/room1.jpg",
+        "name": "Suite with mountain vie 1",
+        "link": {
+          "pathname": "/accommodation/room1",
+          "api": "/pages/room/room1",
+          "text": "DISCOVER MORE"
+        }
+      },
+      {
+        "image": "/images/rooms/room2.jpg",
+        "name": "Suite with mountain view",
+        "link": {
+          "pathname": "/accommodation/room1",
+          "api": "/pages/room/room1",
+          "text": "DISCOVER MORE"
+        }
+      },
+      {
+        "image": "/images/rooms/room3.jpg",
+        "name": "Suite with mountain view",
+        "link": {
+          "pathname": "/accommodation/room1",
+          "api": "/pages/room/room1",
+          "text": "DISCOVER MORE"
+        }
+      },
+      {
+        "image": "/images/rooms/room4.jpg",
+        "name": "Suite with mountain view",
+        "link": {
+          "pathname": "/accommodation/room1",
+          "api": "/pages/room/room1",
+          "text": "DISCOVER MORE"
+        }
+      }
+    ],
+    "css": {
+      "title": {
+        "element": "h2",
+        "class": "displayPostTypes-title"
+      },
+      "subtitle": {
+        "element": "h3",
+        "class": "displayPostTypes-subtitle"
+      },
+      "button": {
+        "class": ""
+      },
+      "link": {
+        "class" : "displayPostTypes-link"
+      },
+      "name": {
+          "element": "h4",
+          "class": "displayPostTypes-name"
+        },
+      "info": {
+          "element": "div",
+          "class": "displayPostTypes-info"
+        }
+    }
+  },
+  "6": {
+    "title": false,
+    "subtitle": false,
+    "button": false,
+    "items": [
+      {
+        "image": "/images/rooms/room1.jpg",
+        "name": "Suite with mountain view",
+        "info": "Discover a warm and relaxing oasis overlooking the Grand Forest Metsovo garden and surrounding forest.",
+        "details": [
+          "85m",
+          "2 guests",
+          "1 child"
+        ],
+        "link": {
+          "pathname": "/accommodation/room1",
+          "api": "/pages/room/room1",
+          "text": "DISCOVER MORE"
+        }
+      },
+      {
+        "image": "/images/rooms/room1.jpg",
+        "name": "Suite with mountain view",
+        "info": "Discover1 a warm and relaxing oasis overlooking the Grand Forest Metsovo garden and surrounding forest.",
+        "details": [
+          "85m",
+          "2 guests",
+          "1 child"
+        ],
+        "link": {
+          "pathname": "/accommodation/room1",
+          "api": "/pages/room/room1",
+          "text": "DISCOVER MORE"
+        }
+      },
+      {
+        "image": "/images/rooms/room2.jpg",
+        "name": "Suite with mountain view",
+        "info": "Discover a warm and relaxing oasis overlooking the Grand Forest Metsovo garden and surrounding forest.",
+        "details": [
+          "85m",
+          "2 guests",
+          "1 child"
+        ],
+        "link": {
+          "pathname": "/accommodation/room1",
+          "api": "/pages/room/room1",
+          "text": "DISCOVER MORE"
+        }
+      },
+      {
+        "image": "/images/rooms/room3.jpg",
+        "name": "Suite with mountain view",
+        "info": "Discover a warm and relaxing oasis overlooking the Grand Forest Metsovo garden and surrounding forest.",
+        "details": [
+          "85m",
+          "2 guests",
+          "1 child"
+        ],
+        "link": {
+          "pathname": "/accommodation/room1",
+          "api": "/pages/room/room1",
+          "text": "DISCOVER MORE"
+        }
+      },
+      {
+        "image": "/images/rooms/room4.jpg",
+        "name": "Suite with mountain view",
+        "info": "Discover a warm and relaxing oasis overlooking the Grand Forest Metsovo garden and surrounding forest.",
+        "details": [
+          "85m",
+          "2 guests",
+          "1 child"
+        ],
+        "link": {
+          "pathname": "/accommodation/room1",
+          "api": "/pages/room/room1",
+          "text": "DISCOVER MORE"
+        }
+      }
+    ],
+    "css": {
+      "title": {
+        "element": "h2",
+        "class": "displayPostTypes-title"
+      },
+      "subtitle": {
+        "element": "h3",
+        "class": "displayPostTypes-subtitle"
+      },
+      "button": {
+        "class": ""
+      },
+      "details": {
+        "class": "displayPostTypes-room-details",
+        "element": "div"
+      },
+      "link": {
+        "class" : "displayPostTypes-link",
+        "element": "span"
+      },
+      "name": {
+        "element": "h4",
+        "class": "displayPostTypes-name",
+        "color": "#ffffff"
+      },
+      "info": {
+        "element": "div",
+        "class": "displayPostTypes-info"
+      }
+    }
+  },
+  "7": {
+    "heading": "our luxury suites",
+    "text": "Enjoy sublime Dalmatian coastal views from your private balcony in each of our 308 newly redesigned contemporary rooms. Choose from plush ensuite single and double rooms in fresh, neutral tones, or quietly grand suites with an extra large private terrace. Be pampered with a wide range of facilities, 24-hour room service, and free, fast wifi. Complete seclusion, privacy and exclusive luxury are the hallmarks of the VIP wing at Hotel Dubrovnik Palace. ",
+    "colors": {
+      "background": "#FFFFFF"
+    },
+    "css": {
+      "heading": {
+        "class": "promos-heading",
+        "element": "h2"
+      },
+      "text": {
+        "class": "promos-text",
+        "element": "p"
+      }
+    }
+  },
+  "8": {
+    "heading": "Enjoy sublime Dalmatian coastal views from your private balcony in each of our 308 newly redesigned contemporary rooms. Choose from plush ensuite single and double rooms in fresh, neutral tones, ",
+    "colors": {
+      "background": "#FFFFFF"
+    },
+    "css": {
+      "heading": {
+        "element" : "h3",
+        "class" : "promos-heading2"
+      }
+    }
+  },
+  "9": {
+    "items": [
+      {
+        "image": "/images/rooms/room1.jpg",
+        "link": {
+          "pathname": "/accommodation/room1",
+          "api": "/pages/room/room1",
+          "text": "gastronomy"
+        }
+      },
+      {
+        "image": "/images/rooms/room2.jpg",
+        "link": {
+          "pathname": "/accommodation/room2",
+          "api": "/pages/room/room2",
+          "text": "Experiences"
+        }
+      },
+      {
+        "image": "/images/rooms/room3.jpg",
+        "link": {
+          "pathname": "/accommodation/room3",
+          "api": "/pages/room/room3",
+          "text": "Spa"
+        }
+      }
+    ],
+    "css": {
+      "text": {
+        "class": "promoPages-text",
+        "element": "div"
+      }
+    }
+  },
+  "10": {
+    "heading": "Amenities and Services",
+    "items": [
+      "Amenities and Services",
+      "Bath Amenities",
+      "Bathroom with Shower",
+      "Beach Towels",
+      "Cable-Satellite TV",
+      "Closet",
+      "Amenities and Services",
+      "Bath Amenities",
+      "Bathroom with Shower",
+      "Beach Towels",
+      "Cable-Satellite TV",
+      "Closet",
+      "Amenities and Services",
+      "Bath Amenities",
+      "Bathroom with Shower",
+      "Beach Towels",
+      "Cable-Satellite TV",
+      "Closet"
+    ],
+    "css": {
+      "heading": {
+        "class": "amenities-heading",
+        "element": "h2"
+      }
+    }
+  },
+  "11": {
+    "items": [
+      "images/rooms/room1.jpg",
+      "images/rooms/room2.jpg",
+      "images/rooms/room3.jpg",
+      "images/rooms/room4.jpg"
+    ],
+    "css": {}
+  },
+  "12": {
+    "items": [
+      "images/rooms/room1.jpg",
+      "images/rooms/room2.jpg",
+      "images/rooms/room3.jpg",
+      "images/rooms/room4.jpg",
+      "images/rooms/room1.jpg",
+      "images/rooms/room2.jpg",
+      "images/rooms/room3.jpg",
+      "images/rooms/room4.jpg",
+      "images/rooms/room1.jpg",
+      "images/rooms/room2.jpg",
+      "images/rooms/room3.jpg",
+      "images/rooms/room4.jpg",
+      "images/rooms/room1.jpg",
+      "images/rooms/room2.jpg",
+      "images/rooms/room3.jpg",
+      "images/rooms/room4.jpg"
+    ],
+    "css": {}
+  },
+  "13": {
+    "title": "ROOMS & SUITES",
+    "subtitle": "private repeats",
+    "button": {
+      "pathname": "/accommodation",
+      "api": "/pages/rooms",
+      "text": "ALL ROOMS"
+    },
+    "items": [
+      {
+        "image": "/images/rooms/room1.jpg",
+        "info": "Suite with mountain view",
+        "button": {
+          "pathname": "/accommodation/room1",
+          "api": "/pages/room/room1",
+          "text": "DISCOVER MORE"
+        }
+      },
+      {
+        "image": "/images/rooms/room2.jpg",
+        "info": "Superior suite with mountain view",
+        "button": {
+          "pathname": "/accommodation/room1",
+          "api": "/pages/room/room1",
+          "text": "DISCOVER MORE"
+        }
+      },
+      {
+        "image": "/images/rooms/room3.jpg",
+        "info": "Panorama suite",
+        "button": {
+          "pathname": "/accommodation/room1",
+          "api": "/pages/room/room1",
+          "text": "DISCOVER MORE"
+        }
+      },
+      {
+        "image": "/images/rooms/room4.jpg",
+        "info": "Grand Forest suite",
+        "button": {
+          "pathname": "/accommodation/room1",
+          "api": "/pages/room/room1",
+          "text": "DISCOVER MORE"
+        }
+      }
+    ],
+    "css": {
+      "title": {
+        "desktop": {
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "fontSize": "46px",
+          "lineHeight": "55px",
+          "color": "#ffffff",
+          "fontFamily": "Chronicle Display"
+        },
+        "tablet": {
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "fontSize": "46px",
+          "lineHeight": "55px",
+          "color": "#ffffff",
+          "fontFamily": "Chronicle Display"
+        },
+        "mobile": {
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "fontSize": "10px",
+          "lineHeight": "55px",
+          "color": "#ffffff",
+          "fontFamily": "Chronicle Display"
+        }
+      },
+      "subtitle": {
+        "desktop": {
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "fontSize": "15px",
+          "lineHeight": "18px",
+          "color": "#ffffff",
+          "fontFamily": "Chronicle Display"
+        },
+        "tablet": {
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "fontSize": "15px",
+          "lineHeight": "18px",
+          "color": "#ffffff",
+          "fontFamily": "Chronicle Display"
+        },
+        "mobile": {
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "fontSize": "10px",
+          "lineHeight": "18px",
+          "color": "#ffffff",
+          "fontFamily": "Chronicle Display"
+        }
+      },
+      "info": {
+        "desktop": {
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "fontSize": "24px",
+          "lineHeight": "29px",
+          "color": "#ffffff",
+          "fontFamily": "Chronicle Display"
+        },
+        "tablet": {
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "fontSize": "24px",
+          "lineHeight": "29px",
+          "color": "#ffffff",
+          "fontFamily": "Chronicle Display"
+        },
+        "mobile": {
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "fontSize": "24px",
+          "lineHeight": "29px",
+          "color": "#ffffff",
+          "fontFamily": "Chronicle Display"
+        }
+      },
+      "button": {
+        "desktop": {
+          "background": "transparent",
+          "padding": "0",
+          "border": "0",
+          "fontStyle": "normal",
+          "fontWeight": "600",
+          "fontSize": "11px",
+          "lineHeight": "13px",
+          "color": "#ffffff",
+          "fontFamily": "Chronicle Display"
+        },
+        "tablet": {
+          "background": "transparent",
+          "padding": "10px",
+          "border": "0",
+          "fontStyle": "normal",
+          "fontWeight": "600",
+          "fontSize": "11px",
+          "lineHeight": "13px",
+          "color": "#ffffff",
+          "fontFamily": "Chronicle Display"
+        },
+        "mobile": {
+          "background": "transparent",
+          "padding": "10px",
+          "border": "0",
+          "fontStyle": "normal",
+          "fontWeight": "600",
+          "fontSize": "11px",
+          "lineHeight": "13px",
+          "color": "#ffffff",
+          "fontFamily": "Chronicle Display"
+        }
+      },
+      "btnText": {
+        "desktop": {
+          "background": "transparent",
+          "padding": "10px",
+          "border": "0",
+          "fontStyle": "normal",
+          "fontWeight": "600",
+          "fontSize": "11px",
+          "lineHeight": "13px",
+          "color": "#ffffff",
+          "fontFamily": "Chronicle Display"
+        },
+        "tablet": {
+          "background": "transparent",
+          "padding": "10px",
+          "border": "0",
+          "fontStyle": "normal",
+          "fontWeight": "600",
+          "fontSize": "11px",
+          "lineHeight": "13px",
+          "color": "#ffffff",
+          "fontFamily": "Chronicle Display"
+        },
+        "mobile": {
+          "background": "transparent",
+          "padding": "10px",
+          "border": "0",
+          "fontStyle": "normal",
+          "fontWeight": "600",
+          "fontSize": "11px",
+          "lineHeight": "13px",
+          "color": "#ffffff",
+          "fontFamily": "Chronicle Display"
+        }
+      }
+    }
+  },
+  "14": {
+    "title": false,
+    "subtitle": false,
+    "button": false,
+    "items": [
+      {
+        "image": "/images/rooms/room1.jpg",
+        "name": "Suite with mountain view",
+        "info": "Up to 3 person",
+        "link": {
+          "pathname": "/accommodation/room1",
+          "api": "/pages/room/room1",
+          "text": "DISCOVER MORE"
+        }
+      },
+      {
+        "image": "/images/rooms/room1.jpg",
+        "name": "Suite with mountain vie 1",
+        "info": "Up to 3 person",
+        "link": {
+          "pathname": "/accommodation/room1",
+          "api": "/pages/room/room1",
+          "text": "DISCOVER MORE"
+        }
+      },
+      {
+        "image": "/images/rooms/room2.jpg",
+        "name": "Suite with mountain view",
+        "info": "Up to 3 person",
+        "link": {
+          "pathname": "/accommodation/room1",
+          "api": "/pages/room/room1",
+          "text": "DISCOVER MORE"
+        }
+      },
+      {
+        "image": "/images/rooms/room3.jpg",
+        "name": "Suite with mountain view",
+        "info": "Up to 3 person",
+        "link": {
+          "pathname": "/accommodation/room1",
+          "api": "/pages/room/room1",
+          "text": "DISCOVER MORE"
+        }
+      },
+      {
+        "image": "/images/rooms/room4.jpg",
+        "name": "Suite with mountain view",
+        "info": "Up to 3 person",
+        "link": {
+          "pathname": "/accommodation/room1",
+          "api": "/pages/room/room1",
+          "text": "DISCOVER MORE"
+        }
+      }
+    ],
+    "css": {
+      "name": {
+        "desktop": {
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "fontSize": "24px",
+          "lineHeight": "29px",
+          "color": "#ffffff",
+          "fontFamily": "Chronicle Display"
+        },
+        "tablet": {
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "fontSize": "24px",
+          "lineHeight": "29px",
+          "color": "#ffffff",
+          "fontFamily": "Chronicle Display"
+        },
+        "mobile": {
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "fontSize": "24px",
+          "lineHeight": "29px",
+          "color": "#ffffff",
+          "fontFamily": "Chronicle Display"
+        }
+      },
+      "info": {
+        "desktop": {
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "fontSize": "24px",
+          "lineHeight": "29px",
+          "color": "#ffffff",
+          "fontFamily": "Chronicle Display"
+        },
+        "tablet": {
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "fontSize": "24px",
+          "lineHeight": "29px",
+          "color": "#ffffff",
+          "fontFamily": "Chronicle Display"
+        },
+        "mobile": {
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "fontSize": "24px",
+          "lineHeight": "29px",
+          "color": "#ffffff",
+          "fontFamily": "Chronicle Display"
+        }
+      }
+    }
+  },
+  "15": {
+    "title": false,
+    "subtitle": false,
+    "button": false,
+    "items": [
+      {
+        "image": "/images/rooms/room1.jpg",
+        "name": "Suite with mountain view",
+        "info": "SOPHISTICATED CYCLADIC",
+        "details": [
+          "85m",
+          "2 guests"
+        ],
+        "facilities": [
+          "Panoramic Island view",
+          "Private pool"
+        ],
+        "link": {
+          "pathname": "/accommodation/room1",
+          "api": "/pages/room/room1",
+          "text": "BOOK NOW"
+        }
+      },
+      {
+        "image": "/images/rooms/room2.jpg",
+        "name": "SOPHISTICATED CYCLADIC",
+        "info": "Up to 3 person",
+        "details": [
+          "85m",
+          "2 guests"
+        ],
+        "facilities": [
+          "Panoramic Island view",
+          "Private pool"
+        ],
+        "link": {
+          "pathname": "/accommodation/room1",
+          "api": "/pages/room/room1",
+          "text": "BOOK NOW"
+        }
+      },
+      {
+        "image": "/images/rooms/room3.jpg",
+        "name": "Suite with mountain view",
+        "info": "SOPHISTICATED CYCLADIC",
+        "details": [
+          "85m",
+          "2 guests"
+        ],
+        "facilities": [
+          "Panoramic Island view",
+          "Private pool"
+        ],
+        "link": {
+          "pathname": "/accommodation/room1",
+          "api": "/pages/room/room1",
+          "text": "BOOK NOW"
+        }
+      },
+      {
+        "image": "/images/rooms/room4.jpg",
+        "name": "Suite with mountain view",
+        "info": "SOPHISTICATED CYCLADIC",
+        "details": [
+          "85m",
+          "2 guests"
+        ],
+        "facilities": [
+          "Panoramic Island view",
+          "Private pool"
+        ],
+        "link": {
+          "pathname": "/accommodation/room1",
+          "api": "/pages/room/room1",
+          "text": "BOOK NOW"
+        }
+      }
+    ],
+    "css": {
+      "link": {
+        "desktop": {
+          "background": "#000000",
+          "padding": "10px",
+          "border": "0",
+          "fontStyle": "normal",
+          "fontWeight": "600",
+          "fontSize": "11px",
+          "lineHeight": "13px",
+          "color": "#ffffff",
+          "fontFamily": "Chronicle Display"
+        },
+        "tablet": {
+          "background": "transparent",
+          "padding": "10px",
+          "border": "0",
+          "fontStyle": "normal",
+          "fontWeight": "600",
+          "fontSize": "11px",
+          "lineHeight": "13px",
+          "color": "#ffffff",
+          "fontFamily": "Chronicle Display"
+        },
+        "mobile": {
+          "background": "transparent",
+          "padding": "10px",
+          "border": "0",
+          "fontStyle": "normal",
+          "fontWeight": "600",
+          "fontSize": "11px",
+          "lineHeight": "13px",
+          "color": "#ffffff",
+          "fontFamily": "Chronicle Display"
+        }
+      },
+      "details": {
+        "desktop": {
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "fontSize": "24px",
+          "lineHeight": "29px",
+          "color": "#ffffff",
+          "fontFamily": "Chronicle Display"
+        },
+        "tablet": {
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "fontSize": "24px",
+          "lineHeight": "29px",
+          "color": "#ffffff",
+          "fontFamily": "Chronicle Display"
+        },
+        "mobile": {
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "fontSize": "24px",
+          "lineHeight": "29px",
+          "color": "#ffffff",
+          "fontFamily": "Chronicle Display"
+        }
+      },
+      "facilities": {
+        "desktop": {
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "fontSize": "24px",
+          "lineHeight": "29px",
+          "color": "#ffffff",
+          "fontFamily": "Chronicle Display"
+        },
+        "tablet": {
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "fontSize": "24px",
+          "lineHeight": "29px",
+          "color": "#ffffff",
+          "fontFamily": "Chronicle Display"
+        },
+        "mobile": {
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "fontSize": "24px",
+          "lineHeight": "29px",
+          "color": "#ffffff",
+          "fontFamily": "Chronicle Display"
+        }
+      },
+      "name": {
+        "desktop": {
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "fontSize": "24px",
+          "lineHeight": "29px",
+          "color": "#ffffff",
+          "fontFamily": "Chronicle Display"
+        },
+        "tablet": {
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "fontSize": "24px",
+          "lineHeight": "29px",
+          "color": "#ffffff",
+          "fontFamily": "Chronicle Display"
+        },
+        "mobile": {
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "fontSize": "24px",
+          "lineHeight": "29px",
+          "color": "#ffffff",
+          "fontFamily": "Chronicle Display"
+        }
+      },
+      "info": {
+        "desktop": {
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "fontSize": "24px",
+          "lineHeight": "29px",
+          "color": "#ffffff",
+          "fontFamily": "Chronicle Display"
+        },
+        "tablet": {
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "fontSize": "24px",
+          "lineHeight": "29px",
+          "color": "#ffffff",
+          "fontFamily": "Chronicle Display"
+        },
+        "mobile": {
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "fontSize": "24px",
+          "lineHeight": "29px",
+          "color": "#ffffff",
+          "fontFamily": "Chronicle Display"
+        }
+      }
+    }
+  },
+  "16": {
+    "title": false,
+    "subtitle": false,
+    "button": false,
+    "items": [
+      {
+        "image": "/images/rooms/room1.jpg",
+        "name": "Suite with mountain view",
+        "info": "Up to 3 person",
+        "link": {
+          "pathname": "/accommodation/room1",
+          "api": "/pages/room/room1",
+          "text": "DISCOVER MORE"
+        }
+      },
+      {
+        "image": "/images/rooms/room1.jpg",
+        "name": "Suite with mountain vie 1",
+        "info": "Up to 3 person",
+        "link": {
+          "pathname": "/accommodation/room1",
+          "api": "/pages/room/room1",
+          "text": "DISCOVER MORE"
+        }
+      },
+      {
+        "image": "/images/rooms/room2.jpg",
+        "name": "Suite with mountain view",
+        "info": "Up to 3 person",
+        "link": {
+          "pathname": "/accommodation/room1",
+          "api": "/pages/room/room1",
+          "text": "DISCOVER MORE"
+        }
+      },
+      {
+        "image": "/images/rooms/room3.jpg",
+        "name": "Suite with mountain view",
+        "info": "Up to 3 person",
+        "link": {
+          "pathname": "/accommodation/room1",
+          "api": "/pages/room/room1",
+          "text": "DISCOVER MORE"
+        }
+      },
+      {
+        "image": "/images/rooms/room4.jpg",
+        "name": "Suite with mountain view",
+        "info": "Up to 3 person",
+        "link": {
+          "pathname": "/accommodation/room1",
+          "api": "/pages/room/room1",
+          "text": "DISCOVER MORE"
+        }
+      }
+    ],
+    "css": {
+      "link": {
+        "desktop": {
+          "background": "#000000",
+          "padding": "10px",
+          "border": "0",
+          "fontStyle": "normal",
+          "fontWeight": "600",
+          "fontSize": "11px",
+          "lineHeight": "13px",
+          "color": "#ffffff",
+          "fontFamily": "Chronicle Display"
+        },
+        "tablet": {
+          "background": "transparent",
+          "padding": "10px",
+          "border": "0",
+          "fontStyle": "normal",
+          "fontWeight": "600",
+          "fontSize": "11px",
+          "lineHeight": "13px",
+          "color": "#ffffff",
+          "fontFamily": "Chronicle Display"
+        },
+        "mobile": {
+          "background": "transparent",
+          "padding": "10px",
+          "border": "0",
+          "fontStyle": "normal",
+          "fontWeight": "600",
+          "fontSize": "11px",
+          "lineHeight": "13px",
+          "color": "#ffffff",
+          "fontFamily": "Chronicle Display"
+        }
+      },
+      "name": {
+        "desktop": {
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "fontSize": "24px",
+          "lineHeight": "29px",
+          "color": "#ffffff",
+          "fontFamily": "Chronicle Display"
+        },
+        "tablet": {
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "fontSize": "24px",
+          "lineHeight": "29px",
+          "color": "#ffffff",
+          "fontFamily": "Chronicle Display"
+        },
+        "mobile": {
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "fontSize": "24px",
+          "lineHeight": "29px",
+          "color": "#ffffff",
+          "fontFamily": "Chronicle Display"
+        }
+      },
+      "info": {
+        "desktop": {
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "fontSize": "24px",
+          "lineHeight": "29px",
+          "color": "#ffffff",
+          "fontFamily": "Chronicle Display"
+        },
+        "tablet": {
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "fontSize": "24px",
+          "lineHeight": "29px",
+          "color": "#ffffff",
+          "fontFamily": "Chronicle Display"
+        },
+        "mobile": {
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "fontSize": "24px",
+          "lineHeight": "29px",
+          "color": "#ffffff",
+          "fontFamily": "Chronicle Display"
+        }
+      }
+    }
+  },
+  "17": {
+    "title": false,
+    "subtitle": false,
+    "button": false,
+    "items": [
+      {
+        "image": "/images/rooms/room1.jpg",
+        "name": "Suite with mountain view",
+        "link": {
+          "pathname": "/accommodation/room1",
+          "api": "/pages/room/room1",
+          "text": "DISCOVER MORE"
+        }
+      },
+      {
+        "image": "/images/rooms/room1.jpg",
+        "name": "Suite with mountain vie 1",
+        "link": {
+          "pathname": "/accommodation/room1",
+          "api": "/pages/room/room1",
+          "text": "DISCOVER MORE"
+        }
+      },
+      {
+        "image": "/images/rooms/room2.jpg",
+        "name": "Suite with mountain view",
+        "link": {
+          "pathname": "/accommodation/room1",
+          "api": "/pages/room/room1",
+          "text": "DISCOVER MORE"
+        }
+      },
+      {
+        "image": "/images/rooms/room3.jpg",
+        "name": "Suite with mountain view",
+        "link": {
+          "pathname": "/accommodation/room1",
+          "api": "/pages/room/room1",
+          "text": "DISCOVER MORE"
+        }
+      },
+      {
+        "image": "/images/rooms/room4.jpg",
+        "name": "Suite with mountain view",
+        "link": {
+          "pathname": "/accommodation/room1",
+          "api": "/pages/room/room1",
+          "text": "DISCOVER MORE"
+        }
+      }
+    ],
+    "css": {
+      "name": {
+        "desktop": {
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "fontSize": "24px",
+          "lineHeight": "29px",
+          "color": "#ffffff",
+          "fontFamily": "Chronicle Display"
+        },
+        "tablet": {
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "fontSize": "24px",
+          "lineHeight": "29px",
+          "color": "#ffffff",
+          "fontFamily": "Chronicle Display"
+        },
+        "mobile": {
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "fontSize": "24px",
+          "lineHeight": "29px",
+          "color": "#ffffff",
+          "fontFamily": "Chronicle Display"
+        }
+      }
+    }
+  },
+  "18": {
+    "title": false,
+    "subtitle": false,
+    "button": false,
+    "items": [
+      {
+        "image": "/images/rooms/room1.jpg",
+        "name": "Suite with mountain view",
+        "info": "Discover a warm and relaxing oasis overlooking the Grand Forest Metsovo garden and surrounding forest.",
+        "details": [
+          "85m",
+          "2 guests",
+          "1 child"
+        ],
+        "link": {
+          "pathname": "/accommodation/room1",
+          "api": "/pages/room/room1",
+          "text": "DISCOVER MORE"
+        }
+      },
+      {
+        "image": "/images/rooms/room1.jpg",
+        "name": "Suite with mountain vie 1",
+        "info": "Discover a warm and relaxing oasis overlooking the Grand Forest Metsovo garden and surrounding forest.",
+        "details": [
+          "85m",
+          "2 guests",
+          "1 child"
+        ],
+        "link": {
+          "pathname": "/accommodation/room1",
+          "api": "/pages/room/room1",
+          "text": "DISCOVER MORE"
+        }
+      },
+      {
+        "image": "/images/rooms/room2.jpg",
+        "name": "Suite with mountain view",
+        "info": "Discover a warm and relaxing oasis overlooking the Grand Forest Metsovo garden and surrounding forest.",
+        "details": [
+          "85m",
+          "2 guests",
+          "1 child"
+        ],
+        "link": {
+          "pathname": "/accommodation/room1",
+          "api": "/pages/room/room1",
+          "text": "DISCOVER MORE"
+        }
+      },
+      {
+        "image": "/images/rooms/room3.jpg",
+        "name": "Suite with mountain view",
+        "info": "Discover a warm and relaxing oasis overlooking the Grand Forest Metsovo garden and surrounding forest.",
+        "details": [
+          "85m",
+          "2 guests",
+          "1 child"
+        ],
+        "link": {
+          "pathname": "/accommodation/room1",
+          "api": "/pages/room/room1",
+          "text": "DISCOVER MORE"
+        }
+      },
+      {
+        "image": "/images/rooms/room4.jpg",
+        "name": "Suite with mountain view",
+        "info": "Discover a warm and relaxing oasis overlooking the Grand Forest Metsovo garden and surrounding forest.",
+        "details": [
+          "85m",
+          "2 guests",
+          "1 child"
+        ],
+        "link": {
+          "pathname": "/accommodation/room1",
+          "api": "/pages/room/room1",
+          "text": "DISCOVER MORE"
+        }
+      }
+    ],
+    "css": {
+      "details": {
+        "desktop": {
+          "background": "#000000",
+          "padding": "10px",
+          "border": "0",
+          "fontStyle": "normal",
+          "fontWeight": "600",
+          "fontSize": "11px",
+          "lineHeight": "13px",
+          "color": "#ffffff",
+          "fontFamily": "Chronicle Display"
+        },
+        "tablet": {
+          "background": "transparent",
+          "padding": "10px",
+          "border": "0",
+          "fontStyle": "normal",
+          "fontWeight": "600",
+          "fontSize": "11px",
+          "lineHeight": "13px",
+          "color": "#ffffff",
+          "fontFamily": "Chronicle Display"
+        },
+        "mobile": {
+          "background": "transparent",
+          "padding": "10px",
+          "border": "0",
+          "fontStyle": "normal",
+          "fontWeight": "600",
+          "fontSize": "11px",
+          "lineHeight": "13px",
+          "color": "#ffffff",
+          "fontFamily": "Chronicle Display"
+        }
+      },
+      "link": {
+        "desktop": {
+          "background": "#000000",
+          "padding": "0 0 0 10px",
+          "border": "0",
+          "fontStyle": "normal",
+          "fontWeight": "600",
+          "fontSize": "11px",
+          "lineHeight": "13px",
+          "color": "#ffffff",
+          "fontFamily": "Chronicle Display"
+        },
+        "tablet": {
+          "background": "transparent",
+          "padding": "10px",
+          "border": "0",
+          "fontStyle": "normal",
+          "fontWeight": "600",
+          "fontSize": "11px",
+          "lineHeight": "13px",
+          "color": "#ffffff",
+          "fontFamily": "Chronicle Display"
+        },
+        "mobile": {
+          "background": "transparent",
+          "padding": "10px",
+          "border": "0",
+          "fontStyle": "normal",
+          "fontWeight": "600",
+          "fontSize": "11px",
+          "lineHeight": "13px",
+          "color": "#ffffff",
+          "fontFamily": "Chronicle Display"
+        }
+      },
+      "name": {
+        "desktop": {
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "fontSize": "24px",
+          "lineHeight": "29px",
+          "color": "#ffffff",
+          "fontFamily": "Chronicle Display"
+        },
+        "tablet": {
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "fontSize": "24px",
+          "lineHeight": "29px",
+          "color": "#ffffff",
+          "fontFamily": "Chronicle Display"
+        },
+        "mobile": {
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "fontSize": "24px",
+          "lineHeight": "29px",
+          "color": "#ffffff",
+          "fontFamily": "Chronicle Display"
+        }
+      },
+      "info": {
+        "desktop": {
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "fontSize": "24px",
+          "lineHeight": "29px",
+          "color": "#ffffff",
+          "fontFamily": "Chronicle Display"
+        },
+        "tablet": {
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "fontSize": "24px",
+          "lineHeight": "29px",
+          "color": "#ffffff",
+          "fontFamily": "Chronicle Display"
+        },
+        "mobile": {
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "fontSize": "24px",
+          "lineHeight": "29px",
+          "color": "#ffffff",
+          "fontFamily": "Chronicle Display"
+        }
+      }
+    }
+  }
+}

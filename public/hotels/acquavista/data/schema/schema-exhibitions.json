@@ -1,0 +1,58 @@
+{
+  "idbName": "schema-exhibitions",
+  "pages": [
+    {
+      "page": "exhibitions",
+      "api": "/pages/exhibitions",
+      "slug": "/",
+      "components": [
+        {
+          "component_name": "Hero",
+          "template": "HeroSliderWithBookingForm",
+          "order": 0,
+          "wrapper": {
+            "row": 0,
+            "col": 0
+          }
+        },
+        {
+          "component_name": "Breadcrumbs",
+          "template": "Template1",
+          "order": 1,
+          "wrapper": {
+            "row": 0,
+            "col": 0
+          }
+        },
+        {
+          "component_name": "Posts",
+          "template": "Template1",
+          "order": 2,
+          "wrapper": {
+            "row": 0,
+            "col": 0
+          }
+        },
+        {
+          "component_name": "Carousel",
+          "template": "LatestPost",
+          "order": 3,
+          "wrapper": {
+            "row": 0,
+            "col": 0
+          }
+        }
+      ]
+    }
+  ],
+  "header": {
+    "component_name": "Header",
+    "template": "Template3"
+  },
+  "footer": {
+    "component_name": "Footer",
+    "template": "Template3"
+  }
+}
+
+

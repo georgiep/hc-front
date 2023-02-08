@@ -1,0 +1,10 @@
+{
+  ".primary-white": "#FFFFFF",
+  ".primary-dark": "#323B43",
+  ".primary-lighter": "#DBDDEA",
+  ".primary-blue": "#168EEA",
+  ".primary-green": "#25AD5B",
+  ".primary-orange": "#F77B09",
+  ".primary-red": "#EF3F60",
+  ".secondary-dark": "#808A94"
+}

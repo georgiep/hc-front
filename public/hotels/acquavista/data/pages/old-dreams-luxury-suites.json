@@ -1,0 +1,432 @@
+{
+  "idbName": "/pages/old-dreams-luxury-suites",
+  "0": {
+    "wrapper": {
+      "fluid": true,
+      "css": {
+        "border": "0",
+        "backgroundColor": "#FFFFFF"
+      },
+      "rows": [
+        {
+          "css": {
+            "padding": "0",
+            "border": "0"
+          },
+          "columns": {
+            "sizes": [
+              "col-md-12"
+            ]
+          }
+        }
+      ]
+    },
+    "rows": [
+      {
+        "columns": [
+          {
+            "items": [
+              "/hotels/acquavista/images/hero.webp"
+            ],
+            "image": "/hotels/acquavista/images/hero.webp",
+            "heading": "Dreams Luxury Suites",
+            "css": {
+              "heading": {
+                "element": "div",
+                "class": "title-case-primary text-uppercase",
+                "color": "primary-white"
+              }
+            },
+            "text": "Welcome To Aqua Vista Hotels"
+          }
+        ]
+      }
+    ]
+  },
+  "1": {
+    "wrapper": {
+      "fluid": true,
+      "css": {
+        "border": "0",
+        "backgroundColor": "#FFFFFF"
+      },
+      "rows": [
+        {
+          "css": {
+            "padding": "80px 0 60px 0",
+            "border": "0",
+            "maxWidth": "1440px",
+            "margin": "0 auto"
+          },
+          "columns": {
+            "sizes": [
+              "col-md-12"
+            ]
+          }
+        }
+      ]
+    },
+    "rows": [
+      {
+        "columns": [
+          {
+            "title": "Explore Santorini",
+            "image": "/hotels/acquavista/images/explore-santorini.jpg",
+            "link": {
+              "pathname": "/accommodation/room1",
+              "api": "/pages/room/room1"
+            },
+            "items": [
+              {
+                "image": "/hotels/acquavista/images/special-offer01.jpg",
+                "title": "Free Room Upgrade",
+                "description": "holiday and get a free room upgrade for a stay between 21st of April until 21st of May 2021",
+                "link": {
+                  "pathname": "/accommodation/room1",
+                  "api": "/pages/room/room1",
+                  "text": "Book now"
+                }
+              },
+              {
+                "image": "/hotels/acquavista/images/special-offer02.jpg",
+                "title": "Free Room Upgrade",
+                "description": "holiday and get a free room upgrade for a stay between 21st of April until 21st of May 2021",
+                "link": {
+                  "pathname": "/accommodation/room1",
+                  "api": "/pages/room/room1",
+                  "text": "Book now"
+                }
+              },
+              {
+                "image": "/hotels/acquavista/images/special-offer01.jpg",
+                "title": "Free Room Upgrade",
+                "description": "holiday and get a free room upgrade for a stay between 21st of April until 21st of May 2021",
+                "link": {
+                  "pathname": "/accommodation/room1",
+                  "api": "/pages/room/room1",
+                  "text": "Book now"
+                }
+              },
+              {
+                "image": "/hotels/acquavista/images/special-offer02.jpg",
+                "title": "Free Room Upgrade",
+                "description": "holiday and get a free room upgrade for a stay between 21st of April until 21st of May 2021",
+                "link": {
+                  "pathname": "/accommodation/room1",
+                  "api": "/pages/room/room1",
+                  "text": "Book now"
+                }
+              },
+              {
+                "image": "/hotels/acquavista/images/special-offer01.jpg",
+                "title": "Free Room Upgrade",
+                "description": "holiday and get a free room upgrade for a stay between 21st of April until 21st of May 2021",
+                "link": {
+                  "pathname": "/accommodation/room1",
+                  "api": "/pages/room/room1",
+                  "text": "Book now"
+                }
+              },
+              {
+                "image": "/hotels/acquavista/images/special-offer02.jpg",
+                "title": "Free Room Upgrade",
+                "description": "holiday and get a free room upgrade for a stay between 21st of April until 21st of May 2021",
+                "link": {
+                  "pathname": "/accommodation/room1",
+                  "api": "/pages/room/room1",
+                  "text": "Book now"
+                }
+              }
+            ],
+            "css": {
+              "title": {
+                "element": "div",
+                "class": "post-text-body",
+                "color": "primary-dark"
+              },
+              "description": {
+                "element": "div",
+                "class": "post-text-body",
+                "color": "primary-black"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "2": {
+    "wrapper": {
+      "fluid": true,
+      "css": {
+        "border": "0",
+        "backgroundColor": "#FFFFFF"
+      },
+      "rows": [
+        {
+          "css": {
+            "padding": "80px 0 60px 0",
+            "border": "0",
+            "maxWidth": "1440px",
+            "margin": "0 auto"
+          },
+          "columns": {
+            "sizes": [
+              "col-md-12"
+            ]
+          }
+        }
+      ]
+    },
+    "rows": [
+      {
+        "columns": [
+          {
+            "items": [
+              {
+                "title": "Free Room Upgrade",
+                "description": "holiday and get a free room upgrade for a stay between 21st of April until 21st of May 2021"
+              },
+              {
+                "title": "Free Room Upgrade",
+                "description": "holiday and get a free room upgrade for a stay between 21st of April until 21st of May 2021"
+              }
+            ],
+            "css": {
+              "title": {
+                "element": "div",
+                "class": "post-text-body",
+                "color": "primary-dark"
+              },
+              "description": {
+                "element": "div",
+                "class": "post-text-body",
+                "color": "primary-black"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "3": {
+    "wrapper": {
+      "fluid": true,
+      "css": {
+        "border": "0",
+        "backgroundColor": "#FFFFFF",
+        "backgroundImage": "url('public/hotels/acquavista/images/explore-santorini.jpg')",
+        "backgroundSize": "cover",
+        "backgroundPosition": "center",
+        "padding": "80px 0 60px 0"
+      },
+      "rows": [
+        {
+          "css": {
+            "padding": "80px 0 60px 0",
+            "border": "0",
+            "maxWidth": "1440px",
+            "margin": "0 auto"
+          },
+          "columns": {
+            "sizes": [
+              "col-md-12",
+              "col-md-12"
+            ]
+          }
+        },
+        {
+          "css": {
+            "padding": "80px 0 0 0",
+            "border": "0",
+            "maxWidth": "1440px",
+            "margin": "0 auto"
+          },
+          "columns": {
+            "sizes": [
+              "col-md-12"
+            ]
+          }
+        }
+      ]
+    },
+    "rows": [
+      {
+        "columns": [
+          {
+            "text": "Welcome To Aqua Vista Hotels",
+            "css": {
+              "element": "div",
+              "class": "title-case-primary text-uppercase text-center",
+              "color": "primary-white"
+            }
+          },
+          {
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar sic tempor. Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus pronin sapien nunc accuan eget.",
+            "css": {
+              "element": "div",
+              "class": "main-text-body text-center",
+              "color": "primary-white"
+            }
+          }
+        ]
+      },
+      {
+        "columns": [
+          {
+            "items": [
+              {
+                "image": "/hotels/acquavista/svg/Logo.svg",
+                "href": "#"
+              },
+              {
+                "image": "/hotels/acquavista/svg/Logo.svg",
+                "href": "#"
+              },
+              {
+                "image": "/hotels/acquavista/svg/Logo.svg",
+                "href": "#"
+              },
+              {
+                "image": "/hotels/acquavista/svg/Logo.svg",
+                "href": "#"
+              }
+            ],
+            "css": {
+
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "4": {
+    "wrapper": {
+      "fluid": true,
+      "css": {
+        "border": "0",
+        "backgroundColor": "#FFFFFF"
+      },
+      "rows": [
+        {
+          "css": {
+            "padding": "80px 0 60px 0",
+            "border": "0",
+            "maxWidth": "1440px",
+            "margin": "0 auto"
+          },
+          "columns": {
+            "sizes": [
+              "col-md-12"
+            ]
+          }
+        }
+      ]
+    },
+    "rows": [
+      {
+        "columns": [
+          {
+            "items": [
+              {
+                "image": "hotels/acquavista/images/explore-santorini.jpg"
+              },
+              {
+                "image": "hotels/acquavista/images/explore-santorini.jpg"
+              },
+              {
+                "image": "hotels/acquavista/images/explore-santorini.jpg"
+              },
+              {
+                "image": "hotels/acquavista/images/explore-santorini.jpg"
+              },
+              {
+                "image": "hotels/acquavista/images/explore-santorini.jpg"
+              },
+              {
+                "image": "hotels/acquavista/images/explore-santorini.jpg"
+              },
+              {
+                "image": "hotels/acquavista/images/explore-santorini.jpg"
+              },
+              {
+                "image": "hotels/acquavista/images/explore-santorini.jpg"
+              },
+              {
+                "image": "hotels/acquavista/images/explore-santorini.jpg"
+              },
+              {
+                "image": "hotels/acquavista/images/explore-santorini.jpg"
+              },
+              {
+                "image": "hotels/acquavista/images/explore-santorini.jpg"
+              },
+              {
+                "image": "hotels/acquavista/images/explore-santorini.jpg"
+              }
+            ],
+            "css": {
+
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "5": {
+    "wrapper": {
+      "fluid": true,
+      "css": {
+        "border": "0",
+        "backgroundColor": "#FFFFFF"
+      },
+      "rows": [
+        {
+          "css": {
+            "padding": "80px 0 60px 0",
+            "border": "0",
+            "maxWidth": "1440px",
+            "margin": "0 auto"
+          },
+          "columns": {
+            "sizes": [
+              "col-md-12"
+            ]
+          }
+        }
+      ]
+    },
+    "rows": [
+      {
+        "columns": [
+          {
+            "items": [
+              "ADSL Internet ConnectionAir Conditioning",
+              "Alarm Clock",
+              "Bath Amenities",
+              "Bathrobes and Slippers",
+              "Bathroom with Bath Tub",
+              "Bathroom with Bathtub or Shower",
+              "Bathroom with Jacuzzi",
+              "Bathroom with Shower",
+              "Bathroom with Steam Cabin",
+              "Cable-Satellite TV",
+              "Closet",
+              "Private Balcony",
+              "Razor Plug"
+            ],
+            "icon": "/public/hotels/acquavista/svg/Plus.svg",
+            "css": {
+              "element": "div",
+              "class": "main-text-body",
+              "color": "primary-dark"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
+
+
+

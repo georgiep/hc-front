@@ -1,0 +1,76 @@
+{
+  "idbName": "schema-single-post",
+  "pages": [
+    {
+      "page": "destination-guide-santorini",
+      "api": "/pages/destination-guide-single",
+      "slug": "/destination-guide-santorini",
+      "components": [
+        {
+          "component_name": "Commons",
+          "template": "Image",
+          "order": 0,
+          "wrapper": {
+            "row": 0,
+            "col": 0
+          }
+        },
+        {
+          "component_name": "Breadcrumbs",
+          "template": "Template1",
+          "order": 1,
+          "wrapper": {
+            "row": 0,
+            "col": 0
+          }
+        },
+        {
+          "component_name": "Commons",
+          "template": "Text",
+          "order": 2,
+          "wrapper": {
+            "row": 0,
+            "col": 0
+          }
+        },
+        {
+          "component_name": "Commons",
+          "template": "Separator",
+          "order": 2,
+          "wrapper": {
+            "row": 0,
+            "col": 1
+          }
+        },
+        {
+          "component_name": "Commons",
+          "template": "Text",
+          "order": 2,
+          "wrapper": {
+            "row": 0,
+            "col": 2
+          }
+        },
+        {
+          "component_name": "Carousel",
+          "template": "LatestPost",
+          "order": 3,
+          "wrapper": {
+            "row": 0,
+            "col": 0
+          }
+        }
+      ]
+    }
+  ],
+  "header": {
+    "component_name": "Header",
+    "template": "Template3"
+  },
+  "footer": {
+    "component_name": "Footer",
+    "template": "Template3"
+  }
+}
+
+

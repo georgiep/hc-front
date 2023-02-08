@@ -1,0 +1,130 @@
+{
+  "idbName": "schema-dreams-luxury-suites-rooms",
+  "pages": [
+    {
+      "page": "room1",
+      "api": "/pages/room1",
+      "slug": "/room1",
+      "components": [
+        {
+          "component_name": "Hero",
+          "template": "HeroSliderWithBookingForm",
+          "order": 0,
+          "wrapper": {
+            "row": 0,
+            "col": 0
+          }
+        },
+        {
+          "component_name": "Breadcrumbs",
+          "template": "Template1",
+          "order": 1,
+          "wrapper": {
+            "row": 0,
+            "col": 0
+          }
+        },
+        {
+          "component_name": "Menu",
+          "template": "Template1",
+          "order": 2,
+          "wrapper": {
+            "row": 0,
+            "col": 0
+          }
+        },
+        {
+          "component_name": "Commons",
+          "template": "Text",
+          "order": 3,
+          "wrapper": {
+            "row": 0,
+            "col": 0
+          }
+        },
+        {
+          "component_name": "Commons",
+          "template": "Text",
+          "order": 3,
+          "wrapper": {
+            "row": 0,
+            "col": 1
+          }
+        },
+        {
+          "component_name": "Commons",
+          "template": "Text",
+          "order": 3,
+          "wrapper": {
+            "row": 0,
+            "col": 2
+          }
+        },
+        {
+          "component_name": "Commons",
+          "template": "Separator",
+          "order": 4,
+          "wrapper": {
+            "row": 0,
+            "col": 0
+          }
+        },
+        {
+          "component_name": "Commons",
+          "template": "Text",
+          "order": 4,
+          "wrapper": {
+            "row": 0,
+            "col": 1
+          }
+        },
+        {
+          "component_name": "Commons",
+          "template": "Text",
+          "order": 4,
+          "wrapper": {
+            "row": 0,
+            "col": 2
+          }
+        },
+        {
+          "component_name": "Gallery",
+          "template": "Template2",
+          "order": 5,
+          "wrapper": {
+            "row": 0,
+            "col": 0
+          }
+        },
+        {
+          "component_name": "Commons",
+          "template": "Text",
+          "order": 6,
+          "wrapper": {
+            "row": 0,
+            "col": 0
+          }
+        },
+        {
+          "component_name": "Carousel",
+          "template": "Template3",
+          "order": 6,
+          "wrapper": {
+            "row": 1,
+            "col": 0
+          }
+        }
+      ]
+    }
+  ],
+  "header": {
+    "component_name": "Header",
+    "template": "Template3"
+  },
+  "footer": {
+    "component_name": "Footer",
+    "template": "Template3"
+  }
+}
+
+

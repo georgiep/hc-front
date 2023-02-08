@@ -1,0 +1,411 @@
+{
+  "idbName": "schema",
+  "pages": [
+    {
+      "page": "homepage",
+      "api": "/pages/home",
+      "slug": "/",
+      "components": [
+        {
+          "component_name": "Sliders",
+          "template": "Template1",
+          "order": 0
+        },
+        {
+          "component_name": "Availability",
+          "template": "Template4",
+          "order": 1
+        },
+        {
+          "component_name": "Welcome",
+          "template": "Template1",
+          "order": 2
+        },
+        {
+          "component_name": "DisplayPostTypes",
+          "template": "Template1",
+          "order": 3
+        },
+        {
+          "component_name": "ShowOffers",
+          "template": "Template1",
+          "order": 4
+        },
+        {
+          "component_name": "ShowHighlights",
+          "template": "Template1",
+          "order": 5
+        },
+        {
+          "component_name": "Welcome",
+          "template": "Template2",
+          "order": 6
+        },
+        {
+          "component_name": "OffersHightLights",
+          "template": "Template1",
+          "order": 7
+        },
+        {
+          "component_name": "OffersHightLights",
+          "template": "Template2",
+          "order": 8
+        },
+        {
+          "component_name": "OffersHightLights",
+          "template": "Template3",
+          "order": 9
+        },
+        {
+          "component_name": "Sliders",
+          "template": "Template3",
+          "order": 10
+        },
+        {
+          "component_name": "Contact",
+          "template": "Template1",
+          "order": 11
+        },
+        {
+          "component_name": "General",
+          "template": "Breadcrumbs",
+          "order": 12
+        },
+        {
+          "component_name": "Carousel",
+          "template": "Template1",
+          "order": 13
+        },
+        {
+          "component_name": "Carousel",
+          "template": "Template1",
+          "order": 14
+        },
+        {
+          "component_name": "Carousel",
+          "template": "Template2",
+          "order": 15
+        }
+      ]
+    },
+    {
+      "page":"Rooms & Suites 1",
+      "api": "/pages/accommodation1",
+      "slug": "/accommodation1",
+      "components": [
+        {
+          "component_name": "BackgroundImgWithText",
+          "template": "Template1",
+          "order": 0
+        },
+        {
+          "component_name": "Availability",
+          "template": "Template4",
+          "order": 1
+        },
+        {
+          "component_name": "DisplayPostTypes",
+          "template": "Template2",
+          "order": 2
+        },
+        {
+          "component_name": "ShowOffers",
+          "template": "Template1",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "page":"Rooms & Suites 2",
+      "api": "/pages/accommodation2",
+      "slug": "/accommodation2",
+      "components": [
+        {
+          "component_name": "BackgroundImgWithText",
+          "template": "Template1",
+          "order": 0
+        },
+        {
+          "component_name": "Availability",
+          "template": "Template4",
+          "order": 1
+        },
+        {
+          "component_name": "DisplayPostTypes",
+          "template": "Template3",
+          "order": 2
+        },
+        {
+          "component_name": "ShowOffers",
+          "template": "Template1",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "page":"Rooms & Suites 3",
+      "api": "/pages/accommodation3",
+      "slug": "/accommodation3",
+      "components": [
+        {
+          "component_name": "BackgroundImgWithText",
+          "template": "Template1",
+          "order": 0
+        },
+        {
+          "component_name": "Promos",
+          "template": "Template1",
+          "order": 1
+        },
+        {
+          "component_name": "DisplayPostTypes",
+          "template": "Template4",
+          "order": 2
+        },
+        {
+          "component_name": "ShowOffers",
+          "template": "Template1",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "page":"Rooms & Suites 4",
+      "api": "/pages/accommodation4",
+      "slug": "/accommodation4",
+      "components": [
+        {
+          "component_name": "BackgroundImgWithText",
+          "template": "Template1",
+          "order": 0
+        },
+        {
+          "component_name": "DisplayPostTypes",
+          "template": "Template5",
+          "order": 1
+        },
+        {
+          "component_name": "ShowOffers",
+          "template": "Template1",
+          "order": 2
+        }
+      ]
+    },
+    {
+      "page":"Rooms & Suites 5",
+      "api": "/pages/accommodation5",
+      "slug": "/accommodation5",
+      "components": [
+        {
+          "component_name": "BackgroundImgWithText",
+          "template": "Template1",
+          "order": 0
+        },
+        {
+          "component_name": "DisplayPostTypes",
+          "template": "Template7",
+          "order": 1
+        },
+        {
+          "component_name": "ShowOffers",
+          "template": "Template1",
+          "order": 2
+        }
+      ]
+    },    {
+      "page":"Rooms & Suites 6",
+      "api": "/pages/accommodation6",
+      "slug": "/accommodation6",
+      "components": [
+        {
+          "component_name": "BackgroundImgWithText",
+          "template": "Template1",
+          "order": 0
+        },
+        {
+          "component_name": "DisplayPostTypes",
+          "template": "Template7",
+          "order": 1
+        },
+        {
+          "component_name": "ShowOffers",
+          "template": "Template1",
+          "order": 2
+        }
+      ]
+    },
+    {
+      "page": "rooms",
+      "api": "/pages/accommodation",
+      "slug": "/accommodation",
+      "components": [
+        {
+          "component_name": "BackgroundImgWithText",
+          "template": "Template1",
+          "order": 0
+        },
+        {
+          "component_name": "DisplayPostTypes",
+          "template": "Template1",
+          "order": 1
+        },
+        {
+          "component_name": "DisplayPostTypes",
+          "template": "Template2",
+          "order": 3
+        },
+        {
+          "component_name": "DisplayPostTypes",
+          "template": "Template3",
+          "order": 4
+        },
+        {
+          "component_name": "DisplayPostTypes",
+          "template": "Template4",
+          "order": 5
+        },
+        {
+          "component_name": "DisplayPostTypes",
+          "template": "Template5",
+          "order": 6
+        },
+        {
+          "component_name": "DisplayPostTypes",
+          "template": "Template6",
+          "order": 5
+        },
+        {
+          "component_name": "Promos",
+          "template": "Template1",
+          "order": 6
+        },
+        {
+          "component_name": "Promos",
+          "template": "Template2",
+          "order": 7
+        },
+        {
+          "component_name": "PromoPages",
+          "template": "Template1",
+          "order": 8
+        },
+        {
+          "component_name": "Amenities",
+          "template": "Template1",
+          "order": 9
+        },
+        {
+          "component_name": "Gallery",
+          "template": "Template1",
+          "order": 10
+        },
+        {
+          "component_name": "Sliders",
+          "template": "Template2",
+          "order": 11
+        },
+        {
+          "component_name": "DisplayPostTypes",
+          "template": "Template1",
+          "order": 12
+        },
+        {
+          "component_name": "DisplayPostTypes",
+          "template": "Template2",
+          "order": 13
+        },
+        {
+          "component_name": "DisplayPostTypes",
+          "template": "Template3",
+          "order": 14
+        },
+        {
+          "component_name": "DisplayPostTypes",
+          "template": "Template4",
+          "order": 15
+        },
+        {
+          "component_name": "DisplayPostTypes",
+          "template": "Template5",
+          "order": 16
+        },
+        {
+          "component_name": "DisplayPostTypes",
+          "template": "Template6",
+          "order": 17
+        }
+      ]
+    },
+    {
+      "page": "facilities",
+      "api": "/pages/facilities",
+      "slug": "/facilities",
+      "components": [
+        {
+          "component_name": "BackgroundImgWithText",
+          "template": "Template1",
+          "order": 0
+        },
+        {
+          "component_name": "DisplayPostTypes",
+          "template": "Template7",
+          "order": 1
+        }
+      ]
+    },
+    {
+      "page": "contact",
+      "api": "/pages/contact",
+      "slug": "/contact",
+      "components": [
+        {
+          "component_name": "Welcome",
+          "template": "Template1",
+          "order": 0
+        }
+      ]
+    },
+    {
+      "page": "reviews",
+      "api": "/pages/reviews",
+      "slug": "/reviews",
+      "components": [
+        {
+          "component_name": "BackgroundImgWithText",
+          "template": "Template1",
+          "order": 0
+        },
+        {
+          "component_name": "Reviews",
+          "template": "Bars",
+          "order": 1
+        },
+        {
+          "component_name": "Reviews",
+          "template": "Single",
+          "order": 2
+        }
+      ]
+    },
+    {
+      "page": "about",
+      "api": "/pages/about",
+      "slug": "/about",
+      "components": [
+        {
+          "component_name": "Welcome",
+          "template": "Template1",
+          "order": 0
+        }
+      ]
+    }
+  ],
+  "header": {
+    "component_name": "Header",
+    "template": "Template1"
+  },
+  "footer": {
+    "component_name": "Footer",
+    "template": "Template2"
+  }
+}

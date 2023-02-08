@@ -1,0 +1,279 @@
+{
+  "idbName": "/pages/facilities",
+  "0": {
+    "title": "Facilities",
+    "image": "/images/pic.jpg",
+    "css": {
+      "title": {
+        "class": "amenities-title",
+        "element": "h2"
+      },
+      "image": {
+        "desktop": {
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "fontSize": "24px",
+          "lineHeight": "29px",
+          "color": "#ffffff",
+          "fontFamily": "Chronicle Display"
+        },
+        "tablet": {
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "fontSize": "24px",
+          "lineHeight": "29px",
+          "color": "#ffffff",
+          "fontFamily": "Chronicle Display"
+        },
+        "mobile": {
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "fontSize": "24px",
+          "lineHeight": "29px",
+          "color": "#ffffff",
+          "fontFamily": "Chronicle Display"
+        }
+      }
+    }
+  },
+  "1": {
+    "title": "With facilities strictly for hotel guests – The rooms, Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.",
+    "subtitle": false,
+    "button": false,
+    "items": [
+      {
+        "image": "/images/rooms/room1.jpg",
+        "name": "Suite with mountain view",
+        "info": "Discover a warm and relaxing oasis overlooking the Grand Forest Metsovo garden and surrounding forest.",
+        "details": [],
+        "smallInfo": "Open June - August / 10:00 – 20:00",
+        "link": false
+      },
+      {
+        "image": "/images/rooms/room1.jpg",
+        "name": "Suite with mountain vie 1",
+        "info": "Discover a warm and relaxing oasis overlooking the Grand Forest Metsovo garden and surrounding forest.",
+        "details": [],
+        "smallInfo": "Open June - August / 10:00 – 20:00",
+        "link": {
+          "pathname": "/accommodation/room1",
+          "api": "/pages/room/room1",
+          "text": "DISCOVER MORE"
+        }
+      },
+      {
+        "image": "/images/rooms/room2.jpg",
+        "name": "Suite with mountain view",
+        "info": "Discover a warm and relaxing oasis overlooking the Grand Forest Metsovo garden and surrounding forest.",
+        "details": [],
+        "smallInfo": "Open June - August / 10:00 – 20:00",
+        "link": false
+      },
+      {
+        "image": "/images/rooms/room3.jpg",
+        "name": "Suite with mountain view",
+        "info": "Discover a warm and relaxing oasis overlooking the Grand Forest Metsovo garden and surrounding forest.",
+        "details": [],
+        "smallInfo": "Open June - August / 10:00 – 20:00",
+        "link": {
+          "pathname": "/accommodation/room1",
+          "api": "/pages/room/room1",
+          "text": "DISCOVER MORE"
+        }
+      },
+      {
+        "image": "/images/rooms/room4.jpg",
+        "name": "Suite with mountain view",
+        "info": "Discover a warm and relaxing oasis overlooking the Grand Forest Metsovo garden and surrounding forest.",
+        "details": [],
+        "smallInfo": "Open June - August / 10:00 – 20:00",
+        "link": false
+      }
+    ],
+    "css": {
+      "smallInfo": {
+        "desktop": {
+          "background": "#000000",
+          "padding": "10px",
+          "border": "0",
+          "fontStyle": "normal",
+          "fontWeight": "600",
+          "fontSize": "11px",
+          "lineHeight": "13px",
+          "color": "#323B43",
+          "fontFamily": "Chronicle Display"
+        },
+        "tablet": {
+          "background": "transparent",
+          "padding": "10px",
+          "border": "0",
+          "fontStyle": "normal",
+          "fontWeight": "600",
+          "fontSize": "11px",
+          "lineHeight": "13px",
+          "color": "#323B43",
+          "fontFamily": "Chronicle Display"
+        },
+        "mobile": {
+          "background": "transparent",
+          "padding": "10px",
+          "border": "0",
+          "fontStyle": "normal",
+          "fontWeight": "600",
+          "fontSize": "11px",
+          "lineHeight": "13px",
+          "color": "#323B43",
+          "fontFamily": "Chronicle Display"
+        }
+      },
+      "details": {
+        "desktop": {
+          "background": "#000000",
+          "padding": "10px",
+          "border": "0",
+          "fontStyle": "normal",
+          "fontWeight": "600",
+          "fontSize": "11px",
+          "lineHeight": "13px",
+          "color": "#323B43",
+          "fontFamily": "Chronicle Display"
+        },
+        "tablet": {
+          "background": "transparent",
+          "padding": "10px",
+          "border": "0",
+          "fontStyle": "normal",
+          "fontWeight": "600",
+          "fontSize": "11px",
+          "lineHeight": "13px",
+          "color": "#323B43",
+          "fontFamily": "Chronicle Display"
+        },
+        "mobile": {
+          "background": "transparent",
+          "padding": "10px",
+          "border": "0",
+          "fontStyle": "normal",
+          "fontWeight": "600",
+          "fontSize": "11px",
+          "lineHeight": "13px",
+          "color": "#323B43",
+          "fontFamily": "Chronicle Display"
+        }
+      },
+      "link": {
+        "desktop": {
+          "background": "transparent",
+          "padding": "10px",
+          "border": "0",
+          "fontStyle": "normal",
+          "fontWeight": "300",
+          "fontSize": "18px",
+          "lineHeight": "30px",
+          "color": "#323B43",
+          "fontFamily": "Chronicle Display"
+        },
+        "tablet": {
+          "background": "transparent",
+          "padding": "10px",
+          "border": "0",
+          "fontStyle": "normal",
+          "fontWeight": "300",
+          "fontSize": "18px",
+          "lineHeight": "30px",
+          "color": "#ffffff",
+          "fontFamily": "Chronicle Display"
+        },
+        "mobile": {
+          "background": "transparent",
+          "padding": "10px",
+          "border": "0",
+          "fontStyle": "normal",
+          "fontWeight": "600",
+          "fontSize": "11px",
+          "lineHeight": "13px",
+          "color": "#ffffff",
+          "fontFamily": "Chronicle Display"
+        }
+      },
+      "name": {
+        "desktop": {
+          "fontStyle": "normal",
+          "fontWeight": 400,
+          "fontSize": "30px",
+          "lineHeight": "29px",
+          "color": "#323B43",
+          "fontFamily": "Chronicle Display"
+        },
+        "tablet": {
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "fontSize": "24px",
+          "lineHeight": "29px",
+          "color": "#323B43",
+          "fontFamily": "Chronicle Display"
+        },
+        "mobile": {
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "fontSize": "24px",
+          "lineHeight": "29px",
+          "color": "#323B43",
+          "fontFamily": "Chronicle Display"
+        }
+      },
+      "info": {
+        "desktop": {
+          "fontStyle": "normal",
+          "fontWeight": 300,
+          "fontSize": "18px",
+          "lineHeight": "30px",
+          "color": "#323B43",
+          "fontFamily": "SF Pro Display"
+        },
+        "tablet": {
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "fontSize": "24px",
+          "lineHeight": "29px",
+          "color": "#323B43",
+          "fontFamily": "Chronicle Display"
+        },
+        "mobile": {
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "fontSize": "24px",
+          "lineHeight": "29px",
+          "color": "#323B43",
+          "fontFamily": "Chronicle Display"
+        }
+      },
+      "title": {
+        "desktop": {
+          "fontStyle": "normal",
+          "fontWeight": 400,
+          "fontSize": "26px",
+          "lineHeight": "39px",
+          "color": "#323B43",
+          "fontFamily": "Chronicle Display"
+        },
+        "tablet": {
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "fontSize": "24px",
+          "lineHeight": "29px",
+          "color": "#323B43",
+          "fontFamily": "Chronicle Display"
+        },
+        "mobile": {
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "fontSize": "24px",
+          "lineHeight": "29px",
+          "color": "#323B43",
+          "fontFamily": "Chronicle Display"
+        }
+      }
+    }
+  }
+}

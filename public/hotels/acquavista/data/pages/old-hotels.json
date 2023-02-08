@@ -1,0 +1,259 @@
+{
+  "idbName": "/pages/hotels",
+  "0": {
+    "wrapper": {
+      "fluid": true,
+      "css": {
+        "border": "0",
+        "backgroundColor": "#FFFFFF"
+      },
+      "rows": [
+        {
+          "css": {
+            "padding": "0",
+            "border": "0"
+          },
+          "columns": {
+            "sizes": [
+              "col-md-12"
+            ]
+          }
+        }
+      ]
+    },
+    "rows": [
+      {
+        "columns": [
+          {
+            "items": [
+              "/hotels/acquavista/images/explore-santorini.jpg"
+            ],
+            "image": "/hotels/acquavista/images/explore-santorini.jpg",
+            "heading": "Hotels in Santorini",
+            "css": {
+              "heading": {
+                "element": "div",
+                "class": "title-case-primary text-uppercase",
+                "color": "primary-white"
+              }
+            },
+            "text": "Welcome To Aqua Vista Hotels"
+          }
+        ]
+      }
+    ]
+  },
+  "1": {
+    "wrapper": {
+      "fluid": false,
+      "css": {
+        "border": "0",
+        "backgroundColor": "#FFFFFF"
+      },
+      "rows": [
+        {
+          "css": {
+            "padding": "22px 0 40px 0",
+            "border": "0"
+          },
+          "columns": {
+            "sizes": [
+              "col-md-12"
+            ]
+          }
+        }
+      ]
+    },
+    "rows": [
+      {
+        "columns": [
+          {
+            "items": [
+              {
+                "image": "/hotels/acquavista/images/special-offer01.jpg",
+                "title": "Dreams Luxury Suites",
+                "description": "Imerovigli Village, Imerovigli 847 00\nLocated on the highest point of the famous Caldera",
+                "amenities": [
+                  {
+                    "icon": "Wireless",
+                    "name": "Free Wi-Fi"
+                  },
+                  {
+                    "icon": "Wireless",
+                    "name": "Free Wi-Fi"
+                  },
+                  {
+                    "icon": "Wireless",
+                    "name": "Free Wi-Fi"
+                  },
+                  {
+                    "icon": "Wireless",
+                    "name": "Free Wi-Fi"
+                  },
+                  {
+                    "icon": "Wireless",
+                    "name": "Free Wi-Fi"
+                  },
+                  {
+                    "icon": "Wireless",
+                    "name": "Free Wi-Fi"
+                  }
+                ],
+                "link": {
+                  "pathname": "/accommodation/room1",
+                  "api": "/pages/room/room1",
+                  "text": "CHECK RATE"
+                }
+              },
+              {
+                "image": "/hotels/acquavista/images/special-offer02.jpg",
+                "title": "Dreams Luxury Suites",
+                "description": "Imerovigli Village, Imerovigli 847 00\nLocated on the highest point of the famous Caldera",
+                "amenities": [
+                  {
+                    "icon": "Wireless",
+                    "name": "Free Wi-Fi"
+                  },
+                  {
+                    "icon": "Wireless",
+                    "name": "Free Wi-Fi"
+                  },
+                  {
+                    "icon": "Wireless",
+                    "name": "Free Wi-Fi"
+                  },
+                  {
+                    "icon": "Wireless",
+                    "name": "Free Wi-Fi"
+                  },
+                  {
+                    "icon": "Wireless",
+                    "name": "Free Wi-Fi"
+                  },
+                  {
+                    "icon": "Wireless",
+                    "name": "Free Wi-Fi"
+                  }
+                ],
+                "link": {
+                  "pathname": "/accommodation/room1",
+                  "api": "/pages/room/room1",
+                  "text": "CHECK RATE"
+                }
+              }
+            ],
+            "css": {
+              "title": {
+                "element": "div",
+                "class": "title-case-secondary",
+                "color": "primary-dark"
+              },
+              "description": {
+                "element": "div",
+                "class": "main-text-body",
+                "color": "primary-black"
+              },
+              "amenities": {
+                "element": "div",
+                "class": "promo-small-text",
+                "color": "primary-black"
+              },
+              "link": {
+                "element": "button",
+                "class": "button-fill",
+                "color": "primary-dark"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "2": {
+    "wrapper": {
+      "fluid": false,
+      "css": {
+        "border": "0",
+        "backgroundColor": "#FFFFFF"
+      },
+      "rows": [
+        {
+          "css": {
+            "padding": "22px 0 40px 0",
+            "border": "0"
+          },
+          "columns": {
+            "sizes": [
+              "col-md-12",
+              "col-md-12",
+              "col-md-12",
+              "col-md-12",
+              "col-md-12",
+              "col-md-12",
+              "col-md-12"
+            ]
+          }
+        }
+      ]
+    },
+    "rows": [
+      {
+        "columns": [
+          {
+            "text": "Santorini",
+            "css": {
+              "element": "div",
+              "class": "title-case-primary text-uppercase text-center",
+              "color": "primary-dark"
+            }
+          },
+          {
+            "maxWidth": "100%",
+            "color": "#fff",
+            "padding": "20px",
+            "margin": "0 auto"
+          },
+          {
+            "text": "Santorini Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar sic tempor. Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus pronin sapien nunc accuan eget. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar sic tempor. Sociis natoque penatibus et magnis dis parturient montes",
+            "css": {
+              "element": "div",
+              "class": "main-text-body text-center",
+              "color": "primary-black"
+            }
+          },
+          {
+            "maxWidth": "100%",
+            "color": "#fff",
+            "padding": "10px",
+            "margin": "0 auto"
+          },
+          {
+            "text": "nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus pronin sapien nunc accuan eget. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar sic tempor. Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+            "css": {
+              "element": "div",
+              "class": "main-text-body text-center",
+              "color": "primary-black"
+            }
+          },
+          {
+            "maxWidth": "100%",
+            "color": "#fff",
+            "padding": "10px",
+            "margin": "0 auto"
+          },
+          {
+            "text": "Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus pronin sapien nunc accuan eget",
+            "css": {
+              "element": "div",
+              "class": "main-text-body text-center",
+              "color": "primary-black"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
+
+
+

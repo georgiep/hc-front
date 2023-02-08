@@ -1,0 +1,161 @@
+{
+    "idbName": "/pages/accommodation6",
+    "0": {
+      "title": "Rooms & Suites",
+      "image": "/images/pic.jpg",
+      "css": {
+          "title": {
+            "class": "backgroundImgWithText-title"
+          },
+          "image":{
+            "class": "backgroundImgWithText-image"
+          }
+        }
+    },
+    "1": {
+        "title": "With facilities strictly for hotel guests – The rooms, Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.",
+        "subtitle": false,
+        "button": false,
+        "items": [
+          {
+            "image": "/images/rooms/room1.jpg",
+            "name": "Suite with mountain view",
+            "info": "Discover a warm and relaxing oasis overlooking the Grand Forest Metsovo garden and surrounding forest.",
+            "details": [],
+            "smallInfo": "Open June - August / 10:00 – 20:00",
+            "link": {
+                "pathname": "/accommodation/room1",
+                "api": "/pages/room/room1",
+                "text": "DISCOVER MORE"
+              }
+          },
+          {
+            "image": "/images/rooms/room1.jpg",
+            "name": "Suite with mountain vie 1",
+            "info": "Discover a warm and relaxing oasis overlooking the Grand Forest Metsovo garden and surrounding forest.",
+            "details": [],
+            "smallInfo": "Open June - August / 10:00 – 20:00",
+            "link": {
+              "pathname": "/accommodation/room1",
+              "api": "/pages/room/room1",
+              "text": "DISCOVER MORE"
+            }
+          },
+          {
+            "image": "/images/rooms/room2.jpg",
+            "name": "Suite with mountain view",
+            "info": "Discover a warm and relaxing oasis overlooking the Grand Forest Metsovo garden and surrounding forest.",
+            "details": [],
+            "smallInfo": "Open June - August / 10:00 – 20:00",
+            "link": {
+                "pathname": "/accommodation/room1",
+                "api": "/pages/room/room1",
+                "text": "DISCOVER MORE"
+              }
+          },
+          {
+            "image": "/images/rooms/room3.jpg",
+            "name": "Suite with mountain view",
+            "info": "Discover a warm and relaxing oasis overlooking the Grand Forest Metsovo garden and surrounding forest.",
+            "details": [],
+            "smallInfo": "Open June - August / 10:00 – 20:00",
+            "link": {
+              "pathname": "/accommodation/room1",
+              "api": "/pages/room/room1",
+              "text": "DISCOVER MORE"
+            }
+          },
+          {
+            "image": "/images/rooms/room4.jpg",
+            "name": "Suite with mountain view",
+            "info": "Discover a warm and relaxing oasis overlooking the Grand Forest Metsovo garden and surrounding forest.",
+            "details": [],
+            "smallInfo": "Open June - August / 10:00 – 20:00",
+            "link": {
+                "pathname": "/accommodation/room1",
+                "api": "/pages/room/room1",
+                "text": "DISCOVER MORE"
+              }
+          }
+        ],
+        "css": {
+          "smallInfo": {
+            "class":"displayPostTypes-smallInfo"
+          },
+          "details": {
+            "class": "displayPostTypes-details"
+          },
+          "link": {
+            "class": "displayPostTypes-link"
+          },
+          "name": {
+            "class": "displayPostTypes-name"
+          },
+          "info": {
+            "class": "displayPostTypes-info"
+          },
+          "title": {
+            "class": "displayPostTypes-title"
+          }
+        }
+      },
+    "2": {
+      "idbName": "offer",
+      "title": "Special offers",
+      "button": {
+        "pathname": "/accommodation",
+        "api": "/pages/rooms",
+        "text": "ALL SPECIALSS"
+      },
+      "offers": [
+        {
+          "id": 1,
+          "image": "/images/rooms/room1.jpg",
+          "title": "SPA TIME YOU & ME",
+          "button": {
+            "text": "DISCOVER MORE"
+          }
+        },
+        {
+          "id": 2,
+          "image": "/images/rooms/room1.jpg",
+          "title": "SPA TIME YOU & ME",
+          "button": {
+            "text": "DISCOVER MORE"
+          }
+        },
+        {
+          "id": 3,
+          "image": "/images/rooms/room1.jpg",
+          "title": "SPA TIME YOU & ME",
+          "button": {
+            "text": "DISCOVER MORE"
+          }
+        },
+        {
+          "id": 4,
+          "image": "/images/rooms/room1.jpg",
+          "title": "SPA TIME YOU & ME",
+          "button": {
+            "text": "DISCOVER MORE"
+          }
+        }
+      ],
+      "css": {
+        "title": {
+          "class": "showOffers-title",
+          "element": "h2"
+        },
+        "allRooms": {
+          "class": "showOffers-allRooms"
+        },
+        "info": {
+          "class": "showOffers-info",
+          "element": "span"
+        },
+        "button": {
+          "class":"showOffers-button"
+        } 
+      }
+    }
+}

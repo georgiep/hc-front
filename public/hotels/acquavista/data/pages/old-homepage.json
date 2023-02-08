@@ -1,0 +1,455 @@
+{
+  "idbName": "/pages/homepage",
+  "0": {
+    "wrapper": {
+      "fluid": true,
+      "css": {
+        "border": "0",
+        "backgroundColor": "#FFFFFF"
+      },
+      "rows": [
+        {
+          "css": {
+            "padding": "0",
+            "border": "0"
+          },
+          "columns": {
+            "sizes": [
+              "col-md-12"
+            ]
+          }
+        }
+      ]
+    },
+    "rows": [
+      {
+        "columns": [
+          {
+            "items": [
+              "hotels/acquavista/images/hero.webp"
+            ],
+            "image": "hotels/acquavista/images/hero.webp",
+            "heading": "Turn your dreams into memories",
+            "css": {
+              "heading": {
+                "element": "div",
+                "class": "title-case-primary text-uppercase",
+                "color": "primary-white"
+              }
+            },
+            "text": "Welcome To Aqua Vista Hotels"
+          }
+        ]
+      }
+    ]
+  },
+  "1": {
+    "wrapper": {
+      "fluid": true,
+      "css": {
+        "border": "0",
+        "backgroundColor": "#FFFFFF"
+      },
+      "rows": [
+        {
+          "css": {
+            "padding": "0",
+            "border": "0"
+          },
+          "columns": {
+            "sizes": [
+              "col-md-12"
+            ]
+          }
+        }
+      ]
+    },
+    "rows": [
+      {
+        "columns": [
+          {
+            "items": [
+              {
+                "svg": "hotels/acquavista/svg/bestPrice.svg",
+                "text": "Best Price Guaranteed!",
+                "width": "30px",
+                "height": "30px"
+              },
+              {
+                "svg": "hotels/acquavista/svg/bestPrice.svg",
+                "text": "Best Price Guaranteed!",
+                "width": "30px",
+                "height": "30px"
+              }
+            ],
+            "css": {
+              "element": "span",
+              "class": "promo-text-primary text-uppercase",
+              "color": "primary-white",
+              "maxWidth": "900px"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "2": {
+    "wrapper": {
+      "fluid": false,
+      "css": {
+        "border": "0",
+        "backgroundColor": "#FFFFFF"
+      },
+      "rows": [
+        {
+          "css": {
+            "padding": "80px 0 0 0",
+            "border": "0"
+          },
+          "columns": {
+            "sizes": [
+              "col-md-12"
+            ]
+          }
+        },
+        {
+          "css": {
+            "padding": "0",
+            "border": "0"
+          },
+          "columns": {
+            "sizes": [
+              "col-md-6",
+              "col-md-6"
+            ]
+          }
+        },
+        {
+          "css": {
+            "padding": "0 0 40px 0",
+            "border": "0"
+          },
+          "columns": {
+            "sizes": [
+              "col-md-12"
+            ]
+          }
+        }
+      ]
+    },
+    "rows": [
+      {
+        "columns": [
+          {
+            "text": "Welcome To Aqua Vista Hotels",
+            "css": {
+              "element": "div",
+              "class": "title-case-primary text-uppercase text-center",
+              "color": "primary-dark",
+              "maxWidth": "512px",
+              "margin": "0 auto",
+              "padding": "0 0 0 0"
+            }
+          }
+        ]
+      },
+      {
+        "columns": [
+          {},
+          {
+            "maxWidth": "367px",
+            "color": "#04456D",
+            "padding": "40px",
+            "margin": "0 auto"
+          }
+        ]
+      },
+      {
+        "columns": [
+          {
+            "text": "Welcome to a luxurious line-up of the most beautiful hotels; at Aqua Vista Hotels, we set a standard of our very own. Raising the bar globally with truly extraordinary properties, stick with us and we can guarantee a tailored trip that will transform all your dreams to memories…From romantic breaks in sun-soaked locations where the smallest details count, to ‘your-home-but-better’ suites and villas that offer private pools. And our handpicked spots tick off criteria on everyone’s wish list, with spectacular locations, first-class service and quintessential touches blending harmoniously.",
+            "css": {
+              "element": "div",
+              "class": "main-text-body",
+              "color": "primary-black",
+              "margin": "0 auto",
+              "padding": "0 0 0 0"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "3": {
+    "wrapper": {
+      "fluid": false,
+      "css": {
+        "border": "0",
+        "backgroundColor": "#FFFFFF"
+      },
+      "rows": [
+        {
+          "css": {
+            "padding": "40px 0 0 0",
+            "border": "0"
+          },
+          "columns": {
+            "sizes": [
+              "col-md-12"
+            ]
+          }
+        },
+        {
+          "css": {
+            "padding": "0",
+            "border": "0"
+          },
+          "columns": {
+            "sizes": [
+              "col-md-6",
+              "col-md-6"
+            ]
+          }
+        },
+        {
+          "css": {
+            "padding": "22px 0 40px 0",
+            "border": "0"
+          },
+          "columns": {
+            "sizes": [
+              "col-md-12"
+            ]
+          }
+        }
+      ]
+    },
+    "rows": [
+      {
+        "columns": [
+          {
+            "text": "Explore Our Destinations",
+            "css": {
+              "element": "div",
+              "class": "title-case-primary text-uppercase text-center",
+              "color": "primary-dark",
+              "maxWidth": "512px",
+              "margin": "0 auto",
+              "padding": "0 0 0 0"
+            }
+          }
+        ]
+      },
+      {
+        "columns": [
+          {},
+          {
+            "maxWidth": "367px",
+            "color": "#04456D",
+            "padding": "40px",
+            "margin": "0 auto"
+          }
+        ]
+      },
+      {
+        "columns": [
+          {
+            "items": [
+              {
+                "image": "/hotels/acquavista/images/santorini.jpg",
+                "title": "Santorini",
+                "link": {
+                  "pathname": "/accommodation/room1",
+                  "api": "/pages/room/room1",
+                  "text": "Explore"
+                }
+              },
+              {
+                "image": "/hotels/acquavista/images/paros.jpg",
+                "title": "Paros",
+                "link": {
+                  "pathname": "/accommodation/room1",
+                  "api": "/pages/room/room1",
+                  "text": "Explore"
+                }
+              },
+              {
+                "image": "/hotels/acquavista/images/naxos.jpg",
+                "title": "Naxos",
+                "link": {
+                  "pathname": "/accommodation/room1",
+                  "api": "/pages/room/room1",
+                  "text": "Explore"
+                }
+              },
+              {
+                "image": "/hotels/acquavista/images/mykonos.jpg",
+                "title": "Mykonos",
+                "link": {
+                  "pathname": "/accommodation/room1",
+                  "api": "/pages/room/room1",
+                  "text": "Explore"
+                }
+              }
+            ],
+            "css": {
+              "element": "span",
+              "class": "main-text-body",
+              "color": "primary-white"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "4": {
+    "wrapper": {
+      "fluid": false,
+      "css": {
+        "border": "0",
+        "backgroundColor": "#FFFFFF"
+      },
+      "rows": [
+        {
+          "css": {
+            "padding": "40px 0 0 0",
+            "border": "0"
+          },
+          "columns": {
+            "sizes": [
+              "col-md-12"
+            ]
+          }
+        },
+        {
+          "css": {
+            "padding": "0",
+            "border": "0"
+          },
+          "columns": {
+            "sizes": [
+              "col-md-6",
+              "col-md-6"
+            ]
+          }
+        },
+        {
+          "css": {
+            "padding": "22px 0 40px 0",
+            "border": "0"
+          },
+          "columns": {
+            "sizes": [
+              "col-md-12"
+            ]
+          }
+        }
+      ]
+    },
+    "rows": [
+      {
+        "columns": [
+          {
+            "text": "special offer",
+            "css": {
+              "element": "div",
+              "class": "title-case-primary text-uppercase text-center",
+              "color": "primary-dark",
+              "maxWidth": "250px",
+              "margin": "0 auto",
+              "padding": "0 0 0 0"
+            }
+          }
+        ]
+      },
+      {
+        "columns": [
+          {},
+          {
+            "maxWidth": "250px",
+            "color": "#04456D",
+            "padding": "40px",
+            "margin": "0 auto"
+          }
+        ]
+      },
+      {
+        "columns": [
+          {
+            "items": [
+              {
+                "image": "/hotels/acquavista/images/special-offer01.jpg",
+                "title": "Free Room Upgrade",
+                "description": "holiday and get a free room upgrade for a stay between 21st of April until 21st of May 2021",
+                "link": {
+                  "pathname": "/accommodation/room1",
+                  "api": "/pages/room/room1",
+                  "text": "Book now"
+                }
+              },
+              {
+                "image": "/hotels/acquavista/images/special-offer02.jpg",
+                "title": "Free Room Upgrade",
+                "description": "holiday and get a free room upgrade for a stay between 21st of April until 21st of May 2021",
+                "link": {
+                  "pathname": "/accommodation/room1",
+                  "api": "/pages/room/room1",
+                  "text": "Book now"
+                }
+              }
+            ],
+            "css": {
+              "element": "div",
+              "class": "post-text-body",
+              "color": "primary-white"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "5": {
+    "wrapper": {
+      "fluid": false,
+      "css": {
+        "border": "0",
+        "backgroundColor": "#FFFFFF"
+      },
+      "rows": [
+        {
+          "css": {
+            "padding": "40px 0 80px 0",
+            "border": "0"
+          },
+          "columns": {
+            "sizes": [
+              "col-md-12"
+            ]
+          }
+        }
+      ]
+    },
+    "rows": [
+      {
+        "columns": [
+          {
+            "title": "Explore Santorini",
+            "image": "/hotels/acquavista/images/explore-santorini.jpg",
+            "link": {
+              "pathname": "/accommodation/room1",
+              "api": "/pages/room/room1"
+            },
+            "css": {
+              "element": "div",
+              "class": "title-case-primary text-uppercase text-center",
+              "color": "primary-white"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
+
+
+

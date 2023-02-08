@@ -1,0 +1,191 @@
+{
+  "idbName": "/pages/accommodation2",
+  "0": {
+    "title": "Rooms & Suites",
+    "image": "/images/pic.jpg",
+    "css": {
+        "title": {
+          "class": "backgroundImgWithText-title"
+        },
+        "image":{
+          "class": "backgroundImgWithText-image"
+        }
+      }
+  },
+  "1": {
+      "button": {
+          "text": "SHOW LUXURY",
+          "url": "#"
+      }
+  },
+  "2": {
+    "title": false,
+    "subtitle": false,
+    "button": true,
+    "items": [
+      {
+        "image": "/images/rooms/room1.jpg",
+        "name": "Suite with mountain view",
+        "info": "SOPHISTICATED CYCLADIC",
+        "details": [
+          "85m",
+          "2 guests"
+        ],
+        "facilities": [
+          "Panoramic Island view",
+          "Private pool"
+        ],
+        "link": {
+          "pathname": "/accommodation/room1",
+          "api": "/pages/room/room1",
+          "text": "BOOK NOW"
+        }
+      },
+      {
+        "image": "/images/rooms/room2.jpg",
+        "name": "SOPHISTICATED CYCLADIC",
+        "info": "Up to 3 person",
+        "details": [
+          "85m",
+          "2 guests"
+        ],
+        "facilities": [
+          "Panoramic Island view",
+          "Private pool"
+        ],
+        "link": {
+          "pathname": "/accommodation/room1",
+          "api": "/pages/room/room1",
+          "text": "BOOK NOW"
+        }
+      },
+      {
+        "image": "/images/rooms/room3.jpg",
+        "name": "Suite with mountain view",
+        "info": "SOPHISTICATED CYCLADIC",
+        "details": [
+          "85m",
+          "2 guests"
+        ],
+        "facilities": [
+          "Panoramic Island view",
+          "Private pool"
+        ],
+        "link": {
+          "pathname": "/accommodation/room1",
+          "api": "/pages/room/room1",
+          "text": "BOOK NOW"
+        }
+      },
+      {
+        "image": "/images/rooms/room4.jpg",
+        "name": "Suite with mountain view",
+        "info": "SOPHISTICATED CYCLADIC",
+        "details": [
+          "85m",
+          "2 guests"
+        ],
+        "facilities": [
+          "Panoramic Island view",
+          "Private pool"
+        ],
+        "link": {
+          "pathname": "/accommodation/room1",
+          "api": "/pages/room/room1",
+          "text": "BOOK NOW"
+        }
+      }
+    ],
+    "css": {
+      "title": {
+        "element": "h2",
+        "class": "displayPostTypes-title"
+      },
+      "subtitle": {
+        "element": "h3",
+        "class": "displayPostTypes-subtitle"
+      },
+      "link": {
+        "class" : "displayPostTypes-link"
+      },
+      "details": {
+        "element": "div",
+        "class":"displayPostTypes-details"
+      },
+      "facilities": {
+        "element": "div",
+        "class": "displayPostTypes-facilities"
+      },
+      "name": {
+        "element": "h4",
+        "class": "displayPostTypes-name"
+      },
+      "info": {
+        "element": "div",
+        "class": "displayPostTypes-info"
+      },
+      "button": {
+        "class": ""
+      }
+    }
+  },
+  "3": {
+    "idbName": "offer",
+    "title": "Special offers",
+    "button": {
+      "pathname": "/accommodation",
+      "api": "/pages/rooms",
+      "text": "ALL SPECIALSS"
+    },
+    "offers": [
+      {
+        "id": 1,
+        "image": "/images/rooms/room1.jpg",
+        "title": "SPA TIME YOU & ME",
+        "button": {
+          "text": "DISCOVER MORE"
+        }
+      },
+      {
+        "id": 2,
+        "image": "/images/rooms/room1.jpg",
+        "title": "SPA TIME YOU & ME",
+        "button": {
+          "text": "DISCOVER MORE"
+        }
+      },
+      {
+        "id": 3,
+        "image": "/images/rooms/room1.jpg",
+        "title": "SPA TIME YOU & ME",
+        "button": {
+          "text": "DISCOVER MORE"
+        }
+      },
+      {
+        "id": 4,
+        "image": "/images/rooms/room1.jpg",
+        "title": "SPA TIME YOU & ME",
+        "button": {
+          "text": "DISCOVER MORE"
+        }
+      }
+    ],
+    "css": {
+      "title": {
+        "class": "showOffers-title",
+        "element": "h2"
+      },
+      "allRooms": {
+        "class": "showOffers-allRooms"
+      },
+      "info": {
+        "class": "showOffers-info",
+        "element": "span"
+      },
+      "button": {
+        "class":"showOffers-button"
+      } 
+    }
+  }
+}

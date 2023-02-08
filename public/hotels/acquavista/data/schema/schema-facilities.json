@@ -1,0 +1,85 @@
+{
+  "idbName": "schema-location",
+  "pages": [
+    {
+      "page": "facilities",
+      "api": "/pages/facilities",
+      "slug": "/facilities",
+      "components": [
+        {
+          "component_name": "Hero",
+          "template": "HeroSliderWithBookingForm",
+          "order": 0,
+          "wrapper": {
+            "row": 0,
+            "col": 0
+          }
+        },
+        {
+          "component_name": "Menu",
+          "template": "Template1",
+          "order": 1,
+          "wrapper": {
+            "row": 0,
+            "col": 0
+          }
+        },
+        {
+          "component_name": "Commons",
+          "template": "Text",
+          "order": 2,
+          "wrapper": {
+            "row": 0,
+            "col": 0
+          }
+        },
+        {
+          "component_name": "Commons",
+          "template": "Text",
+          "order": 2,
+          "wrapper": {
+            "row": 0,
+            "col": 1
+          }
+        },
+        {
+          "component_name": "Breadcrumbs",
+          "template": "Template1",
+          "order": 3,
+          "wrapper": {
+            "row": 0,
+            "col": 0
+          }
+        },
+        {
+          "component_name": "Tabs",
+          "template": "Template1",
+          "order": 4,
+          "wrapper": {
+            "row": 0,
+            "col": 0
+          }
+        },
+        {
+          "component_name": "Destination",
+          "template": "Template1",
+          "order": 5,
+          "wrapper": {
+            "row": 0,
+            "col": 0
+          }
+        }
+      ]
+    }
+  ],
+  "header": {
+    "component_name": "Header",
+    "template": "Template3"
+  },
+  "footer": {
+    "component_name": "Footer",
+    "template": "Template3"
+  }
+}
+
+

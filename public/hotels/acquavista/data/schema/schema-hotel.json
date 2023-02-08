@@ -1,0 +1,148 @@
+{
+  "idbName": "schema-dreams-luxury-suites",
+  "pages": [
+    {
+      "page": "dreams-luxury-suites",
+      "api": "/pages/dreams-luxury-suites",
+      "slug": "/dreams-luxury-suites",
+      "components": [
+        {
+          "component_name": "Hero",
+          "template": "HeroSliderWithBookingForm",
+          "order": 0,
+          "wrapper": {
+            "row": 0,
+            "col": 0
+          }
+        },
+        {
+          "component_name": "Menu",
+          "template": "Template1",
+          "order": 1,
+          "wrapper": {
+            "row": 0,
+            "col": 0
+          }
+        },
+        {
+          "component_name": "Commons",
+          "template": "Text",
+          "order": 2,
+          "wrapper": {
+            "row": 0,
+            "col": 0
+          }
+        },
+        {
+          "component_name": "Commons",
+          "template": "Text",
+          "order": 2,
+          "wrapper": {
+            "row": 0,
+            "col": 1
+          }
+        },
+        {
+          "component_name": "ImageList",
+          "template": "Template1",
+          "order": 2,
+          "wrapper": {
+            "row": 1,
+            "col": 0
+          }
+        },
+        {
+          "component_name": "Breadcrumbs",
+          "template": "Template1",
+          "order": 3,
+          "wrapper": {
+            "row": 0,
+            "col": 0
+          }
+        },
+        {
+          "component_name": "Commons",
+          "template": "Text",
+          "order": 4,
+          "wrapper": {
+            "row": 0,
+            "col": 0
+          }
+        },
+        {
+          "component_name": "Carousel",
+          "template": "Template3",
+          "order": 4,
+          "wrapper": {
+            "row": 1,
+            "col": 0
+          }
+        },
+        {
+          "component_name": "Commons",
+          "template": "Text",
+          "order": 5,
+          "wrapper": {
+            "row": 0,
+            "col": 0
+          }
+        },
+        {
+          "component_name": "Carousel",
+          "template": "Template3",
+          "order": 5,
+          "wrapper": {
+            "row": 1,
+            "col": 0
+          }
+        },
+        {
+          "component_name": "Tabs",
+          "template": "Template1",
+          "order": 6,
+          "wrapper": {
+            "row": 0,
+            "col": 0
+          }
+        },
+        {
+          "component_name": "Destination",
+          "template": "Template1",
+          "order": 7,
+          "wrapper": {
+            "row": 0,
+            "col": 0
+          }
+        },
+        {
+          "component_name": "Commons",
+          "template": "Text",
+          "order": 8,
+          "wrapper": {
+            "row": 0,
+            "col": 0
+          }
+        },
+        {
+          "component_name": "DisplayPostTypes",
+          "template": "Template8",
+          "order": 8,
+          "wrapper": {
+            "row": 1,
+            "col": 0
+          }
+        }
+      ]
+    }
+  ],
+  "header": {
+    "component_name": "Header",
+    "template": "Template3"
+  },
+  "footer": {
+    "component_name": "Footer",
+    "template": "Template3"
+  }
+}
+
+

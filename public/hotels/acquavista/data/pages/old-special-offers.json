@@ -1,0 +1,149 @@
+{
+  "idbName": "/pages/special-offers",
+  "0": {
+    "wrapper": {
+      "fluid": true,
+      "css": {
+        "border": "0",
+        "backgroundColor": "#FFFFFF"
+      },
+      "rows": [
+        {
+          "css": {
+            "padding": "0",
+            "border": "0"
+          },
+          "columns": {
+            "sizes": [
+              "col-md-12"
+            ]
+          }
+        }
+      ]
+    },
+    "rows": [
+      {
+        "columns": [
+          {
+            "items": [
+              "/hotels/acquavista/images/hero.webp"
+            ],
+            "image": "/hotels/acquavista/images/hero.webp",
+            "heading": "Special offers",
+            "css": {
+              "heading": {
+                "element": "div",
+                "class": "title-case-primary text-uppercase",
+                "color": "primary-white"
+              }
+            },
+            "text": "Welcome To Aqua Vista Hotels"
+          }
+        ]
+      }
+    ]
+  },
+  "1": {
+    "wrapper": {
+      "fluid": false,
+      "css": {
+        "border": "0",
+        "backgroundColor": "#FFFFFF"
+      },
+      "rows": [
+        {
+          "css": {
+            "padding": "80px 0 60px 0",
+            "border": "0"
+          },
+          "columns": {
+            "sizes": [
+              "col-md-12"
+            ]
+          }
+        }
+      ]
+    },
+    "rows": [
+      {
+        "columns": [
+          {
+            "title": "Explore Santorini",
+            "image": "/hotels/acquavista/images/explore-santorini.jpg",
+            "link": {
+              "pathname": "/accommodation/room1",
+              "api": "/pages/room/room1"
+            },
+            "items": [
+              {
+                "image": "/hotels/acquavista/images/special-offer01.jpg",
+                "title": "Free Room Upgrade",
+                "description": "holiday and get a free room upgrade for a stay between 21st of April until 21st of May 2021",
+                "link": {
+                  "pathname": "/accommodation/room1",
+                  "api": "/pages/room/room1",
+                  "text": "Book now"
+                }
+              },
+              {
+                "image": "/hotels/acquavista/images/special-offer02.jpg",
+                "title": "Free Room Upgrade",
+                "description": "holiday and get a free room upgrade for a stay between 21st of April until 21st of May 2021",
+                "link": {
+                  "pathname": "/accommodation/room1",
+                  "api": "/pages/room/room1",
+                  "text": "Book now"
+                }
+              },
+              {
+                "image": "/hotels/acquavista/images/special-offer01.jpg",
+                "title": "Free Room Upgrade",
+                "description": "holiday and get a free room upgrade for a stay between 21st of April until 21st of May 2021",
+                "link": {
+                  "pathname": "/accommodation/room1",
+                  "api": "/pages/room/room1",
+                  "text": "Book now"
+                }
+              },
+              {
+                "image": "/hotels/acquavista/images/special-offer02.jpg",
+                "title": "Free Room Upgrade",
+                "description": "holiday and get a free room upgrade for a stay between 21st of April until 21st of May 2021",
+                "link": {
+                  "pathname": "/accommodation/room1",
+                  "api": "/pages/room/room1",
+                  "text": "Book now"
+                }
+              },
+              {
+                "image": "/hotels/acquavista/images/special-offer01.jpg",
+                "title": "Free Room Upgrade",
+                "description": "holiday and get a free room upgrade for a stay between 21st of April until 21st of May 2021",
+                "link": {
+                  "pathname": "/accommodation/room1",
+                  "api": "/pages/room/room1",
+                  "text": "Book now"
+                }
+              },
+              {
+                "image": "/hotels/acquavista/images/special-offer02.jpg",
+                "title": "Free Room Upgrade",
+                "description": "holiday and get a free room upgrade for a stay between 21st of April until 21st of May 2021",
+                "link": {
+                  "pathname": "/accommodation/room1",
+                  "api": "/pages/room/room1",
+                  "text": "Book now"
+                }
+              }
+            ],
+            "css": {
+              "element": "div",
+              "class": "post-text-body",
+              "color": "primary-white"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

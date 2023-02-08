@@ -1,0 +1,324 @@
+{
+  ".buttonPrimary": {
+    "desktop": {
+      "fontStyle": "normal",
+      "fontWeight": 700,
+      "fontSize": "16px",
+      "lineHeight": "24px",
+      "fontFamily": "SF Pro Display",
+      "opacity": "1",
+      "letterSpacing": "0em",
+      "background": "transparent",
+      "padding": "20px",
+      "color": "#FFF",
+      "border": "1px solid #FFF",
+      "cursor": "pointer"
+    },
+    "tablet": {
+      "fontStyle": "normal",
+      "fontWeight": 400,
+      "fontSize": "16px",
+      "lineHeight": "24px",
+      "fontFamily": "SF Pro Display",
+      "letterSpacing": "0em",
+      "background": "transparent",
+      "padding": "20px",
+      "color": "#FFF",
+      "border": "1px border #FFF"
+    },
+    "mobile": {
+      "fontStyle": "normal",
+      "fontWeight": 400,
+      "fontSize": "16px",
+      "lineHeight": "24px",
+      "fontFamily": "SF Pro Display",
+      "letterSpacing": "0em",
+      "background": "transparent",
+      "padding": "20px",
+      "color": "#FFF",
+      "border": "1px border #FFF"
+    }
+  },
+  ".displayPostTypes-button": {
+    "desktop": {
+      "background": "transparent",
+      "padding": "0",
+      "border": "0",
+      "fontStyle": "normal",
+      "fontWeight": "600",
+      "fontSize": "11px",
+      "lineHeight": "13px",
+      "color": "#ffffff",
+      "fontFamily": "Chronicle Display"
+    },
+    "tablet": {
+      "background": "transparent",
+      "padding": "10px",
+      "border": "0",
+      "fontStyle": "normal",
+      "fontWeight": "600",
+      "fontSize": "11px",
+      "lineHeight": "13px",
+      "color": "#ffffff",
+      "fontFamily": "Chronicle Display"
+    },
+    "mobile": {
+      "background": "transparent",
+      "padding": "10px",
+      "border": "0",
+      "fontStyle": "normal",
+      "fontWeight": "600",
+      "fontSize": "11px",
+      "lineHeight": "13px",
+      "color": "#ffffff",
+      "fontFamily": "Chronicle Display"
+    }
+  },
+  ".single-button": {
+    "desktop": {
+      "background": "transparent",
+      "padding": "10px",
+      "border": "0",
+      "fontStyle": "normal",
+      "fontWeight": "600",
+      "fontSize": "11px",
+      "lineHeight": "13px",
+      "color": "#ffffff",
+      "fontFamily": "Chronicle Display"
+    },
+    "tablet": {
+      "background": "transparent",
+      "padding": "10px",
+      "border": "0",
+      "fontStyle": "normal",
+      "fontWeight": "600",
+      "fontSize": "11px",
+      "lineHeight": "13px",
+      "color": "#ffffff",
+      "fontFamily": "Chronicle Display"
+    },
+    "mobile": {
+      "background": "transparent",
+      "padding": "10px",
+      "border": "0",
+      "fontStyle": "normal",
+      "fontWeight": "600",
+      "fontSize": "11px",
+      "lineHeight": "13px",
+      "color": "#ffffff",
+      "fontFamily": "Chronicle Display"
+    }
+  },
+  ".showOffers-allRooms": {
+    "desktop": {
+      "background": "transparent",
+      "border": "0",
+      "padding": "0",
+      "fontFamily": "SF Pro Display",
+      "fontStyle": "normal",
+      "fontWeight": "600",
+      "fontSize": "11px",
+      "lineHeight": "13px",
+      "letterSpacing": "0.07em",
+      "color": "#323B43"
+    },
+    "tablet": {
+      "background": "transparent",
+      "border": "0",
+      "padding": "0",
+      "fontFamily": "SF Pro Display",
+      "fontStyle": "normal",
+      "fontWeight": "600",
+      "fontSize": "11px",
+      "lineHeight": "13px",
+      "letterSpacing": "0.07em",
+      "color": "#323B43"
+    },
+    "mobile": {
+      "background": "transparent",
+      "border": "0",
+      "padding": "0",
+      "fontFamily": "SF Pro Display",
+      "fontStyle": "normal",
+      "fontWeight": "600",
+      "fontSize": "11px",
+      "lineHeight": "13px",
+      "letterSpacing": "0.07em",
+      "color": "#323B43"
+    }
+  },
+  ".showOffers-button": {
+      "desktop": {
+        "background": "transparent",
+        "padding": "0",
+        "border": "0",
+        "fontStyle": "normal",
+        "fontWeight": "600",
+        "fontSize": "11px",
+        "lineHeight": "13px",
+        "color": "#323B43",
+        "letterSpacing": "0.07em",
+        "fontFamily": "Chronicle Display"
+      },
+      "tablet": {
+        "background": "transparent",
+        "padding": "10px",
+        "border": "0",
+        "fontStyle": "normal",
+        "fontWeight": "600",
+        "fontSize": "11px",
+        "lineHeight": "13px",
+        "color": "#323B43",
+        "letterSpacing": "0.07em",
+        "fontFamily": "Chronicle Display"
+      },
+      "mobile": {
+        "background": "transparent",
+        "padding": "10px",
+        "border": "0",
+        "fontStyle": "normal",
+        "fontWeight": "600",
+        "fontSize": "11px",
+        "lineHeight": "13px",
+        "color": "#323B43",
+        "letterSpacing": "0.07em",
+        "fontFamily": "Chronicle Display"
+      }
+  },
+  ".singleOffer-link":{
+      "desktop": {
+        "fontStyle": "normal",
+        "fontWeight": "700",
+        "fontSize": "16px",
+        "lineHeight": "20px",
+        "color": "#323B43",
+        "fontFamily": "SF Pro Display",
+        "background": "transparent",
+        "padding": "15px 33px",
+        "border": "1px solid #323B43",
+        "letterSpacing": "0px"
+      },
+      "tablet": {
+        "fontStyle": "normal",
+        "fontWeight": "normal",
+        "fontSize": "46px",
+        "lineHeight": "55px",
+        "color": "#ffffff",
+        "fontFamily": "Chronicle Display"
+      },
+      "mobile": {
+        "fontStyle": "normal",
+        "fontWeight": "normal",
+        "fontSize": "10px",
+        "lineHeight": "55px",
+        "color": "#ffffff",
+        "fontFamily": "Chronicle Display"
+      }
+  },
+  ".singleOffer-link2": {
+    "desktop": {
+      "fontStyle": "normal",
+      "fontWeight": "700",
+      "fontSize": "16px",
+      "lineHeight": "20px",
+      "color": "#fff",
+      "fontFamily": "SF Pro Display",
+      "background": "transparent",
+      "padding": "0",
+      "border": "0",
+      "letterSpacing": "0px"
+    },
+    "tablet": {
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "fontSize": "46px",
+      "lineHeight": "55px",
+      "color": "#ffffff",
+      "fontFamily": "Chronicle Display"
+    },
+    "mobile": {
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "fontSize": "10px",
+      "lineHeight": "55px",
+      "color": "#ffffff",
+      "fontFamily": "Chronicle Display"
+    }
+  },
+  ".carousels-itemButton" : {
+      "desktop": {
+        "background": "transparent",
+        "padding": "0",
+        "border": "0",
+        "fontStyle": "normal",
+        "fontWeight": "600",
+        "fontSize": "11px",
+        "lineHeight": "13px",
+        "color": "#323B43",
+        "letterSpacing": "0.07em",
+        "fontFamily": "Chronicle Display"
+      },
+      "tablet": {
+        "background": "transparent",
+        "padding": "10px",
+        "border": "0",
+        "fontStyle": "normal",
+        "fontWeight": "600",
+        "fontSize": "11px",
+        "lineHeight": "13px",
+        "color": "#323B43",
+        "letterSpacing": "0.07em",
+        "fontFamily": "Chronicle Display"
+      },
+      "mobile": {
+        "background": "transparent",
+        "padding": "10px",
+        "border": "0",
+        "fontStyle": "normal",
+        "fontWeight": "600",
+        "fontSize": "11px",
+        "lineHeight": "13px",
+        "color": "#323B43",
+        "letterSpacing": "0.07em",
+        "fontFamily": "Chronicle Display"
+      }
+  },
+  ".carousels-button": {
+      "desktop": {
+        "background": "transparent",
+        "border": "0",
+        "padding": "0",
+        "fontFamily": "SF Pro Display",
+        "fontStyle": "normal",
+        "fontWeight": "600",
+        "fontSize": "11px",
+        "lineHeight": "13px",
+        "letterSpacing": "0.07em",
+        "color": "#323B43"
+      },
+      "tablet": {
+        "background": "transparent",
+        "border": "0",
+        "padding": "0",
+        "fontFamily": "SF Pro Display",
+        "fontStyle": "normal",
+        "fontWeight": "600",
+        "fontSize": "11px",
+        "lineHeight": "13px",
+        "letterSpacing": "0.07em",
+        "color": "#323B43"
+      },
+      "mobile": {
+        "background": "transparent",
+        "border": "0",
+        "padding": "0",
+        "fontFamily": "SF Pro Display",
+        "fontStyle": "normal",
+        "fontWeight": "600",
+        "fontSize": "11px",
+        "lineHeight": "13px",
+        "letterSpacing": "0.07em",
+        "color": "#323B43"
+      }
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "idbName": "schema-hotels",
+  "pages": [
+    {
+      "page": "hotels",
+      "api": "/pages/hotels-in-santorini",
+      "slug": "/hotels-in-santorini",
+      "components": [
+        {
+          "component_name": "Hero",
+          "template": "HeroSliderWithBookingForm",
+          "order": 0,
+          "wrapper": {
+            "row": 0,
+            "col": 0
+          }
+        },
+        {
+          "component_name": "Breadcrumbs",
+          "template": "Template1",
+          "order": 1,
+          "wrapper": {
+            "row": 0,
+            "col": 0
+          }
+        },
+        {
+          "component_name": "ShowHotels",
+          "template": "Template1",
+          "order": 2,
+          "wrapper": {
+            "row": 0,
+            "col": 0
+          }
+        },
+        {
+          "component_name": "Commons",
+          "template": "Text",
+          "order": 3,
+          "wrapper": {
+            "row": 0,
+            "col": 0
+          }
+        },
+        {
+          "component_name": "Commons",
+          "template": "Text",
+          "order": 3,
+          "wrapper": {
+            "row": 0,
+            "col": 1
+          }
+        },
+        {
+          "component_name": "Modals",
+          "template": "Template1",
+          "order": 4,
+          "wrapper": {
+            "row": 0,
+            "col": 0
+          }
+        }
+      ]
+    }
+  ],
+  "header": {
+    "component_name": "Header",
+    "template": "Template3"
+  },
+  "footer": {
+    "component_name": "Footer",
+    "template": "Template3"
+  }
+}
+
+

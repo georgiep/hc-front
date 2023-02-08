@@ -1,0 +1,201 @@
+{
+  "idbName": "/pages/reviews",
+  "0": {
+    "title": "Reviews",
+    "image": "/images/pic.jpg",
+    "css": {
+      "title": {
+        "desktop": {
+          "fontStyle": "normal",
+          "fontWeight": 400,
+          "fontSize": "62px",
+          "lineHeight": "74px",
+          "color": "#ffffff",
+          "fontFamily": "Chronicle Display"
+        },
+        "tablet": {
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "fontSize": "24px",
+          "lineHeight": "29px",
+          "color": "#ffffff",
+          "fontFamily": "Chronicle Display"
+        },
+        "mobile": {
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "fontSize": "24px",
+          "lineHeight": "29px",
+          "color": "#ffffff",
+          "fontFamily": "Chronicle Display"
+        }
+      },
+      "image": {
+        "desktop": {
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "fontSize": "24px",
+          "lineHeight": "29px",
+          "color": "#ffffff",
+          "fontFamily": "Chronicle Display"
+        },
+        "tablet": {
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "fontSize": "24px",
+          "lineHeight": "29px",
+          "color": "#ffffff",
+          "fontFamily": "Chronicle Display"
+        },
+        "mobile": {
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "fontSize": "24px",
+          "lineHeight": "29px",
+          "color": "#ffffff",
+          "fontFamily": "Chronicle Display"
+        }
+      }
+    }
+  },
+  "1": {
+    "heading": "Review summary",
+    "ratings": [
+      {
+        "star": 5,
+        "rating": 82
+      },
+      {
+        "star": 4,
+        "rating": 70
+      },
+      {
+        "star": 3,
+        "rating": 0
+      },
+      {
+        "star": 2,
+        "rating": 20
+      },
+      {
+        "star": 1,
+        "rating": 10
+      }
+    ],
+    "hotelScore": {
+      "score": 4.7,
+      "title": "Excellent",
+      "stars": 5,
+      "total": 71
+    },
+    "css":{
+      "title2": {
+        "element": "div",
+        "class": "test"
+      },
+      "heading2": {
+        "element": "h1",
+        "class": ""
+      },
+      "heading":{
+        "desktop": {
+          "fontStyle": "normal",
+          "fontWeight": "400",
+          "fontSize": "23px",
+          "lineHeight": "27px",
+          "color": "#000000",
+          "fontFamily": "SF Pro Display"
+        },
+        "tablet": {
+          "fontStyle": "normal",
+          "fontWeight": "400",
+          "fontSize": "23px",
+          "lineHeight": "27px",
+          "color": "#ffffff",
+          "fontFamily": "SF Pro Display"
+        },
+        "mobile": {
+          "fontStyle": "normal",
+          "fontWeight": "400",
+          "fontSize": "23px",
+          "lineHeight": "27px",
+          "color": "#ffffff",
+          "fontFamily": "SF Pro Display"
+        }
+      },
+      "score":{
+        "class": "reviewBars-score",
+        "element": "div"
+      },
+      "title":{
+        "class": "reviewBars-title",
+        "element": "div"
+      },
+      "total":{
+        "class": "reviewBars-total",
+        "element":"div"
+      }
+    }
+  },
+  "2": {
+    "reviews": [
+      {
+        "name": "Rudolf H.",
+        "date": "8 months ago on",
+        "score": "8.5/10",
+        "channel": "booking.com",
+        "text": "Everything!! This hotel is AMAZING! The staff made our holiday! They are the best bunch of people. Anis the entertainer is working on his own this year and did a great job at keeping us entertained day and night. DJ JUSTIN is a legend and had us dancing all night! The bar staff"
+      },
+      {
+        "name": "Rudolf H.",
+        "date": "8 months ago on",
+        "score": "8.5/10",
+        "channel": "booking.com",
+        "text": "Everything!! This hotel is AMAZING! The staff made our holiday! They are the best bunch of people. Anis the entertainer is working on his own this year and did a great job at keeping us entertained day and night. DJ JUSTIN is a legend and had us dancing all night! The bar staff"
+      },
+      {
+        "name": "Rudolf H.",
+        "date": "8 months ago on",
+        "score": "8.5/10",
+        "channel": "booking.com",
+        "text": "Everything!! This hotel is AMAZING! The staff made our holiday! They are the best bunch of people. Anis the entertainer is working on his own this year and did a great job at keeping us entertained day and night. DJ JUSTIN is a legend and had us dancing all night! The bar staff. Everything!! This hotel is AMAZING! The staff made our holiday! They are the best bunch of people. Anis the entertainer is working on his own this year and did a great job at keeping us entertained day and night. DJ JUSTIN is a legend and had us dancing all night! The bar staff"
+      },
+      {
+        "name": "Rudolf H.",
+        "date": "8 months ago on",
+        "score": "8.5/10",
+        "channel": "booking.com",
+        "text": "Everything!! This hotel is AMAZING! The staff made our holiday! They are the best bunch of people. Anis the entertainer is working on his own this year and did a great job at keeping us entertained day and night. DJ JUSTIN is a legend and had us dancing all night! The bar staff"
+      }
+    ],
+    "css": {
+      "name": {
+        "element": "div",
+        "class": "posts-sub-headings"
+      },
+      "date": {
+        "element": "div",
+        "class": "reviews-sub-headings",
+        "color": "secondary-dark"
+      },
+      "channel": {
+        "element": "div",
+        "class": "reviews-sub-headings",
+        "color": "secondary-dark"
+      },
+      "text": {
+        "element": "p",
+        "class": "reviews-text"
+      },
+      "score": {
+        "element": "div",
+        "class": "reviews-score"
+      },
+      "toggle": {
+        "element": "",
+        "class": "reviews-text",
+        "color": "secondary-dark"
+      }
+    }
+  }
+}

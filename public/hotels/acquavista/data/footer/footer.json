@@ -1,0 +1,69 @@
+{
+  "idbName": "footer",
+  "top": {
+    "heading": "ARE YOU INTERESTED?",
+    "subHeading": "In case of any questions, please contact us",
+    "telephone": "+30 210 45 00029",
+    "button": {
+      "text": "",
+      "url": "#"
+    }
+  },
+  "center": {
+    "0": {
+      "pages": [
+        {
+          "button": [
+            {
+              "text": "The Hotel",
+              "url": "#"
+            },
+            {
+              "text": "Our Rooms",
+              "url": "#"
+            },
+            {
+              "text": "Offers",
+              "url": "#"
+            },
+            {
+              "text": "Services",
+              "url": "#"
+            }
+          ]
+        }
+      ]
+    },
+    "1": {
+      "pages": [
+        {
+          "button": [
+            {
+              "text": "Covid 19",
+              "url": "#"
+            },
+            {
+              "text": "Destination Guide",
+              "url": "#"
+            },
+            {
+              "text": "My Booking",
+              "url": "#"
+            },
+            {
+              "text": "Contact us",
+              "url": "#"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "bottom": {
+    "heading": "Newsletter sign up",
+    "subheading": "SIGN UP FOR SPECIAL OFFERS",
+    "placeholder": "Enter your email",
+    "terms": "By submitting this form, I agree to havong my personal and contact information processed",
+    "logo": "/images/logo.jpg"
+  }
+}

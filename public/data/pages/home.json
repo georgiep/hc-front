@@ -1,0 +1,1153 @@
+{
+  "idbName": "/pages/home",
+  "0": {
+    "items": [
+      "images/1.webp",
+      "images/2.webp"
+    ],
+    "heading": "Our Land, Our Home",
+    "subHeading": "Very elegant collection of hotel mattresses and boxing beds for the most demanding clients",
+    "button": {
+      "pathname": "/accommodation",
+      "api": "/pages/rooms",
+      "text": "SHOW LUXURY"
+    },
+    "css": {
+      "heading": {
+        "element": "div",
+        "class": "slider-heading",
+        "color": "primary-white"
+      },
+      "subHeading": {
+        "element": "h2",
+        "class": "slider-subHeading",
+        "color": "primary-white"
+      },
+      "button": {
+        "class": "buttonPrimary"
+      }
+    }
+  },
+  "1": {
+    "button": {
+      "text": "SHOW LUXURY",
+      "url": "#"
+    }
+  },
+  "2": {
+    "title": "A warm welcome back to Hotel world.",
+    "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem",
+    "images": {
+      "backgroundImage": "/images/welcomes/background.webp",
+      "primaryImage": "/images/welcomes/photo.webp"
+    },
+    "message": "Welcome to our hideaway!",
+    "fullname": "Georgia Papadopoulos",
+    "role": "General manager",
+    "css": {
+      "title": {
+        "element": "h1",
+        "class": "slider-heading",
+        "color": "primary-white"
+      },
+      "text": {
+        "element": "h2",
+        "class": "slider-subHeading",
+        "color": "primary-white"
+      },
+      "message": {
+        "desktop": {
+          "fontStyle": "normal",
+          "fontWeight": "300",
+          "fontSize": "15px",
+          "lineHeight": "18px",
+          "color": "#ffffff",
+          "fontFamily": "Chronicle Display"
+        },
+        "tablet": {
+          "fontStyle": "normal",
+          "fontWeight": "300",
+          "fontSize": "15px",
+          "lineHeight": "18px",
+          "color": "#ffffff",
+          "fontFamily": "Chronicle Display"
+        },
+        "mobile": {
+          "fontStyle": "normal",
+          "fontWeight": "300",
+          "fontSize": "15px",
+          "lineHeight": "18px",
+          "color": "#ffffff",
+          "fontFamily": "Chronicle Display"
+        }
+      },
+      "fullname": {
+        "desktop": {
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "fontSize": "18px",
+          "lineHeight": "22px",
+          "opacity": "0.8",
+          "color": "#ffffff",
+          "fontFamily": "Chronicle Display"
+        },
+        "tablet": {
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "fontSize": "18px",
+          "lineHeight": "22px",
+          "opacity": "0.8",
+          "color": "#ffffff",
+          "fontFamily": "Chronicle Display"
+        },
+        "mobile": {
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "fontSize": "18px",
+          "lineHeight": "22px",
+          "opacity": "0.8",
+          "color": "#ffffff",
+          "fontFamily": "Chronicle Display"
+        }
+      },
+      "role": {
+        "desktop": {
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "fontSize": "15px",
+          "lineHeight": "18px",
+          "opacity": "0.8",
+          "color": "#ffffff",
+          "fontFamily": "Chronicle Display"
+        },
+        "tablet": {
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "lineHeight": "13px",
+          "opacity": "0.8",
+          "color": "#ffffff",
+          "fontFamily": "Chronicle Display"
+        },
+        "mobile": {
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "lineHeight": "13px",
+          "opacity": "0.8",
+          "color": "#ffffff",
+          "fontFamily": "Chronicle Display"
+        }
+      }
+    },
+    "colors": {
+      "background": "#000000"
+    }
+  },
+  "3": {
+    "idbName": "pages/rooms",
+    "title": "ROOMS & SUITES",
+    "subtitle": "private repeats",
+    "button": {
+      "pathname": "/accommodation",
+      "api": "/pages/rooms",
+      "text": "ALL ROOMS"
+    },
+    "rooms": [
+      {
+        "image": "/images/rooms/room1.jpg",
+        "info": "Suite with mountain view",
+        "button": {
+          "pathname": "/accommodation/room1",
+          "api": "/pages/room/room1",
+          "text": "DISCOVER MORE"
+        }
+      },
+      {
+        "image": "/images/rooms/room2.jpg",
+        "info": "Superior suite with mountain view",
+        "button": {
+          "pathname": "/accommodation/room1",
+          "api": "/pages/room/room1",
+          "text": "DISCOVER MORE"
+        }
+      },
+      {
+        "image": "/images/rooms/room3.jpg",
+        "info": "Panorama suite",
+        "button": {
+          "pathname": "/accommodation/room1",
+          "api": "/pages/room/room1",
+          "text": "DISCOVER MORE"
+        }
+      },
+      {
+        "image": "/images/rooms/room4.jpg",
+        "info": "Grand Forest suite",
+        "button": {
+          "pathname": "/accommodation/room1",
+          "api": "/pages/room/room1",
+          "text": "DISCOVER MORE"
+        }
+      }
+    ],
+    "css": {
+      "title": {
+        "desktop": {
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "fontSize": "46px",
+          "lineHeight": "55px",
+          "color": "#ffffff",
+          "fontFamily": "Chronicle Display"
+        },
+        "tablet": {
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "fontSize": "46px",
+          "lineHeight": "55px",
+          "color": "#ffffff",
+          "fontFamily": "Chronicle Display"
+        },
+        "mobile": {
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "fontSize": "10px",
+          "lineHeight": "55px",
+          "color": "#ffffff",
+          "fontFamily": "Chronicle Display"
+        }
+      },
+      "subtitle": {
+        "desktop": {
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "fontSize": "15px",
+          "lineHeight": "18px",
+          "color": "#ffffff",
+          "fontFamily": "Chronicle Display"
+        },
+        "tablet": {
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "fontSize": "15px",
+          "lineHeight": "18px",
+          "color": "#ffffff",
+          "fontFamily": "Chronicle Display"
+        },
+        "mobile": {
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "fontSize": "10px",
+          "lineHeight": "18px",
+          "color": "#ffffff",
+          "fontFamily": "Chronicle Display"
+        }
+      },
+      "info": {
+        "desktop": {
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "fontSize": "24px",
+          "lineHeight": "29px",
+          "color": "#ffffff",
+          "fontFamily": "Chronicle Display"
+        },
+        "tablet": {
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "fontSize": "24px",
+          "lineHeight": "29px",
+          "color": "#ffffff",
+          "fontFamily": "Chronicle Display"
+        },
+        "mobile": {
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "fontSize": "24px",
+          "lineHeight": "29px",
+          "color": "#ffffff",
+          "fontFamily": "Chronicle Display"
+        }
+      },
+      "button": {
+        "desktop": {
+          "background": "transparent",
+          "padding": "0",
+          "border": "0",
+          "fontStyle": "normal",
+          "fontWeight": "600",
+          "fontSize": "11px",
+          "lineHeight": "13px",
+          "color": "#ffffff",
+          "fontFamily": "Chronicle Display"
+        },
+        "tablet": {
+          "background": "transparent",
+          "padding": "10px",
+          "border": "0",
+          "fontStyle": "normal",
+          "fontWeight": "600",
+          "fontSize": "11px",
+          "lineHeight": "13px",
+          "color": "#ffffff",
+          "fontFamily": "Chronicle Display"
+        },
+        "mobile": {
+          "background": "transparent",
+          "padding": "10px",
+          "border": "0",
+          "fontStyle": "normal",
+          "fontWeight": "600",
+          "fontSize": "11px",
+          "lineHeight": "13px",
+          "color": "#ffffff",
+          "fontFamily": "Chronicle Display"
+        }
+      },
+      "btnText": {
+        "desktop": {
+          "background": "transparent",
+          "padding": "10px",
+          "border": "0",
+          "fontStyle": "normal",
+          "fontWeight": "600",
+          "fontSize": "11px",
+          "lineHeight": "13px",
+          "color": "#ffffff",
+          "fontFamily": "Chronicle Display"
+        },
+        "tablet": {
+          "background": "transparent",
+          "padding": "10px",
+          "border": "0",
+          "fontStyle": "normal",
+          "fontWeight": "600",
+          "fontSize": "11px",
+          "lineHeight": "13px",
+          "color": "#ffffff",
+          "fontFamily": "Chronicle Display"
+        },
+        "mobile": {
+          "background": "transparent",
+          "padding": "10px",
+          "border": "0",
+          "fontStyle": "normal",
+          "fontWeight": "600",
+          "fontSize": "11px",
+          "lineHeight": "13px",
+          "color": "#ffffff",
+          "fontFamily": "Chronicle Display"
+        }
+      }
+    }
+  },
+  "4": {
+    "idbName": "offer",
+    "title": "Special offers",
+    "button": {
+      "pathname": "/accommodation",
+      "api": "/pages/rooms",
+      "text": "ALL SPECIALSS"
+    },
+    "offers": [
+      {
+        "id": 1,
+        "image": "/images/rooms/room1.jpg",
+        "title": "SPA TIME YOU & ME",
+        "button": {
+          "text": "DISCOVER MORE"
+        }
+      },
+      {
+        "id": 2,
+        "image": "/images/rooms/room1.jpg",
+        "title": "SPA TIME YOU & ME",
+        "button": {
+          "text": "DISCOVER MORE"
+        }
+      },
+      {
+        "id": 3,
+        "image": "/images/rooms/room1.jpg",
+        "title": "SPA TIME YOU & ME",
+        "button": {
+          "text": "DISCOVER MORE"
+        }
+      },
+      {
+        "id": 4,
+        "image": "/images/rooms/room1.jpg",
+        "title": "SPA TIME YOU & ME",
+        "button": {
+          "text": "DISCOVER MORE"
+        }
+      }
+    ],
+    "css": {
+      "title": {
+        "class": "showOffers-title",
+        "element": "h2"
+      },
+      "allRooms": {
+        "class": "showOffers-allRooms"
+      },
+      "info": {
+        "class": "showOffers-info",
+        "element": "span"
+      },
+      "button": {
+        "class":"showOffers-button"
+      } 
+    }
+  },
+  "5": {
+    "title": "Highlights",
+    "subtitle": "Lorem ipsum",
+    "highlights": [
+      {
+        "id": "1",
+        "photo": "/images/highlights/highlight1.jpg",
+        "title": "Our Restaurant",
+        "button": {}
+      },
+      {
+        "id": "2",
+        "photo": "/images/highlights/highlight2.jpg",
+        "title": "On site waterpark",
+        "button": {}
+      },
+      {
+        "id": "3",
+        "photo": "/images/highlights/highlight3.jpg",
+        "title": "Architecture",
+        "button": {}
+      },
+      {
+        "id": "4",
+        "photo": "/images/highlights/highlight1.jpg",
+        "title": "Our Restaurant",
+        "button": {}
+      },
+      {
+        "id": "5",
+        "photo": "/images/highlights/highlight2.jpg",
+        "title": "On site waterpark",
+        "button": {}
+      },
+      {
+        "id": "6",
+        "photo": "/images/highlights/highlight3.jpg",
+        "title": "Architecture",
+        "button": {}
+      }
+    ],
+    "css": {
+      "title": {
+         "class":"showHighlights-title",
+         "element": "h2"
+      },
+      "subtitle": {
+        "class": "showHighlights-subtitle",
+        "element": "h3"
+      },
+      "slider-title": {
+        "class": "showHighlights-title",
+        "element": "div"
+      }
+    }
+  },
+  "6": {
+    "heading": "Grand Forest Hotel is a small 5 star hotel set on the fringe of a black pine forest, on top of a private mountain, deep in the rugged region of Epirus, in north-western Greece.",
+    "image": "/images/welcomes/group2.png",
+    "css": {
+      "heading": {
+        "class": "welcomes-heading",
+        "element": "h2",
+        "color": ""
+      }
+    }
+  },
+  "7": {
+    "items": [
+      {
+        "image": "/images/offers/offer1.jpg",
+        "heading": "Amazing Offer! - Save up to 30%",
+        "subHeading": "Leonardo Plaza Cypria Maris",
+        "text": "We welcome you back with amazing offers! Book early with Free cancellation. Join for free our Members Club and Book between 01/06/2021 - 15/06/2021",
+        "offer": {
+          "discount": "30%",
+          "off": "off",
+          "valid": "Until Dec 18, 2020"
+        },
+        "link": {
+          "pathname": "#",
+          "text": "Buy now"
+        }
+      },
+      {
+        "image": "/images/offers/offer1.jpg",
+        "heading": "Amazing Offer! - Save up to 30%",
+        "subHeading": "Leonardo Plaza Cypria Maris",
+        "text": "We welcome you back with amazing offers! Book early with Free cancellation. Join for free our Members Club and Book between 01/06/2021 - 15/06/2021",
+        "offer": {
+          "discount": "30%",
+          "off": "off",
+          "valid": "Until Dec 18, 2020"
+        },
+        "link": {
+          "pathname": "#",
+          "text": "Buy now"
+        }
+      },
+      {
+        "image": "/images/offers/offer1.jpg",
+        "heading": "Amazing Offer! - Save up to 30%",
+        "subHeading": "Leonardo Plaza Cypria Maris",
+        "text": "We welcome you back with amazing offers! Book early with Free cancellation. Join for free our Members Club and Book between 01/06/2021 - 15/06/2021",
+        "offer": {
+          "discount": "30%",
+          "off": "off",
+          "valid": "Until Dec 18, 2020"
+        },
+        "link": {
+          "pathname": "#",
+          "text": "Buy now"
+        }
+      },
+      {
+        "image": "/images/offers/offer1.jpg",
+        "heading": "Amazing Offer! - Save up to 30%",
+        "subHeading": "Leonardo Plaza Cypria Maris",
+        "text": "We welcome you back with amazing offers! Book early with Free cancellation. Join for free our Members Club and Book between 01/06/2021 - 15/06/2021",
+        "offer": {
+          "discount": "30%",
+          "off": "off",
+          "valid": "Until Dec 18, 2020"
+        },
+        "link": {
+          "pathname": "#",
+          "text": "Buy now"
+        }
+      }
+    ],
+    "css": {
+      "heading": {
+        "class": "singleOffer-heading",
+        "element": "h2"
+      },
+      "subHeading": {
+        "class": "singleOffer-subHeading",
+        "element": "div"
+      },
+      "text": {
+        "class": "singleOffer-text",
+        "element": "p"
+      },
+      "link": {
+        "class": "singleOffer-link"
+      }
+    }
+  },
+  "8": {
+    "heading": "Special Offers",
+    "items": [
+      {
+        "discount": "30%",
+        "off": "off",
+        "valid": "Until Dec 18, 2020",
+        "text": "ALL Members cards",
+        "link": {
+          "pathname": "#",
+          "text": "SHOW ME MORE"
+        }
+      },
+      {
+        "discount": "40%",
+        "off": "off",
+        "valid": "Until Dec 18, 2020",
+        "text": "ALL Members cards",
+        "link": {
+          "pathname": "#",
+          "text": "SHOW ME MORE"
+        }
+      }
+    ],
+    "css": {
+      "heading": {
+        "class": "singleOffer-heading2",
+        "element": "h2"
+      },
+      "link": {
+        "class": "singleOffer-link2"
+      }
+    }
+  },
+  "9": {
+    "items": [
+      {
+        "image": "/images/destinations/destination1.jpg",
+        "heading": "Santorini Walking Tour with a Personal Photographer",
+        "text": "We welcome you back with amazing offers! Book early with Free cancellation. Join for free our Members Club and Book between 01/06/2021 - 15/06/2021",
+        "stars": 5,
+        "link": {
+          "pathname": "#",
+          "api": "/pages/home",
+          "text": false
+        }
+      },
+      {
+        "image": "/images/destinations/destination1.jpg",
+        "heading": "Santorini Walking Tour with a Personal Photographer",
+        "text": "We welcome you back with amazing offers! Book early with Free cancellation. Join for free our Members Club and Book between 01/06/2021 - 15/06/2021",
+        "stars": 5,
+        "link": {
+          "pathname": "#",
+          "api": "/pages/home",
+          "text": false
+        }
+      },
+      {
+        "image": "/images/destinations/destination1.jpg",
+        "heading": "Santorini Walking Tour with a Personal Photographer",
+        "text": "We welcome you back with amazing offers! Book early with Free cancellation. Join for free our Members Club and Book between 01/06/2021 - 15/06/2021",
+        "stars": 5,
+        "link": {
+          "pathname": "#",
+          "api": "/pages/home",
+          "text": false
+        }
+      },
+      {
+        "image": "/images/destinations/destination1.jpg",
+        "heading": "Santorini Walking Tour with a Personal Photographer",
+        "text": "We welcome you back with amazing offers! Book early with Free cancellation. Join for free our Members Club and Book between 01/06/2021 - 15/06/2021",
+        "stars": 5,
+        "link": {
+          "pathname": "#",
+          "api": "/pages/home",
+          "text": false
+        }
+      }
+    ],
+    "css": {
+      "heading": {
+        "class": "singleHighlights-heading",
+        "element": "h2"
+      },
+      "text": {
+        "class": "singleHighlights-text",
+        "element": "p"
+      }
+    }
+  },
+  "10": {
+    "items": [
+      {
+        "image": "/images/destinations/santorini.jpg",
+        "heading": "Santorini Walking Tour with a Personal Photographer",
+        "feature": "Santorini",
+        "link": {
+          "pathname": "#",
+          "api": "/pages/home",
+          "text": "BOOK NOW"
+        }
+      },
+      {
+        "image": "/images/destinations/destination1.jpg",
+        "heading": "Santorini Walking Tour with a Personal Photographer",
+        "feature": "Oia",
+        "link": {
+          "pathname": "#",
+          "api": "/pages/home",
+          "text": "BOOK NOW"
+        }
+      },
+      {
+        "image": "/images/destinations/destination1.jpg",
+        "heading": "Santorini Walking Tour with a Personal Photographer",
+        "feature": "Santorini",
+        "link": {
+          "pathname": "#",
+          "api": "/pages/home",
+          "text": "BOOK NOW"
+        }
+      },
+      {
+        "image": "/images/destinations/destination1.jpg",
+        "heading": "Santorini Walking Tour with a Personal Photographer",
+        "feature": "Santorini",
+        "link": {
+          "pathname": "#",
+          "api": "/pages/home",
+          "text": "BOOK NOW"
+        }
+      },
+      {
+        "image": "/images/destinations/santorini.jpg",
+        "heading": "Santorini Walking Tour with a Personal Photographer",
+        "feature": "Santorini",
+        "link": {
+          "pathname": "#",
+          "api": "/pages/home",
+          "text": "BOOK NOW"
+        }
+      },
+      {
+        "image": "/images/destinations/santorini.jpg",
+        "heading": "Santorini Walking Tour with a Personal Photographer",
+        "feature": "Santorini",
+        "link": {
+          "pathname": "#",
+          "api": "/pages/home",
+          "text": "BOOK NOW"
+        }
+      },
+      {
+        "image": "/images/destinations/santorini.jpg",
+        "heading": "Santorini Walking Tour with a Personal Photographer",
+        "feature": "Santorini",
+        "link": {
+          "pathname": "#",
+          "api": "/pages/home",
+          "text": "BOOK NOW"
+        }
+      }
+    ],
+    "css": {
+      "heading": {
+        "desktop": {
+          "fontStyle": "normal",
+          "fontWeight": "400",
+          "fontSize": "17px",
+          "lineHeight": "20px",
+          "color": "#000",
+          "letterSpacing": "0em",
+          "fontFamily": "SF Pro Display"
+        },
+        "tablet": {
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "fontSize": "46px",
+          "lineHeight": "55px",
+          "color": "#ffffff",
+          "fontFamily": "Chronicle Display"
+        },
+        "mobile": {
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "fontSize": "10px",
+          "lineHeight": "55px",
+          "color": "#000",
+          "fontFamily": "SF Pro Display"
+        }
+      },
+      "feature": {
+        "desktop": {
+          "fontStyle": "normal",
+          "fontWeight": "400",
+          "fontSize": "55px",
+          "lineHeight": "55px",
+          "color": "#000",
+          "letterSpacing": "0em",
+          "fontFamily": "Chronicle Display"
+        },
+        "tablet": {
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "fontSize": "46px",
+          "lineHeight": "55px",
+          "color": "#ffffff",
+          "fontFamily": "Chronicle Display"
+        },
+        "mobile": {
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "fontSize": "10px",
+          "lineHeight": "55px",
+          "color": "#000",
+          "fontFamily": "SF Pro Display"
+        }
+      },
+      "link": {
+        "desktop": {
+          "fontStyle": "normal",
+          "fontWeight": "400",
+          "fontSize": "13px",
+          "lineHeight": "16px",
+          "color": "#fff",
+          "letterSpacing": "0em",
+          "fontFamily": "SF Pro Display",
+          "background": "#000",
+          "padding": "25px 70px",
+          "border": "0"
+        },
+        "tablet": {
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "fontSize": "46px",
+          "lineHeight": "55px",
+          "color": "#ffffff",
+          "fontFamily": "Chronicle Display"
+        },
+        "mobile": {
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "fontSize": "10px",
+          "lineHeight": "55px",
+          "color": "#000",
+          "fontFamily": "SF Pro Display"
+        }
+      }
+    }
+  },
+  "11": {
+    "detail": "Gettings here",
+    "directions": [
+      {
+        "heading": "Address",
+        "content": "Ormos Firon, Fira - Santorini, Greece"
+      },
+      {
+        "heading": "By air",
+        "content": "Athens Airport (Ath)– 29.2mi/46km (flights from Athens)"
+      },
+      {
+        "heading": "By Boat",
+        "content": "Piraeus (Ath)– 29.2mi/46km (flights from Athens)"
+      }
+    ],
+    "map":{
+      "mapSettings":{
+        "center": {
+          "lat": 36.4203259,
+          "lng": 25.4234157
+        },
+        "zoom": 14
+      },
+      "mapStyle": {
+        "height": "100%",
+        "width": "100%"
+      }
+    },
+    "css": {
+      "detail": {
+        "class": "detailsWithMap-detail",
+        "element": "h2"
+      },
+      "heading": {
+        "class": "detailsWithMap-heading",
+        "element": "span"
+      },
+      "content": {
+        "class": "detailsWithMap-content",
+        "element": "span"
+      }
+    },
+    "colors": {
+      "background": "#88BBE8"
+    }
+  },
+  "12": {
+    "links": [
+      {
+        "pathname": "#",
+        "api": "/pages/home",
+        "text": "Home"
+      },
+      {
+        "pathname": "#",
+        "api": "/pages/home",
+        "text": "Things to do in Santorini"
+      },
+      {
+        "pathname": "#",
+        "api": "/pages/home",
+        "text": "Santorini Tours"
+      },
+      {
+        "pathname": "#",
+        "api": "/pages/home",
+        "text": "Cruises & Sailing"
+      }
+    ],
+    "css": {
+      "links": {
+        "class": "breadcrumbs-links",
+        "element": "span"
+      }
+    }
+  },
+  "13": {
+    "heading": "Special offers",
+    "button": {
+      "pathname": "/accommodation",
+      "api": "/pages/rooms",
+      "text": "ALL SPECIALS"
+    },
+    "items": [
+      {
+        "id": 1,
+        "image": "/images/rooms/room1.jpg",
+        "title": "SPA TIME YOU & MEee",
+        "button": {
+          "pathname": "/accommodation",
+          "api": "/pages/rooms",
+          "text": "DISCOVER MORE"
+        }
+      },
+      {
+        "id": 2,
+        "image": "/images/rooms/room1.jpg",
+        "title": "SPA TIME YOU & ME",
+        "button": {
+          "pathname": "/accommodation",
+          "api": "/pages/rooms",
+          "text": "DISCOVER MORE"
+        }
+      },
+      {
+        "id": 3,
+        "image": "/images/rooms/room1.jpg",
+        "title": "SPA TIME YOU & ME",
+        "button": {
+          "pathname": "/accommodation",
+          "api": "/pages/rooms",
+          "text": "DISCOVER MORE"
+        }
+      },
+      {
+        "id": 4,
+        "image": "/images/rooms/room1.jpg",
+        "title": "SPA TIME YOU & ME",
+        "button": {
+          "pathname": "/accommodation",
+          "api": "/pages/rooms",
+          "text": "DISCOVER MORE"
+        }
+      }
+    ],
+    "css": {
+      "heading": {
+        "class": "carousels-heading",
+        "element": "h2"
+      },
+      "button": {
+        "class": "carousels-button"
+      },
+      "itemButton": {
+        "class": "carousels-itemButton"
+      },
+      "title": {
+        "class": "carousels-title",
+        "element": "span"
+      }
+    }
+  },
+  "14": {
+    "heading": "Highlights2",
+    "button": {
+      "pathname": "/highlights",
+      "api": "/pages/rooms",
+      "text": "ALL Highlights"
+    },
+    "items": [
+      {
+        "id": "1",
+        "image": "/images/highlights/highlight1.jpg",
+        "title": "Our Restaurant2",
+        "button": {
+          "pathname": "/accommodation",
+          "api": "/pages/rooms",
+          "text": "DISCOVER MORE"
+        }
+      },
+      {
+        "id": "2",
+        "image": "/images/highlights/highlight2.jpg",
+        "title": "On site waterpark",
+        "button": {
+          "pathname": "/accommodation",
+          "api": "/pages/rooms",
+          "text": "DISCOVER MORE"
+        }
+      },
+      {
+        "id": "3",
+        "image": "/images/highlights/highlight3.jpg",
+        "title": "Architecture",
+        "button": {
+          "pathname": "/accommodation",
+          "api": "/pages/rooms",
+          "text": "DISCOVER MORE"
+        }
+      },
+      {
+        "id": "4",
+        "image": "/images/highlights/highlight1.jpg",
+        "title": "Our Restaurant",
+        "button": {
+          "pathname": "/accommodation",
+          "api": "/pages/rooms",
+          "text": "DISCOVER MORE"
+        }
+      },
+      {
+        "id": "5",
+        "image": "/images/highlights/highlight2.jpg",
+        "title": "On site waterpark",
+        "button": {
+          "pathname": "/accommodation",
+          "api": "/pages/rooms",
+          "text": "DISCOVER MORE"
+        }
+      },
+      {
+        "id": "6",
+        "image": "/images/highlights/highlight3.jpg",
+        "title": "Architecture",
+        "button": {
+          "pathname": "/accommodation",
+          "api": "/pages/rooms",
+          "text": "DISCOVER MORE"
+        }
+      }
+    ],
+    "css": {
+      "heading": {
+        "class": "carousels-heading",
+        "element": "h2"
+      },
+      "button": {
+        "class": "carousels-button"
+      },
+      "itemButton": {
+        "class": "carousels-itemButton"
+      },
+      "title": {
+        "class": "carousels-title",
+        "element": "span"
+      }
+    }
+  },
+  "15": {
+    "heading": "Highlights",
+    "subHeading": "Lorem ipsum",
+    "items": [
+      {
+        "id": "1",
+        "image": "/images/highlights/highlight1.jpg",
+        "title": "Our Restaurant",
+        "button": {
+          "pathname": "/accommodation",
+          "api": "/pages/rooms",
+          "text": "DISCOVER MORE"
+        }
+      },
+      {
+        "id": "2",
+        "image": "/images/highlights/highlight2.jpg",
+        "title": "On site waterpark",
+        "button": {
+          "pathname": "/accommodation",
+          "api": "/pages/rooms",
+          "text": "DISCOVER MORE"
+        }
+      },
+      {
+        "id": "3",
+        "image": "/images/highlights/highlight3.jpg",
+        "title": "Architecture",
+        "button": {
+          "pathname": "/accommodation",
+          "api": "/pages/rooms",
+          "text": "DISCOVER MORE"
+        }
+      },
+      {
+        "id": "4",
+        "image": "/images/highlights/highlight1.jpg",
+        "title": "Our Restaurant",
+        "button": {
+          "pathname": "/accommodation",
+          "api": "/pages/rooms",
+          "text": "DISCOVER MORE"
+        }
+      },
+      {
+        "id": "5",
+        "image": "/images/highlights/highlight2.jpg",
+        "title": "On site waterpark",
+        "button": {
+          "pathname": "/accommodation",
+          "api": "/pages/rooms",
+          "text": "DISCOVER MORE"
+        }
+      },
+      {
+        "id": "6",
+        "image": "/images/highlights/highlight3.jpg",
+        "title": "Architecture",
+        "button": {
+          "pathname": "/accommodation",
+          "api": "/pages/rooms",
+          "text": "DISCOVER MORE"
+        }
+      }
+    ],
+    "css": {
+      "heading": {
+        "class": "carousels-heading",
+        "element": "h2"
+      },
+      "subHeading": {
+        "class": "carousels-subHeading",
+        "element": "h3"
+      },
+      "button": {
+        "desktop": {
+          "background": "transparent",
+          "border": "0",
+          "padding": "0",
+          "fontFamily": "SF Pro Display",
+          "fontStyle": "normal",
+          "fontWeight": "600",
+          "fontSize": "11px",
+          "lineHeight": "13px",
+          "letterSpacing": "0.07em",
+          "color": "#323B43"
+        },
+        "tablet": {
+          "background": "transparent",
+          "border": "0",
+          "padding": "0",
+          "fontFamily": "SF Pro Display",
+          "fontStyle": "normal",
+          "fontWeight": "600",
+          "fontSize": "11px",
+          "lineHeight": "13px",
+          "letterSpacing": "0.07em",
+          "color": "#323B43"
+        },
+        "mobile": {
+          "background": "transparent",
+          "border": "0",
+          "padding": "0",
+          "fontFamily": "SF Pro Display",
+          "fontStyle": "normal",
+          "fontWeight": "600",
+          "fontSize": "11px",
+          "lineHeight": "13px",
+          "letterSpacing": "0.07em",
+          "color": "#323B43"
+        }
+      },
+      "title": {
+        "class": "carousels-title",
+        "element": "div"
+      }
+    }
+  }
+ }
+  
+  
+ 
+ 

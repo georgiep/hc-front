@@ -1,0 +1,73 @@
+{
+  "idbName": "header",
+  "logo": {
+    "path": "/images/logo1.png",
+    "pathname": "/",
+    "api": "/pages/home"
+  },
+  "menu": [
+    {
+      "pathname": "/",
+      "text": "HOTEL",
+      "api": "/pages/home"
+    },
+    {
+      "pathname": "/accommodation",
+      "text": "ROOMS",
+      "api": "/pages/accommodation",
+      "submenu": [
+        {
+          "pathname": "/accommodation1",
+          "text": "ROOMS1",
+          "api": "/pages/rooms1"
+        },
+        {
+          "pathname": "/accommodation1",
+          "text": "ACCOMMODATION1",
+          "api": "/pages/accommodation1"
+        },
+        {
+          "pathname": "/accommodation2",
+          "text": "ACCOMMODATION2",
+          "api": "/pages/accommodation2"
+        },
+        {
+          "pathname": "/accommodation3",
+          "text": "ACCOMMODATION1",
+          "api": "/pages/accommodation3"
+        },
+        {
+          "pathname": "/accommodation4",
+          "text": "ACCOMMODATION1",
+          "api": "/pages/accommodation4"
+        },
+        {
+          "pathname": "/accommodation5",
+          "text": "ACCOMMODATION5",
+          "api": "/pages/accommodation5"
+        },
+        {
+          "pathname": "/accommodation5",
+          "text": "ACCOMMODATION6",
+          "api": "/pages/accommodation5"
+        }
+      ]
+    },
+    {
+      "pathname": "/facilities",
+      "text": "FACILITIES",
+      "api": "/pages/facilities"
+    },
+    {
+      "pathname": "/reviews",
+      "text": "REVIEWS",
+      "api": "/pages/reviews"
+    }
+  ],
+  "button": {
+    "url": "http://localhost:5555/",
+    "text": "BOOK NOW",
+    "backgroundColor": "white",
+    "color": "black"
+  }
+}
