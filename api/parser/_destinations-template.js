@@ -37,12 +37,13 @@ let linkPost = {
 const destinationParser = (data) =>{
 
     destinationParseObj._HeroSliderWithBookingForm_order_0_row_0_col_0 = {
-        "items": data.slider_gallery.map(item => item.url),
+        "items": data.slider_gallery.map(item => item.url.toString().replace('https://greece-hotel.info/admins/aquavistahotels/wp-content/uploads','https://code.rateparity.com/aquavistahotels.com')),
         "heading": data.intro_text
     }
 
     destinationParseObj._Maps_MultipleMarkersWithImage_order_1_row_0_col_0 = {
         items: data.select_destination.reduce((acc,item) => {
+            item.destination.acf.image = item.destination.acf.image.toString().replace('https://greece-hotel.info/admins/aquavistahotels/wp-content/uploads','https://code.rateparity.com/aquavistahotels.com')
             acc.push({
                 ...item.destination.acf,
                 link: {
@@ -51,6 +52,9 @@ const destinationParser = (data) =>{
                     "text": "Explore"
                 },
                 items: item.hotels.map(hotel => {
+
+                    hotel[0].acf.image = hotel[0].acf.image.toString().replace('https://greece-hotel.info/admins/aquavistahotels/wp-content/uploads','https://code.rateparity.com/aquavistahotels.com')
+
                     return { link:{
                             "pathname": `/hotels-in-${item.destination.post_name}/${hotel[0].slug}`,
                             "api": "/pages/room/room1",

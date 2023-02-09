@@ -51,7 +51,7 @@ let linkPost = {
 
 const pageParser = (data) =>{
     pageParseObj._Hero_HeroSliderWithBookingForm_order_0_row_0_col_0 = {
-        "items": data.slider_gallery.map(item => item.url),
+        "items": data.slider_gallery ? data.slider_gallery.map(item => item.url.toString().replace('https://greece-hotel.info/admins/aquavistahotels/wp-content/uploads','https://code.rateparity.com/aquavistahotels.com')) : [],
         "heading": data.intro_text
     }
     pageParseObj._Commons_Text_order_2_row_0_col_0 = {

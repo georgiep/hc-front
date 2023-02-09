@@ -59,9 +59,8 @@ const settingsSlider = {
 
 const Carousel = ({ items, css }) => {
 
-    const settings = {...settingsSlider,infinite: false, slidesToShow: 2.5, variableWidth: false, }
+    const settings = {...settingsSlider,infinite: false, slidesToShow: 2.5, variableWidth: false }
 
-    console.log(items)
     return (
         <div className="slider-container carousel-slides-same-height">
             <Slider {...settings}>
@@ -69,9 +68,10 @@ const Carousel = ({ items, css }) => {
             </Slider>
             <style jsx global>
                 {`
-                
+                  
                     .carousel-slides-same-height .slick-track{
                         display: flex !important;
+                        margin-left:0;
                     }
                     
                    .carousel-slides-same-height .slick-slide{

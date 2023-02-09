@@ -117,6 +117,8 @@ export default function LayoutVista(props) {
 
                     <meta name="robots" content="noindex,nofollow" />
 
+                    <link rel="dns-prefetch" href="https://code.rateparity.com/" />
+
                     {/*<link rel="shortcut icon" href="/public/images/favicon.ico" type="image/x-icon" />*/}
 
                     {/*<meta name="google-site-verification" content={props.WEBMASTER_TOOLS} />*/}

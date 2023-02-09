@@ -74,8 +74,9 @@ const hotelParser = (data,rooms,id,fullSlug,label) => {
     _hotelParseObj._Commons_Text_order_1_row_0_col_3 = {
         text: previewText
     }
+
     _hotelParseObj._HeroSliderWithBookingForm_Hero_oder_0_row_0_col_0 = {
-        "items":  data.slider_gallery ? data.slider_gallery.map(item => item.url) : [],
+        "items": data.slider_gallery ? data.slider_gallery.map(item => item.url.toString().replace('https://greece-hotel.info/admins/aquavistahotels/wp-content/uploads','https://code.rateparity.com/aquavistahotels.com')) : [],
         "heading": data.intro_text
     }
 
@@ -88,8 +89,9 @@ const hotelParser = (data,rooms,id,fullSlug,label) => {
         text: data.description
     }
 
+
     _hotelParseObj._Gallery_Template2_order_3_row_0_col_0 = {
-        items: data.gallery
+        items: data.gallery ? data.gallery.map(item => item.toString().replace('https://greece-hotel.info/admins/aquavistahotels/wp-content/uploads','https://code.rateparity.com/aquavistahotels.com')) : [],
     }
 
     _hotelParseObj._amenities = {
@@ -99,7 +101,10 @@ const hotelParser = (data,rooms,id,fullSlug,label) => {
     _hotelParseObj._Gallery_Template2_order_4_row_0_col_0 = {
         items: rooms.reduce( (arr,item) => {
             if(item.id !== id){
-               arr.push({...item.acf,link: {
+
+                item.acf.image = item.acf.image.toString().replace('https://greece-hotel.info/admins/aquavistahotels/wp-content/uploads','https://code.rateparity.com/aquavistahotels.com')
+
+                arr.push({...item.acf,link: {
                        "pathname": `/${fullSlug}${item.slug}`,
                        "api": "/pages/room/room1",
                        "text": "Explore"
@@ -438,7 +443,8 @@ const hotelData = (parsed) => {
                         "css": {
                             "padding": "0 0 60px 0",
                             "border": "0",
-                            "marginLeft": '60px'
+                            "maxWidth": "1440px",
+                            "margin": "0 auto"
                         },
                         "columns": {
                             "sizes": [

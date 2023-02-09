@@ -27,17 +27,17 @@ module.exports = {
     },
 }
 
-module.exports = {
-    experimental: {
-        forceSwcTransforms: true,
-    },
-}
-
-module.exports = {
-    experimental: {
-        swcTraceProfiling: true,
-    },
-}
+// module.exports = {
+//     experimental: {
+//         forceSwcTransforms: true,
+//     },
+// }
+//
+// module.exports = {
+//     experimental: {
+//         swcTraceProfiling: true,
+//     },
+// }
 //
 // module.exports = withBundleAnalyzer({})
 

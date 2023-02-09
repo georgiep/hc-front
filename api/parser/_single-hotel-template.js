@@ -66,12 +66,20 @@ const hotelParser = (data,link,label) => {
     }
 
     _hotelParseObj._HeroSliderWithBookingForm_Hero_oder_0_row_0_col_0 = {
-        "items": data.slider_gallery ? data.slider_gallery.map(item => item.url) : [],
+        "items": data.slider_gallery ? data.slider_gallery.map(item => item.url.toString().replace('https://greece-hotel.info/admins/aquavistahotels/wp-content/uploads','https://code.rateparity.com/aquavistahotels.com')) : [],
         "heading": data.intro_text,
         "showGallery": true
     }
+
     _hotelParseObj._Carousel_Template3_order_2_row_0_col_0 = {
         "items": data.select_rooms.map(item => {
+
+            item.acf.image = item.acf.image.toString().replace('https://greece-hotel.info/admins/aquavistahotels/wp-content/uploads','https://code.rateparity.com/aquavistahotels.com')
+
+            item.acf.amenities_with_icons = item.acf.amenities_with_icons.map(item=> {
+                item.icon = item.icon.toString().replace('https://greece-hotel.info/admins/aquavistahotels/wp-content/uploads','https://code.rateparity.com/aquavistahotels.com')
+                return item
+            })
 
             return {
                 ...item.acf,
@@ -91,6 +99,7 @@ const hotelParser = (data,link,label) => {
     }
     _hotelParseObj._Carousel_Template3_order_3_row_0_col_0 = {
         "items": data.select_offers.map(item => {
+            item.acf.image = item.acf.image.toString().replace('https://greece-hotel.info/admins/aquavistahotels/wp-content/uploads','https://code.rateparity.com/aquavistahotels.com')
             return {
                 link: {
                     pathname: item.acf.book_now,
@@ -122,7 +131,7 @@ const hotelParser = (data,link,label) => {
 
     _hotelParseObj._DisplayPostTypes_Template8_order_5_row_0_col_0 = {
         "items": data.select_more_hotels ? data.select_more_hotels.map(item => {
-
+            item.acf.image = item.acf.image.toString().replace('https://greece-hotel.info/admins/aquavistahotels/wp-content/uploads','https://code.rateparity.com/aquavistahotels.com')
             return {
                 ...item.acf,
                 link: {
@@ -386,7 +395,8 @@ const hotelData = (parsed) => {
                         "css": {
                             "padding": "0 0 60px 0",
                             "border": "0",
-                            "marginLeft": '60px'
+                            "maxWidth": "1440px",
+                            "margin": "0 auto"
                         },
                         "columns": {
                             "sizes": [
@@ -453,6 +463,8 @@ const hotelData = (parsed) => {
                 "css": {
                     "border": "0",
                     "backgroundColor": "#FFFFFF",
+                    "maxWidth": "1440px",
+                    "margin": "0 auto",
                     ...(parsed._Carousel_Template3_order_3_row_0_col_0.items.length === 0 && { "display": "none" })
                 },
                 "rows": [
@@ -471,7 +483,8 @@ const hotelData = (parsed) => {
                         "css": {
                             "padding": `0 0 60px 0`,
                             "border": "0",
-                            "marginLeft": '60px'
+                            "maxWidth": "1440px",
+                            "margin": "0 auto"
                         },
                         "columns": {
                             "sizes": [
@@ -528,7 +541,9 @@ const hotelData = (parsed) => {
                 "fluid": true,
                 "css": {
                     "border": "0",
-                    "backgroundColor": "#FFFFFF"
+                    "backgroundColor": "#FFFFFF",
+                    "maxWidth": "1440px",
+                    "margin": "0 auto"
                 },
                 "rows": [
                     {

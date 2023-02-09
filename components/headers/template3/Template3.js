@@ -95,25 +95,14 @@ const Template3 = () => {
 
                 {
                     Router.asPath === '/' ?  <div className={'logo'} style={{width: '150px',height: '66px'}} onClick={scrollToTop}>
-                        <ImageLoader src={'https://greece-hotel.info/admins/aquavistahotels/wp-content/uploads/2022/07/Logo.svg'} priority={true} layout={'fill'}/>
+                        <ImageLoader src={'https://code.rateparity.com/aquavistahotels.com/2022/07/Logo.svg'} priority={true} layout={'fill'}/>
                     </div> : <PrefetchLink pathname={'/'}>
                         <div className={'logo'} style={{width: '150px',height: '66px'}}>
-                            <ImageLoader src={'https://greece-hotel.info/admins/aquavistahotels/wp-content/uploads/2022/07/Logo.svg'} priority={true} layout={'fill'}/>
+                            <ImageLoader src={'https://code.rateparity.com/aquavistahotels.com/2022/07/Logo.svg'} priority={true} layout={'fill'}/>
                         </div>
                     </PrefetchLink>
                 }
 
-                {/*{*/}
-                {/*    !scroll ? <PrefetchLink pathname={'/'} api={'/'}>*/}
-                {/*        <div className={'logo'} style={{width: '150px',height: '66px'}}>*/}
-                {/*            <ImageLoader src={'https://greece-hotel.info/admins/aquavistahotels/wp-content/uploads/2022/07/Logo.svg'} priority={true} layout={'fill'}/>*/}
-                {/*        </div>*/}
-                {/*    </PrefetchLink> : <PrefetchLink pathname={'/'} api={'/'}>*/}
-                {/*        <div className={'logo logo-scrolling'} style={{width: '150px',height: '50px'}}>*/}
-                {/*            <ImageLoader src={'https://greece-hotel.info/admins/aquavistahotels/wp-content/uploads/2022/09/aquavista-logo-c.svg'} layout={'fill'}/>*/}
-                {/*        </div>*/}
-                {/*    </PrefetchLink>*/}
-                {/*}*/}
                 <div className={'book-now'}><a href={url} target={'_blank'}><button className={'button-fill'}>BOOK NOW</button></a></div>
             </div>
             <div className={!open ? 'menu' : 'menu open'} >
@@ -164,22 +153,6 @@ const Template3 = () => {
                                     </svg>
                                 </div>
                             </div>
-                            {/*<div className={'line'}>*/}
-                            {/*    <LineSeparator color={'#04456D'}/>*/}
-                            {/*</div>*/}
-                            {/*<div className={`sub-menu ${ showSubMenu === 5 ? 'd-block' : ''}`}>*/}
-                            {/*    <ul>*/}
-                            {/*        <li>*/}
-                            {/*            <PrefetchLink pathname={'/blog/post-1'} api={''}>POST 1</PrefetchLink>*/}
-                            {/*        </li>*/}
-                            {/*        <li>*/}
-                            {/*            <PrefetchLink pathname={'/blog/post-2'} api={''}>POST 2</PrefetchLink>*/}
-                            {/*        </li>*/}
-                            {/*        <li>*/}
-                            {/*            <PrefetchLink pathname={'/blog/post-3'} api={''}>POST 3</PrefetchLink>*/}
-                            {/*        </li>*/}
-                            {/*    </ul>*/}
-                            {/*</div>*/}
                         </li>
                         <li className={'menu-link primary-dark'} onClick={toggleMenu}>
                             <div><PrefetchLink pathname={'/about-us'} api={''}>ABOUT US</PrefetchLink></div>
@@ -196,8 +169,6 @@ const Template3 = () => {
                         <li className={'menu-link primary-dark'} onClick={toggleMenu}>
                             <div><PrefetchLink pathname={'/contact'} api={''}>CONTACT</PrefetchLink></div>
                         </li>
-                        {/*<li className={'menu-link primary-dark'}><div><a href={"#"}>CONTACT US</a></div></li>*/}
-                        {/*<li className={'menu-link primary-dark'}><div><a href={"#"}>STAY SAFE</a></div></li>*/}
                     </ul>
                 </div>
             </div>

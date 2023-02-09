@@ -9,13 +9,13 @@ const homepageParseObj = {
     _SimplePromos_Template1_order_1_row_0_col_0: {
         "items": [
             {
-                "svg": "https://code.rateparity.com/aquavistahotels.com/uploads/2022/07/bestPrice.svg",
+                "svg": "https://code.rateparity.com/aquavistahotels.com/2022/07/bestPrice.svg",
                 "text": "Best Price Guaranteed!",
                 "width": "30px",
                 "height": "30px"
             },
             {
-                "svg": "https://greece-hotel.info/admins/aquavistahotels/wp-content/uploads/2022/07/book-with-us.svg",
+                "svg": "https://code.rateparity.com/aquavistahotels.com/2022/07/book-with-us.svg",
                 "text": "No booking fees",
                 "width": "30px",
                 "height": "30px"
@@ -89,7 +89,7 @@ let linkPost = {
 const homepageParser = (data) =>{
 
     homepageParseObj._Hero_HeroSliderWithBookingForm_order_0_row_0_col_0 = {
-        "items": data.slider_gallery.map(item => item.url),
+        "items": data.slider_gallery.map(item => item.url.toString().replace('https://greece-hotel.info/admins/aquavistahotels/wp-content/uploads','https://code.rateparity.com/aquavistahotels.com')),
         "heading": data.intro_text
     }
     homepageParseObj._Commons_Text_order_2_row_0_col_0 = {
@@ -103,6 +103,9 @@ const homepageParser = (data) =>{
     }
     homepageParseObj._DisplayPostTypes_Template8_order_3_row_2_col_0 = {
         "items": data.first_post_selection.map(item => {
+
+            item.select_post.acf.image = item.select_post.acf.image.toString().replace('https://greece-hotel.info/admins/aquavistahotels/wp-content/uploads','https://code.rateparity.com/aquavistahotels.com')
+
             return {
                 "link": {
                     "pathname": `/hotels-in-${item.select_post.post_name}`,
@@ -117,6 +120,9 @@ const homepageParser = (data) =>{
     }
     homepageParseObj._ShowOffers_Template2_order_4_row_2_col_2 = {
         "items": data.second_post_selection.map(item => {
+
+            item.select_post.acf.image = item.select_post.acf.image.toString().replace('https://greece-hotel.info/admins/aquavistahotels/wp-content/uploads','https://code.rateparity.com/aquavistahotels.com')
+
             return {
                 link: {
                     pathname: item.select_post.acf.book_now
@@ -125,7 +131,12 @@ const homepageParser = (data) =>{
         })
     }
     homepageParseObj._ShowOffers_Template2_order_4_row_2_col_2 = {
+
+
         "items": data.second_post_selection.map(item => {
+
+            item.select_post.acf.image = item.select_post.acf.image.toString().replace('https://greece-hotel.info/admins/aquavistahotels/wp-content/uploads','https://code.rateparity.com/aquavistahotels.com')
+
             return {
                 link: {
                     pathname: item.select_post.acf.book_now
@@ -136,7 +147,7 @@ const homepageParser = (data) =>{
     }
     homepageParseObj._Destinations_Template1_order_5_row_0_col_0 = {...data.third_post_selection.acf,link:{pathname: '/destination-guide-santorini', api: ''} }
 
-    console.log('data.seo_title ', data.seo_title)
+
     homepageParseObj.SEO = {
         "title": data.seo_title,
         "description": data.seo_description,

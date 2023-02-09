@@ -31,14 +31,14 @@ let linkPost = {
 const hotelParser = (data,posts,id,folder,label) => {
 
     _hotelParseObj._Commons_Image_oder_0_row_0_col_0 = {
-       image: data.image,
-       layout: 'fill',
-       objectFit: 'cover',
-       objectPosition: 'center',
-       width: '100%',
-       height: '479px',
-       // center: true,
-       type: 'absolute'
+        image: data.image && data.image.toString().replace('https://greece-hotel.info/admins/aquavistahotels/wp-content/uploads','https://code.rateparity.com/aquavistahotels.com'),
+        layout: 'fill',
+        objectFit: 'cover',
+        objectPosition: 'center',
+        width: '100%',
+        height: '479px',
+        // center: true,
+        type: 'absolute'
     }
 
     _hotelParseObj._Commons_Text_oder_1_row_0_col_0 = {

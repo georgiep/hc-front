@@ -14,11 +14,12 @@ const specialOffersParseObj = {
 
 const offersParser = (data) => {
     specialOffersParseObj._Hero_HeroSliderWithBookingForm_order_0_row_0_col_0 = {
-        "items": data.slider_gallery.map(item => item.url),
+        "items": data.slider_gallery.map(item => item.url.toString().replace('https://greece-hotel.info/admins/aquavistahotels/wp-content/uploads','https://code.rateparity.com/aquavistahotels.com')),
         "heading": data.intro_text
     }
     specialOffersParseObj._ShowOffers_Template2_order_1_row_0_col_0 = {
         "items": data.posts.map(item => {
+            item.select_post.acf.image = item.select_post.acf.image.toString().replace('https://greece-hotel.info/admins/aquavistahotels/wp-content/uploads','https://code.rateparity.com/aquavistahotels.com')
             return {
                 link: {
                     pathname: item.select_post.acf.book_now
