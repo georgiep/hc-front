@@ -1,5 +1,5 @@
-import ImageLoader from 'components/commons/image/ImageLoader'
 import React, {useContext, useState} from "react";
+import ImageLoader from 'components/commons/image/ImageLoader'
 import BreakpointContext from "context/BreakpointContext";
 import dynamic from "next/dynamic";
 const Gallery = dynamic(() => import('components/body/sliders/slideShow/Template1'),{ssr:false})
