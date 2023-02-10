@@ -1,15 +1,9 @@
 const path = require('path');
-const withImages = require('next-images')
-//
+
 // const withBundleAnalyzer = require('@next/bundle-analyzer')({
 //     enabled: true,
 // })
 
-module.exports = withImages({
-    webpack(config, options) {
-        return config
-    }
-})
 
 module.exports = {
     webpack(config) {
@@ -21,11 +15,6 @@ module.exports = {
     }
 };
 
-module.exports = {
-    images: {
-        domains: ['greece-hotel.info']
-    },
-}
 
 // module.exports = {
 //     experimental: {
