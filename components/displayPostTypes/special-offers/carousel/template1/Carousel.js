@@ -24,14 +24,16 @@ const settingsSlider = {
             settings: {
                 slidesToShow: 1,
                 slidesToScroll: 1,
-                initialSlide: 1
+                initialSlide: 1,
+                dots: true,
             }
         },
         {
             breakpoint: 480,
             settings: {
                 slidesToShow: 1,
-                slidesToScroll: 1
+                slidesToScroll: 1,
+                dots: true
             }
         }
     ]
@@ -103,6 +105,12 @@ const Carousel = ({ items, css, initialRequest }) => {
            @media screen and (max-width: 1300px) {
                 .carousel-offers-slider-container {
                   margin: 0 60px;
+                }
+                .carousel-offers-slider-container .slick-slide {
+                    padding: 0;
+                }
+                .carousel-offers-slider-container {
+                    margin: 0 27px;
                 }
            }
           

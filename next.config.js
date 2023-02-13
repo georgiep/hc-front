@@ -15,6 +15,15 @@ module.exports = {
     }
 };
 
+module.exports = {
+    reactStrictMode: true,
+    images: {
+        loader: 'default',
+        domains: ['code.rateparity.com'],
+        deviceSizes: [150,260,300,768,1024],
+        formats: ['image/webp'],
+    },
+}
 
 // module.exports = {
 //     experimental: {
@@ -67,11 +76,3 @@ module.exports = {
 //         return config
 //     },
 // }
-
-// module.exports = {
-//     future: {
-//         webpack5: true,
-//     }
-// }
-
-

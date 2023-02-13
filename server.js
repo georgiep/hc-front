@@ -10,6 +10,8 @@ const app = next({ dev: process.env.NODE_ENV === "development" });
 const handle = app.getRequestHandler();
 const getData = require('./api/getData')
 const mail = require('./routes/mail')
+const healthcheck = require('./routes/healthcheck')
+const images = require('./routes/images')
 
 app.prepare().then((req, res) => {
 
@@ -34,6 +36,10 @@ app.prepare().then((req, res) => {
     });
 
     server.use('',mail)
+
+    server.use('',healthcheck)
+
+    server.use('/images',images)
 
     server.get('/refresh-data', (req, res) => {
         getData(['en'])

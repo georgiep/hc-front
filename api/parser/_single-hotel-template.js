@@ -30,11 +30,7 @@ let linkPost = {
 }
 
 const hotelParser = (data,link,label) => {
-    // console.log(data.single_select_hotel.acf.awards)
-    // console.log('00')
-    // console.log(data.acf.awards)
-    //  console.log(data.single_select_hotel.acf.select_offers )
-    // console.log(link)
+
     _hotelParseObj._menu = {
         "menu": [
             {
@@ -173,7 +169,9 @@ const hotelParser = (data,link,label) => {
         ]
     }
 
-
+    _hotelParseObj.instagram = {
+        item : data.single_select_hotel.acf.instagram || ''
+    }
     return _hotelParseObj
 }
 
@@ -693,6 +691,45 @@ const hotelData = (parsed) => {
                                 "api": "/pages/room/room1"
                             },
                             ...parsed._DisplayPostTypes_Template8_order_5_row_0_col_0,
+                            "css": {
+                                "element": "span",
+                                "class": "main-text-body animation--up",
+                                "color": "primary-white"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        "9": {
+            "wrapper": {
+                "fluid": true,
+                "css": {
+                    "border": "0",
+                    "backgroundColor": "#FFFFFF",
+                    ...(!parsed.instagram.item && { "display": "none" })
+                },
+                "rows": [
+                    {
+                        "css": {
+                            "padding": "80px 0 60px 0",
+                            "border": "0",
+                            "maxWidth": "1440px",
+                            "margin": "0 auto"
+                        },
+                        "columns": {
+                            "sizes": [
+                                "col-md-12 animation--up"
+                            ]
+                        }
+                    }
+                ]
+            },
+            "rows": [
+                {
+                    "columns": [
+                        {
+                            ...parsed.instagram,
                             "css": {
                                 "element": "span",
                                 "class": "main-text-body animation--up",

@@ -131,6 +131,15 @@
             "row": 1,
             "col": 0
           }
+        },
+        {
+          "component_name": "Instagram",
+          "template": "Template1",
+          "order": 9,
+          "wrapper": {
+            "row": 0,
+            "col": 0
+          }
         }
       ]
     }

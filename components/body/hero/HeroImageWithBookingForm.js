@@ -33,7 +33,7 @@ const HeroImageWithBookingForm = ({data}) => {
                             <div className={"text-uppercase center-top-position content"}>
                                 <Text2
                                     tag={css.heading.element}
-                                    titleStyle={`${css.heading.class} ${css.heading.color}`}
+                                    titleStyle={`${css.heading.class} ${css.heading.color} position-absolute w-100`}
                                     text={heading}
                                 />
                             </div>
@@ -44,6 +44,15 @@ const HeroImageWithBookingForm = ({data}) => {
             </div>
 
             <Form/>
+
+            <style jsx global>{`
+              
+                .center-top-position > div{
+                    left: -16px;
+                    top: -50px;
+                }
+                
+            `}</style>
 
             <style jsx>{`
             
@@ -66,8 +75,10 @@ const HeroImageWithBookingForm = ({data}) => {
                 text-align: center;
                 z-index: 2;
              }
+             
              .center-top-position {
                   top: 50%;
+              
                   -webkit-transform: translateY(-50%);
                   -moz-transform: translateY(-50%);
                   -ms-transform: translateY(-50%);
@@ -76,6 +87,7 @@ const HeroImageWithBookingForm = ({data}) => {
                   -ms-transform: translateY(-50%);
                   transform: translateY(-50%);
              }
+             
             `}</style>
         </div>
     )

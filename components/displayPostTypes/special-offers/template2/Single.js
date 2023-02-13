@@ -102,6 +102,9 @@ const Single = ({ item, css }) => {
                           .hover-items{
                               z-index: 1;
                           }
+                          .post-link-text-full{
+                            display: none;
+                          }
                        }
             
                     `}

@@ -113,6 +113,13 @@ const Slide = ({ item, css, key, gap }) => {
                   .hover-items{
                       z-index: 1;
                   }
+                  .post-link-text-full{
+                    display: none;
+                  }
+                  
+                   .extra-gap{
+                        margin-top: 0;
+                   }
                }
     
             `}

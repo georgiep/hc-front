@@ -74,7 +74,12 @@ const Template1 = () => {
                    display: none !important; 
                 }
                 @media only screen and (max-width: ${mediaBreakPoints.sm}) {
-                    
+                    .destination-template-1{
+                       flex-direction: column;
+                    }
+                    .destination-template-1 > div{
+                       margin-bottom: 35px;
+                    }
                  }
             `}</style>
         </div>

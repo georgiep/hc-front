@@ -538,6 +538,42 @@ const homepageData = (parsed) => {
                     ]
                 }
             ]
+        },
+        "6": {
+            "wrapper": {
+                "fluid": false,
+                "css": {
+                    "border": "0",
+                    "backgroundColor": "#FFFFFF"
+                },
+                "rows": [
+                    {
+                        "css": {
+                            "padding": "40px 0 80px 0",
+                            "border": "0"
+                        },
+                        "columns": {
+                            "sizes": [
+                                "col-md-12 animation--up"
+                            ]
+                        }
+                    }
+                ]
+            },
+            "rows": [
+                {
+                    "columns": [
+                        {
+                            "item": "elfsight-app-bf9d154d-2667-4d93-a05b-51d0132c6d90",
+                            "css": {
+                                "element": "div",
+                                "class": "title-case-primary text-uppercase text-center animation--up",
+                                "color": "primary-white"
+                            }
+                        }
+                    ]
+                }
+            ]
         }
     }
 }

@@ -171,7 +171,8 @@ const MapWithMultipleMarkers = ({data,full}) => {
                         .options{
                             background: #EFF1FD;
                             padding: 40px 20px;
-                          }
+                            height: 200px;
+                        }
                  }
             
                 `}

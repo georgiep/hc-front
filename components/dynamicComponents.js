@@ -140,6 +140,9 @@ export const bodyListDynamic = {
     },
     Modals: {
         Template1: dynamic(() => import('components/body/modals/template1/Template1'))
+    },
+    Instagram: {
+        Template1: dynamic(() => import('components/body/instagram/template1/Template1'))
     }
 }
 

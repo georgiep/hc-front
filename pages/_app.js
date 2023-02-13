@@ -1,7 +1,7 @@
 import {useRouter} from "next/router";
 import { BreakpointProvider } from "context/BreakpointContext";
 import { AvailabilityProvider } from 'context/AvailabilityContext'
-import {useEffect} from "react";
+import {useEffect, useState} from "react";
 import breakpoints from "styles/breakpoints";
 import styles from '/public/globalCss/bootstrap.css'
 import 'slick-carousel/slick/slick.css'
@@ -11,6 +11,7 @@ import {publish} from "../helpers/pub-sub";
 
 function MyApp({ Component, pageProps }) {
     const router = useRouter();
+
 
     useEffect(() => {
 

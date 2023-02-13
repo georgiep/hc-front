@@ -267,7 +267,7 @@ const hotelData = (parsed) => {
                             ...parsed.breadcrumbs,
                             "css": {
                                 "element": "div",
-                                "class": "secondary-post-text animation--up",
+                                "class": "secondary-post-text",
                                 "color": "primary-dark",
                             }
                         }

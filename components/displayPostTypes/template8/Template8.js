@@ -91,6 +91,9 @@ const Template8 = ({ data }) => {
                       .hover-items{
                           z-index: 1;
                       }
+                      .my-masonry-grid_column:nth-child(odd) {
+                            padding-right: 0;
+                       }
                    }
       
                 `}
