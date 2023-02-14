@@ -2,7 +2,7 @@ const Express = require("express")
 const server = Express.Router()
 const Recaptcha = require('recaptcha-v2').Recaptcha
 
-server.post('/send-email', (req, res) => {
+server.post('', (req, res) => {
 
     const recaptchaData = {
         remoteip: req.connection.remoteAddress,

@@ -7,6 +7,7 @@ const FORM_ENDPOINT = "";
 
 const Template1 = ({data}) => {
 
+    const {heading,subheading} = data
     const [submitted, setSubmitted] = useState(false);
 
     const ReCAPTCHA_REF = useRef()
@@ -48,12 +49,13 @@ const Template1 = ({data}) => {
     return (
         <div className={'contact-form '}>
             <div className={'title-case-secondary text-center primary-black '}>
-                Contact Us
+                { heading || 'Contact Us'}
             </div>
             <LineSeparator padding={'10px'}/>
             <div className={'promo-heading-text text-center primary-black'}>
-                Please use this form to send us your questions, suggestions,
-                likes or dislikes. We’re always happy to hear from you!
+                { subheading || 'Please use this form to send us your questions, suggestions,\n' +
+                    'likes or dislikes. We’re always happy to hear from you!'}
+
             </div>
             <LineSeparator padding={'30px'}/>
             <form

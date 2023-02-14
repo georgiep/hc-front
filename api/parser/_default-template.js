@@ -31,10 +31,6 @@ let linkPost = {
 
 const hotelParser = (data,link,allData) => {
 
-    console.log(data)
-    // console.log('default')
-    // console.log(allData)
-    // console.log(link)
     _hotelParseObj._HeroSliderWithBookingForm_Hero_oder_0_row_0_col_0 = {
         "items": data.slider_gallery ? data.slider_gallery.map(item => item.url.toString().replace('https://greece-hotel.info/admins/aquavistahotels/wp-content/uploads','https://code.rateparity.com/aquavistahotels.com')) : [],
         "heading": data.intro_text
@@ -410,9 +406,6 @@ const _defaultTemplate = (data,link,allData) => {
             recursive: true
         });
     }
-
-    console.log('dir')
-    console.log(dir)
 
     fs.writeFile(`${dir.slice(0, dir.lastIndexOf('/'))}.json`, JSON.stringify(hotel), 'utf8', (err) => {
         console.log("change data output FINISH")

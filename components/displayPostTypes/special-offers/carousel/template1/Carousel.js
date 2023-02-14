@@ -1,8 +1,8 @@
 import React, {useEffect, useState, useRef} from 'react'
-// import Slider from 'react-slick'
 import Slide from './Slide'
 import {useRouter} from "next/router";
 import useIntersection from 'hooks/useIntersection'
+import {mediaBreakPointsQueriesMax} from "public/globalCss/mediaBreakPoints";
 
 const settingsSlider = {
     dots: false,
@@ -20,7 +20,7 @@ const settingsSlider = {
             }
         },
         {
-            breakpoint: 600,
+            breakpoint: 767,
             settings: {
                 slidesToShow: 1,
                 slidesToScroll: 1,
@@ -101,19 +101,28 @@ const Carousel = ({ items, css, initialRequest }) => {
            .carousel-offers-slider-container .slick-slide {
                padding: 15px;
            }
+
+           @media screen and (max-width: ${mediaBreakPointsQueriesMax.lg}) {
            
-           @media screen and (max-width: 1300px) {
                 .carousel-offers-slider-container {
                   margin: 0 60px;
                 }
-                .carousel-offers-slider-container .slick-slide {
-                    padding: 0;
-                }
+             
                 .carousel-offers-slider-container {
                     margin: 0 27px;
                 }
+                
            }
-          
+           
+           @media screen and (max-width: ${mediaBreakPointsQueriesMax.md}) {
+           
+                .carousel-offers-slider-container .slick-slide {
+                    padding: 0;
+                }
+                
+           }
+           
+                
         `}
       </style>
     </div>

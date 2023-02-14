@@ -29,22 +29,22 @@ export default function PrefetchLink({ children, pathname, api, width, external 
 
   return (
     <div
-      className={pathname === router.asPath ? 'link active-link' : 'link'}
+      className={pathname === router.asPath ? 'link-prefetch active-link' : 'link-prefetch'}
     >
       <Link href={url} as={pathname} prefetch={false}>
         <a>{children}</a>
       </Link>
       <style global jsx>{`
-        a {
+        .link-prefetch a {
           color: inherit;
           text-decoration: none;
         }
-        .link {
+        .link-prefetch {
           display: inherit;
           height: 100%;
           width: ${width || 'initial'};
         }
-        .active-link a {
+        .link-prefetch.active-link a {
           font-weight: 500;
         }
       `}</style>

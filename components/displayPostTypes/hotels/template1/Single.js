@@ -45,7 +45,7 @@ const Single = ({ item, css, orderReverse }) => {
                     <div className={'btn-text d-flex justify-content-between align-items-center'}>
 
                         {
-                            min_price && <Text2 titleStyle={`${css.description.class} ${css.title.color} font-500`} text={`From €${min_price} Per 1 night`} tag={css.description.element}/>
+                            min_price && <Text2 titleStyle={`${css.description.class} ${css.title.color} font-500 me-3`} text={`From €${min_price} Per 1 night`} tag={css.description.element}/>
                         }
 
                         <div className={`f-r ${ !min_price && !orderReverse ?  '' : 'text-right'} `}>

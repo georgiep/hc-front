@@ -10,12 +10,14 @@ const components = {
 
 const Template1 = ({ data }) => {
 
-    const { items, modal, css } = data
+    let { items, modal, css } = data
 
     const [open,setOpen] = useState(false)
 
-    const openAction = () => {
+    const openAction = (e) => {
         setOpen(true)
+        data.heading = e?.detail?.heading
+        data.subheading = e?.detail?.subheading
         document.documentElement.style.overflow = 'hidden'
     }
 
@@ -37,7 +39,7 @@ const Template1 = ({ data }) => {
     return (
         open &&
         <>
-             <div className={'fullscreen-modal position-fixed'}>
+            <div className={'fullscreen-modal position-fixed'}>
 
                  <div className={'fullscreen-modal--close cursor-pointer position-fixed'} onClick={closeAction}>
                      close
@@ -49,8 +51,7 @@ const Template1 = ({ data }) => {
 
                  <Component data={data}/>
 
-
-             </div>
+            </div>
             <style jsx>
                 {`
                     .fullscreen-modal{

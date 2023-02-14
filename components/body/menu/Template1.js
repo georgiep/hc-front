@@ -29,11 +29,9 @@ const Template1 = ({data}) => {
         }
     }
 
-
     useEffect(() => {
         setShow(false)
     },[router.asPath])
-
 
     return (
         <div className={`secondary-menu--v1`} ref={elRef}>
@@ -55,7 +53,7 @@ const Template1 = ({data}) => {
                 {
                     `
                        .white-links a{
-                          color: #ffffff;
+                          color: #ffffff !important;
                        }
                        
                        .fixed-element-subMenu a{

@@ -17,32 +17,20 @@ const settingsSlider = {
     prevArrow: <PrevArrow color={'black'}/>,
     slidesToShow: 3,
     responsive: [
-        // {
-        //     breakpoint: 1024,
-        //     settings: {
-        //         slidesToShow: 3,
-        //         slidesToScroll: 1,
-        //         infinite: false,
-        //         dots: true
-        //     }
-        // },
         {
-            breakpoint: 600,
+            breakpoint: 1024,
             settings: {
-                slidesToShow: 1,
+                slidesToShow: 2,
                 slidesToScroll: 1,
-                initialSlide: 1,
-                className: 'slider variable-width',
-                // variableWidth: false,
             }
         },
         {
-            breakpoint: 480,
+            breakpoint: 767,
             settings: {
                 slidesToShow: 1,
                 slidesToScroll: 1,
                 initialSlide: 1,
-                className: 'slider variable-width',
+                className: 'slider variable-width'
             }
         }
     ]

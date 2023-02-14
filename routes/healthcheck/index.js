@@ -1,12 +1,12 @@
 const Express = require("express")
 const server = Express.Router()
 
-server.get('/health-check', (req, res) => {
+server.get('', (req, res) => {
 
     return res.json({check: "ok"})
 });
 
-server.post('/health-check', (req, res) => {
+server.post('', (req, res) => {
 
     return res.json({check: "ok"})
 });

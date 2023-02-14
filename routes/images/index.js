@@ -14,7 +14,7 @@ server.get('', async (req, res) => {
     const stream = sharp(imageBuffer)
 
     const transform = sharp().resize(parseInt(widthString)).toFormat(format, {
-        quality: 85
+        quality: 100
     });
 
 

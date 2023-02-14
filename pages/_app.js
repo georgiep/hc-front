@@ -64,7 +64,10 @@ function loadCtas(){
     getCTAs.forEach(item=>{
         item.addEventListener('click',publish,true)
         item.eventName = item.dataset.cta;
-        item.data = 'data';
+        item.data = {
+            heading: item.dataset.ctaheading,
+            subheading: item.dataset.ctasubheading
+        };
     })
 }
 export default MyApp

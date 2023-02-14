@@ -14,7 +14,6 @@ const breakpointColumnsObj = {
 const Template1 = ({ data }) => {
     let { items, css, link } = data;
 
-    console.log(link)
     return (
         <div className="items-container-outer d-flex justify-content-center flex-column">
 
@@ -34,19 +33,6 @@ const Template1 = ({ data }) => {
                         );
                     })}
             </Masonry>
-            {/*<div className="post-container" style={{"height":`${items.length * 262}px`}}>*/}
-            {/*    {items &&*/}
-            {/*        items.map((item, index) => {*/}
-            {/*            return (*/}
-            {/*                <div key={index} className="post-item">*/}
-            {/*                    <Single*/}
-            {/*                        item={item}*/}
-            {/*                        css={css}*/}
-            {/*                    />*/}
-            {/*                </div>*/}
-            {/*            );*/}
-            {/*        })}*/}
-            {/*</div>*/}
 
             {
                 link && <div className={'d-block'}>

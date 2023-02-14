@@ -11,7 +11,7 @@ const handle = app.getRequestHandler();
 const getData = require('./api/getData')
 const mail = require('./routes/mail')
 const healthcheck = require('./routes/healthcheck')
-const images = require('./routes/images')
+// const images = require('./routes/images')
 
 app.prepare().then((req, res) => {
 
@@ -35,16 +35,16 @@ app.prepare().then((req, res) => {
         return res.sendFile(filePath);
     });
 
-    server.use('',mail)
+    server.use('/send-email',mail)
 
-    server.use('',healthcheck)
+    server.use('/health-check',healthcheck)
 
-    server.use('/images',images)
+    // server.use('/images',images)
 
-    server.get('/refresh-data', (req, res) => {
-        getData(['en'])
-        return   res.json({ user: 'done' });
-    });
+    // server.get('/refresh-data', (req, res) => {
+    //     getData(['en'])
+    //     return   res.json({ user: 'done' });
+    // });
 
     server.all('*', (req, res) => {
         if(req.nextObj.pathLength){

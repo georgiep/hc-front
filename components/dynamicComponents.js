@@ -55,7 +55,7 @@ export const bodyListDynamic = {
         Template2: dynamic(() => import('components/displayPostTypes/special-offers/template2/Template2'))
     },
     ShowHotels: {
-        Template1: dynamic(() => import('components/displayPostTypes/hotels/template1/Template1')),
+        Template1: dynamic(() => import('components/displayPostTypes/hotels/template1/Template1'),{ssr:false}),
     },
     Destinations: {
         Template1: dynamic(() => import('components/displayPostTypes/destinations/template1/Template1'))
@@ -85,12 +85,12 @@ export const bodyListDynamic = {
         Breadcrumbs: dynamic(() => import('components/general/breadcrumbs/Template1')),
     },
     Carousel: {
-        Template1: dynamic(() => import('components/carousels/template1/Template1')),
-        Template2: dynamic(() => import('components/carousels/template2/Template2')),
-        Template3: dynamic(() => import('components/carousels/template3/Template3')),
-        Multi: dynamic(() => import('components/carousels/MultiCarousel/Template1')),
-        LatestPost: dynamic(() => import('components/carousels/latestPosts/Template1')),
-        SpecialOffers: dynamic(() => import('components/displayPostTypes/special-offers/carousel/template1/Template1'))
+        Template1: dynamic(() => import('components/carousels/template1/Template1'),{ssr:false}),
+        Template2: dynamic(() => import('components/carousels/template2/Template2'),{ssr:false}),
+        Template3: dynamic(() => import('components/carousels/template3/Template3'),{ssr:false}),
+        Multi: dynamic(() => import('components/carousels/MultiCarousel/Template1'),{ssr:false}),
+        LatestPost: dynamic(() => import('components/carousels/latestPosts/Template1'),{ssr:false}),
+        SpecialOffers: dynamic(() => import('components/displayPostTypes/special-offers/carousel/template1/Template1'),{ssr:false})
     },
     Tabs: {
         Template1: dynamic(() => import('components/body/tabs/template1/Template1')),
@@ -107,7 +107,7 @@ export const bodyListDynamic = {
         Template5: dynamic(() => import('components/displayPostTypes/template5/Template5')),
         Template6: dynamic(() => import('components/displayPostTypes/template6/Template6')),
         Template7: dynamic(() => import('components/displayPostTypes/template7/Template7')),
-        Template8: dynamic(() => import('components/displayPostTypes/template8/Template8')),
+        Template8: dynamic(() => import('components/displayPostTypes/template8/Template8'),{ssr:false}),
     },
     Reviews:{
         Bars: dynamic(() => import('components/reviews/reviewBars/ReviewBars')),
@@ -124,10 +124,10 @@ export const bodyListDynamic = {
         HeroSliderWithBookingForm: dynamic(() => import('components/body/hero/HeroSliderWithBookingForm'))
     },
     Maps:{
-        MapWithMultipleMarkers: dynamic(() => import('components/maps/MapWithMultipleMarkers')),
-        MultipleMarkersWithImage: dynamic(() => import('components/maps/MultipleMarkersWithImage')),
-        MapWithMultipleMarkersArray: dynamic(() => import('components/maps/MapWithMultipleMarkersArray')),
-        SimpleMap: dynamic(() => import('components/maps/SimpleMap')),
+        MapWithMultipleMarkers: dynamic(() => import('components/maps/MapWithMultipleMarkers'),{ssr:false}),
+        MultipleMarkersWithImage: dynamic(() => import('components/maps/MultipleMarkersWithImage'),{ssr:false}),
+        MapWithMultipleMarkersArray: dynamic(() => import('components/maps/MapWithMultipleMarkersArray'),{ssr:false}),
+        SimpleMap: dynamic(() => import('components/maps/SimpleMap'),{ssr:false}),
     },
     Forms: {
         Template1: dynamic(() => import('components/body/forms/template1'))
@@ -142,7 +142,7 @@ export const bodyListDynamic = {
         Template1: dynamic(() => import('components/body/modals/template1/Template1'))
     },
     Instagram: {
-        Template1: dynamic(() => import('components/body/instagram/template1/Template1'))
+        Template1: dynamic(() => import('components/body/instagram/template1/Template1'),{ssr:false})
     }
 }
 

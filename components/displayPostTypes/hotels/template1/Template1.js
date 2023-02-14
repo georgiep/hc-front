@@ -119,7 +119,7 @@ const Template1 = ({ data }) => {
                             })}
                     </div>
                     {
-                        maxItems < stateItems.length && <button className={'button-secondary f-r text-uppercase'} onClick={() => setMaxItems(maxItems + 4)}>Show More</button>
+                        maxItems < stateItems.length && <button className={'button-secondary f-r text-uppercase position-relative show-more-button'} onClick={() => setMaxItems(maxItems + 4)}>Show More</button>
                     }
                 </div>
             </div>
@@ -127,7 +127,9 @@ const Template1 = ({ data }) => {
 
             <style jsx>
                 {`
-                  
+                    .show-more-button{
+                      top: -80px;
+                    }
                    .flex-item-right{
                        margin-left: auto;
                    }
@@ -174,9 +176,9 @@ const Template1 = ({ data }) => {
                         padding: 40px 0;
                       }
                       
-                      .gutters > [class*="col-"]:nth-last-child(1) {
-                         padding: 40px 0 0 0;
-                       }
+                      //.gutters > [class*="col-"]:nth-last-child(1) {
+                      //   padding: 40px 0 0 0;
+                      // }
                       
                        .gutters > [class*="col-"]:nth-last-child(1) > .single-post-layout{
                          padding-bottom: 0;

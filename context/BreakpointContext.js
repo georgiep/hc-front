@@ -1,7 +1,9 @@
-import { createContext, useState, useEffect, useMemo } from "react";
+import { createContext, useState, useEffect, useMemo, useContext } from "react";
 import { window } from "browser-monads";
 
 const BreakpointContext = createContext({});
+
+const useBreakpointContext = () => useContext(BreakpointContext)
 
 const BreakpointProvider = ({ children, queries }) => {
   const breakpointQueries = useMemo(() => {
@@ -50,4 +52,4 @@ const BreakpointProvider = ({ children, queries }) => {
 };
 
 export default BreakpointContext;
-export { BreakpointProvider };
+export { BreakpointProvider,useBreakpointContext };
