@@ -1,11 +1,15 @@
 import { createContext, useState, useEffect, useMemo, useContext } from "react";
-import { window } from "browser-monads";
 
 const BreakpointContext = createContext({});
 
 const useBreakpointContext = () => useContext(BreakpointContext)
 
 const BreakpointProvider = ({ children, queries }) => {
+
+  if (typeof window === 'undefined') {
+      return children
+  }
+
   const breakpointQueries = useMemo(() => {
     const qs = {}
     Object.keys(queries).forEach(key=>{

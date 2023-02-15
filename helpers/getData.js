@@ -1,4 +1,4 @@
-import { getObjectFromDatabase } from '../helpers/idb'
+// import { getObjectFromDatabase } from '../helpers/idb'
 // import fetcher from '../helpers/fetcher'
 
 
@@ -37,27 +37,27 @@ const getRemoteInitialData = async ({lang,pathName,referrer}) => {
 
 const getIdbData = async ({lang,pathName,api,referrer}) => {
 
-    const idb = await import('idb')
-    const db = await idb.openDB('website', 1);
-
-    const headerData = await getObjectFromDatabase(db,'data','header')
-    const footerData = await getObjectFromDatabase(db,'data','footer')
-    const Data = await getObjectFromDatabase(db,'data',api)
-    const schemaData = await getObjectFromDatabase(db,'data','schema')
-
-    // console.log(api)
-    // console.log(makeComponents(schemaData,'pages',api))
-    // console.log(Data)
-    return {
-        header: headerData,
-        footer: footerData,
-        page: Data,
-        schema: schemaData,
-        page_components: makeComponents(schemaData,'pages',api),
-        page_wrappers: [],
-        header_components: [schemaData.header],
-        footer_components: [schemaData.footer]
-    }
+    // const idb = await import('idb')
+    // const db = await idb.openDB('website', 1);
+    //
+    // const headerData = await getObjectFromDatabase(db,'data','header')
+    // const footerData = await getObjectFromDatabase(db,'data','footer')
+    // const Data = await getObjectFromDatabase(db,'data',api)
+    // const schemaData = await getObjectFromDatabase(db,'data','schema')
+    //
+    // // console.log(api)
+    // // console.log(makeComponents(schemaData,'pages',api))
+    // // console.log(Data)
+    // return {
+    //     header: headerData,
+    //     footer: footerData,
+    //     page: Data,
+    //     schema: schemaData,
+    //     page_components: makeComponents(schemaData,'pages',api),
+    //     page_wrappers: [],
+    //     header_components: [schemaData.header],
+    //     footer_components: [schemaData.footer]
+    // }
 
 }
 

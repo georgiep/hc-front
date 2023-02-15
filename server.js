@@ -2,13 +2,13 @@ require("dotenv").config();
 const express = require("express");
 const next = require("next");
 const { join } = require('path')
-const compression = require("compression");
+// const compression = require("compression");
 const bodyParser = require("body-parser");
 const middlewares = require("./middlewares");
 const port = process.env.PORT;
 const app = next({ dev: process.env.NODE_ENV === "development" });
 const handle = app.getRequestHandler();
-const getData = require('./api/getData')
+// const getData = require('./api/getData')
 const mail = require('./routes/mail')
 const healthcheck = require('./routes/healthcheck')
 // const images = require('./routes/images')
@@ -17,7 +17,7 @@ app.prepare().then((req, res) => {
 
     const server = express();
     
-    server.use(compression());
+    // server.use(compression());
 
     server.use(bodyParser.json({limit: "50mb"}));
     server.use(bodyParser.urlencoded({limit: "50mb", extended: true}));
