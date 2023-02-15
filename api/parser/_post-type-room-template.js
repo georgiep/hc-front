@@ -76,7 +76,12 @@ const hotelParser = (data,rooms,id,fullSlug,label) => {
     }
 
     _hotelParseObj._HeroSliderWithBookingForm_Hero_oder_0_row_0_col_0 = {
-        "items": data.slider_gallery ? data.slider_gallery.map(item => item.url.toString().replace('https://greece-hotel.info/admins/aquavistahotels/wp-content/uploads','https://code.rateparity.com/aquavistahotels.com')) : [],
+        "items": data.slider_gallery.map(item => {
+            return{
+                "src":item.url.toString().replace('https://greece-hotel.info/admins/aquavistahotels/wp-content/uploads','https://code.rateparity.com/aquavistahotels.com'),
+                "alt": 'alt hotel image'
+            }
+        }),
         "heading": data.intro_text
     }
 
@@ -89,9 +94,14 @@ const hotelParser = (data,rooms,id,fullSlug,label) => {
         text: data.description
     }
 
-
     _hotelParseObj._Gallery_Template2_order_3_row_0_col_0 = {
-        items: data.gallery ? data.gallery.map(item => item.toString().replace('https://greece-hotel.info/admins/aquavistahotels/wp-content/uploads','https://code.rateparity.com/aquavistahotels.com')) : [],
+        items: data.gallery ? data.gallery.map(item => {
+
+            return {
+                src: item.toString().replace('https://greece-hotel.info/admins/aquavistahotels/wp-content/uploads','https://code.rateparity.com/aquavistahotels.com'),
+                alt: 'alt images'
+            }
+        }) : [],
     }
 
     _hotelParseObj._amenities = {
@@ -102,7 +112,12 @@ const hotelParser = (data,rooms,id,fullSlug,label) => {
         items: rooms.reduce( (arr,item) => {
             if(item.id !== id){
 
-                item.acf.image = item.acf.image.toString().replace('https://greece-hotel.info/admins/aquavistahotels/wp-content/uploads','https://code.rateparity.com/aquavistahotels.com')
+                // item.acf.image = {
+                //     src: item.acf.image.toString().replace('https://greece-hotel.info/admins/aquavistahotels/wp-content/uploads','https://code.rateparity.com/aquavistahotels.com'),
+                //     alt: 'image alt'
+                // }
+                //
+
 
                 arr.push({...item.acf,link: {
                        "pathname": `/${fullSlug}${item.slug}`,
@@ -157,8 +172,6 @@ const hotelParser = (data,rooms,id,fullSlug,label) => {
 }
 
 const hotelData = (parsed) => {
-
-    console.log(parsed.menu)
 
     return {
         "idbName": `/${parsed.slug}`,

@@ -14,7 +14,8 @@ const Slide = ({ item, css }) => {
 
                 <div className="image w-100 ratio ratio-4x3 position-relative overflow-hidden">
                     <ImageLoader
-                        src={image}
+                        src={image.src}
+                        alt={image.alt}
                         // width={'100%'}
                         // height={'100%'}
                         layout='fill'

@@ -4,7 +4,7 @@ const Image = ({data}) => {
 
     return(
         <div className={'overflow-hidden position-relative'} style={{maxWidth: css.maxWidth, height: height, width: width , margin: center ? '0 auto' : ''}} >
-            <ImageLoader src={image} layout={layout} {...props}/>
+            <ImageLoader src={image.src} alt={image.alt} layout={layout} {...props}/>
             <style jsx>{`
                div{
                  margin: ${css.margin};

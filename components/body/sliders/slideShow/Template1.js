@@ -10,8 +10,8 @@ const Template1 = ({data,action}) => {
 
     const images = items.map(item=>{
         return {
-            original: item,
-            thumbnail: item
+            original: item.src,
+            thumbnail: item.src
         }
     })
 

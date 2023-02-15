@@ -22,7 +22,8 @@ const Template1 = ({ data }) => {
 
                                 {image && (
                                     <ImageLoader
-                                        src={image}
+                                        src={image.src}
+                                        alt={image.alt}
                                         layout="fill"
                                         objectFit="cover"
                                         objectPosition="center"

@@ -30,8 +30,9 @@ let linkPost = {
 
 const hotelParser = (data,posts,id,folder,label) => {
 
+    console.log(data)
     _hotelParseObj._Commons_Image_oder_0_row_0_col_0 = {
-        image: data.image && data.image.toString().replace('https://greece-hotel.info/admins/aquavistahotels/wp-content/uploads','https://code.rateparity.com/aquavistahotels.com'),
+        image: data.image,
         layout: 'fill',
         objectFit: 'cover',
         objectPosition: 'center',
@@ -55,6 +56,7 @@ const hotelParser = (data,posts,id,folder,label) => {
         if(item.id === id){
             _hotelParseObj.slug = item.slug
         }
+
         items.push({...item.acf,link:{
                 "pathname": `/${folder}/${item.slug}`,
                 "api": "/pages/room/room1",
@@ -62,11 +64,9 @@ const hotelParser = (data,posts,id,folder,label) => {
             },description: item.acf.excerpt})
     })
 
-
     _hotelParseObj._DisplayPostTypes_Template8_order_1_row_2_col_0 = {
         "items":  items
     }
-
 
     _hotelParseObj.SEO = {
         "title": data.seo_title,

@@ -1,11 +1,9 @@
 import React from 'react'
-// import Slider from 'react-slick'
 import ImageLoader from 'components/commons/image/ImageLoader'
 import {SliderArrowRight} from 'components/svgs/SliderArrowRight'
 import {SliderArrowLeft} from 'components/svgs/SliderArrowLeft'
 import Text2 from 'components/commons/Text2/Text2'
 import Button2 from 'components/commons/buttons/Button2'
-import { useRouter } from 'next/router'
 import dynamic from "next/dynamic";
 
 const Slider = dynamic(() => import('react-slick'))
@@ -24,10 +22,7 @@ const settingsSlider = {
 
 const Template1 = ({ data }) => {
 
-    // const router = useRouter()
-
     let { items, heading, subHeading, button, css } = data
-
     const settings = {...settingsSlider,infinite: items.length > 1, autoplay: items.length > 1}
 
     return (
@@ -35,7 +30,8 @@ const Template1 = ({ data }) => {
 
             <div className={'hidden'}>
                 <ImageLoader
-                    src={items[0]}
+                    src={items[0].src}
+                    alt={items[0].alt}
                     layout="fill"
                     objectFit="cover"
                     objectPosition="center"
@@ -93,7 +89,8 @@ const Template1 = ({ data }) => {
 
                                         {image &&
                                             <ImageLoader
-                                                src={image}
+                                                src={image.src}
+                                                alt={image.alt}
                                                 layout="fill"
                                                 objectFit="cover"
                                                 objectPosition="center"

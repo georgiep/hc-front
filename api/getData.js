@@ -63,6 +63,30 @@ async function getData(langs){
             const Pages = pages.concat(pages2)
             const Rooms = rooms.concat(rooms2)
 
+            blog.map(item => {
+                 item.acf.image = {
+                     src: item.acf.image.toString().replace('https://greece-hotel.info/admins/aquavistahotels/wp-content/uploads','https://code.rateparity.com/aquavistahotels.com'),
+                     alt: 'alt image blog'
+                 }
+                 return item
+            })
+
+            sightseeings.map(item => {
+                item.acf.image = {
+                    src: item.acf.image.toString().replace('https://greece-hotel.info/admins/aquavistahotels/wp-content/uploads','https://code.rateparity.com/aquavistahotels.com'),
+                    alt: 'alt image sightseeings'
+                }
+                return item
+            })
+
+            exhibitions.map(item => {
+                item.acf.image = {
+                    src: item.acf.image.toString().replace('https://greece-hotel.info/admins/aquavistahotels/wp-content/uploads','https://code.rateparity.com/aquavistahotels.com'),
+                    alt: 'alt image sightseeings'
+                }
+                return item
+            })
+
             hotels.map(item => {
                 if(!item.acf || !item.acf.occupancy){
                     return
@@ -156,7 +180,8 @@ async function getData(langs){
                             return hotel.hotelstax[0] === taxHotel.term_id
                         })
 
-                        item.acf.select_rooms = moreRooms
+                        let newMoreRooms = moreRooms
+                        item.acf.select_rooms = newMoreRooms
                         item.acf.select_offers = moreOffers
                         item.acf.single_select_hotel = hotel
 
@@ -180,7 +205,8 @@ async function getData(langs){
                     case 'templates/page_type_room.php':
 
                         item.acf.select_offers = moreOffers
-                        item.acf.select_rooms = moreRooms
+                        let newMoreRooms1 = moreRooms
+                        item.acf.select_rooms = newMoreRooms1
                         _singleHotelRoomTemplate(item.acf,item.link,item.title.rendered.toLowerCase())
                         break;
                     case 'templates/page_type_location.php':
@@ -226,7 +252,7 @@ async function getData(langs){
                 })
 
                 const moreRooms = Rooms.filter(function (room){
-                 
+
                     return room.hotelstax[0] === taxHotel.term_id && item.id !== room.id
                 })
 

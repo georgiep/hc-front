@@ -89,13 +89,25 @@ const homepageParser = (data) =>{
 
 
     homepageParseObj._Hero_HeroSliderWithBookingForm_order_0_row_0_col_0 = {
-        "items": data.slider_gallery.map(item => item.url),
+        "items": data.slider_gallery.map(item => {
+            return{
+                "src":item.url.toString().replace('https://greece-hotel.info/admins/aquavistahotels/wp-content/uploads','https://code.rateparity.com/aquavistahotels.com'),
+                "alt": 'alt hotel image'
+            }
+        }),
         "heading": data.intro_text
     }
+
 
     homepageParseObj._DisplayPostTypes_Template8_order_1_row_2_col_0 = {
         "items": data.select_exchibition_posts.map(item => {
             // console.log(`/blog/${item.select_blog_post.post_name}`)
+
+            item.select_exchibition_post.acf.image = {
+                src: item.select_exchibition_post.acf.image,
+                alt: 'alt images'
+            }
+
             return {
                 link: {...linkPost,pathname: `/exhibitions/${item.select_exchibition_post.post_name}`},...item.select_exchibition_post.acf,description: item.select_exchibition_post.acf.excerpt
             }

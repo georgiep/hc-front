@@ -12,7 +12,8 @@ const Slide = ({ item, css }) => {
             <div className="slide">
                 <div className="image position-relative">
                     <ImageLoader
-                        src={image}
+                        src={image.src}
+                        alt={image.alt}
                         // width={'100%'}
                         // height={'100%'}
                         layout='fill'

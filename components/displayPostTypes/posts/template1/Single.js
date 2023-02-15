@@ -13,7 +13,8 @@ const Single = ({ item, css, number, position }) => {
                     <div className={'w-100 ratio ratio-1x1 position-relative overflow-hidden'}>
                         {image && (
                             <ImageLoader
-                                src={image}
+                                src={image.src}
+                                alt={image.alt}
                                 type={'absolute'}
                                 layout="fill"
                                 objectFit="cover"

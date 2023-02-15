@@ -37,13 +37,21 @@ let linkPost = {
 const destinationParser = (data) =>{
 
     destinationParseObj._HeroSliderWithBookingForm_order_0_row_0_col_0 = {
-        "items": data.slider_gallery.map(item => item.url.toString().replace('https://greece-hotel.info/admins/aquavistahotels/wp-content/uploads','https://code.rateparity.com/aquavistahotels.com')),
+        "items": data.slider_gallery.map(item => {
+            return{
+                "src":item.url.toString().replace('https://greece-hotel.info/admins/aquavistahotels/wp-content/uploads','https://code.rateparity.com/aquavistahotels.com'),
+                "alt": 'alt hotel image'
+            }
+        }),
         "heading": data.intro_text
     }
 
     destinationParseObj._Maps_MultipleMarkersWithImage_order_1_row_0_col_0 = {
         items: data.select_destination.reduce((acc,item) => {
-            item.destination.acf.image = item.destination.acf.image.toString().replace('https://greece-hotel.info/admins/aquavistahotels/wp-content/uploads','https://code.rateparity.com/aquavistahotels.com')
+             item.destination.acf.image = {
+                src: item.destination.acf.image.toString().replace('https://greece-hotel.info/admins/aquavistahotels/wp-content/uploads','https://code.rateparity.com/aquavistahotels.com'),
+                alt: 'alt image'
+            }
             acc.push({
                 ...item.destination.acf,
                 link: {
@@ -53,7 +61,10 @@ const destinationParser = (data) =>{
                 },
                 items: item.hotels.map(hotel => {
 
-                    hotel[0].acf.image = hotel[0].acf.image.toString().replace('https://greece-hotel.info/admins/aquavistahotels/wp-content/uploads','https://code.rateparity.com/aquavistahotels.com')
+                     hotel[0].acf.image = {
+                        src: hotel[0].acf.image.toString().replace('https://greece-hotel.info/admins/aquavistahotels/wp-content/uploads','https://code.rateparity.com/aquavistahotels.com'),
+                        alt: 'alt image'
+                    }
 
                     return { link:{
                             "pathname": `/hotels-in-${item.destination.post_name}/${hotel[0].slug}`,

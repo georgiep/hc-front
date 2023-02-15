@@ -17,7 +17,8 @@ const HeroImageWithBookingForm = ({data}) => {
 
                 {items.length && (
                     <ImageLoader
-                        src={items[0]}
+                        src={items[0].src}
+                        alt={items[0].alt}
                         layout="fill"
                         objectFit="cover"
                         objectPosition="center"

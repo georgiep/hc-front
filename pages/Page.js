@@ -55,9 +55,10 @@ function Page(props) {
 }
 
 export async function getServerSideProps({ query }) {
-
+    console.log('------------')
+    console.log('getRemoteInitialData')
     const API = await getRemoteInitialData(query)
-
+    console.log('received RemoteInitialData')
     return {
         props: {
             ...API,

@@ -59,14 +59,22 @@ const hotelParser = (data,link,label) => {
     }
 
     _hotelParseObj._HeroSliderWithBookingForm_Hero_oder_0_row_0_col_0 = {
-        "items": data.slider_gallery ? data.slider_gallery.map(item => item.url.toString().replace('https://greece-hotel.info/admins/aquavistahotels/wp-content/uploads','https://code.rateparity.com/aquavistahotels.com')) : [],
+        "items": data.slider_gallery.map(item => {
+            return{
+                "src":item.url.toString().replace('https://greece-hotel.info/admins/aquavistahotels/wp-content/uploads','https://code.rateparity.com/aquavistahotels.com'),
+                "alt": 'alt hotel image'
+            }
+        }),
         "heading": data.intro_text
     }
 
     _hotelParseObj._Carousel_Template3_order_2_row_0_col_0 = {
         "items": data.select_rooms.map(item => {
             // console.log(item)
-            item.acf.image = item.acf.image.toString().replace('https://greece-hotel.info/admins/aquavistahotels/wp-content/uploads','https://code.rateparity.com/aquavistahotels.com')
+            // item.acf.image = {
+            //     src: item.acf.image.toString().replace('https://greece-hotel.info/admins/aquavistahotels/wp-content/uploads','https://code.rateparity.com/aquavistahotels.com'),
+            //     alt: 'alt image'
+            // }
 
             return {
                 link:{
@@ -82,8 +90,10 @@ const hotelParser = (data,link,label) => {
     }
     _hotelParseObj._Carousel_Template3_order_3_row_0_col_0 = {
         "items": data.select_offers.map(item => {
-            item.acf.image = item.acf.image.toString().replace('https://greece-hotel.info/admins/aquavistahotels/wp-content/uploads','https://code.rateparity.com/aquavistahotels.com')
-
+            //  item.acf.image = {
+            //     src: item.acf.image.toString().replace('https://greece-hotel.info/admins/aquavistahotels/wp-content/uploads','https://code.rateparity.com/aquavistahotels.com'),
+            //     alt: 'alt image'
+            // }
             return {
                 link: {
                     "pathname": `/special-offers`,

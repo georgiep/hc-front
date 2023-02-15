@@ -18,7 +18,8 @@ const Slide = ({ item, css, key, gap }) => {
 
                           {image && (
                               <ImageLoader
-                                  src={image}
+                                  src={image.src}
+                                  alt={image.alt}
                                   layout="fill"
                                   objectFit="cover"
                                   objectPosition="center"

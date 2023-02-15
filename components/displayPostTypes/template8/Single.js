@@ -17,7 +17,8 @@ const Single = ({ item, css, number, position }) => {
 
                         {image && (
                             <ImageLoader
-                                src={image}
+                                src={image.src}
+                                alt={image.alt}
                                 layout="fill"
                                 objectFit="cover"
                                 objectPosition="center"

@@ -8,6 +8,9 @@ const getRemoteInitialData = async ({lang,pathName,referrer}) => {
     // console.log(pathName)
     // console.log(PrefixPathName(pathName))
 
+    console.log('start fetching data')
+    console.log(`http://127.0.0.1:5555/public/hotels/${ref}/data/pages/${PrefixPathName(pathName)}.json`)
+
     let [pageData, headerData,footerData,occupancy] = await Promise.all([
         fetch(`http://127.0.0.1:5555/public/hotels/${ref}/data/pages/${PrefixPathName(pathName)}.json`),
         fetch(`http://127.0.0.1:5555/public/hotels/${ref}/data/header/header.json`),
@@ -21,7 +24,13 @@ const getRemoteInitialData = async ({lang,pathName,referrer}) => {
         return [a, b, c, d]
     })
 
+    console.log('start fetching schema')
+    console.log(`http://127.0.0.1:5555/public/hotels/${ref}/data/schema/${pageData.schema}.json`)
+
     let schemaData = await fetch(`http://127.0.0.1:5555/public/hotels/${ref}/data/schema/${pageData.schema}.json`).then((res)=> res.json())
+
+    console.log('end fetching')
+
 
     return {
         header: headerData,

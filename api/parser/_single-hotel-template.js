@@ -62,7 +62,12 @@ const hotelParser = (data,link,label) => {
     }
 
     _hotelParseObj._HeroSliderWithBookingForm_Hero_oder_0_row_0_col_0 = {
-        "items": data.slider_gallery ? data.slider_gallery.map(item => item.url.toString().replace('https://greece-hotel.info/admins/aquavistahotels/wp-content/uploads','https://code.rateparity.com/aquavistahotels.com')) : [],
+        "items": data.slider_gallery.map(item => {
+            return{
+                "src":item.url.toString().replace('https://greece-hotel.info/admins/aquavistahotels/wp-content/uploads','https://code.rateparity.com/aquavistahotels.com'),
+                "alt": 'alt hotel image'
+            }
+        }),
         "heading": data.intro_text,
         "showGallery": true
     }
@@ -70,7 +75,10 @@ const hotelParser = (data,link,label) => {
     _hotelParseObj._Carousel_Template3_order_2_row_0_col_0 = {
         "items": data.select_rooms.map(item => {
 
-            item.acf.image = item.acf.image.toString().replace('https://greece-hotel.info/admins/aquavistahotels/wp-content/uploads','https://code.rateparity.com/aquavistahotels.com')
+            item.acf.image = {
+                src: item.acf.image.toString().replace('https://greece-hotel.info/admins/aquavistahotels/wp-content/uploads','https://code.rateparity.com/aquavistahotels.com'),
+                alt: "alt image"
+            }
 
             item.acf.amenities_with_icons = item.acf.amenities_with_icons.map(item=> {
                 item.icon = item.icon.toString().replace('https://greece-hotel.info/admins/aquavistahotels/wp-content/uploads','https://code.rateparity.com/aquavistahotels.com')
@@ -95,7 +103,12 @@ const hotelParser = (data,link,label) => {
     }
     _hotelParseObj._Carousel_Template3_order_3_row_0_col_0 = {
         "items": data.select_offers.map(item => {
-            item.acf.image = item.acf.image.toString().replace('https://greece-hotel.info/admins/aquavistahotels/wp-content/uploads','https://code.rateparity.com/aquavistahotels.com')
+
+            item.acf.image = {
+                src: item.acf.image.toString().replace('https://greece-hotel.info/admins/aquavistahotels/wp-content/uploads','https://code.rateparity.com/aquavistahotels.com'),
+                alt: "alt image"
+            }
+
             return {
                 link: {
                     pathname: item.acf.book_now,
@@ -127,7 +140,12 @@ const hotelParser = (data,link,label) => {
 
     _hotelParseObj._DisplayPostTypes_Template8_order_5_row_0_col_0 = {
         "items": data.select_more_hotels ? data.select_more_hotels.map(item => {
-            item.acf.image = item.acf.image.toString().replace('https://greece-hotel.info/admins/aquavistahotels/wp-content/uploads','https://code.rateparity.com/aquavistahotels.com')
+            // item.acf.image = item.acf.image.toString().replace('https://greece-hotel.info/admins/aquavistahotels/wp-content/uploads','https://code.rateparity.com/aquavistahotels.com')
+            console.log(item.acf)
+            // item.acf.image = {
+            //     src: item.acf.image.toString().replace('https://greece-hotel.info/admins/aquavistahotels/wp-content/uploads','https://code.rateparity.com/aquavistahotels.com'),
+            //     alt: "alt image"
+            // }
             return {
                 ...item.acf,
                 link: {
@@ -144,7 +162,7 @@ const hotelParser = (data,link,label) => {
         }
     }
 
-    _hotelParseObj.bgImage =  `url(${data.single_select_hotel.acf.image})`
+    _hotelParseObj.bgImage =  `url(${data.single_select_hotel.acf.image.src})`
 
     _hotelParseObj.SEO = {
         "title": data.seo_title,
@@ -177,7 +195,7 @@ const hotelParser = (data,link,label) => {
 
 const hotelData = (parsed) => {
 
-
+    console.log(parsed)
 
     return {
         "idbName": "/pages/dreams-luxury-suites",

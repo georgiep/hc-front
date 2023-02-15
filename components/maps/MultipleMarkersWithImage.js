@@ -1,6 +1,6 @@
 import dynamic from "next/dynamic";
 import Template1 from 'components/displayPostTypes/destinations/template1/Template1'
-import {useEffect, useState} from "react";
+import {useState} from "react";
 import {mediaBreakPoints} from 'public/globalCss/mediaBreakPoints'
 
 const MapWithMultipleMarkers = dynamic(() => import("./MapWithMultipleMarkers"))
@@ -11,20 +11,6 @@ const MultipleMarkersWithImage = ({data}) => {
     const action = () =>{
         setOpen(!open)
     }
-
-    useEffect(()=>{
-        const queryString = window.location.search;
-        const urlParams = new URLSearchParams(queryString);
-        if(queryString === `?map=${items[0].link.pathname.split('/')[1]}`){
-            action()
-            setTimeout( ()=>{
-                location.href = "#";
-                location.href = `#${items[0].link.pathname.split('/')[1]}`;
-            },500)
-        }
-
-    },[])
-
 
     return(
         <div>
