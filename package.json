@@ -21,9 +21,7 @@
     "url": "git+https://marinetgr@bitbucket.org/marinetgr/hoteliercms.git"
   },
   "dependencies": {
-    "@next/bundle-analyzer": "^10.2.0",
     "@next/font": "^13.1.6",
-    "@zeit/next-bundle-analyzer": "^0.1.2",
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
     "cross-env": "^7.0.3",
@@ -35,7 +33,6 @@
     "html-react-parser": "^1.2.1",
     "next": "^12.3.4",
     "next-images": "^1.8.1",
-    "node-fetch": "^2.6.7",
     "nodemailer": "^6.9.1",
     "prop-types": "^15.8.1",
     "react": "^18.2.0",

@@ -1,19 +1,19 @@
-const path = require('path');
+// const path = require('path');
 
 // const withBundleAnalyzer = require('@next/bundle-analyzer')({
 //     enabled: true,
 // })
 
 
-module.exports = {
-    webpack(config) {
-        config.module.rules.push({
-            test: /\.svg$/,
-            use: ["@svgr/webpack"]
-        });
-        return config;
-    }
-};
+// module.exports = {
+//     webpack(config) {
+//         config.module.rules.push({
+//             test: /\.svg$/,
+//             use: ["@svgr/webpack"]
+//         });
+//         return config;
+//     }
+// };
 
 module.exports = {
     reactStrictMode: true,
@@ -39,9 +39,9 @@ module.exports = {
 //
 // module.exports = withBundleAnalyzer({})
 
-module.exports = {
-    experimental: { disableOptimizedLoading: true },
-}
+// module.exports = {
+//     experimental: { disableOptimizedLoading: true },
+// }
 
 // module.exports = {
 //     webpack(config, options) {

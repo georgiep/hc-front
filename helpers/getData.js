@@ -1,6 +1,4 @@
-// import { getObjectFromDatabase } from '../helpers/idb'
-// import fetcher from '../helpers/fetcher'
-
+const fs = require('fs')
 
 const getRemoteInitialData = async ({lang,pathName,referrer}) => {
 
@@ -9,27 +7,30 @@ const getRemoteInitialData = async ({lang,pathName,referrer}) => {
     // console.log(PrefixPathName(pathName))
 
     console.log('start fetching data')
-    console.log(`http://127.0.0.1:5555/public/hotels/${ref}/data/pages/${PrefixPathName(pathName)}.json`)
+    console.log(`/public/hotels/${ref}/data/pages/${PrefixPathName(pathName)}.json`)
 
-    let [pageData, headerData,footerData,occupancy] = await Promise.all([
-        fetch(`http://127.0.0.1:5555/public/hotels/${ref}/data/pages/${PrefixPathName(pathName)}.json`),
-        fetch(`http://127.0.0.1:5555/public/hotels/${ref}/data/header/header.json`),
-        fetch(`http://127.0.0.1:5555/public/hotels/${ref}/data/footer/footer.json`),
-        fetch(`http://127.0.0.1:5555/public/hotels/${ref}/data/occupancy.json`)
-    ]).then(async([aa, bb, cc, dd]) => {
-        const a = await aa.json();
-        const b = await bb.json();
-        const c = await cc.json();
-        const d = await dd.json();
-        return [a, b, c, d]
-    }).catch(err=>console.log(err))
+    const pageData = JSON.parse( fs.readFileSync(`./public/hotels/${ref}/data/pages/${PrefixPathName(pathName)}.json`, 'utf8'));
+    const headerData = JSON.parse( fs.readFileSync(`./public/hotels/${ref}/data/header/header.json`, 'utf8'));
+    const footerData = JSON.parse( fs.readFileSync(`./public/hotels/${ref}/data/footer/footer.json`, 'utf8'));
+    const occupancy = JSON.parse( fs.readFileSync(`./public/hotels/${ref}/data/occupancy.json`, 'utf8'));
+
+    // let [pageData, headerData,footerData,occupancy] = await Promise.all([
+    //     fetch(`/public/hotels/${ref}/data/pages/${PrefixPathName(pathName)}.json`),
+    //     fetch(`/public/hotels/${ref}/data/header/header.json`),
+    //     fetch(`/public/hotels/${ref}/data/footer/footer.json`),
+    //     fetch(`/public/hotels/${ref}/data/occupancy.json`)
+    // ]).then(async([aa, bb, cc, dd]) => {
+    //     const a = await aa.json();
+    //     const b = await bb.json();
+    //     const c = await cc.json();
+    //     const d = await dd.json();
+    //     return [a, b, c, d]
+    // }).catch(err=>console.log(err))
 
     console.log('start fetching schema')
-    console.log(`http://127.0.0.1:5555/public/hotels/${ref}/data/schema/${pageData.schema}.json`)
-
-    let schemaData = await fetch(`http://127.0.0.1:5555/public/hotels/${ref}/data/schema/${pageData.schema}.json`).then((res)=> res.json()).catch(err=>console.log(err))
-
-    console.log('end fetching')
+    // let schemaData = await fetch(`/public/hotels/${ref}/data/schema/${pageData.schema}.json`).then((res)=> res.json()).catch(err=>console.log(err))
+    let schemaData = JSON.parse( fs.readFileSync(`./public/hotels/${ref}/data/schema/${pageData.schema}.json`, 'utf8'));
+    console.log('end fetching schema')
 
     return {
         header: headerData,
