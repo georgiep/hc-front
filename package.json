@@ -8,6 +8,7 @@
     "lint": "next lint",
     "build": "NODE_ENV=production next build",
     "start": "NODE_ENV=development NODE_OPTIONS='--inspect' node server.js",
+    "start-windows": "cross-env NODE_ENV=development node server.js",
     "prod": "NODE_ENV=production node server.js",
     "final": "NODE_ENV=production pm2 start server.js --name hoteliercms",
     "cluster": "NODE_ENV=production pm2 start server.js --name hoteliercms -i 2",

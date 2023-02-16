@@ -13,6 +13,8 @@ module.exports = {
             referrer: req.headers.host
         }
 
+        if(req.originalUrl.includes("robots.txt")) return next()
+
         if(req.originalUrl.includes("serviceworker.js")) return next()
 
         if(req.originalUrl.includes("_next")) return next()

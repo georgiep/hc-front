@@ -59,6 +59,7 @@ app.prepare().then((req, res) => {
     })
 
     server.listen(port, (err) => {
+        console.log(process.env.NODE_ENV)
         console.log(`> Ready on 1 http://localhost:${port}`);
     });
 

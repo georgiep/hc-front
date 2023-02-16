@@ -22,15 +22,14 @@ const getRemoteInitialData = async ({lang,pathName,referrer}) => {
         const c = await cc.json();
         const d = await dd.json();
         return [a, b, c, d]
-    })
+    }).catch(err=>console.log(err))
 
     console.log('start fetching schema')
     console.log(`http://127.0.0.1:5555/public/hotels/${ref}/data/schema/${pageData.schema}.json`)
 
-    let schemaData = await fetch(`http://127.0.0.1:5555/public/hotels/${ref}/data/schema/${pageData.schema}.json`).then((res)=> res.json())
+    let schemaData = await fetch(`http://127.0.0.1:5555/public/hotels/${ref}/data/schema/${pageData.schema}.json`).then((res)=> res.json()).catch(err=>console.log(err))
 
     console.log('end fetching')
-
 
     return {
         header: headerData,

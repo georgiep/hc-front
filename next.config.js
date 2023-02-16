@@ -39,9 +39,9 @@ module.exports = {
 //
 // module.exports = withBundleAnalyzer({})
 
-// module.exports = {
-//     experimental: { disableOptimizedLoading: true },
-// }
+module.exports = {
+    experimental: { disableOptimizedLoading: true },
+}
 
 // module.exports = {
 //     webpack(config, options) {
