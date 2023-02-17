@@ -4,14 +4,13 @@ import { AvailabilityProvider } from 'context/AvailabilityContext'
 import {useEffect, useState} from "react";
 import breakpoints from "styles/breakpoints";
 import styles from '/public/globalCss/bootstrap.css'
-// import 'slick-carousel/slick/slick.css'
-// import 'slick-carousel/slick/slick-theme.css'
+import 'slick-carousel/slick/slick.css'
+import 'slick-carousel/slick/slick-theme.css'
 
 import {publish} from "../helpers/pub-sub";
 
 function MyApp({ Component, pageProps }) {
     const router = useRouter();
-
 
     useEffect(() => {
 

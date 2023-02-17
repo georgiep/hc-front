@@ -11,7 +11,7 @@ const handle = app.getRequestHandler();
 // const getData = require('./api/getData')
 const mail = require('./routes/mail')
 const healthcheck = require('./routes/healthcheck')
-// const images = require('./routes/images')
+const images = require('./routes/images')
 
 app.prepare().then((req, res) => {
 
@@ -39,7 +39,7 @@ app.prepare().then((req, res) => {
 
     server.use('/health-check',healthcheck)
 
-    // server.use('/images',images)
+    server.use('/images',images)
 
     // server.get('/refresh-data', (req, res) => {
     //     getData(['en'])

@@ -1,14 +1,14 @@
 import Image from 'next/image'
 
-const myLoader = ({ src, width, quality }) => {
-  return `${src}`
-  // return `/public/${src}?w=${width}&q=${quality || 75}`
-}
-
 // const myLoader = ({ src, width, quality }) => {
-//     if(src.includes('.svg') || src.includes('.png')) return src
-//     return `/images?src=${src}&width=${width}`
+//   return `${src}`
+//   // return `/public/${src}?w=${width}&q=${quality || 75}`
 // }
+
+const myLoader = ({ src, width, quality }) => {
+    if(src.includes('.svg') || src.includes('.png')) return src
+    return `/images?src=${src}&width=${width}`
+}
 
 const ImageLoader = ({type, ...props}) => {
     let position = type === 'absolute' ? 'position-absolute' : 'position-relative'
@@ -22,7 +22,7 @@ const ImageLoader = ({type, ...props}) => {
                 alt={props.alt || ""}
 
                 // priority={true}
-                unoptimized={true}
+                // unoptimized={true}
                 sizes="320 640 750"
                 quality={100}
                 layout="responsive"

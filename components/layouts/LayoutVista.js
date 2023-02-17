@@ -148,18 +148,6 @@ export default function LayoutVista(props) {
                     <link rel="preload" href="/public/hotels/acquavista/fonts/GothamGRBook.woff2" as="font" type="font/woff2" crossOrigin="true" />
                     <link rel="preload" href="/public/hotels/acquavista/fonts/GothamGRMedium.woff2" as="font" type="font/woff2" crossOrigin="true" />
 
-                    <link
-                        rel="stylesheet"
-                        type="text/css"
-                        charSet="UTF-8"
-                        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css"
-                    />
-                    <link
-                        rel="stylesheet"
-                        type="text/css"
-                        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"
-                    />
-
                 </Head>
 
 
