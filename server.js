@@ -63,7 +63,11 @@ app.prepare().then((req, res) => {
         console.log(`> Ready on 1 http://localhost:${port}`);
     });
 
+    server.keepAliveTimeout = (60 * 1000) + 1000;
+    server.headersTimeout = (60 * 1000) + 2000;
+
 });
+
 
 // const ssrCache = cacheableResponse({
 //     ttl: 1000 * 60 * 60,

@@ -7,7 +7,6 @@ import Buttons from 'public/hotels/acquavista/data/buttons/buttons.json'
 import breakpoints from 'styles/breakpoints'
 // import {useRouter} from "next/router";
 
-let jsxCss =  ''
 //
 // import {motion, AnimatePresence, useScroll} from 'framer-motion';
 //
@@ -82,7 +81,7 @@ let jsxCss =  ''
 // };
 
 export default function LayoutVista(props) {
-
+    let jsxCss =  ''
     const header = props.header.map(d => headerFooterList[d.component_name][d.template])
     const footer = props.footer.map(d => headerFooterList[d.component_name][d.template])
 
@@ -149,6 +148,17 @@ export default function LayoutVista(props) {
                     <link rel="preload" href="/public/hotels/acquavista/fonts/GothamGRBook.woff2" as="font" type="font/woff2" crossOrigin="true" />
                     <link rel="preload" href="/public/hotels/acquavista/fonts/GothamGRMedium.woff2" as="font" type="font/woff2" crossOrigin="true" />
 
+                    <link
+                        rel="stylesheet"
+                        type="text/css"
+                        charSet="UTF-8"
+                        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css"
+                    />
+                    <link
+                        rel="stylesheet"
+                        type="text/css"
+                        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"
+                    />
 
                 </Head>
 
