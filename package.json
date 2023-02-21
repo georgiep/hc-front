@@ -14,7 +14,9 @@
     "cluster": "NODE_ENV=production pm2 start server.js --name hoteliercms -i 2",
     "analyze": "cross-env ANALYZE=true next build",
     "analyze:server": "cross-env BUNDLE_ANALYZE=server next build",
-    "analyze:browser": "cross-env BUNDLE_ANALYZE=browser next build"
+    "analyze:browser": "cross-env BUNDLE_ANALYZE=browser next build",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "repository": {
     "type": "git",
@@ -57,14 +59,25 @@
     "uuidv4": "^6.2.13"
   },
   "devDependencies": {
+    "@babel/core": "^7.21.0",
+    "@storybook/addon-actions": "^6.5.16",
+    "@storybook/addon-essentials": "^6.5.16",
+    "@storybook/addon-interactions": "^6.5.16",
+    "@storybook/addon-links": "^6.5.16",
+    "@storybook/builder-webpack5": "^6.5.16",
+    "@storybook/manager-webpack5": "^6.5.16",
+    "@storybook/react": "^6.5.16",
+    "@storybook/testing-library": "0.0.13",
     "@styled-jsx/plugin-sass": "^4.0.2",
     "@svgr/webpack": "^5.5.0",
     "@testing-library/jest-dom": "5.14.1",
     "@testing-library/react": "12.0.0",
     "@testing-library/user-event": "13.2.1",
     "babel-jest": "27.0.6",
+    "babel-loader": "^8.3.0",
     "eslint": "7.32.0",
     "eslint-config-next": "^13.1.6",
+    "eslint-plugin-storybook": "^0.6.10",
     "eslint-plugin-testing-library": "4.11.0",
     "exports-loader": "^4.0.0",
     "identity-obj-proxy": "3.0.0",
