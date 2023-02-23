@@ -13,7 +13,7 @@ const settingsSlider = {
     speed: 500,
     slidesToScroll: 1,
     initialSlide: 0,
-    variableWidth: true,
+    slidesToShow: 2.5,
     nextArrow: <NextArrow color={'black'}/>,
     prevArrow: <PrevArrow color={'black'}/>,
     responsive: [
@@ -42,13 +42,14 @@ const settingsSlider = {
 
 const Carousel = ({ items, css }) => {
 
-    const settings = {...settingsSlider,infinite: false, slidesToShow: 2.5, variableWidth: false }
+    const settings = {...settingsSlider}
 
     return (
         <div className="slider-container carousel-slides-same-height">
             <Slider {...settings}>
                 {items.map((item, index) => <div className={'slide-container'} key={`${index}-${item.title}`}><Slide item={item} key={index} css={css}/></div>)}
             </Slider>
+
             <style jsx global>
                 {`
                   
@@ -68,7 +69,12 @@ const Carousel = ({ items, css }) => {
                     .carousel-template3 .slick-dots{
                        margin-left: 4px;
                     }
-                         
+               
+                        
+                       .carousel-slides-same-height .slick-dots li button:before {
+                            color: #000 !important;
+                            font-size: 40px;
+                        }
 
                `}
             </style>

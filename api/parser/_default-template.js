@@ -43,7 +43,7 @@ const hotelParser = (data,link,allData) => {
 
 
     _hotelParseObj._Commons_Text_order_1_row_0_col_0 = {
-        "text": data.text
+        "text": data.text || null
     }
 
     _hotelParseObj._Commons_Text_order_1_row_0_col_1 = {
@@ -88,6 +88,9 @@ const hotelParser = (data,link,allData) => {
             }
         ]
     }
+
+    _hotelParseObj.fullWidth = data.fullwidth
+
 
     return _hotelParseObj
 }
@@ -173,7 +176,7 @@ const hotelData = (parsed) => {
         },
         "2": {
             "wrapper": {
-                "fluid": false,
+                "fluid": parsed.fullWidth,
                 "css": {
                     "border": "0",
                     "backgroundColor": "#FFFFFF"
@@ -182,7 +185,8 @@ const hotelData = (parsed) => {
                     {
                         "css": {
                             "padding": "40px 0 0 0",
-                            "border": "0"
+                            "border": "0",
+                            ...(!parsed._Commons_Text_order_1_row_0_col_0.text  && { "display": "none" })
                         },
                         "columns": {
                             "sizes": [
@@ -193,7 +197,8 @@ const hotelData = (parsed) => {
                     {
                         "css": {
                             "padding": "0",
-                            "border": "0"
+                            "border": "0",
+                            ...(!parsed._Commons_Text_order_1_row_0_col_0.text && { "display": "none" })
                         },
                         "columns": {
                             "sizes": [

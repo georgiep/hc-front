@@ -41,14 +41,14 @@ const settingsSlider = {
 let SLIDER = null
 const Carousel = ({ items, css, initialRequest }) => {
 
-  const router = useRouter()
+    const router = useRouter()
 
-  const settings = {...settingsSlider,infinite: items.length > 1}
+    const settings = {...settingsSlider,infinite: items.length > 1}
 
-  const elementRef = useRef(null);
-  const isIntersected = useIntersection(elementRef,0.1, true);
+    const elementRef = useRef(null);
+    const isIntersected = useIntersection(elementRef,0.1, true);
 
-  const [Slider,setSlider] = useState(null)
+    const [Slider,setSlider] = useState(null)
 
     useEffect(() => {
 
@@ -77,22 +77,22 @@ const Carousel = ({ items, css, initialRequest }) => {
 
     }, [isIntersected]);
 
-  return (
-    <div className="carousel-offers-slider-container" ref={elementRef}>
-        {
-            SLIDER ? <SLIDER
-                key={router.asPath}
-                arrows={true}
-                nextArrow={<SampleNextArrow />}
-                prevArrow={<SamplePrevArrow />}
-                {...settings}
-            >
-                {items && items.map((item, index) => <Slide item={item} key={index} css={css} gap={index % 2 === 1}/>)}
-            </SLIDER> : items && items.map((item, index) => <div key={`carousel-offers-slider-container-${index}`}><Slide item={item} css={css} gap={index % 2 === 1}/></div>)
-        }
+    return (
+        <div className="carousel-offers-slider-container" ref={elementRef}>
+            {
+                SLIDER ? <SLIDER
+                    key={router.asPath}
+                    arrows={true}
+                    nextArrow={<SampleNextArrow />}
+                    prevArrow={<SamplePrevArrow />}
+                    {...settings}
+                >
+                    {items && items.map((item, index) => <Slide item={item} key={index} css={css} gap={index % 2 === 1}/>)}
+                </SLIDER> : items && items.map((item, index) => <div key={`carousel-offers-slider-container-${index}`}><Slide item={item} css={css} gap={index % 2 === 1}/></div>)
+            }
 
-      <style jsx global>
-        {`
+            <style jsx global>
+                {`
           
            .carousel-offers-slider-container .slick-list {
                margin: 0 -27px;
@@ -124,9 +124,9 @@ const Carousel = ({ items, css, initialRequest }) => {
            
                 
         `}
-      </style>
-    </div>
-  )
+            </style>
+        </div>
+    )
 }
 
 

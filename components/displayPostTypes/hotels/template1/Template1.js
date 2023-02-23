@@ -4,7 +4,7 @@ import React, {useEffect, useState, useRef} from "react";
 const Template1 = ({ data }) => {
     let { items, css } = data;
 
-    const [stateItems,setStateItems] = useState(items)
+    const [stateItems,setStateItems] = useState(items.sort( compareAZ ))
     const firstUpdate = useRef(true);
 
     const [popUp,setPopUp] = useState(false)

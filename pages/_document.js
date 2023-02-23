@@ -10,7 +10,7 @@ class MyDocument extends Document {
     render() {
 
         return (
-          <Html>
+          <Html lang={'en'}>
               {/*{process.env.NODE_ENV === 'Production' ? <HeadProduction /> : <Head />}*/}
               {/*<HeadProduction />*/}
             <Head/>

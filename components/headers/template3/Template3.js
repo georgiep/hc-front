@@ -23,7 +23,7 @@ let animation = createMenuListAnimation(11)
 const Template3 = () => {
 
 
-    const {tabletDown} = useContext(breakpointContext)
+    const {extra_large} = useContext(breakpointContext)
 
     const {scrollY} = useScroll()
 
@@ -89,19 +89,27 @@ const Template3 = () => {
     }
 
     return(
-        <header className={'header-menu-layout-three'}>
+             <header className={'header-menu-layout-three'}>
             <div className={`menu-top d-flex flex-nowrap justify-content-between ${scroll ? 'header-scrolling' : ''}`}>
                 <div className={'burger-menu'} onClick={toggleMenu}><BurgerMenuSvg/></div>
 
                 {
-                    Router.asPath === '/' ?  <div className={'logo'} style={{width: '150px',height: '66px'}} onClick={scrollToTop}>
-                        <ImageLoader src={'https://code.rateparity.com/aquavistahotels.com/2022/07/Logo.svg'} priority={true} layout={'fill'}/>
-                    </div> : <PrefetchLink pathname={'/'}>
-                        <div className={'logo'} style={{width: '150px',height: '66px'}}>
+                    !scrollY ? Router.asPath === '/' ?  <div className={'logo'} style={{width: '193px',height: '85px'}} onClick={scrollToTop}>
+                            <ImageLoader src={'http://localhost:5555/public/hotels/acquavista/images/aquavista-logo-white.svg'} priority={true} width={'193'} height={'85'} layout={'responsive'}/>
+                        </div> : <PrefetchLink pathname={'/'}>
+                            <div className={'logo'} style={{width: '193px',height: '85px'}}>
+                                <ImageLoader src={'http://localhost:5555/public/hotels/acquavista/images/aquavista-logo-white.svg'}  priority={true} width={'193'} height={'85'}  layout={'responsive'}/>
+                            </div>
+                        </PrefetchLink>
+                        : Router.asPath === '/' ?  <div className={'logo'} style={{width: '150px',height: '66px'}} onClick={scrollToTop}>
                             <ImageLoader src={'https://code.rateparity.com/aquavistahotels.com/2022/07/Logo.svg'} priority={true} layout={'fill'}/>
-                        </div>
-                    </PrefetchLink>
+                        </div> : <PrefetchLink pathname={'/'}>
+                            <div className={'logo'} style={{width: '150px',height: '66px'}}>
+                                <ImageLoader src={'https://code.rateparity.com/aquavistahotels.com/2022/07/Logo.svg'} priority={true} layout={'fill'}/>
+                            </div>
+                        </PrefetchLink>
                 }
+
 
                 <div className={'book-now'}><a href={url} target={'_blank'}><button className={'button-fill'}>BOOK NOW</button></a></div>
             </div>
@@ -172,6 +180,8 @@ const Template3 = () => {
                     </ul>
                 </div>
             </div>
+
+
 
             <style jsx global>
                 {`
@@ -248,7 +258,7 @@ const Template3 = () => {
                       z-index: 101;
                       cursor: pointer;
                       padding: 15px 20px;
-                      background: linear-gradient(180deg, rgba(249, 243, 238, 0.8) 0%, rgba(249, 243, 238, 0) 100%);
+                      //background: linear-gradient(180deg, rgba(249, 243, 238, 0.8) 0%, rgba(249, 243, 238, 0) 100%);
                    }
                    
                    .menu-top .burger-menu{

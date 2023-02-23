@@ -41,7 +41,7 @@ const Carousel = ({ items, css }) => {
     const settings = {...settingsSlider,infinite: true}
 
     return (
-        <div className="slider-container">
+        <div className="slider-container latest-post-carousel">
             <Slider {...settings}>
                 {items.map((item, index) => <div className={'slide-container'} key={index}><Slide item={item} key={index} css={css}/></div>)}
             </Slider>
@@ -62,6 +62,16 @@ const Carousel = ({ items, css }) => {
                   }
                   
                 `}
+            </style>
+            <style jsx global>
+                {`
+                  
+                   .latest-post-carousel .slick-dots li button:before {
+                        color: #000 !important;
+                        font-size: 40px;
+                    }
+
+               `}
             </style>
         </div>
     )

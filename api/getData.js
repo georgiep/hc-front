@@ -149,6 +149,10 @@ async function getData(langs){
                         break;
                     case 'templates/page_type_hotels.php':
 
+                        console.log(item)
+                        if(!item.acf.select_hotels_from_page){
+                            return
+                        }
                         item.acf.select_hotels_from_page.map(item => {
                             item.select_hotel_from_page = hotels.filter(function (hitem){
                                 return hitem.id === item.select_hotel_from_page.ID

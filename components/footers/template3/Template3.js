@@ -39,19 +39,25 @@ const Template3 = ({ page, index }) => {
                                     <Text2 tag="div" text={'AQUA VISTA HOTELS'} titleStyle={'primary-white post-text-body'}/>
                                     <LineSeparator color={'#FFFFFF'} padding={'20px 0'} maxWidth={'100%'}/>
                                     <div>
-                                        <Text2 tag="div" text={'Athens Office Kifisias'} titleStyle={'primary-white promo-text-secondary'}/>
-                                        <Text2 tag="div" text={'Avenue 130, Athens, 11526 Athens | Greece |'} titleStyle={'primary-white promo-text-third'}/>
+                                        <Text2 tag="div" text={'Athens Office'} titleStyle={'primary-white promo-text-secondary'}/>
+                                        <LineSeparator padding={'3px 0'} maxWidth={'100%'}/>
+                                        <Text2 tag="div" text={'Kifisias Avenue 130, Athens, 11526 Athens | Greece |'} titleStyle={'primary-white promo-text-third'}/>
+                                        <LineSeparator padding={'3px 0'} maxWidth={'100%'}/>
                                         <a className={'primary-white promo-text-third pe-2'} href={"tel:+30 210 721 32 53"}>T +30 210 721 32 53</a>
                                         <a className={'primary-white promo-text-third'} href={"fax:+30 210 722 48 43"}>F +30 210 722 48 43</a>
                                     </div>
                                     <div>
                                         <Text2 tag="div" text={'Santorini Office'} titleStyle={'primary-white promo-text-secondary'}/>
+                                        <LineSeparator padding={'3px 0'} maxWidth={'100%'}/>
                                         <Text2 tag="div" text={'Fira-Pyrgos Road, 847 00 Santorini | Greece | '} titleStyle={'primary-white promo-text-third'}/>
+                                        <LineSeparator padding={'3px 0'} maxWidth={'100%'}/>
                                         <a className={'primary-white promo-text-third pe-2'} href={"tel:+30 22860 28866"}>T +30 22860 28866</a>
                                     </div>
                                     <div>
                                         <Text2 tag="div" text={'London Office'} titleStyle={'primary-white promo-text-secondary'}/>
+                                        <LineSeparator padding={'3px 0'} maxWidth={'100%'}/>
                                         <Text2 tag="div" text={'76 Rainier Apt. 43 Cherry Orchard Road CR0 6FD East Croydon, London London | UK | '} titleStyle={'primary-white promo-text-third'}/>
+                                        <LineSeparator padding={'3px 0'} maxWidth={'100%'}/>
                                         <a className={'primary-white promo-text-third pe-2'} href={"tel:+44 (020) 32 861 904"}>T +44 (020) 32 861 904</a>
                                     </div>
                                 </div>
@@ -87,9 +93,10 @@ const Template3 = ({ page, index }) => {
                                     <LineSeparator color={'#FFFFFF'} padding={'20px 0'} maxWidth={'100%'}/>
                                     <div>
                                         {/*<Text2 tag="div" text={'T: +30 210 7213253'} titleStyle={'primary-white promo-text-third'}/>*/}
-                                        <a className={'primary-white promo-text-third pe-2 d-flex'} href={"tel:+30 210 7213253"}>T +30 210 7213253</a>
+                                        <a className={'py-3 p-sm-0 pe-2 primary-white promo-text-third d-flex'} href={"tel:+30 210 7213253"}>T +30 210 7213253</a>
+                                        <LineSeparator padding={'3px 0'} maxWidth={'100%'}/>
                                         {/*<Text2 tag="div" text={'reservations@aquavistahotels.com'} titleStyle={'primary-white promo-text-third'}/>*/}
-                                        <a className={'primary-white promo-text-third pe-2'} href={"mailto:reservations@aquavistahotels.com"}>reservations@aquavistahotels.com</a>
+                                        <a className={'primary-white promo-text-third py-3 p-sm-0 pe-2'} href={"mailto:reservations@aquavistahotels.com"}>reservations@aquavistahotels.com</a>
                                     </div>
                                 </div>
                             </div>
@@ -97,14 +104,14 @@ const Template3 = ({ page, index }) => {
                                 <div className={'col-md-12'}>
                                     <LineSeparator padding={'25px 0'} maxWidth={'100%'}/>
                                     <div className={'d-flex flex-wrap flex-row justify-content-between'}>
-                                        <Text2 tag="div" text={'Copyright © 2016 - 2022 anyhotel All rights reserved'} titleStyle={'primary-white promo-text-third'}/>
+                                        <Text2 tag="div" text={'Copyright © 2016 - 2023 anyhotel All rights reserved'} titleStyle={'py-3 primary-white promo-text-third'}/>
                                         {/*<Text2 tag="div" text={'Terms of Use'} titleStyle={'primary-white promo-text-third'}/>*/}
                                         <PrefetchLink pathname={'/privacy-policy'}>
-                                            <Text2 tag="div" text={'Privacy Policy'} titleStyle={'primary-white promo-text-third'}/>
+                                            <Text2 tag="div" text={'Privacy Policy'} titleStyle={'py-3 primary-white promo-text-third'}/>
                                         </PrefetchLink>
-                                        <Text2 tag="div" text={'Powered by Hotelier CMS'} titleStyle={'primary-white promo-text-third'}/>
+                                        <Text2 tag="div" text={'Powered by Hotelier CMS'} titleStyle={'py-3 primary-white promo-text-third'}/>
                                         <PrefetchLink pathname={'/contact'}>
-                                            <Text2 tag="div" text={'Keep in Touch'} titleStyle={'primary-white promo-text-third'}/>
+                                            <Text2 tag="div" text={'Keep in Touch'} titleStyle={'py-3 primary-white promo-text-third'}/>
                                         </PrefetchLink>
                                     </div>
                                     <LineSeparator padding={'10px 0'} maxWidth={'100%'}/>

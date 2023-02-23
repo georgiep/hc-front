@@ -142,11 +142,38 @@
           }
         },
         {
+          "component_name": "Commons",
+          "template": "Text",
+          "order": 6,
+          "wrapper": {
+            "row": 0,
+            "col": 0
+          }
+        },
+        {
+          "component_name": "Empty",
+          "template": "Empty",
+          "order": 6,
+          "wrapper": {
+            "row": 1,
+            "col": 0
+          }
+        },
+        {
+          "component_name": "Commons",
+          "template": "Separator",
+          "order": 6,
+          "wrapper": {
+            "row": 1,
+            "col": 1
+          }
+        },
+        {
           "component_name": "Instagram",
           "template": "Template1",
           "order": 6,
           "wrapper": {
-            "row": 0,
+            "row": 2,
             "col": 0
           }
         }

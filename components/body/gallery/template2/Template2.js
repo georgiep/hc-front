@@ -11,7 +11,8 @@ const settingsSlider = {
     infinite: true,
     speed: 500,
     slidesToShow: 1,
-    slidesToScroll: 1
+    slidesToScroll: 1,
+    draggable: false
 }
 
 const Template2 = ({data}) => {
@@ -79,7 +80,7 @@ const Template2 = ({data}) => {
     }
     return(
 
-        <>
+        <div className={'gallery-template-2'}>
             <Slider {...settings}>
                 {fullArr.map((arr, index) => <div className={'container-fluid'} key={index}><div className={'slide-container row no-gutters'} key={index}>
                     {
@@ -124,7 +125,17 @@ const Template2 = ({data}) => {
             }
             
           `}</style>
-        </>
+
+          <style jsx global>{`
+            
+               .gallery-template-2 .slick-dots li button:before {
+                    color: #fff !important;
+                    font-size: 40px;
+                }
+            
+          `}</style>
+
+        </div>
     )
 }
 

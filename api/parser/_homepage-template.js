@@ -10,7 +10,7 @@ const homepageParseObj = {
         "items": [
             {
                 "svg": "https://code.rateparity.com/aquavistahotels.com/2022/07/bestPrice.svg",
-                "text": "Best Price Guaranteed!",
+                "text": "Best Rates Guarantee",
                 "width": "30px",
                 "height": "30px"
             },
@@ -168,6 +168,11 @@ const homepageParser = (data) =>{
     }
 
     homepageParseObj._Destinations_Template1_order_5_row_0_col_0 = {...data.third_post_selection.acf,link:{pathname: '/destination-guide-santorini', api: ''} }
+
+
+    homepageParseObj._heading_social = {
+        "text": 'Guests Photos'
+    }
 
     homepageParseObj.SEO = {
         "title": data.seo_title,
@@ -570,18 +575,67 @@ const homepageData = (parsed) => {
                 "rows": [
                     {
                         "css": {
-                            "padding": "40px 0 80px 0",
+                            "padding": "40px 0 0 0",
                             "border": "0"
                         },
                         "columns": {
                             "sizes": [
-                                "col-md-12 animation--up"
+                                "col-md-12  animation--up"
+                            ]
+                        }
+                    },
+                    {
+                        "css": {
+                            "padding": "0",
+                            "border": "0"
+                        },
+                        "columns": {
+                            "sizes": [
+                                "col-md-6 animation--up",
+                                "col-md-6 animation--up"
+                            ]
+                        }
+                    },
+                    {
+                        "css": {
+                            "padding": "0",
+                            "border": "0"
+                        },
+                        "columns": {
+                            "sizes": [
+                                "col-md-12  pb-sm-3 pb-xl-5 animation--up"
                             ]
                         }
                     }
                 ]
             },
             "rows": [
+                {
+                    "columns": [
+                        {
+                            ...parsed._heading_social,
+                            "css": {
+                                "element": "div",
+                                "class": "title-case-primary text-uppercase text-left text-sm-center animation--up",
+                                "color": "primary-dark",
+                                "maxWidth": "250px",
+                                "margin": "0 auto",
+                                "padding": "0 0 0 0"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "columns": [
+                        {},
+                        {
+                            "maxWidth": "367px",
+                            "color": "#04456D",
+                            "padding": "40px",
+                            "margin": "0 auto"
+                        }
+                    ]
+                },
                 {
                     "columns": [
                         {
@@ -595,7 +649,7 @@ const homepageData = (parsed) => {
                     ]
                 }
             ]
-        }
+        },
     }
 }
 

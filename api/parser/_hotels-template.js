@@ -38,7 +38,7 @@ const hotelsParser = (data,slug,pageName) => {
 
     _hotelsParseObj._ShowHotels_Template1_order_1_row_0_col_0 = {
         "items": data.select_hotels_from_page.map(item => {
-
+            let HOTEL = {}
             item.select_hotel_from_page[0].acf.image = {
                 src: item.select_hotel_from_page[0].acf.image.toString().replace('https://greece-hotel.info/admins/aquavistahotels/wp-content/uploads','https://code.rateparity.com/aquavistahotels.com'),
                 alt: 'image alt'
@@ -48,13 +48,20 @@ const hotelsParser = (data,slug,pageName) => {
                 item.icon = item.icon.toString().replace('https://greece-hotel.info/admins/aquavistahotels/wp-content/uploads','https://code.rateparity.com/aquavistahotels.com')
                 return item
             })
+
+            HOTEL.image = item.select_hotel_from_page[0].acf.image
+            HOTEL.lat = item.select_hotel_from_page[0].acf.lat
+            HOTEL.lng = item.select_hotel_from_page[0].acf.lng
+            HOTEL.title = item.select_hotel_from_page[0].acf.title
+
+            console.log(item.select_hotel_from_page[0].acf)
             return {
                 link: {
                     "pathname": `/${slug}/${item.select_hotel_from_page[0].slug}`,
                     "api": "/pages/room/room1",
                     "text": "Explore"
                 },
-                ...item.select_hotel_from_page[0].acf,
+                ...HOTEL,
                 description: item.select_hotel_from_page[0].acf.excerpt,
                 amenities: item.select_hotel_from_page[0].acf.amenities_with_icon,
                 hotelType: item.select_hotel_from_page[0].hotel_type
@@ -80,14 +87,27 @@ const hotelsParser = (data,slug,pageName) => {
 
     _hotelsParseObj.Maps = {
         items: destination.hotelss.map(item => {
+
+            let HOTEL = {}
+            HOTEL.lat = item[0].acf.lat
+            HOTEL.lng = item[0].acf.lng
+            HOTEL.title = item[0].acf.title
             return {
-                ...item[0].acf,
+                ...HOTEL,
                 link:{
                     "pathname":  `/${slug}/${item[0].slug}`,
                     "api": "/pages/room/room1",
                     "text": "Explore"
                 }
             }
+            // return {
+            //     ...item[0].acf,
+            //     link:{
+            //         "pathname":  `/${slug}/${item[0].slug}`,
+            //         "api": "/pages/room/room1",
+            //         "text": "Explore"
+            //     }
+            // }
         }),
         modal: {
             event: 'map',

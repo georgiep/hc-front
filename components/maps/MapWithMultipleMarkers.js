@@ -58,12 +58,20 @@ const mapOptions = {
     gestureHandling: 'greedy',
     scrollwheel: false
 };
-
+function compareAZ( a, b ) {
+    if ( a.title < b.title ){
+        return -1;
+    }
+    if ( a.title > b.title ){
+        return 1;
+    }
+    return 0;
+}
 const MapWithMultipleMarkers = ({data,full}) => {
 
     const {settings,items,css} = data
 
-    const [markers,setMarkers] = useState(items)
+    const [markers,setMarkers] = useState(items.sort( compareAZ ))
 
     const [mapSettings,setMapSettings] = useState({
         center: {

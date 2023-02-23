@@ -471,7 +471,7 @@ const hotelData = (parsed) => {
                 {
                     "columns": [
                         {
-                            "text": "Choose your favourite room",
+                            "text": "Explore more rooms",
                             "link": {
                                 "pathname": `${parsed._roomLink}`,
                                 "api": "/pages/room/room1"

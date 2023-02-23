@@ -17,7 +17,6 @@ server.get('', async (req, res) => {
         quality: 100
     });
 
-
     res.set('Content-Type', `image/${format}`);
     stream.pipe(transform).pipe(res);
 

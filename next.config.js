@@ -20,7 +20,7 @@ module.exports = {
     images: {
         loader: 'default',
         domains: ['code.rateparity.com'],
-        deviceSizes: [150,260,300,768,1024],
+        deviceSizes: [150,260,300,768,1024,1500],
         formats: ['image/webp'],
     },
 }

@@ -140,12 +140,6 @@ const hotelParser = (data,link,label) => {
 
     _hotelParseObj._DisplayPostTypes_Template8_order_5_row_0_col_0 = {
         "items": data.select_more_hotels ? data.select_more_hotels.map(item => {
-            // item.acf.image = item.acf.image.toString().replace('https://greece-hotel.info/admins/aquavistahotels/wp-content/uploads','https://code.rateparity.com/aquavistahotels.com')
-            console.log(item.acf)
-            // item.acf.image = {
-            //     src: item.acf.image.toString().replace('https://greece-hotel.info/admins/aquavistahotels/wp-content/uploads','https://code.rateparity.com/aquavistahotels.com'),
-            //     alt: "alt image"
-            // }
             return {
                 ...item.acf,
                 link: {
@@ -194,8 +188,6 @@ const hotelParser = (data,link,label) => {
 }
 
 const hotelData = (parsed) => {
-
-    console.log(parsed)
 
     return {
         "idbName": "/pages/dreams-luxury-suites",
@@ -284,7 +276,7 @@ const hotelData = (parsed) => {
                     "backgroundImage": parsed.bgImage,
                     "backgroundSize": "cover",
                     "backgroundPosition": "center",
-                    "padding": "80px 0 60px 0"
+                    "padding": "80px 0 80px 0"
                 },
                 "rows": [
                     {
@@ -296,21 +288,7 @@ const hotelData = (parsed) => {
                         },
                         "columns": {
                             "sizes": [
-                                "col-md-12",
-                                "col-md-12"
-                            ]
-                        }
-                    },
-                    {
-                        "css": {
-                            "padding": "0 0 0 0",
-                            "border": "0",
-                            "maxWidth": "1440px",
-                            "margin": "0 auto",
-                            ...(parsed._ImageList_Template1_order_1_row_1_col_0.items.length === 0 && { "display": "none" })
-                        },
-                        "columns": {
-                            "sizes": [
+                                "col-md-12 pb-5",
                                 "col-md-12"
                             ]
                         }
@@ -338,14 +316,6 @@ const hotelData = (parsed) => {
                         }
                     ]
                 },
-                {
-                    "columns": [
-                        {
-                            ...parsed._ImageList_Template1_order_1_row_1_col_0,
-                            "css": {}
-                        }
-                    ]
-                }
             ]
         },
         "3": {
@@ -387,6 +357,85 @@ const hotelData = (parsed) => {
             ]
         },
         "4": {
+            "wrapper": {
+                "fluid": true,
+                "css": {
+                    "border": "0",
+                    "backgroundColor": "#FFFFFF",
+                    "maxWidth": "1440px",
+                    "margin": "0 auto",
+                    ...(parsed._ImageList_Template1_order_1_row_1_col_0.items.length === 0 && { "display": "none" })
+                },
+                "rows": [
+                    {
+                        "css": {
+                            "padding": `40px 0 60px 0`,
+                            "border": "0",
+                        },
+                        "columns": {
+                            "sizes": [
+                                `col-md-12 animation--up`
+                            ]
+                        }
+                    },
+                    {
+                        "css": {
+                            "padding": `0 0 60px 0`,
+                            "border": "0",
+                            "maxWidth": "1440px",
+                            "margin": "0 auto"
+                        },
+                        "columns": {
+                            "sizes": [
+                                `col-md-12 animation--up`
+                            ]
+                        }
+                    }
+                ]
+            },
+            "rows": [
+                {
+                    "columns": [
+                        {
+                            "text": "HOTEL LATEST AWARDS",
+                            "css": {
+                                "element": "div",
+                                "class": "title-case-primary text-uppercase text-center",
+                                "color": "primary-dark",
+                                "maxWidth": "512px",
+                                "margin": "0 auto",
+                                "padding": "0 0 0 0"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "columns": [
+                        {
+                            ...parsed._ImageList_Template1_order_1_row_1_col_0,
+                            "css": {
+                                "title": {
+                                    "element": "div",
+                                    "class": "heading-text-menu animation--up",
+                                    "color": "primary-dark"
+                                },
+                                "description": {
+                                    "element": "div",
+                                    "class": "post-text-body animation--up",
+                                    "color": "primary-black"
+                                },
+                                "link": {
+                                    "element": "div",
+                                    "class": "button-dark",
+                                    "color": "primary-dark"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        "5": {
             "wrapper": {
                 "fluid": true,
                 "css": {
@@ -473,7 +522,7 @@ const hotelData = (parsed) => {
                 }
             ]
         },
-        "5": {
+        "6": {
             "wrapper": {
                 "fluid": true,
                 "css": {
@@ -552,7 +601,7 @@ const hotelData = (parsed) => {
                 }
             ]
         },
-        "6": {
+        "7": {
             "wrapper": {
                 "fluid": true,
                 "css": {
@@ -599,7 +648,7 @@ const hotelData = (parsed) => {
                 }
             ]
         },
-        "7": {
+        "8": {
             "wrapper": {
                 "fluid": true,
                 "css": {
@@ -644,7 +693,7 @@ const hotelData = (parsed) => {
                 }
             ]
         },
-        "8": {
+        "9": {
             "wrapper": {
                 "fluid": true,
                 "css": {
@@ -719,7 +768,7 @@ const hotelData = (parsed) => {
                 }
             ]
         },
-        "9": {
+        "10": {
             "wrapper": {
                 "fluid": true,
                 "css": {
@@ -766,8 +815,6 @@ const _singleHotelTemplate = (data,link,label) => {
 
     const breakpoint = /aquavistahotels/
     const splitted = link.split(breakpoint)
-
-    console.log(splitted)
 
     const parsedData = hotelParser(data,splitted[1],label)
     const hotel = hotelData(parsedData)

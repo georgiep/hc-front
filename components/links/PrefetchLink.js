@@ -42,7 +42,7 @@ export default function PrefetchLink({ children, pathname, api, width, external 
         .link-prefetch {
           display: inherit;
           height: 100%;
-          width: ${width || 'initial'};
+          width: inherit;
         }
         .link-prefetch.active-link a {
           font-weight: 500;

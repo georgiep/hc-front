@@ -61,16 +61,26 @@ const destinationParser = (data) =>{
                 },
                 items: item.hotels.map(hotel => {
 
-                     hotel[0].acf.image = {
+                    let HOTEL = {}
+                    //  hotel[0].acf.image = {
+                    //     src: hotel[0].acf.image.toString().replace('https://greece-hotel.info/admins/aquavistahotels/wp-content/uploads','https://code.rateparity.com/aquavistahotels.com'),
+                    //     alt: 'alt image'
+                    // }
+
+                    HOTEL.image = {
                         src: hotel[0].acf.image.toString().replace('https://greece-hotel.info/admins/aquavistahotels/wp-content/uploads','https://code.rateparity.com/aquavistahotels.com'),
                         alt: 'alt image'
                     }
+                    HOTEL.lat = hotel[0].acf.lat
+                    HOTEL.lng = hotel[0].acf.lng
+                    HOTEL.title = hotel[0].acf.title
+                    console.log(hotel[0].acf)
 
                     return { link:{
                             "pathname": `/hotels-in-${item.destination.post_name}/${hotel[0].slug}`,
                             "api": "/pages/room/room1",
                             "text": "Explore"
-                        },...hotel[0].acf }
+                        },...HOTEL }
                 }),
                 "css": {
                     "element": "div",

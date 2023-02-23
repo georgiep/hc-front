@@ -1,12 +1,16 @@
 import {mediaBreakPoints} from 'public/globalCss/mediaBreakPoints'
-import {useEffect,useState} from "react";
+import {useEffect, useRef, useState} from "react";
 import InnerHTML from 'dangerously-set-html-content'
+import useIntersection from 'hooks/useIntersection'
 
 const WEATHER_API_KEY = '544e60384dd840f592784243211705'
 const CITY = 'Santorini'
 
 const Template1 = () => {
     const [temperatureInCelcius, setTemperatureInCelcius] = useState('')
+    const [show,setShow] = useState(false)
+    const elementRef = useRef(null);
+    const isIntersected = useIntersection(elementRef,0.1, true);
 
     useEffect(() => {
         async function fetchCurrentTemperatureInCelcius() {
@@ -21,10 +25,12 @@ const Template1 = () => {
              setTemperatureInCelcius(temp)
         })
 
-    }, [WEATHER_API_KEY])
+        setShow(true)
+
+    }, [isIntersected])
 
     return (
-        <div>
+        <div ref={elementRef}>
             <div className={'text-center title-case-primary primary-white mb-5'}>Explore The Destination</div>
             <div className={'destination-template-1 d-flex flex-wrap justify-content-between py-5'}>
                 <div className={'d-flex flex-column text-center'}>
@@ -36,8 +42,10 @@ const Template1 = () => {
                 </div>
                 <div className={'d-flex flex-column text-center'}>
                     <div><CLockSvg/></div>
-                    <InnerHTML html={`<div class="thetimenow-embeddable-clock" data-type="clock" data-font-color="#000000" data-border-color="#000000" data-background-color="#ffffff" data-font-size="60" data-location-type="country" data-location-id="21" > <a href="https://www.thetimenow.com/greece" rel="nofollow" target="_blank">© The Time Now</a> </div>
+                    {
+                        show && <InnerHTML html={`<div class="thetimenow-embeddable-clock" data-type="clock" data-font-color="#000000" data-border-color="#000000" data-background-color="#ffffff" data-font-size="60" data-location-type="country" data-location-id="21" > <a href="https://www.thetimenow.com/greece" rel="nofollow" target="_blank">© The Time Now</a> </div>
 <script type="text/javascript" src="https://www.thetimenow.com/ttn-embed.min.js" defer></script>`} />
+                    }
                     <div className={'primary-white secondary-post-text'}>Time</div>
                 </div>
                 <div className={'d-flex flex-column text-center'}>

@@ -372,22 +372,22 @@ const hotelData = (parsed) => {
                             "css": {
                                 "title": {
                                     "element": "div",
-                                    "class": "title-case-secondary animation--up",
+                                    "class": "title-case-secondary",
                                     "color": "primary-dark"
                                 },
                                 "description": {
                                     "element": "div",
-                                    "class": "secondary-post-text animation--up",
+                                    "class": "secondary-post-text",
                                     "color": "primary-black"
                                 },
                                 "amenities": {
                                     "element": "div",
-                                    "class": "promo-small-text animation--up",
+                                    "class": "promo-small-text",
                                     "color": "primary-black"
                                 },
                                 "link": {
                                     "element": "button",
-                                    "class": "button-fill animation--up",
+                                    "class": "button-fill",
                                     "color": "primary-dark"
                                 }
                             }
