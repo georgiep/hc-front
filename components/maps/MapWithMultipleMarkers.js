@@ -118,7 +118,7 @@ const MapWithMultipleMarkers = ({data,full}) => {
             return (
                 <React.Fragment key={`place-${i}`}>
                     <div className={`cursor-pointer ${marker.active ? 'active-option-marker' : ''}`} onClick={() => onListItemClick(i)}>
-                        <Text2 text={marker.title} titleStyle={`${css.marker.class} ${css.marker.color}`} tag={css.marker.element}/>
+                        <Text2 text={marker.title} titleStyle={`${css.marker.class} ${css.marker.color} text-uppercase`} tag={css.marker.element}/>
                         <LineSeparator padding={'20px 0'} maxWidth={'100%'}/>
                     </div>
                     <style jsx global>
@@ -177,7 +177,7 @@ const MapWithMultipleMarkers = ({data,full}) => {
                             height: 300px !important;
                         }
                         .options{
-                            background: #EFF1FD;
+                            background: #FFFFFF;
                             padding: 40px 20px;
                             height: 200px;
                         }

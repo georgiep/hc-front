@@ -4,10 +4,10 @@ import PrefetchLink from 'components/links/PrefetchLink'
 import LineSeparator from "components/body/separators/LineSeparator";
 import ImageLoader from "components/commons/image/ImageLoader";
 import useScroll from "../../../hooks/useScroll";
-import {mediaBreakPoints} from 'public/globalCss/mediaBreakPoints'
 import breakpointContext from "context/BreakpointContext";
 import {AvailabilityStateContext} from "context/AvailabilityContext";
 import {useRouter} from "next/router";
+import {mediaBreakPoints} from 'public/globalCss/mediaBreakPoints'
 
 const createMenuListAnimation = (length) => {
 
@@ -95,10 +95,10 @@ const Template3 = () => {
 
                 {
                     !scrollY ? Router.asPath === '/' ?  <div className={'logo'} style={{width: '193px',height: '85px'}} onClick={scrollToTop}>
-                            <ImageLoader src={'http://localhost:5555/public/hotels/acquavista/images/aquavista-logo-white.svg'} priority={true} width={'193'} height={'85'} layout={'responsive'}/>
+                            <ImageLoader src={'https://aquavistahotels.rateparity.com/public/hotels/acquavista/images/aquavista-logo-white.svg'} priority={true} width={'193'} height={'85'} layout={'responsive'}/>
                         </div> : <PrefetchLink pathname={'/'}>
                             <div className={'logo'} style={{width: '193px',height: '85px'}}>
-                                <ImageLoader src={'http://localhost:5555/public/hotels/acquavista/images/aquavista-logo-white.svg'}  priority={true} width={'193'} height={'85'}  layout={'responsive'}/>
+                                <ImageLoader src={'https://aquavistahotels.rateparity.com/public/hotels/acquavista/images/aquavista-logo-white.svg'}  priority={true} width={'193'} height={'85'}  layout={'responsive'}/>
                             </div>
                         </PrefetchLink>
                         : Router.asPath === '/' ?  <div className={'logo'} style={{width: '150px',height: '66px'}} onClick={scrollToTop}>
@@ -111,7 +111,7 @@ const Template3 = () => {
                 }
 
 
-                <div className={'book-now'}><a href={url} target={'_blank'}><button className={'button-fill'}>BOOK NOW</button></a></div>
+                <div className={'book-now'}><a href={url} target={'_blank'}><button className={'button-fill text-nowrap'}>BOOK NOW</button></a></div>
             </div>
             <div className={!open ? 'menu' : 'menu open'} >
                 <div className={'close-menu'} onClick={toggleMenu}><CloseMenuSvg/></div>
@@ -196,7 +196,12 @@ const Template3 = () => {
             </style>
             <style jsx global>
                 {`
-                
+                 .burger-menu svg line{
+                   stroke: #ffffff !important;
+                 }
+                 .header-scrolling .burger-menu svg line{
+                   stroke: #04456D !important;
+                 }
                 .logo-scrolling{
                    margin-top: -3px !important;
                 }

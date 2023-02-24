@@ -325,6 +325,7 @@ const hotelData = (parsed) => {
                     "border": "0",
                     "backgroundColor": "#FFFFFF"
                 },
+                "class": "test",
                 "rows": [
                     {
                         "css": {

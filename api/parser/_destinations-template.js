@@ -84,7 +84,7 @@ const destinationParser = (data) =>{
                 }),
                 "css": {
                     "element": "div",
-                    "class": "post-text-body",
+                    "class": "post-text-body text-uppercase",
                     "color": "primary-white",
                     "top": {
                         "element": "div",

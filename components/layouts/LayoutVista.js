@@ -7,80 +7,8 @@ import Buttons from 'public/hotels/acquavista/data/buttons/buttons.json'
 import breakpoints from 'styles/breakpoints'
 // import {useRouter} from "next/router";
 
-//
-// import {motion, AnimatePresence, useScroll} from 'framer-motion';
-//
-// //
-// const variants = {
-//     inactive: {
-//         opacity: 1,
-//         y: 0,
-//         transition: {
-//             duration: 1,
-//             ease: 'easeInOut'
-//         },
-//     },
-//     out: {
-//         opacity: 0,
-//         y: -100,
-//         transition: {
-//             duration: 1,
-//             ease: 'easeInOut'
-//         }
-//     },
-//     in: {
-//         y: 100,
-//         opacity: 0,
-//         transition: {
-//             duration: 1,
-//             ease: 'easeInOut'
-//         }
-//     },
-// };
-// const Transition = ({ children }) => {
-//     const { asPath } = useRouter();
-//
-//     const {scrollY} = useScroll()
-//
-//     const variants = {
-//         hidden: { opacity: 0, x: -200, y: 0 },
-//         enter: { opacity: 1, x: 0, y: 0 },
-//         exit: { opacity: 0, x: 0, y: -1000 },
-//     }
-//
-//     const spring = {
-//         type: "spring",
-//         damping: 100,
-//         stiffness: 1000
-//     }
-//     return (
-//         <div className="effect-1">
-//             <AnimatePresence
-//                 initial={false}
-//                 mode='wait'
-//                 onExitComplete={() => window.scrollTo(0, 0)}
-//             >
-//                 <motion.div
-//                     key={asPath}
-//                     // variants={variants}
-//                     // initial="in"
-//                     // animate="inactive"
-//                     // exit="out"
-//
-//                     exit='exit'
-//                     initial={{ opacity: 0, scale: 0.5 }}
-//                     animate={{ opacity: 1, scale: 1 }}
-//                     transition={spring}
-//                     // transition={{ type: 'linear' }}
-//                 >
-//                     {children}
-//                 </motion.div>
-//             </AnimatePresence>
-//         </div>
-//     );
-// };
-
 export default function LayoutVista(props) {
+
     let jsxCss =  ''
     const header = props.header.map(d => headerFooterList[d.component_name][d.template])
     const footer = props.footer.map(d => headerFooterList[d.component_name][d.template])
@@ -169,113 +97,12 @@ export default function LayoutVista(props) {
                     )
                 })}
 
-                <style jsx global>{`
-                    .slick-dots li button:before {
-                        font-family: slick;
-                        font-size: 8px;
-                     }
-                      
-                    .slick-dots li,.container-carousel--multi .slick-dots li button {
-                        width: 7px;
-                        height: 20px;
-                        cursor: pointer;
-                    }
-                    
-                    .slick-dots {
-                         bottom: -37px;
-                    }
-                    
-                    .slick-dots {
-                        bottom: -37px;
-                        z-index: 0;
-                        max-width: calc(100% - 100px);
-                        margin: 0 auto;
-                        text-align: center;
-                        margin-left: 50px;
-                    }
-                `}
-
-
-                </style>
-
                 <style jsx global>
                     {jsxCss}
                 </style>
 
                 <style jsx global>
                     {`@font-face{font-family:Gotham Greek;src:url(/public/hotels/acquavista/fonts/GothamGRLight.woff2) format('opentype');font-weight:300;font-display:swap}@font-face{font-family:Gotham Greek;src:url(/public/hotels/acquavista/fonts/GothamGRBook.woff2) format('opentype');font-weight:400;font-display:swap}@font-face{font-family:Gotham Greek;src:url(/public/hotels/acquavista/fonts/GothamGRMedium.woff2) format('opentype');font-weight:500;font-display:swap}`}
-                </style>
-
-                <style jsx global>
-                    {`*{font-family:Gotham Greek!important;}.line-break{border: 1px solid;margin: 10px 0 20px 0;}ul.three-col{-webkit-column-count:3;-moz-column-count:3;column-count:3;list-style:none;padding:0}ul.three-col li::before{content:"";position:absolute;background:url(/public/hotels/acquavista/svg/Plus.svg);width:13px;height:10px;left:-20px;top:11px}ul.three-col li{position:relative}`}
-                </style>
-
-                <style jsx global>
-                    {`
-                   .opacity-bg:after{
-                        content: "";
-                        position: absolute;
-                        width: 100%;
-                        height: 100%;
-                        background: rgba(0,0,0,0.5);
-                        z-index: 0;
-                        top: 0;
-                   }
-                   
-                   .opacity-bg > div{
-                      z-index: 1;
-                      position: relative;
-                   }
-                   
-                   ul.two-col{
-                       -webkit-column-count: 2;
-                        -moz-column-count: 2;
-                        -webkit-column-count: 2;
-                        column-count: 2;
-                        list-style: none;
-                        padding: 0;
-                        position: relative;
-                   }
-                   ul.two-col li{
-                     position: relative;
-                   }
-                              
-                   ul.two-col li::before {
-                        content: "";
-                        position: absolute;
-                        background: url(/public/hotels/acquavista/svg/Plus.svg);
-                        width: 13px;
-                        height: 10px;
-                        left: -20px;
-                        top: 11px;
-                    }
-                   @media screen and (max-width: 1000px) {
-                     .three-col ul{-webkit-column-count:2;-moz-column-count:2;column-count:2;}
-                   }
-                   
-                   @media screen and (max-width: 600px) {
-                     .three-col ul,ul.two-col{-webkit-column-count:1;-moz-column-count:1;column-count:1;}
-                   }
-                   
-                   .no-transform{
-                     transform: initial !important;
-                   }
-                   
-                   .animation--up{
-                        transform: translate3d(0,100px,0);
-                        opacity: 0;
-                        -webkit-transition-property: opacity,-webkit-transform;
-                        transition-property: opacity,transform,-webkit-transform;
-                        transition-duration: .9s;
-                        transition-timing-function: ease;
-                   }
-                    
-                   .animation--up.animation--finish{
-                        opacity: 1;
-                        transform: translateZ(0);
-                    } 
-                  
-                `}
                 </style>
 
                 {/*<script type="text/javascript" src="https://www.google-analytics.com/analytics.js" async />*/}
@@ -314,3 +141,79 @@ export default function LayoutVista(props) {
 
     )
 }
+
+
+
+
+//
+// import {motion, AnimatePresence, useScroll} from 'framer-motion';
+//
+// //
+// const variants = {
+//     inactive: {
+//         opacity: 1,
+//         y: 0,
+//         transition: {
+//             duration: 1,
+//             ease: 'easeInOut'
+//         },
+//     },
+//     out: {
+//         opacity: 0,
+//         y: -100,
+//         transition: {
+//             duration: 1,
+//             ease: 'easeInOut'
+//         }
+//     },
+//     in: {
+//         y: 100,
+//         opacity: 0,
+//         transition: {
+//             duration: 1,
+//             ease: 'easeInOut'
+//         }
+//     },
+// };
+// const Transition = ({ children }) => {
+//     const { asPath } = useRouter();
+//
+//     const {scrollY} = useScroll()
+//
+//     const variants = {
+//         hidden: { opacity: 0, x: -200, y: 0 },
+//         enter: { opacity: 1, x: 0, y: 0 },
+//         exit: { opacity: 0, x: 0, y: -1000 },
+//     }
+//
+//     const spring = {
+//         type: "spring",
+//         damping: 100,
+//         stiffness: 1000
+//     }
+//     return (
+//         <div className="effect-1">
+//             <AnimatePresence
+//                 initial={false}
+//                 mode='wait'
+//                 onExitComplete={() => window.scrollTo(0, 0)}
+//             >
+//                 <motion.div
+//                     key={asPath}
+//                     // variants={variants}
+//                     // initial="in"
+//                     // animate="inactive"
+//                     // exit="out"
+//
+//                     exit='exit'
+//                     initial={{ opacity: 0, scale: 0.5 }}
+//                     animate={{ opacity: 1, scale: 1 }}
+//                     transition={spring}
+//                     // transition={{ type: 'linear' }}
+//                 >
+//                     {children}
+//                 </motion.div>
+//             </AnimatePresence>
+//         </div>
+//     );
+// };

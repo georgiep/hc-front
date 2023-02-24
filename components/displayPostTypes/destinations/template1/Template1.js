@@ -54,11 +54,7 @@ const Template1 = ({ data }) => {
                        height: 750px;
                      }
 
-                     @media only screen and (max-width: 600px) {
-                         .post-container{
-                           height: 350px;
-                         }
-                     }
+
                      
                      .post-link-text{
                          margin-top: auto;
@@ -76,6 +72,15 @@ const Template1 = ({ data }) => {
                        z-index: 1;
                      }    
                      
+                     
+                     @media only screen and (max-width: 600px) {
+                         .post-container{
+                           height: 350px;
+                         }
+                         .post-link-text{
+                             padding-bottom: 40px;
+                         }
+                     }
                     
                        
                  `}

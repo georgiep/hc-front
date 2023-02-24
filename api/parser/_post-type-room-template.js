@@ -358,7 +358,7 @@ const hotelData = (parsed) => {
                             "sizes": [
                                 "col-md-12 p-0 animation--up",
                                 "col-md-12 p-0 animation--up",
-                                "col-md-12 p-0 three-col px-3 px-sm-0 animation--up"
+                                "col-md-12 p-0 px-3 px-sm-0 animation--up"
                             ]
                         }
                     }

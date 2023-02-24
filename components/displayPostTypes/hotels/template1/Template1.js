@@ -1,5 +1,6 @@
 import Single from "./Single";
 import React, {useEffect, useState, useRef} from "react";
+import {mediaBreakPoints} from 'public/globalCss/mediaBreakPoints'
 
 const Template1 = ({ data }) => {
     let { items, css } = data;
@@ -187,10 +188,13 @@ const Template1 = ({ data }) => {
                       .filtering-section > div{
                          margin-left: 10px;
                       }
-    
-                      @media only screen and (max-width: 600px) {
+                      
+                       @media only screen and (max-width: ${mediaBreakPoints.lg}) {
                         .gutters > [class*="col-"] {
                             padding: 0 0 40px 0;
+                         }
+                         .show-more-button{
+                          top: -60px;
                          }
                       }
         

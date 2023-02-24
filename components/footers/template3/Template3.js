@@ -36,10 +36,10 @@ const Template3 = ({ page, index }) => {
                         <div className={'container'}>
                             <div className={'row'}>
                                 <div className={'col-sm-12 col-md-12 col-lg-4 details text-uppercase'}>
-                                    <Text2 tag="div" text={'AQUA VISTA HOTELS'} titleStyle={'primary-white post-text-body'}/>
+                                    <Text2 tag="div" text={'AQUA VISTA HOTELS'} titleStyle={'primary-white post-text-body font-500'}/>
                                     <LineSeparator color={'#FFFFFF'} padding={'20px 0'} maxWidth={'100%'}/>
                                     <div>
-                                        <Text2 tag="div" text={'Athens Office'} titleStyle={'primary-white promo-text-secondary'}/>
+                                        <Text2 tag="div" text={'Athens Office'} titleStyle={'primary-white promo-text-secondary font-500'}/>
                                         <LineSeparator padding={'3px 0'} maxWidth={'100%'}/>
                                         <Text2 tag="div" text={'Kifisias Avenue 130, Athens, 11526 Athens | Greece |'} titleStyle={'primary-white promo-text-third'}/>
                                         <LineSeparator padding={'3px 0'} maxWidth={'100%'}/>
@@ -47,14 +47,14 @@ const Template3 = ({ page, index }) => {
                                         <a className={'primary-white promo-text-third'} href={"fax:+30 210 722 48 43"}>F +30 210 722 48 43</a>
                                     </div>
                                     <div>
-                                        <Text2 tag="div" text={'Santorini Office'} titleStyle={'primary-white promo-text-secondary'}/>
+                                        <Text2 tag="div" text={'Santorini Office'} titleStyle={'primary-white promo-text-secondary font-500'}/>
                                         <LineSeparator padding={'3px 0'} maxWidth={'100%'}/>
                                         <Text2 tag="div" text={'Fira-Pyrgos Road, 847 00 Santorini | Greece | '} titleStyle={'primary-white promo-text-third'}/>
                                         <LineSeparator padding={'3px 0'} maxWidth={'100%'}/>
                                         <a className={'primary-white promo-text-third pe-2'} href={"tel:+30 22860 28866"}>T +30 22860 28866</a>
                                     </div>
                                     <div>
-                                        <Text2 tag="div" text={'London Office'} titleStyle={'primary-white promo-text-secondary'}/>
+                                        <Text2 tag="div" text={'London Office'} titleStyle={'primary-white promo-text-secondary font-500'}/>
                                         <LineSeparator padding={'3px 0'} maxWidth={'100%'}/>
                                         <Text2 tag="div" text={'76 Rainier Apt. 43 Cherry Orchard Road CR0 6FD East Croydon, London London | UK | '} titleStyle={'primary-white promo-text-third'}/>
                                         <LineSeparator padding={'3px 0'} maxWidth={'100%'}/>
@@ -63,7 +63,7 @@ const Template3 = ({ page, index }) => {
                                 </div>
                                 <div className={'offset-md-0 offset-lg-2 col-md-12 col-lg-4 text-uppercase'}>
                                     {/*<Text2 />*/}
-                                    <Text2 tag="div" text={'EXPLORE BY DESTINATION'} titleStyle={'primary-white post-text-body'}/>
+                                    <Text2 tag="div" text={'EXPLORE BY DESTINATION'} titleStyle={'primary-white post-text-body font-500'}/>
                                     <LineSeparator color={'#FFFFFF'} padding={'20px 0'} maxWidth={'100%'}/>
                                     <div>
                                         <PrefetchLink pathname={'/hotels-in-santorini'}>
@@ -89,7 +89,7 @@ const Template3 = ({ page, index }) => {
                                         </PrefetchLink>
                                     </div>
                                     <LineSeparator padding={'25px 0'} maxWidth={'100%'}/>
-                                    <Text2 tag="div" text={'BOOKING CENTER'} titleStyle={'primary-white post-text-body'}/>
+                                    <Text2 tag="div" text={'BOOKING CENTER'} titleStyle={'primary-white post-text-body font-500'}/>
                                     <LineSeparator color={'#FFFFFF'} padding={'20px 0'} maxWidth={'100%'}/>
                                     <div>
                                         {/*<Text2 tag="div" text={'T: +30 210 7213253'} titleStyle={'primary-white promo-text-third'}/>*/}

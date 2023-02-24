@@ -171,7 +171,7 @@ const homepageParser = (data) =>{
 
 
     homepageParseObj._heading_social = {
-        "text": 'Guests Photos'
+        "text": 'GUEST Photos'
     }
 
     homepageParseObj.SEO = {
@@ -539,7 +539,7 @@ const homepageData = (parsed) => {
                 "rows": [
                     {
                         "css": {
-                            "padding": "40px 0 80px 0",
+                            "padding": "40px 0 40px 0",
                             "border": "0"
                         },
                         "columns": {
@@ -598,8 +598,8 @@ const homepageData = (parsed) => {
                     },
                     {
                         "css": {
-                            "padding": "0",
-                            "border": "0"
+                            "border": "0",
+                            "padding": "0 0 40px 0",
                         },
                         "columns": {
                             "sizes": [

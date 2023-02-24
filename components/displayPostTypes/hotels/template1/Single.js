@@ -5,10 +5,13 @@ import Text2 from "components/commons/Text2/Text2";
 import PrefetchLink from 'components/links/PrefetchLink'
 import LineSeparator from "components/body/separators/LineSeparator";
 import {mediaBreakPoints} from 'public/globalCss/mediaBreakPoints'
+import {useBreakpointContext} from "context/BreakpointContext";
 
 const Single = ({ item, css, orderReverse }) => {
 
     let { image, description, title, amenities, link, min_price } = item
+
+    const {small} = useBreakpointContext()
 
     return (
         <div className={'single-post-layout'}>
@@ -34,11 +37,13 @@ const Single = ({ item, css, orderReverse }) => {
                         <Text2 titleStyle={`${css.description.class} ${css.description.color}`} text={description} tag={css.description.element}/>
                     }
 
-                    <LineSeparator padding={'15px 0'} maxWidth={'100%'}/>
-
                     {
-                        amenities && <DisplaySvgWithText items={amenities} css={css.amenities}/>
+                        !small && <>
+                            <LineSeparator padding={'15px 0'} maxWidth={'100%'}/>
+                            {amenities && <DisplaySvgWithText items={amenities} css={css.amenities}/>}
+                        </>
                     }
+
 
                     <LineSeparator padding={'20px 0'} maxWidth={'100%'}/>
 
@@ -48,7 +53,7 @@ const Single = ({ item, css, orderReverse }) => {
                             min_price && <Text2 titleStyle={`${css.description.class} ${css.title.color} font-500 me-3`} text={`From €${min_price} Per 1 night`} tag={css.description.element}/>
                         }
 
-                        <div className={`f-r ${ !min_price && !orderReverse ?  '' : 'text-right'} `}>
+                        <div className={`single-post-layout--button f-r ${ !min_price && !orderReverse ?  '' : 'text-right'} `}>
                             <PrefetchLink api={link.api} pathname={link.pathname}>
                                 <Text2 titleStyle={`${css.link.class} ${css.link.color}`} text={link.text} tag={css.link.element}/>
                             </PrefetchLink>
@@ -129,6 +134,23 @@ const Single = ({ item, css, orderReverse }) => {
                   
                   }
                   
+                  @media only screen and (max-width: ${mediaBreakPoints.md}) {
+                  
+                     .info{
+                         padding: 37px 30px 30px 30px;
+                          margin-bottom: 0;
+                      }
+                      .post-layout-bg-color  {
+                        height: calc(100% - 72px);
+                      }
+                      
+                      .single-post-layout--button{
+                         margin-left: auto !important;
+                      }
+         
+                  
+                  }
+             
                 `}
             </style>
         </div>

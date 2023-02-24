@@ -72,7 +72,7 @@ const Carousel = ({ items, css }) => {
                
                         
                        .carousel-slides-same-height .slick-dots li button:before {
-                            color: #000 !important;
+                            color: #04456D !important;
                             font-size: 40px;
                         }
 

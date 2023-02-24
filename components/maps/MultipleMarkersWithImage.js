@@ -19,8 +19,8 @@ const MultipleMarkersWithImage = ({data}) => {
                 <div className={`map-line ${open ? 'map-line--opened' : ''}`}></div>
             </div>
 
-            <div onClick={action} className={'d-flex'}>
-                <div style={{marginLeft: 'auto'}}>
+            <div onClick={action} className={'d-flex quick-view'}>
+                <div>
                     {
                         !open ? <button className={'button-secondary f-r text-uppercase'}>Quick View</button> : <div className={'button-close'}><CloseButton/></div>
                     }
@@ -29,6 +29,9 @@ const MultipleMarkersWithImage = ({data}) => {
             {open && <MapWithMultipleMarkers data={{items:items,css:css}} full/>}
             <style jsx>
                 {`
+                   .quick-view > div{
+                      margin-left: auto;
+                   }
                    .button-close{
                       position: absolute;
                       z-index: 9999999;
@@ -55,6 +58,9 @@ const MultipleMarkersWithImage = ({data}) => {
                    @media only screen and (max-width: ${mediaBreakPoints.sm}) {
                       .map-line{
                          display: none;
+                       }
+                       .quick-view > div{
+                          margin: 0 auto !important;
                        }
                    }
                 `}

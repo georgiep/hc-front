@@ -122,6 +122,13 @@ const Slide = ({ item, css, key, gap }) => {
                         margin-top: 0;
                    }
                }
+               
+               @media only screen and (max-width: ${mediaBreakPoints.md}) {
+                  .slider-post-item{
+                    height: 385px;
+                 }
+               }
+               
     
             `}
           </style>
