@@ -182,6 +182,7 @@ const homepageData = (parsed) => {
                     "border": "0",
                     "backgroundColor": "#FFFFFF"
                 },
+                "class": "d-none d-md-block",
                 "rows": [
                     {
                         "css": {

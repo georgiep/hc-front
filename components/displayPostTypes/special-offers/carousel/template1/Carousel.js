@@ -94,36 +94,44 @@ const Carousel = ({ items, css, initialRequest }) => {
             <style jsx global>
                 {`
           
-           .carousel-offers-slider-container .slick-list {
-               margin: 0 -27px;
-           }
-          
-           .carousel-offers-slider-container .slick-slide {
-               padding: 15px;
-           }
-
-           @media screen and (max-width: ${mediaBreakPointsQueriesMax.lg}) {
-           
-                .carousel-offers-slider-container {
-                  margin: 0 60px;
-                }
-             
-                .carousel-offers-slider-container {
-                    margin: 0 27px;
-                }
-                
-           }
-           
-           @media screen and (max-width: ${mediaBreakPointsQueriesMax.md}) {
-           
-                .carousel-offers-slider-container .slick-slide {
-                    padding: 0;
-                }
-                
-           }
-           
-                
-        `}
+                   .carousel-offers-slider-container .slick-list {
+                       margin: 0 -27px;
+                   }
+                  
+                   .carousel-offers-slider-container .slick-slide {
+                       padding: 15px;
+                   }
+        
+                   @media screen and (max-width: ${mediaBreakPointsQueriesMax.lg}) {
+                   
+                        .carousel-offers-slider-container {
+                          margin: 0 60px;
+                        }
+                     
+                        .carousel-offers-slider-container {
+                            margin: 0 27px;
+                        }
+                        
+                       
+                            
+                        
+                   }
+                   
+                   @media screen and (max-width: ${mediaBreakPointsQueriesMax.md}) {
+                   
+                        .carousel-offers-slider-container .slick-slide {
+                            padding: 0;
+                        }
+                        
+                         .carousel-offers-slider-container .slick-dots{
+                            display: block;
+                            width: 100px;
+                            left: calc(50% - 50px);
+                        }
+                   }
+                   
+                        
+                `}
             </style>
         </div>
     )

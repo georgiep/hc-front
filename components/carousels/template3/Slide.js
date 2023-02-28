@@ -4,9 +4,11 @@ import Text2 from "components/commons/Text2/Text2";
 import LineSeparator from "components/body/separators/LineSeparator";
 import {Fragment} from 'react'
 import {mediaBreakPoints} from "../../../public/globalCss/mediaBreakPoints";
+import {useBreakpointContext} from "context/BreakpointContext";
 
 const Slide = ({ item, css }) => {
     let { link, image, title, description, amenities_with_icons } = item
+    const {small} = useBreakpointContext()
 
     return (
         <>
@@ -32,10 +34,12 @@ const Slide = ({ item, css }) => {
                     <Text2 titleStyle={`${css.description.class} ${css.description.color}`} text={description} tag={css.description.element}/>
                 </div>
 
-                <LineSeparator padding={'15px 0'} maxWidth={'100%'}/>
+                {
+                    !small && <LineSeparator padding={'15px 0'} maxWidth={'100%'}/>
+                }
 
                 {
-                    amenities_with_icons && <DisplaySvgWithText items={amenities_with_icons} css={css.amenities}/>
+                    !small && amenities_with_icons && <DisplaySvgWithText items={amenities_with_icons} css={css.amenities}/>
                 }
 
                 {
@@ -49,19 +53,7 @@ const Slide = ({ item, css }) => {
             </div>
             <style jsx>
                 {`
-                
-                  //.image{
-                  //   width: 100%;
-                  //   height: 510px;
-                  //}
                   
-                    @media only screen and (max-width: ${mediaBreakPoints.lg}) {
-                         //.image{
-                         //    width: 100%;
-                         //    height: 310px;
-                         // } 
-                    } 
-
                   .slide {
                     margin-right: 0;
                     padding-bottom: 80px;

@@ -5,6 +5,7 @@ import Typography from 'public/hotels/acquavista/data/typography/typography.json
 import Colors from 'public/hotels/acquavista/data/colors/colors.json'
 import Buttons from 'public/hotels/acquavista/data/buttons/buttons.json'
 import breakpoints from 'styles/breakpoints'
+import Script from 'next/script';
 // import {useRouter} from "next/router";
 
 export default function LayoutVista(props) {
@@ -104,6 +105,12 @@ export default function LayoutVista(props) {
                 <style jsx global>
                     {`@font-face{font-family:Gotham Greek;src:url(/public/hotels/acquavista/fonts/GothamGRLight.woff2) format('opentype');font-weight:300;font-display:swap}@font-face{font-family:Gotham Greek;src:url(/public/hotels/acquavista/fonts/GothamGRBook.woff2) format('opentype');font-weight:400;font-display:swap}@font-face{font-family:Gotham Greek;src:url(/public/hotels/acquavista/fonts/GothamGRMedium.woff2) format('opentype');font-weight:500;font-display:swap}`}
                 </style>
+
+
+                <Script
+                    src="https://code.rateparity.com/versions/installer.min.js"
+                    strategy="lazyOnload"
+                />
 
                 {/*<script type="text/javascript" src="https://www.google-analytics.com/analytics.js" async />*/}
 

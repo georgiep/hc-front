@@ -2,6 +2,7 @@ import React from 'react'
 import Slide from './Slide'
 import { NextArrow, PrevArrow } from 'components/commons/arrows/arrows'
 import dynamic from "next/dynamic";
+import {mediaBreakPointsQueriesMax} from "public/globalCss/mediaBreakPoints";
 
 const Slider = dynamic(() => import('react-slick'))
 
@@ -71,10 +72,10 @@ const Carousel = ({ items, css }) => {
                     }
                
                         
-                       .carousel-slides-same-height .slick-dots li button:before {
-                            color: #04456D !important;
-                            font-size: 40px;
-                        }
+                   .carousel-slides-same-height .slick-dots li button:before {
+                        color: #04456D !important;
+                        font-size: 40px;
+                    }
 
                `}
             </style>
@@ -94,9 +95,9 @@ const Carousel = ({ items, css }) => {
                     }
                   }
                   
-                  @media screen and (max-width: 600px) {
+                  @media screen and (max-width: ${mediaBreakPointsQueriesMax.md}) {
                      .slide-container{
-                         width: initial !important;
+                         width: 100% !important;
                       }
                   }
                   
