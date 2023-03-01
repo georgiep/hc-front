@@ -80,7 +80,7 @@ const hotelParser = (data,link,allData) => {
         items: [
             {
                 link: '/',
-                label: "Aqua Vista"
+                label: "AQUA VISTA HOTELS"
             },
             {
                 link: '',

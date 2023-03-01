@@ -81,6 +81,9 @@ export const bodyListDynamic = {
         Button: dynamic(() => import('components/commons/buttons/Button')),
         Amenities: dynamic(() => import('components/body/amenities/template1/Template1')),
     },
+    Ellipsis: {
+        Template1: dynamic(() => import('components/body/ellipsis/template1/Template1')),
+    },
     General: {
         Breadcrumbs: dynamic(() => import('components/general/breadcrumbs/Template1')),
     },
@@ -88,6 +91,7 @@ export const bodyListDynamic = {
         Template1: dynamic(() => import('components/carousels/template1/Template1'),{ssr:false}),
         Template2: dynamic(() => import('components/carousels/template2/Template2'),{ssr:false}),
         Template3: dynamic(() => import('components/carousels/template3/Template3'),{ssr:false}),
+        Template4: dynamic(() => import('components/carousels/template4/Template4'),{ssr:false}),
         Multi: dynamic(() => import('components/carousels/MultiCarousel/Template1'),{ssr:false}),
         LatestPost: dynamic(() => import('components/carousels/latestPosts/Template1'),{ssr:false}),
         SpecialOffers: dynamic(() => import('components/displayPostTypes/special-offers/carousel/template1/Template1'),{ssr:false})

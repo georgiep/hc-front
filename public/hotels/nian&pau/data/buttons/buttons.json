@@ -1,0 +1,102 @@
+{
+  ".button-primary": {
+    "desktop": {
+      "fontStyle": "normal",
+      "fontWeight": "400",
+      "fontSize": "24px",
+      "lineHeight": "20px",
+      "fontFamily": "Gotham Greek",
+      "opacity": "1",
+      "letterSpacing": "0em",
+      "background": "transparent",
+      "padding": "10px 0",
+      "color": "#FFF",
+      "border": "0",
+      "borderBottom": "1px solid",
+      "borderRadius": "0px 0px 18px 0px",
+      "cursor": "pointer"
+    },
+    "tablet": {
+      "fontStyle": "normal",
+      "fontWeight": "400",
+      "fontSize": "24px",
+      "lineHeight": "20px",
+      "fontFamily": "Gotham Greek",
+      "opacity": "1",
+      "letterSpacing": "0em",
+      "background": "transparent",
+      "padding": "10px 0",
+      "color": "#FFF",
+      "border": "0",
+      "borderBottom": "1px solid",
+      "cursor": "pointer",
+      "borderRadius": "0px 0px 18px 0px"
+    },
+    "mobile": {
+      "fontStyle": "normal",
+      "fontWeight": "400",
+      "fontSize": "24px",
+      "lineHeight": "20px",
+      "fontFamily": "Gotham Greek",
+      "opacity": "1",
+      "letterSpacing": "0em",
+      "background": "transparent",
+      "padding": "10px 0",
+      "color": "#FFF",
+      "border": "0",
+      "borderBottom": "1px solid",
+      "cursor": "pointer",
+      "borderRadius": "0px 0px 18px 0px"
+    }
+  },
+  ".button-secondary": {
+    "desktop": {
+      "fontStyle": "normal",
+      "fontWeight": "400",
+      "fontSize": "18px",
+      "lineHeight": "21px",
+      "fontFamily": "Gotham Greek",
+      "opacity": "1",
+      "letterSpacing": "0.03em",
+      "background": "transparent",
+      "padding": "10px 0",
+      "color": "#04456D",
+      "border": "0",
+      "borderBottom": "1px solid",
+      "cursor": "pointer",
+      "borderRadius": "0"
+    },
+    "tablet": {
+      "fontStyle": "normal",
+      "fontWeight": "400",
+      "fontSize": "18px",
+      "lineHeight": "21px",
+      "fontFamily": "Gotham Greek",
+      "opacity": "1",
+      "letterSpacing": "0.03em",
+      "background": "transparent",
+      "padding": "10px 0",
+      "color": "#04456D",
+      "border": "0",
+      "borderBottom": "1px solid",
+      "cursor": "pointer",
+      "borderRadius": "0"
+    },
+    "mobile": {
+      "fontStyle": "normal",
+      "fontWeight": "400",
+      "fontSize": "18px",
+      "lineHeight": "21px",
+      "fontFamily": "Gotham Greek",
+      "opacity": "1",
+      "letterSpacing": "0.03em",
+      "background": "transparent",
+      "padding": "10px 0",
+      "color": "#04456D",
+      "border": "0",
+      "borderBottom": "1px solid",
+      "cursor": "pointer",
+      "borderRadius": "0"
+    }
+  }
+}

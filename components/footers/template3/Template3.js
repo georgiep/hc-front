@@ -96,7 +96,7 @@ const Template3 = ({ page, index }) => {
                                         <a className={'py-3 p-sm-0 pe-2 primary-white promo-text-third d-flex'} href={"tel:+30 210 7213253"}>T +30 210 7213253</a>
                                         <LineSeparator padding={'3px 0'} maxWidth={'100%'}/>
                                         {/*<Text2 tag="div" text={'reservations@aquavistahotels.com'} titleStyle={'primary-white promo-text-third'}/>*/}
-                                        <a className={'primary-white promo-text-third py-3 p-sm-0 pe-2'} href={"mailto:reservations@aquavistahotels.com"}>reservations@aquavistahotels.com</a>
+                                        <a className={'primary-white promo-text-third text-lowercase py-3 p-sm-0 pe-2'} href={"mailto:reservations@aquavistahotels.com"}>reservations@aquavistahotels.com</a>
                                     </div>
                                 </div>
                             </div>

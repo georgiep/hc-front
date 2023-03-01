@@ -120,7 +120,7 @@ const homepageParser = (data) =>{
         items: [
             {
                 link: '/',
-                label: "Aqua Vista"
+                label: "AQUA VISTA HOTELS"
             },
             {
                 link: '',
@@ -273,7 +273,7 @@ const homepageData = (parsed) => {
                         },
                         "columns": {
                             "sizes": [
-                                "col-md-12 animation--up"
+                                "col-md-12"
                             ]
                         }
                     }
@@ -287,16 +287,16 @@ const homepageData = (parsed) => {
                             "css": {
                                 "title":{
                                     "element": "div",
-                                    "class": "title-case-secondary animation--up",
+                                    "class": "title-case-secondary",
                                     "color": "primary-white"
                                 },
                                 "description":{
                                     "element": "div",
-                                    "class": "main-text-body animation--up",
+                                    "class": "main-text-body",
                                     "color": "primary-black"
                                 },
                                 "element": "div",
-                                "class": "title-case-primary text-uppercase animation--up",
+                                "class": "title-case-primary text-uppercase",
                                 "color": "primary-white"
                             }
                         }

@@ -78,7 +78,7 @@ const hotelParser = (data,posts,id,folder,label) => {
         items: [
             {
                 link: '/',
-                label: "Aqua Vista"
+                label: "AQUA VISTA HOTELS"
             },
             {
                 link: `/${folder}`,

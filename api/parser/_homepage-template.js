@@ -97,9 +97,29 @@ const homepageParser = (data) =>{
         }),
         "heading": data.intro_text
     }
+
     homepageParseObj._Commons_Text_order_2_row_0_col_0 = {
         "text": data.welcome_text
     }
+
+    homepageParseObj.AWARDS = {
+        "items": data.hotel_awards.map(item => {
+            return{
+                image:{
+                    "src":item.url.toString().replace('https://greece-hotel.info/admins/aquavistahotels/wp-content/uploads','https://code.rateparity.com/aquavistahotels.com'),
+                    "alt": item.name,
+                    "width": "300",
+                    "height": "200"
+                }
+            }
+        }),
+    }
+
+    homepageParseObj._heading_awards = {
+        "text": 'Awards'
+    }
+    console.log(homepageParseObj.AWARDS)
+
     homepageParseObj._Commons_Text_order_2_row_2_col_0 = {
         "text": data.welcome_description
     }
@@ -171,7 +191,7 @@ const homepageParser = (data) =>{
 
 
     homepageParseObj._heading_social = {
-        "text": 'GUEST Photos'
+        "text": 'Explore our Social'
     }
 
     homepageParseObj.SEO = {
@@ -618,7 +638,7 @@ const homepageData = (parsed) => {
                                 "element": "div",
                                 "class": "title-case-primary text-uppercase text-left text-sm-center animation--up",
                                 "color": "primary-dark",
-                                "maxWidth": "250px",
+                                "maxWidth": "350px",
                                 "margin": "0 auto",
                                 "padding": "0 0 0 0"
                             }
@@ -643,6 +663,91 @@ const homepageData = (parsed) => {
                             "css": {
                                 "element": "div",
                                 "class": "title-case-primary text-uppercase text-center animation--up",
+                                "color": "primary-white"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        "7": {
+            "wrapper": {
+                "fluid": false,
+                "css": {
+                    "border": "0",
+                    "backgroundColor": "#FFFFFF"
+                },
+                "rows": [
+                    {
+                        "css": {
+                            "padding": "40px 0 0 0",
+                            "border": "0"
+                        },
+                        "columns": {
+                            "sizes": [
+                                "col-md-12"
+                            ]
+                        }
+                    },
+                    {
+                        "css": {
+                            "padding": "0",
+                            "border": "0"
+                        },
+                        "columns": {
+                            "sizes": [
+                                "col-md-6",
+                                "col-md-6"
+                            ]
+                        }
+                    },
+                    {
+                        "css": {
+                            "border": "0",
+                            "padding": "0 0 40px 0",
+                        },
+                        "columns": {
+                            "sizes": [
+                                "col-md-12  pb-sm-3 pb-xl-5"
+                            ]
+                        }
+                    }
+                ]
+            },
+            "rows": [
+                {
+                    "columns": [
+                        {
+                            ...parsed._heading_awards,
+                            "css": {
+                                "element": "div",
+                                "class": "title-case-primary text-uppercase text-left text-sm-center",
+                                "color": "primary-dark",
+                                "maxWidth": "350px",
+                                "margin": "0 auto",
+                                "padding": "0 0 0 0"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "columns": [
+                        {},
+                        {
+                            "maxWidth": "367px",
+                            "color": "#04456D",
+                            "padding": "40px",
+                            "margin": "0 auto"
+                        }
+                    ]
+                },
+                {
+                    "columns": [
+                        {
+                            ...parsed.AWARDS,
+                            "css": {
+                                "element": "div",
+                                "class": "title-case-primary text-uppercase text-center",
                                 "color": "primary-white"
                             }
                         }

@@ -34,8 +34,8 @@
           }
         },
         {
-          "component_name": "Commons",
-          "template": "Text",
+          "component_name": "Ellipsis",
+          "template": "Template1",
           "order": 2,
           "wrapper": {
             "row": 0,

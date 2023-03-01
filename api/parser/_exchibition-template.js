@@ -125,7 +125,7 @@ const homepageParser = (data) =>{
         items: [
             {
                 link: '/',
-                label: "Aqua Vista"
+                label: "AQUA VISTA HOTELS"
             },
             {
                 link: '',

@@ -1,0 +1,53 @@
+{
+  "0": {
+    "wrapper": {
+      "fluid": true,
+      "css": {
+        "border": "0",
+        "backgroundColor": "#FFFFFF"
+      },
+      "rows": [
+        {
+          "css": {
+            "padding": "0",
+            "border": "0"
+          },
+          "columns": {
+            "sizes": [
+              "col-md-12"
+            ]
+          }
+        }
+      ]
+    },
+    "rows": [
+      {
+        "columns": [
+          {
+            "items": [
+              {
+                "src": "https://code.rateparity.com/aquavistahotels.com/2022/12/Dream-Luxury-Suite100A9972.jpg",
+                "alt": "alt hotel image"
+              }
+            ],
+            "heading": "Turn your dreams into memories  ",
+            "css": {
+              "heading": {
+                "element": "div",
+                "class": "title-case-hero text-uppercase",
+                "color": "primary-white"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "idbName": "/pages/homepage",
+  "schema": "schema-homepage",
+  "SEO": {
+    "title": "Nin&Pau",
+    "description": "Nin&Pau Hotels is a collection of superb luxury hotels & villas",
+    "keywords": ""
+  }
+}

@@ -164,11 +164,15 @@ const hotelParser = (data,link,label) => {
         "keywords": ""
     }
 
+    _hotelParseObj._heading_social = {
+        "text": 'Explore our Social'
+    }
+
     _hotelParseObj.breadcrumbs = {
         items: [
             {
                 link: '/',
-                label: "Aqua Vista"
+                label: "AQUA VISTA HOTELS"
             },
             {
                 link: `/${link.split('/')[1]}`,
@@ -780,14 +784,41 @@ const hotelData = (parsed) => {
                 "rows": [
                     {
                         "css": {
-                            "padding": "80px 0 60px 0",
+                            "padding": "40px 0 0 0",
                             "border": "0",
                             "maxWidth": "1440px",
                             "margin": "0 auto"
                         },
                         "columns": {
                             "sizes": [
-                                "col-md-12 animation--up"
+                                "col-md-12  animation--up"
+                            ]
+                        }
+                    },
+                    {
+                        "css": {
+                            "padding": "0",
+                            "border": "0",
+                            "maxWidth": "1440px",
+                            "margin": "0 auto"
+                        },
+                        "columns": {
+                            "sizes": [
+                                "col-md-6 animation--up",
+                                "col-md-6 animation--up"
+                            ]
+                        }
+                    },
+                    {
+                        "css": {
+                            "border": "0",
+                            "padding": "0 0 40px 0",
+                            "maxWidth": "1440px",
+                            "margin": "0 auto"
+                        },
+                        "columns": {
+                            "sizes": [
+                                "col-md-12  pb-sm-3 pb-xl-5 animation--up"
                             ]
                         }
                     }
@@ -797,10 +828,36 @@ const hotelData = (parsed) => {
                 {
                     "columns": [
                         {
+                            ...parsed._heading_social,
+                            "css": {
+                                "element": "div",
+                                "class": "title-case-primary text-uppercase text-left text-sm-center animation--up",
+                                "color": "primary-dark",
+                                "maxWidth": "350px",
+                                "margin": "0 auto",
+                                "padding": "0 0 0 0"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "columns": [
+                        {},
+                        {
+                            "maxWidth": "367px",
+                            "color": "#04456D",
+                            "padding": "40px",
+                            "margin": "0 auto"
+                        }
+                    ]
+                },
+                {
+                    "columns": [
+                        {
                             ...parsed.instagram,
                             "css": {
-                                "element": "span",
-                                "class": "main-text-body animation--up",
+                                "element": "div",
+                                "class": "title-case-primary text-uppercase text-center animation--up",
                                 "color": "primary-white"
                             }
                         }

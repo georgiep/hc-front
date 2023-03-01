@@ -112,7 +112,7 @@ const destinationParser = (data) =>{
         items: [
             {
                 link: '/',
-                label: "Aqua Vista"
+                label: "AQUA VISTA HOTELS"
             },{
                 link: '',
                 label: "Destinations"

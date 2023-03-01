@@ -21,9 +21,11 @@ const Slide = ({ item, css }) => {
                         // layout="responsive"
                     />
 
-                    <div className="info position-absolute">
-                        <Text2 titleStyle={`${css.title.class} ${css.title.color}`} text={title} tag={css.title.element}/>
-                    </div>
+                    {
+                        title && <div className="info position-absolute">
+                            <Text2 titleStyle={`${css.title.class} ${css.title.color}`} text={title} tag={css.title.element}/>
+                        </div>
+                    }
 
                     <div className={'placeholder position-absolute'}> </div>
 
@@ -45,7 +47,6 @@ const Slide = ({ item, css }) => {
                   .info,.placeholder {
                     width: calc(100% - 40px);
                     height: calc(100% - 40px);
-                    padding: 0;
                     top: 20px;
                     padding: 20px;
                     left: 20px;

@@ -38,6 +38,7 @@ const hotelsParser = (data,slug,pageName) => {
 
     _hotelsParseObj._ShowHotels_Template1_order_1_row_0_col_0 = {
         "items": data.select_hotels_from_page.map(item => {
+
             let HOTEL = {}
             item.select_hotel_from_page[0].acf.image = {
                 src: item.select_hotel_from_page[0].acf.image.toString().replace('https://greece-hotel.info/admins/aquavistahotels/wp-content/uploads','https://code.rateparity.com/aquavistahotels.com'),
@@ -53,8 +54,8 @@ const hotelsParser = (data,slug,pageName) => {
             HOTEL.lat = item.select_hotel_from_page[0].acf.lat
             HOTEL.lng = item.select_hotel_from_page[0].acf.lng
             HOTEL.title = item.select_hotel_from_page[0].acf.title
+            HOTEL.min_price = item.select_hotel_from_page[0].acf.min_price
 
-            console.log(item.select_hotel_from_page[0].acf)
             return {
                 link: {
                     "pathname": `/${slug}/${item.select_hotel_from_page[0].slug}`,
@@ -134,7 +135,7 @@ const hotelsParser = (data,slug,pageName) => {
         items: [
             {
                 link: '/',
-                label: "Aqua Vista"
+                label: "AQUA VISTA HOTELS"
             },
             {
                 link: '',

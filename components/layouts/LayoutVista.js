@@ -28,13 +28,11 @@ export default function LayoutVista(props) {
 
     Object.keys(Buttons).map((typo,i) => {
         return(
-            jsxCss += `${typo}{min-width:${Buttons[typo]['desktop']['minWidth']}!important;font-family:${Buttons[typo]['desktop']['fontFamily']}!important;font-style:${Buttons[typo]['desktop']['fontStyle']}!important;font-weight:${Buttons[typo]['desktop']['fontWeight']}!important;font-size:${Buttons[typo]['desktop']['fontSize']}!important;opacity:${Buttons[typo]['desktop']['fontOpacity']}!important;letter-spacing:${Buttons[typo]['desktop']['letterSpacing']}!important;background:${Buttons[typo]['desktop']['background']}!important;padding:${Buttons[typo]['desktop']['padding']}!important;color:${Buttons[typo]['desktop']['color']}!important;border:${Buttons[typo]['desktop']['border']}!important;border-bottom:${Buttons[typo]['desktop']['borderBottom']}!important;cursor:${Buttons[typo]['desktop']['cursor']}!important;}@media screen and ${breakpoints.tabletDown}{${typo}{min-width:${Buttons[typo]['tablet']['minWidth']}!important;font-family:${Buttons[typo]['tablet']['fontFamily']}!important;font-style:${Buttons[typo]['tablet']['fontStyle']}!important;font-weight:${Buttons[typo]['tablet']['fontWeight']}!important;font-size:${Buttons[typo]['tablet']['fontSize']}!important;opacity:${Buttons[typo]['tablet']['fontOpacity']}!important;letter-spacing:${Buttons[typo]['tablet']['letterSpacing']}!important;background:${Buttons[typo]['tablet']['background']}!important;padding:${Buttons[typo]['tablet']['padding']}!important;color:${Buttons[typo]['tablet']['color']}!important;border:${Buttons[typo]['tablet']['border']}!important;border-bottom:${Buttons[typo]['tablet']['borderBottom']}!important;cursor:${Buttons[typo]['tablet']['cursor']}!important;}}`
+            jsxCss += `${typo}{white-space:${Buttons[typo]['desktop']['whiteSpace']}!important;min-width:${Buttons[typo]['desktop']['minWidth']}!important;border-radius:${Buttons[typo]['desktop']['borderRadius']}!important;font-family:${Buttons[typo]['desktop']['fontFamily']}!important;font-style:${Buttons[typo]['desktop']['fontStyle']}!important;font-weight:${Buttons[typo]['desktop']['fontWeight']}!important;font-size:${Buttons[typo]['desktop']['fontSize']}!important;opacity:${Buttons[typo]['desktop']['fontOpacity']}!important;letter-spacing:${Buttons[typo]['desktop']['letterSpacing']}!important;background:${Buttons[typo]['desktop']['background']}!important;padding:${Buttons[typo]['desktop']['padding']}!important;color:${Buttons[typo]['desktop']['color']}!important;border:${Buttons[typo]['desktop']['border']}!important;border-bottom:${Buttons[typo]['desktop']['borderBottom']}!important;cursor:${Buttons[typo]['desktop']['cursor']}!important;}@media screen and ${breakpoints.tabletDown}{${typo}{min-width:${Buttons[typo]['tablet']['minWidth']}!important;font-family:${Buttons[typo]['tablet']['fontFamily']}!important;font-style:${Buttons[typo]['tablet']['fontStyle']}!important;font-weight:${Buttons[typo]['tablet']['fontWeight']}!important;font-size:${Buttons[typo]['tablet']['fontSize']}!important;opacity:${Buttons[typo]['tablet']['fontOpacity']}!important;letter-spacing:${Buttons[typo]['tablet']['letterSpacing']}!important;background:${Buttons[typo]['tablet']['background']}!important;padding:${Buttons[typo]['tablet']['padding']}!important;color:${Buttons[typo]['tablet']['color']}!important;border:${Buttons[typo]['tablet']['border']}!important;border-bottom:${Buttons[typo]['tablet']['borderBottom']}!important;cursor:${Buttons[typo]['tablet']['cursor']}!important;}}`
         )
     })
 
     return (
-
-
             <>
                 <Head>
                     <title>{props.title}</title>
@@ -78,7 +76,6 @@ export default function LayoutVista(props) {
                     <link rel="preload" href="/public/hotels/acquavista/fonts/GothamGRMedium.woff2" as="font" type="font/woff2" crossOrigin="true" />
 
                 </Head>
-
 
                 {header.map((Component, i) => {
                     return (
@@ -140,12 +137,7 @@ export default function LayoutVista(props) {
                 {/*    }}*/}
                 {/*/>*/}
 
-
-
             </>
-
-
-
     )
 }
 

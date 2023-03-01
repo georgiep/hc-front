@@ -48,7 +48,7 @@ const offersParser = (data) => {
         items: [
             {
                 link: '/',
-                label: "Aqua Vista"
+                label: "AQUA VISTA HOTELS"
             },{
                 link: '',
                 label: "Special Offers"

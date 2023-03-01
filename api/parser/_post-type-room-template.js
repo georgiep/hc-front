@@ -151,7 +151,7 @@ const hotelParser = (data,rooms,id,fullSlug,label) => {
         items: [
             {
                 link: '/',
-                label: "Aqua Vista"
+                label: "AQUA VISTA HOTELS"
             },
             {
                 link: `/${fullSlug.split('/')[0]}/${fullSlug.split('/')[1]}`,

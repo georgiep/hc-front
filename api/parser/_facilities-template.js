@@ -95,7 +95,7 @@ const hotelParser = (data,link,label) => {
         items: [
             {
                 link: '/',
-                label: "Aqua Vista"
+                label: "AQUA VISTA HOTELS"
             },
             {
                 link: `/${link.split('/')[1]}`,
