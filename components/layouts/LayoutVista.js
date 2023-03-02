@@ -1,9 +1,6 @@
 import React from 'react'
 import Head from 'next/head'
 import { headerFooterList } from 'components/dynamicComponents'
-import Typography from 'public/hotels/acquavista/data/typography/typography.json'
-import Colors from 'public/hotels/acquavista/data/colors/colors.json'
-import Buttons from 'public/hotels/acquavista/data/buttons/buttons.json'
 import breakpoints from 'styles/breakpoints'
 import Script from 'next/script';
 // import {useRouter} from "next/router";
@@ -13,6 +10,7 @@ export default function LayoutVista(props) {
     let jsxCss =  ''
     const header = props.header.map(d => headerFooterList[d.component_name][d.template])
     const footer = props.footer.map(d => headerFooterList[d.component_name][d.template])
+    const {globals: {Typography,Colors,Buttons,Fonts}} = props
 
     Object.keys(Typography).map((typo,i) => {
         return(
@@ -29,6 +27,12 @@ export default function LayoutVista(props) {
     Object.keys(Buttons).map((typo,i) => {
         return(
             jsxCss += `${typo}{white-space:${Buttons[typo]['desktop']['whiteSpace']}!important;min-width:${Buttons[typo]['desktop']['minWidth']}!important;border-radius:${Buttons[typo]['desktop']['borderRadius']}!important;font-family:${Buttons[typo]['desktop']['fontFamily']}!important;font-style:${Buttons[typo]['desktop']['fontStyle']}!important;font-weight:${Buttons[typo]['desktop']['fontWeight']}!important;font-size:${Buttons[typo]['desktop']['fontSize']}!important;opacity:${Buttons[typo]['desktop']['fontOpacity']}!important;letter-spacing:${Buttons[typo]['desktop']['letterSpacing']}!important;background:${Buttons[typo]['desktop']['background']}!important;padding:${Buttons[typo]['desktop']['padding']}!important;color:${Buttons[typo]['desktop']['color']}!important;border:${Buttons[typo]['desktop']['border']}!important;border-bottom:${Buttons[typo]['desktop']['borderBottom']}!important;cursor:${Buttons[typo]['desktop']['cursor']}!important;}@media screen and ${breakpoints.tabletDown}{${typo}{min-width:${Buttons[typo]['tablet']['minWidth']}!important;font-family:${Buttons[typo]['tablet']['fontFamily']}!important;font-style:${Buttons[typo]['tablet']['fontStyle']}!important;font-weight:${Buttons[typo]['tablet']['fontWeight']}!important;font-size:${Buttons[typo]['tablet']['fontSize']}!important;opacity:${Buttons[typo]['tablet']['fontOpacity']}!important;letter-spacing:${Buttons[typo]['tablet']['letterSpacing']}!important;background:${Buttons[typo]['tablet']['background']}!important;padding:${Buttons[typo]['tablet']['padding']}!important;color:${Buttons[typo]['tablet']['color']}!important;border:${Buttons[typo]['tablet']['border']}!important;border-bottom:${Buttons[typo]['tablet']['borderBottom']}!important;cursor:${Buttons[typo]['tablet']['cursor']}!important;}}`
+        )
+    })
+
+    Fonts.map((typo) => {
+        return(
+            jsxCss += `@font-face{font-family:${typo['fontFamily']};src:${typo['src']};font-weight:${typo['fontWeight']};font-display:${typo['fontDisplay']};}`
         )
     })
 
@@ -66,14 +70,11 @@ export default function LayoutVista(props) {
 
                     {/*<link rel="sitemap" href={"/sitemap.xml"} />*/}
 
-                    {/*<link rel="stylesheet" href="public/globalCss/bootstrap.css" />*/}
-                    {/*<link rel="stylesheet" href="public/globalCss/reset.min.css" />*/}
-
                     {/*<link rel="preload" as="image" href={props.preloadImage} />*/}
 
-                    <link rel="preload" href="/public/hotels/acquavista/fonts/GothamGRLight.woff2" as="font" type="font/woff2" crossOrigin="true" />
-                    <link rel="preload" href="/public/hotels/acquavista/fonts/GothamGRBook.woff2" as="font" type="font/woff2" crossOrigin="true" />
-                    <link rel="preload" href="/public/hotels/acquavista/fonts/GothamGRMedium.woff2" as="font" type="font/woff2" crossOrigin="true" />
+                    {/*<link rel="preload" href="/public/hotels/acquavista/fonts/GothamGRLight.woff2" as="font" type="font/woff2" crossOrigin="true" />*/}
+                    {/*<link rel="preload" href="/public/hotels/acquavista/fonts/GothamGRBook.woff2" as="font" type="font/woff2" crossOrigin="true" />*/}
+                    {/*<link rel="preload" href="/public/hotels/acquavista/fonts/GothamGRMedium.woff2" as="font" type="font/woff2" crossOrigin="true" />*/}
 
                 </Head>
 
@@ -99,15 +100,14 @@ export default function LayoutVista(props) {
                     {jsxCss}
                 </style>
 
-                <style jsx global>
-                    {`@font-face{font-family:Gotham Greek;src:url(/public/hotels/acquavista/fonts/GothamGRLight.woff2) format('opentype');font-weight:300;font-display:swap}@font-face{font-family:Gotham Greek;src:url(/public/hotels/acquavista/fonts/GothamGRBook.woff2) format('opentype');font-weight:400;font-display:swap}@font-face{font-family:Gotham Greek;src:url(/public/hotels/acquavista/fonts/GothamGRMedium.woff2) format('opentype');font-weight:500;font-display:swap}`}
-                </style>
+                {/*<style jsx global>*/}
+                {/*    {`@font-face{font-family:Gotham Greek;src:url(/public/hotels/acquavista/fonts/GothamGRLight.woff2) format('opentype');font-weight:300;font-display:swap}@font-face{font-family:Gotham Greek;src:url(/public/hotels/acquavista/fonts/GothamGRBook.woff2) format('opentype');font-weight:400;font-display:swap}@font-face{font-family:Gotham Greek;src:url(/public/hotels/acquavista/fonts/GothamGRMedium.woff2) format('opentype');font-weight:500;font-display:swap}`}*/}
+                {/*</style>*/}
 
-
-                <Script
-                    src="https://code.rateparity.com/versions/installer.min.js"
-                    strategy="lazyOnload"
-                />
+                {/*<Script*/}
+                {/*    src="https://code.rateparity.com/versions/installer.min.js"*/}
+                {/*    strategy="lazyOnload"*/}
+                {/*/>*/}
 
                 {/*<script type="text/javascript" src="https://www.google-analytics.com/analytics.js" async />*/}
 

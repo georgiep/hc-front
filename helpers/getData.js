@@ -2,22 +2,31 @@
 const getRemoteInitialData = async ({lang,pathName,referrer}) => {
 
     let ref = 'acquavista'
+    // let ref = 'nian&pau'
     // console.log(pathName)
     // console.log(PrefixPathName(pathName))
     console.log('start fetching data')
     console.log(`/public/hotels/${ref}/data/pages/${PrefixPathName(pathName)}.json`)
 
-    let [pageData, headerData,footerData,occupancy] = await Promise.all([
+    let [pageData, headerData,footerData,occupancy,typography,colors,buttons,fonts] = await Promise.all([
         fetch(`http://127.0.0.1:5555/public/hotels/${ref}/data/pages/${PrefixPathName(pathName)}.json`),
         fetch(`http://127.0.0.1:5555/public/hotels/${ref}/data/header/header.json`),
         fetch(`http://127.0.0.1:5555/public/hotels/${ref}/data/footer/footer.json`),
-        fetch(`http://127.0.0.1:5555/public/hotels/${ref}/data/occupancy.json`)
-    ]).then(async([aa, bb, cc, dd]) => {
+        fetch(`http://127.0.0.1:5555/public/hotels/${ref}/data/occupancy.json`),
+        fetch(`http://127.0.0.1:5555/public/hotels/${ref}/data/typography/typography.json`),
+        fetch(`http://127.0.0.1:5555/public/hotels/${ref}/data/colors/colors.json`),
+        fetch(`http://127.0.0.1:5555/public/hotels/${ref}/data/buttons/buttons.json`),
+        fetch(`http://127.0.0.1:5555/public/hotels/${ref}/data/typography/fonts.json`),
+    ]).then(async([aa, bb, cc, dd, ee, ff, gg, hh]) => {
         const a = await aa.json();
         const b = await bb.json();
         const c = await cc.json();
         const d = await dd.json();
-        return [a, b, c, d]
+        const e = await ee.json();
+        const f = await ff.json();
+        const g = await gg.json();
+        const h = await hh.json();
+        return [a, b, c, d, e, f, g, h]
     }).catch(err=>console.log(err))
 
     console.log('start fetching schema')
@@ -33,7 +42,13 @@ const getRemoteInitialData = async ({lang,pathName,referrer}) => {
         page_components: makeComponents(schemaData,'pages'),
         header_components: [schemaData.header],
         footer_components: [schemaData.footer],
-        occupancy: occupancy
+        occupancy: occupancy,
+        globals: {
+            Typography: typography,
+            Colors: colors,
+            Buttons: buttons,
+            Fonts: fonts
+        }
     }
 }
 

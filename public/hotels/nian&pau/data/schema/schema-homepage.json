@@ -16,7 +16,7 @@
           }
         },
         {
-          "component_name": "SimplePromos",
+          "component_name": "Intro",
           "template": "Template1",
           "order": 1,
           "wrapper": {
@@ -25,155 +25,11 @@
           }
         },
         {
-          "component_name": "Commons",
-          "template": "Text",
-          "order": 2,
-          "wrapper": {
-            "row": 0,
-            "col": 0
-          }
-        },
-        {
-          "component_name": "Empty",
-          "template": "Empty",
-          "order": 2,
-          "wrapper": {
-            "row": 1,
-            "col": 0
-          }
-        },
-        {
-          "component_name": "Commons",
-          "template": "Separator",
-          "order": 2,
-          "wrapper": {
-            "row": 1,
-            "col": 1
-          }
-        },
-        {
-          "component_name": "Commons",
-          "template": "Text",
-          "order": 2,
-          "wrapper": {
-            "row": 2,
-            "col": 0
-          }
-        },
-        {
-          "component_name": "Commons",
-          "template": "Text",
-          "order": 3,
-          "wrapper": {
-            "row": 0,
-            "col": 0
-          }
-        },
-        {
-          "component_name": "Empty",
-          "template": "Empty",
-          "order": 3,
-          "wrapper": {
-            "row": 1,
-            "col": 0
-          }
-        },
-        {
-          "component_name": "Commons",
-          "template": "Separator",
-          "order": 3,
-          "wrapper": {
-            "row": 1,
-            "col": 1
-          }
-        },
-        {
-          "component_name": "DisplayPostTypes",
-          "template": "Template8",
-          "order": 3,
-          "wrapper": {
-            "row": 2,
-            "col": 0
-          }
-        },
-        {
-          "component_name": "Commons",
-          "template": "Text",
-          "order": 4,
-          "wrapper": {
-            "row": 0,
-            "col": 0
-          }
-        },
-        {
-          "component_name": "Empty",
-          "template": "Empty",
-          "order": 4,
-          "wrapper": {
-            "row": 1,
-            "col": 0
-          }
-        },
-        {
-          "component_name": "Commons",
-          "template": "Separator",
-          "order": 4,
-          "wrapper": {
-            "row": 1,
-            "col": 1
-          }
-        },
-        {
-          "component_name": "Carousel",
-          "template": "SpecialOffers",
-          "order": 4,
-          "wrapper": {
-            "row": 2,
-            "col": 0
-          }
-        },
-        {
-          "component_name": "Destinations",
+          "component_name": "Intro",
           "template": "Template1",
-          "order": 5,
+          "order": 2,
           "wrapper": {
             "row": 0,
-            "col": 0
-          }
-        },
-        {
-          "component_name": "Commons",
-          "template": "Text",
-          "order": 6,
-          "wrapper": {
-            "row": 0,
-            "col": 0
-          }
-        },
-        {
-          "component_name": "Empty",
-          "template": "Empty",
-          "order": 6,
-          "wrapper": {
-            "row": 1,
-            "col": 0
-          }
-        },
-        {
-          "component_name": "Commons",
-          "template": "Separator",
-          "order": 6,
-          "wrapper": {
-            "row": 1,
-            "col": 1
-          }
-        },
-        {
-          "component_name": "Instagram",
-          "template": "Template1",
-          "order": 6,
-          "wrapper": {
-            "row": 2,
             "col": 0
           }
         }

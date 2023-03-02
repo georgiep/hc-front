@@ -5,21 +5,21 @@
       "fontWeight": "normal",
       "fontSize": "24px",
       "lineHeight": "29px",
-      "fontFamily": "Gotham Greek"
+      "fontFamily": "Poppins"
     },
     "tablet": {
       "fontStyle": "normal",
       "fontWeight": "normal",
       "fontSize": "24px",
       "lineHeight": "29px",
-      "fontFamily": "Gotham Greek"
+      "fontFamily": "Poppins"
     },
     "mobile": {
       "fontStyle": "normal",
       "fontWeight": "normal",
       "fontSize": "24px",
       "lineHeight": "29px",
-      "fontFamily": "Gotham Greek"
+      "fontFamily": "Poppins"
     }
   },
   "h2": {
@@ -28,21 +28,21 @@
       "fontWeight": "300",
       "fontSize": "48px",
       "lineHeight": "55px",
-      "fontFamily": "Gotham Greek"
+      "fontFamily": "Poppins"
     },
     "tablet": {
       "fontStyle": "normal",
       "fontWeight": "400",
       "fontSize": "24px",
       "lineHeight": "20px",
-      "fontFamily": "Gotham Greek"
+      "fontFamily": "Poppins"
     },
     "mobile": {
       "fontStyle": "normal",
       "fontWeight": "400",
       "fontSize": "24px",
       "lineHeight": "20px",
-      "fontFamily": "Gotham Greek"
+      "fontFamily": "Poppins"
     }
   },
   "h3": {
@@ -51,21 +51,21 @@
       "fontWeight": "normal",
       "fontSize": "24px",
       "lineHeight": "29px",
-      "fontFamily": "Gotham Greek"
+      "fontFamily": "Poppins"
     },
     "tablet": {
       "fontStyle": "normal",
       "fontWeight": "normal",
       "fontSize": "24px",
       "lineHeight": "29px",
-      "fontFamily": "Gotham Greek"
+      "fontFamily": "Poppins"
     },
     "mobile": {
       "fontStyle": "normal",
       "fontWeight": "normal",
       "fontSize": "24px",
       "lineHeight": "29px",
-      "fontFamily": "Gotham Greek"
+      "fontFamily": "Poppins"
     }
   },
   "h4": {
@@ -74,21 +74,21 @@
       "fontWeight": "normal",
       "fontSize": "24px",
       "lineHeight": "29px",
-      "fontFamily": "Gotham Greek"
+      "fontFamily": "Poppins"
     },
     "tablet": {
       "fontStyle": "normal",
       "fontWeight": "normal",
       "fontSize": "24px",
       "lineHeight": "29px",
-      "fontFamily": "Gotham Greek"
+      "fontFamily": "Poppins"
     },
     "mobile": {
       "fontStyle": "normal",
       "fontWeight": "normal",
       "fontSize": "24px",
       "lineHeight": "29px",
-      "fontFamily": "Gotham Greek"
+      "fontFamily": "Poppins"
     }
   },
   "h5": {
@@ -97,21 +97,21 @@
       "fontWeight": "normal",
       "fontSize": "24px",
       "lineHeight": "29px",
-      "fontFamily": "Gotham Greek"
+      "fontFamily": "Poppins"
     },
     "tablet": {
       "fontStyle": "normal",
       "fontWeight": "normal",
       "fontSize": "24px",
       "lineHeight": "29px",
-      "fontFamily": "Gotham Greek"
+      "fontFamily": "Poppins"
     },
     "mobile": {
       "fontStyle": "normal",
       "fontWeight": "normal",
       "fontSize": "24px",
       "lineHeight": "29px",
-      "fontFamily": "Gotham Greek"
+      "fontFamily": "Poppins"
     }
   },
   "h6": {
@@ -120,385 +120,99 @@
       "fontWeight": "normal",
       "fontSize": "24px",
       "lineHeight": "29px",
-      "fontFamily": "Gotham Greek"
+      "fontFamily": "Poppins"
     },
     "tablet": {
       "fontStyle": "normal",
       "fontWeight": "normal",
       "fontSize": "24px",
       "lineHeight": "29px",
-      "fontFamily": "Gotham Greek"
+      "fontFamily": "Poppins"
     },
     "mobile": {
       "fontStyle": "normal",
       "fontWeight": "normal",
       "fontSize": "24px",
       "lineHeight": "29px",
-      "fontFamily": "Gotham Greek"
+      "fontFamily": "Poppins"
     }
   },
   ".title-case-hero": {
     "desktop": {
       "fontStyle": "light",
-      "fontWeight": "300",
-      "fontSize": "60px",
-      "lineHeight": "69px",
-      "fontFamily": "Gotham Greek",
+      "fontWeight": "500",
+      "fontSize": "64px",
+      "lineHeight": "70px",
+      "fontFamily": "Poppins",
       "letterSpacing": "0"
     },
     "tablet": {
       "fontStyle": "light",
-      "fontWeight": "300",
-      "fontSize": "60px",
-      "lineHeight": "69px",
-      "fontFamily": "Gotham Greek",
+      "fontWeight": "500",
+      "fontSize": "64px",
+      "lineHeight": "70px",
+      "fontFamily": "Poppins",
       "letterSpacing": "0"
     },
     "mobile": {
       "fontStyle": "light",
-      "fontWeight": "300",
-      "fontSize": "60px",
-      "lineHeight": "69px",
-      "fontFamily": "Gotham Greek",
+      "fontWeight": "500",
+      "fontSize": "64px",
+      "lineHeight": "70px",
+      "fontFamily": "Poppins",
       "letterSpacing": "0"
     }
   },
-  ".title-case-hero": {
+  ".title-primary": {
     "desktop": {
       "fontStyle": "light",
-      "fontWeight": "300",
-      "fontSize": "48px",
-      "lineHeight": "55px",
-      "fontFamily": "Gotham Greek",
+      "fontWeight": "400",
+      "fontSize": "54px",
+      "lineHeight": "60px",
+      "fontFamily": "Poppins",
       "letterSpacing": "0"
     },
     "tablet": {
       "fontStyle": "light",
       "fontWeight": "400",
-      "fontSize": "38px",
-      "lineHeight": "43px",
-      "fontFamily": "Gotham Greek",
+      "fontSize": "54px",
+      "lineHeight": "60px",
+      "fontFamily": "Poppins",
       "letterSpacing": "0"
     },
     "mobile": {
       "fontStyle": "light",
       "fontWeight": "400",
-      "fontSize": "38px",
-      "lineHeight": "43px",
-      "fontFamily": "Gotham Greek",
+      "fontSize": "54px",
+      "lineHeight": "60px",
+      "fontFamily": "Poppins",
       "letterSpacing": "0"
     }
   },
-  ".title-case-primary": {
-    "desktop": {
-      "fontStyle": "light",
-      "fontWeight": "300",
-      "fontSize": "48px",
-      "lineHeight": "55px",
-      "fontFamily": "Gotham Greek",
-      "letterSpacing": "0"
-    },
-    "tablet": {
-      "fontStyle": "light",
-      "fontWeight": "400",
-      "fontSize": "24px",
-      "lineHeight": "28px",
-      "fontFamily": "Gotham Greek",
-      "letterSpacing": "0"
-    },
-    "mobile": {
-      "fontStyle": "light",
-      "fontWeight": "400",
-      "fontSize": "24px",
-      "lineHeight": "28px",
-      "fontFamily": "Gotham Greek",
-      "letterSpacing": "0"
-    }
-  },
-  ".title-case-secondary": {
+  ".text-primary": {
     "desktop": {
       "fontStyle": "medium",
       "fontWeight": "500",
-      "fontSize": "24px",
+      "fontSize": "16px",
       "lineHeight": "28px",
-      "fontFamily": "Gotham Greek",
-      "letterSpacing": "0"
+      "fontFamily": "Poppins",
+      "letterSpacing": "0.03em"
     },
     "tablet": {
       "fontStyle": "medium",
       "fontWeight": "500",
-      "fontSize": "18px",
-      "lineHeight": "21px",
-      "fontFamily": "Gotham Greek",
-      "letterSpacing": "0"
+      "fontSize": "16px",
+      "lineHeight": "28px",
+      "fontFamily": "Poppins",
+      "letterSpacing": "0.03em"
     },
     "mobile": {
       "fontStyle": "medium",
       "fontWeight": "500",
-      "fontSize": "18px",
-      "lineHeight": "21px",
-      "fontFamily": "Gotham Greek",
-      "letterSpacing": "0"
-    }
-  },
-  ".main-text-body": {
-    "desktop": {
-      "fontStyle": "light",
-      "fontWeight": "300",
-      "fontSize": "18px",
-      "lineHeight": "35px",
-      "fontFamily": "Gotham Greek",
-      "letterSpacing": "0"
-    },
-    "tablet": {
-      "fontStyle": "light",
-      "fontWeight": "400",
       "fontSize": "16px",
-      "lineHeight": "30px",
-      "fontFamily": "Gotham Greek",
-      "letterSpacing": "0"
-    },
-    "mobile": {
-      "fontStyle": "light",
-      "fontWeight": "400",
-      "fontSize": "16px",
-      "lineHeight": "30px",
-      "fontFamily": "Gotham Greek",
-      "letterSpacing": "0"
-    }
-  },
-  ".post-text-body": {
-    "desktop": {
-      "fontStyle": "light",
-      "fontWeight": "400",
-      "fontSize": "18px",
-      "lineHeight": "20px",
-      "fontFamily": "Gotham Greek",
-      "letterSpacing": "0"
-    },
-    "tablet": {
-      "fontStyle": "light",
-      "fontWeight": "400",
-      "fontSize": "18px",
-      "lineHeight": "20px",
-      "fontFamily": "Gotham Greek",
-      "letterSpacing": "0"
-    },
-    "mobile": {
-      "fontStyle": "light",
-      "fontWeight": "400",
-      "fontSize": "18px",
-      "lineHeight": "20px",
-      "fontFamily": "Gotham Greek",
-      "letterSpacing": "0"
-    }
-  },
-  ".promo-text-primary": {
-    "desktop": {
-      "fontStyle": "light",
-      "fontWeight": "400",
-      "fontSize": "20px",
-      "lineHeight": "23px",
-      "fontFamily": "Gotham Greek",
-      "letterSpacing": "0"
-    },
-    "tablet": {
-      "fontStyle": "light",
-      "fontWeight": "400",
-      "fontSize": "18px",
-      "lineHeight": "20px",
-      "fontFamily": "Gotham Greek",
-      "letterSpacing": "0"
-    },
-    "mobile": {
-      "fontStyle": "light",
-      "fontWeight": "400",
-      "fontSize": "18px",
-      "lineHeight": "20px",
-      "fontFamily": "Gotham Greek",
-      "letterSpacing": "0"
-    }
-  },
-  ".promo-text-secondary": {
-    "desktop": {
-      "fontStyle": "light",
-      "fontWeight": "400",
-      "fontSize": "18px",
-      "lineHeight": "21px",
-      "fontFamily": "Gotham Greek",
-      "letterSpacing": "0"
-    },
-    "tablet": {
-      "fontStyle": "light",
-      "fontWeight": "400",
-      "fontSize": "18px",
-      "lineHeight": "20px",
-      "fontFamily": "Gotham Greek",
-      "letterSpacing": "0"
-    },
-    "mobile": {
-      "fontStyle": "light",
-      "fontWeight": "400",
-      "fontSize": "16px",
-      "lineHeight": "25px",
-      "fontFamily": "Gotham Greek",
-      "letterSpacing": "0"
-    }
-  },
-  ".promo-text-third": {
-    "desktop": {
-      "fontStyle": "light",
-      "fontWeight": "300",
-      "fontSize": "15px",
-      "lineHeight": "18px",
-      "fontFamily": "Gotham Greek",
-      "letterSpacing": "0"
-    },
-    "tablet": {
-      "fontStyle": "light",
-      "fontWeight": "400",
-      "fontSize": "16px",
-      "lineHeight": "25px",
-      "fontFamily": "Gotham Greek",
-      "letterSpacing": "0"
-    },
-    "mobile": {
-      "fontStyle": "light",
-      "fontWeight": "400",
-      "fontSize": "16px",
-      "lineHeight": "25px",
-      "fontFamily": "Gotham Greek",
-      "letterSpacing": "0"
-    }
-  },
-  ".promo-small-text": {
-    "desktop": {
-      "fontStyle": "light",
-      "fontWeight": "300",
-      "fontSize": "11px",
-      "lineHeight": "19px",
-      "fontFamily": "Gotham Greek",
-      "letterSpacing": "0"
-    },
-    "tablet": {
-      "fontStyle": "light",
-      "fontWeight": "300",
-      "fontSize": "13px",
-      "lineHeight": "19px",
-      "fontFamily": "Gotham Greek",
-      "letterSpacing": "0"
-    },
-    "mobile": {
-      "fontStyle": "light",
-      "fontWeight": "300",
-      "fontSize": "13px",
-      "lineHeight": "19px",
-      "fontFamily": "Gotham Greek",
-      "letterSpacing": "0"
-    }
-  },
-  ".promo-heading-text": {
-    "desktop": {
-      "fontStyle": "light",
-      "fontWeight": "400",
-      "fontSize": "14px",
-      "lineHeight": "16px",
-      "fontFamily": "Gotham Greek",
-      "letterSpacing": "0.03em"
-    },
-    "tablet": {
-      "fontStyle": "light",
-      "fontWeight": "400",
-      "fontSize": "14px",
-      "lineHeight": "16px",
-      "fontFamily": "Gotham Greek",
-      "letterSpacing": "0.03em"
-    },
-    "mobile": {
-      "fontStyle": "light",
-      "fontWeight": "400",
-      "fontSize": "14px",
-      "lineHeight": "16px",
-      "fontFamily": "Gotham Greek",
-      "letterSpacing": "0.03em"
-    }
-  },
-  ".heading-text-menu": {
-    "desktop": {
-      "fontStyle": "light",
-      "fontWeight": "400",
-      "fontSize": "24px",
-      "lineHeight": "18px",
-      "fontFamily": "Gotham Greek",
-      "letterSpacing": "0em"
-    },
-    "tablet": {
-      "fontStyle": "light",
-      "fontWeight": "400",
-      "fontSize": "14px",
-      "lineHeight": "18px",
-      "fontFamily": "Gotham Greek",
-      "letterSpacing": "0em"
-    },
-    "mobile": {
-      "fontStyle": "light",
-      "fontWeight": "400",
-      "fontSize": "14px",
-      "lineHeight": "18px",
-      "fontFamily": "Gotham Greek",
-      "letterSpacing": "0em"
-    }
-  },
-  ".menu-link": {
-    "desktop": {
-      "fontStyle": "medium",
-      "fontWeight": "400",
-      "fontSize": "24px",
       "lineHeight": "28px",
-      "fontFamily": "Gotham Greek",
-      "letterSpacing": "0"
-    },
-    "tablet": {
-      "fontStyle": "medium",
-      "fontWeight": "400",
-      "fontSize": "16px",
-      "lineHeight": "18px",
-      "fontFamily": "Gotham Greek",
-      "letterSpacing": "0"
-    },
-    "mobile": {
-      "fontStyle": "medium",
-      "fontWeight": "400",
-      "fontSize": "16px",
-      "lineHeight": "18px",
-      "fontFamily": "Gotham Greek",
-      "letterSpacing": "0"
-    }
-  },
-  ".secondary-post-text": {
-    "desktop": {
-      "fontStyle": "light",
-      "fontWeight": "400",
-      "fontSize": "18px",
-      "lineHeight": "24px",
-      "fontFamily": "Gotham Greek",
-      "letterSpacing": "0"
-    },
-    "tablet": {
-      "fontStyle": "light",
-      "fontWeight": "400",
-      "fontSize": "18px",
-      "lineHeight": "24px",
-      "fontFamily": "Gotham Greek",
-      "letterSpacing": "0"
-    },
-    "mobile": {
-      "fontStyle": "light",
-      "fontWeight": "400",
-      "fontSize": "18px",
-      "lineHeight": "24px",
-      "fontFamily": "Gotham Greek",
-      "letterSpacing": "0"
+      "fontFamily": "Poppins",
+      "letterSpacing": "0.03em"
     }
   }
 }

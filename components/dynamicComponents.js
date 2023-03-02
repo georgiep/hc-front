@@ -99,6 +99,9 @@ export const bodyListDynamic = {
     Tabs: {
         Template1: dynamic(() => import('components/body/tabs/template1/Template1')),
     },
+    Intro: {
+        Template1: dynamic(() => import('components/body/intro/template1/Template1')),
+    },
     ImageList: {
         Template1: dynamic(() => import('components/body/list/listOfImages/Template1')),
         Template2: dynamic(() => import('components/body/list/listOfImages/template2/Template2')),

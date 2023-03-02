@@ -1,0 +1,21 @@
+[
+  {
+    "fontFamily": "Poppins",
+    "src": "url(/public/hotels/nian&pau/fonts/Poppins-Light.ttf) format('opentype')",
+    "fontWeight": "300",
+    "fontDisplay": "swap"
+  },
+  {
+    "fontFamily": "Poppins",
+    "src": "url(/public/hotels/nian&pau/fonts/Poppins-Medium.ttf) format('opentype')",
+    "fontWeight": "400",
+    "fontDisplay": "swap"
+  },
+  {
+    "fontFamily": "Poppins",
+    "src": "url(/public/hotels/nian&pau/fonts/Poppins-Medium.ttf) format('opentype')",
+    "fontWeight": "500",
+    "fontDisplay": "swap"
+  }
+]
+

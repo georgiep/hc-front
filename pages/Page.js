@@ -13,7 +13,8 @@ function Page(props) {
         header_components,
         footer_components,
         page_components,
-        initialRequest
+        initialRequest,
+        globals
     } = props;
 
     delete page.idbName
@@ -28,6 +29,7 @@ function Page(props) {
             menu={header}
             header={header_components}
             footer={footer_components}
+            globals={globals}
         >
 
             <div className={'main'}>
@@ -55,10 +57,13 @@ function Page(props) {
 }
 
 export async function getServerSideProps({ query }) {
+
     console.log('------------')
     console.log('getRemoteInitialData')
+
     const API = await getRemoteInitialData(query)
     console.log('received RemoteInitialData')
+
     return {
         props: {
             ...API,

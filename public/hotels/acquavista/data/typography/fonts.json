@@ -1,0 +1,20 @@
+[
+  {
+    "fontFamily": "Gotham Greek",
+    "src": "url(/public/hotels/acquavista/fonts/GothamGRLight.woff2) format('opentype')",
+    "fontWeight": "300",
+    "fontDisplay": "swap"
+  },
+  {
+    "fontFamily": "Gotham Greek",
+    "src": "url(/public/hotels/acquavista/fonts/GothamGRBook.woff2) format('opentype')",
+    "fontWeight": "400",
+    "fontDisplay": "swap"
+  },
+  {
+    "fontFamily": "Gotham Greek",
+    "src": "url(/public/hotels/acquavista/fonts/GothamGRMedium.woff2) format('opentype')",
+    "fontWeight": "500",
+    "fontDisplay": "swap"
+  }
+]
