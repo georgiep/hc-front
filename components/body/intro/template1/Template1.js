@@ -8,10 +8,10 @@ const ImageList = dynamic(() => import('components/body/list/listOfImages/Templa
 
 const Template1 = ({ data }) => {
 
-    const { items, css, map, component } = data
+    const { items, css, images, map, component } = data
 
-    console.log(component)
-    console.log(map)
+
+    console.log(images)
     return (
         <>
             <div className={'intro-container-template-1 position-relative'}>
@@ -36,7 +36,7 @@ const Template1 = ({ data }) => {
                                 />
                             </div>
 
-                            {items && <div><ImageList data={items}/></div>}
+                            {images && <div><ImageList data={{items: images,css:{align:'left',minWidth: 'auto', spacing:'p-2'}}}/></div>}
 
                         </div>
                         <div className={'col p-0'}>

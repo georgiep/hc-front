@@ -189,6 +189,32 @@
       "letterSpacing": "0"
     }
   },
+  ".title-secondary": {
+    "desktop": {
+      "fontStyle": "light",
+      "fontWeight": "700",
+      "fontSize": "22px",
+      "lineHeight": "30px",
+      "fontFamily": "Poppins",
+      "letterSpacing": "0.05em"
+    },
+    "tablet": {
+      "fontStyle": "light",
+      "fontWeight": "700",
+      "fontSize": "22px",
+      "lineHeight": "30px",
+      "fontFamily": "Poppins",
+      "letterSpacing": "0.05em"
+    },
+    "mobile": {
+      "fontStyle": "light",
+      "fontWeight": "700",
+      "fontSize": "22px",
+      "lineHeight": "30px",
+      "fontFamily": "Poppins",
+      "letterSpacing": "0.05em"
+    }
+  },
   ".text-primary": {
     "desktop": {
       "fontStyle": "medium",

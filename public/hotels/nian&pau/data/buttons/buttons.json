@@ -104,5 +104,58 @@
       "borderRadius": "0",
       "whiteSpace": "nowrap"
     }
+  },
+  ".button-dark": {
+    "desktop": {
+      "fontStyle": "normal",
+      "fontWeight": "700",
+      "fontSize": "14px",
+      "lineHeight": "21px",
+      "fontFamily": "Poppins",
+      "opacity": "1",
+      "letterSpacing": "0.01em",
+      "background": "#000000",
+      "padding": "10px 20px",
+      "color": "#ffffff",
+      "border": "0",
+      "borderBottom": "1px solid",
+      "cursor": "pointer",
+      "borderRadius": "0px 0px 18px 0px",
+      "whiteSpace": "nowrap"
+    },
+    "tablet": {
+      "fontStyle": "normal",
+      "fontWeight": "700",
+      "fontSize": "14px",
+      "lineHeight": "21px",
+      "fontFamily": "Poppins",
+      "opacity": "1",
+      "letterSpacing": "0.01em",
+      "background": "#000000",
+      "padding": "10px 20px",
+      "color": "#ffffff",
+      "border": "0",
+      "borderBottom": "1px solid",
+      "cursor": "pointer",
+      "borderRadius": "0px 0px 18px 0px",
+      "whiteSpace": "nowrap"
+    },
+    "mobile": {
+      "fontStyle": "normal",
+      "fontWeight": "700",
+      "fontSize": "14px",
+      "lineHeight": "21px",
+      "fontFamily": "Poppins",
+      "opacity": "1",
+      "letterSpacing": "0.01em",
+      "background": "#000000",
+      "padding": "10px 20px",
+      "color": "#ffffff",
+      "border": "0",
+      "borderBottom": "1px solid",
+      "cursor": "pointer",
+      "borderRadius": "0px 0px 18px 0px",
+      "whiteSpace": "nowrap"
+    }
   }
 }

@@ -169,12 +169,81 @@
                 "height": "100%"
               }
             },
+            "images": ["/public/hotels/nian&pau/images/tripadvisor2.png","/public/hotels/nian&pau/images/tripadvisor2.png","/public/hotels/nian&pau/images/tripadvisor2.png"],
             "component": "map",
             "css": {
               "heading": {
                 "element": "div",
                 "class": "title-case-hero text-uppercase",
                 "color": "primary-white"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "4": {
+    "wrapper": {
+      "fluid": false,
+      "css": {
+        "border": "0",
+        "backgroundColor": "#FFFFFF"
+      },
+      "rows": [
+        {
+          "css": {
+            "padding": "0",
+            "border": "0"
+          },
+          "columns": {
+            "sizes": [
+              "col-md-12"
+            ]
+          }
+        }
+      ]
+    },
+    "rows": [
+      {
+        "columns": [
+          {
+            "items": [
+              {
+                "link": "#",
+                "image": {
+                  "src": "/public/hotels/nian&pau/images/hero.jpg",
+                  "alt": "image"
+                },
+                "title": "title"
+              },
+              {
+                "link": "#",
+                "image": {
+                  "src": "/public/hotels/nian&pau/images/hero.jpg",
+                  "alt": "image"
+                },
+                "title": "title"
+              },
+              {
+                "link": "#",
+                "image": {
+                  "src": "/public/hotels/nian&pau/images/hero.jpg",
+                  "alt": "image"
+                },
+                "title": "title"
+              }
+            ],
+            "css": {
+              "title": {
+                "element": "div",
+                "class": "title-secondary text-uppercase",
+                "color": "primary-black"
+              },
+              "button": {
+                "element": "div",
+                "class": "button-dark text-uppercase",
+                "color": "primary-black"
               }
             }
           }

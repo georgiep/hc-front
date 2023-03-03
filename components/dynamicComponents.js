@@ -92,6 +92,7 @@ export const bodyListDynamic = {
         Template2: dynamic(() => import('components/carousels/template2/Template2'),{ssr:false}),
         Template3: dynamic(() => import('components/carousels/template3/Template3'),{ssr:false}),
         Template4: dynamic(() => import('components/carousels/template4/Template4'),{ssr:false}),
+        Template5: dynamic(() => import('components/carousels/template5/Template5'),{ssr:true}),
         Multi: dynamic(() => import('components/carousels/MultiCarousel/Template1'),{ssr:false}),
         LatestPost: dynamic(() => import('components/carousels/latestPosts/Template1'),{ssr:false}),
         SpecialOffers: dynamic(() => import('components/displayPostTypes/special-offers/carousel/template1/Template1'),{ssr:false})

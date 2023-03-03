@@ -95,10 +95,10 @@ const Template3 = () => {
 
                 {
                     !scrollY ? Router.asPath === '/' ?  <div className={'logo'} style={{width: '193px',height: '85px'}} onClick={scrollToTop}>
-                            <ImageLoader src={'https://aquavistahotels.rateparity.com/public/hotels/acquavista/images/aquavista-logo-white.svg'} priority={true} width={'193'} height={'85'} layout={'responsive'}/>
+                            <ImageLoader src={'https://code.rateparity.com/aquavistahotels.com/2023/03/aquavista-logo-white.png'} priority={true} width={'193'} height={'85'} layout={'responsive'}/>
                         </div> : <PrefetchLink pathname={'/'}>
                             <div className={'logo'} style={{width: '193px',height: '85px'}}>
-                                <ImageLoader src={'https://aquavistahotels.rateparity.com/public/hotels/acquavista/images/aquavista-logo-white.svg'}  priority={true} width={'193'} height={'85'}  layout={'responsive'}/>
+                                <ImageLoader src={'https://code.rateparity.com/aquavistahotels.com/2023/03/aquavista-logo-white.png'}  priority={true} width={'193'} height={'85'}  layout={'responsive'}/>
                             </div>
                         </PrefetchLink>
                         : Router.asPath === '/' ?  <div className={'logo'} style={{width: '150px',height: '66px'}} onClick={scrollToTop}>

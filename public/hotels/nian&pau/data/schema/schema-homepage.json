@@ -41,6 +41,15 @@
             "row": 0,
             "col": 0
           }
+        },
+        {
+          "component_name": "Carousel",
+          "template": "Template5",
+          "order": 4,
+          "wrapper": {
+            "row": 0,
+            "col": 0
+          }
         }
       ]
     }
