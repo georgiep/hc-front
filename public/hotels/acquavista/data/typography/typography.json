@@ -141,32 +141,6 @@
     "desktop": {
       "fontStyle": "light",
       "fontWeight": "300",
-      "fontSize": "60px",
-      "lineHeight": "69px",
-      "fontFamily": "Gotham Greek",
-      "letterSpacing": "0"
-    },
-    "tablet": {
-      "fontStyle": "light",
-      "fontWeight": "300",
-      "fontSize": "60px",
-      "lineHeight": "69px",
-      "fontFamily": "Gotham Greek",
-      "letterSpacing": "0"
-    },
-    "mobile": {
-      "fontStyle": "light",
-      "fontWeight": "300",
-      "fontSize": "60px",
-      "lineHeight": "69px",
-      "fontFamily": "Gotham Greek",
-      "letterSpacing": "0"
-    }
-  },
-  ".title-case-hero": {
-    "desktop": {
-      "fontStyle": "light",
-      "fontWeight": "300",
       "fontSize": "48px",
       "lineHeight": "55px",
       "fontFamily": "Gotham Greek",

@@ -1,13 +1,14 @@
 import Text2 from "components/commons/Text2/Text2";
+import PropTypes from "prop-types";
 
 const CommonsAmenities = ({data}) => {
-    const {items,icon,css} = data
+    let {items,icon,css} = data
 
     return(
         <>
             <ul>
                 {items && items.map((item,i)=>{
-                    return <li key={`amenities-${i}`}><Text2 tag={css.element} text={item} titleStyle={`${css.color} ${css.class}`}/></li>
+                    return <li key={`amenities-${i}`}><Text2 text={item} /></li>
                 })}
             </ul>
             <style jsx>
@@ -37,6 +38,11 @@ const CommonsAmenities = ({data}) => {
     )
 }
 
+CommonsAmenities.propTypes = {
+    items: PropTypes.array,
+    icon: PropTypes.string,
+    css: PropTypes.object,
+}
 
 
 export default CommonsAmenities

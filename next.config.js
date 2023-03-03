@@ -16,7 +16,7 @@ module.exports = {
 };
 
 module.exports = {
-    reactStrictMode: true,
+    reactStrictMode: false,
     images: {
         loader: 'default',
         domains: ['code.rateparity.com'],
@@ -24,6 +24,17 @@ module.exports = {
         formats: ['image/webp'],
     },
 }
+
+module.exports = (storybookBaseConfig, configType) => {
+
+    storybookBaseConfig.module.rules.push({
+      test: /\.sass$/,
+      loaders: ["style-loader", "css-loader", "sass-loader"],
+      include: path.resolve(__dirname, "../")
+    });
+  
+    return storybookBaseConfig;
+  };
 
 // module.exports = {
 //     experimental: {
