@@ -32,6 +32,15 @@
             "row": 0,
             "col": 0
           }
+        },
+        {
+          "component_name": "Intro",
+          "template": "Template1",
+          "order": 3,
+          "wrapper": {
+            "row": 0,
+            "col": 0
+          }
         }
       ]
     }

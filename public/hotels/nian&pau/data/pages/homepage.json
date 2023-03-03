@@ -76,6 +76,7 @@
           {
             "items": [],
             "heading": "AN URBAN LIFESTYLE EXPERIENCE IN ATHENS",
+            "component": "image",
             "css": {
               "heading": {
                 "element": "div",
@@ -114,7 +115,61 @@
         "columns": [
           {
             "items": [],
+            "component": "image",
             "heading": "AN URBAN LIFESTYLE EXPERIENCE IN ATHENS",
+            "css": {
+              "heading": {
+                "element": "div",
+                "class": "title-case-hero text-uppercase",
+                "color": "primary-white"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "3": {
+    "wrapper": {
+      "fluid": true,
+      "css": {
+        "border": "0",
+        "backgroundColor": "#FFFFFF"
+      },
+      "rows": [
+        {
+          "css": {
+            "padding": "0",
+            "border": "0"
+          },
+          "columns": {
+            "sizes": [
+              "col-md-12"
+            ]
+          }
+        }
+      ]
+    },
+    "rows": [
+      {
+        "columns": [
+          {
+            "items": [
+              ""
+            ],
+            "heading": "AN URBAN LIFESTYLE EXPERIENCE IN ATHENS",
+            "map": {
+              "mapSettings": {
+                "lat": 36.429017,
+                "lng": 25.425946,
+                "center": [36.429017,25.425946],
+                "zoom": 12
+              },
+              "mapStyle": {
+                "height": "100%"
+              }
+            },
+            "component": "map",
             "css": {
               "heading": {
                 "element": "div",

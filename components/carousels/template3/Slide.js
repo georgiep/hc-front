@@ -5,6 +5,8 @@ import LineSeparator from "components/body/separators/LineSeparator";
 import {Fragment} from 'react'
 import {mediaBreakPoints} from "../../../public/globalCss/mediaBreakPoints";
 import {useBreakpointContext} from "context/BreakpointContext";
+import dynamic from "next/dynamic";
+const TEXT = dynamic(() => import('components/body/ellipsis/template1/Template1'))
 
 const Slide = ({ item, css }) => {
     let { link, image, title, description, amenities_with_icons } = item
@@ -30,9 +32,20 @@ const Slide = ({ item, css }) => {
                     <Text2 titleStyle={`${css.title.class} ${css.title.color}`} text={title} tag={css.title.element}/>
                 </div>
 
-                <div>
-                    <Text2 titleStyle={`${css.description.class} ${css.description.color}`} text={description} tag={css.description.element}/>
-                </div>
+                {
+                    description &&  <div>
+                        <TEXT data={
+                            {
+                                text: description,
+                                css: {
+                                    class: css.description.class,
+                                    color: css.description.color,
+                                    element: css.description.element
+                                }
+                            }
+                        }/>
+                    </div>
+                }
 
                 {
                     !small && <LineSeparator padding={'15px 0'} maxWidth={'100%'}/>

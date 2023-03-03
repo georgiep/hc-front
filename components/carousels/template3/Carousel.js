@@ -14,7 +14,7 @@ const settingsSlider = {
     speed: 500,
     slidesToScroll: 1,
     initialSlide: 0,
-    slidesToShow: 2.5,
+    slidesToShow: 3,
     nextArrow: <NextArrow color={'black'}/>,
     prevArrow: <PrevArrow color={'black'}/>,
     responsive: [

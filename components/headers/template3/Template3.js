@@ -43,7 +43,7 @@ const Template3 = () => {
         setOpen(!open)
     }
 
-    if(scrollY > 100){
+    if(scrollY > 1){
         if(!scroll){
             setScroll(true)
         }

@@ -1,11 +1,17 @@
 import React from 'react'
 import Text2 from "components/commons/Text2/Text2";
 import ImageLoader from "components/commons/image/ImageLoader";
+import PrefetchLink from "components/links/PrefetchLink";
+import dynamic from "next/dynamic";
+const SimpleMap = dynamic(() => import("components/maps/SimpleMap"))
+const ImageList = dynamic(() => import('components/body/list/listOfImages/Template1'))
 
 const Template1 = ({ data }) => {
 
-    const { item, css } = data
+    const { items, css, map, component } = data
 
+    console.log(component)
+    console.log(map)
     return (
         <>
             <div className={'intro-container-template-1 position-relative'}>
@@ -30,15 +36,28 @@ const Template1 = ({ data }) => {
                                 />
                             </div>
 
+                            {items && <div><ImageList data={items}/></div>}
+
                         </div>
                         <div className={'col p-0'}>
-                            <ImageLoader
-                                src={'/public/hotels/nian&pau/images/hero.jpg'}
-                                alt={'alt'}
-                                layout="fill"
-                                objectFit="cover"
-                                objectPosition="center"
-                                type="relative"/>
+                            {
+                                component === 'map' ? <SimpleMap data={map}/> : <>
+                                    <ImageLoader
+                                        src={'/public/hotels/nian&pau/images/hero.jpg'}
+                                        alt={'alt'}
+                                        layout="fill"
+                                        objectFit="cover"
+                                        objectPosition="center"
+                                        type="relative"/>
+                                    <div className={'position-relative button-link'}>
+                                        <PrefetchLink pathname={''}>
+                                            <button className={'button-primary text-uppercase'}>Explore Psiri</button>
+                                        </PrefetchLink>
+                                    </div>
+                                </>
+                            }
+
+
                         </div>
                     </div>
                 </div>
@@ -51,6 +70,11 @@ const Template1 = ({ data }) => {
                         top: 0;
                         border-bottom-right-radius: 50px;
                         max-width: calc(50% + 300px);
+                    }
+                    .button-link{
+                        top: -100px;
+                        right: 20px;
+                        text-align: right;
                     }
                 `}
             </style>
