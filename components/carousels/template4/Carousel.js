@@ -74,11 +74,12 @@ const Carousel = ({ items, css }) => {
         <div className="slider-container latest-post-carousel" ref={elementRef}>
             {
                 SLIDER ? <SLIDER {...settings}>
-                {items && items.map((item, index) => <div className={'slide-container'} key={index}><Slide item={item} key={index} css={css}/></div>)}
-            </SLIDER> : items && items.map((item, index) => <div className={'slide-container'} key={index}><Slide item={item} key={index} css={css}/></div>)
+                    {items && items.map((item, index) => <div className={'slide-container'} key={index}><Slide item={item} key={index} css={css}/></div>)}
+                </SLIDER> : items && items.map((item, index) => index < 3 && <div className={'slide-container'} key={index}><Slide item={item} key={index} css={css}/></div>)
             }
             <style jsx>
                 {`
+
                  .slide-container{
                      width: 100% !important;
                      padding: 20px;

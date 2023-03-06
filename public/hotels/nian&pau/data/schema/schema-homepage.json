@@ -50,6 +50,24 @@
             "row": 0,
             "col": 0
           }
+        },
+        {
+          "component_name": "Intro",
+          "template": "Template2",
+          "order": 5,
+          "wrapper": {
+            "row": 0,
+            "col": 0
+          }
+        },
+        {
+          "component_name": "Carousel",
+          "template": "RoomTemplate1",
+          "order": 6,
+          "wrapper": {
+            "row": 0,
+            "col": 0
+          }
         }
       ]
     }

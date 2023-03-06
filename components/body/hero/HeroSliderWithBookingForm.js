@@ -8,7 +8,7 @@ const HeroSliderWithBookingForm = ({data}) => {
     const [show,setShow] = useState(false)
 
     return(
-        <div className={'full-screen-slider-container'}>
+        data?.items?.length && <div className={'full-screen-slider-container'}>
 
             <Template1 data={data}/>
 
@@ -36,6 +36,7 @@ const HeroSliderWithBookingForm = ({data}) => {
             </style>
         </div>
     )
+
 }
 
 export default HeroSliderWithBookingForm

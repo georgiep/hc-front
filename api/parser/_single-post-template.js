@@ -99,6 +99,9 @@ const hotelData = (parsed) => {
     return {
         "idbName": `${parsed.slug}`,
         "schema": `schema-single-post`,
+        "header": {
+            "isScrolling": true
+        },
         "SEO": {...parsed.SEO},
         "0": {
             "wrapper": {

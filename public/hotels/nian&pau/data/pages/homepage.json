@@ -251,6 +251,290 @@
       }
     ]
   },
+  "5": {
+    "wrapper": {
+      "fluid": true,
+      "css": {
+        "border": "0",
+        "backgroundColor": "#FFFFFF"
+      },
+      "rows": [
+        {
+          "css": {
+            "padding": "0",
+            "border": "0"
+          },
+          "columns": {
+            "sizes": [
+              "col-md-12"
+            ]
+          }
+        }
+      ]
+    },
+    "rows": [
+      {
+        "columns": [
+          {
+            "items": [
+              {
+                "image": "/public/hotels/nian&pau/images/hero.jpg",
+                "location": "Sarri 2, Psiri, Athens",
+                "lat": "",
+                "lng": "",
+                "title": "NIN&BAU SARRI 2",
+                "description": "",
+                "min_price": "225",
+                "link": {
+                  "pathname": "#",
+                  "api": "/pages/room/room1",
+                  "text": "CHECK AVAILABILITY"
+                },
+                "award": {
+                  "src": "/public/hotels/nian&pau/images/tripadvisor2.png",
+                  "width": "47px",
+                  "height": "53px"
+                },
+                "amenities": [
+                  {
+                    "icon": "https://code.rateparity.com/aquavistahotels.com/2022/09/icon-3-1.svg",
+                    "name": "Free Wi-Fi"
+                  },
+                  {
+                    "icon": "https://code.rateparity.com/aquavistahotels.com/2022/09/icon-3-1.svg",
+                    "name": "ADSL Internet"
+                  },
+                  {
+                    "icon": "https://code.rateparity.com/aquavistahotels.com/2022/09/icon-3-1.svg",
+                    "name": "ADSL Internet"
+                  },
+                  {
+                    "icon": "https://code.rateparity.com/aquavistahotels.com/2022/09/icon-3-1.svg",
+                    "name": "ADSL Internet"
+                  }
+                ]
+              },
+              {
+                "image": "/public/hotels/nian&pau/images/hero.jpg",
+                "location": "Sarri 2, Psiri, Athens",
+                "lat": "",
+                "lng": "",
+                "title": "NIN&BAU SARRI 2",
+                "description": "",
+                "min_price": "225",
+                "link": {
+                  "pathname": "#",
+                  "api": "/pages/room/room1",
+                  "text": "CHECK AVAILABILITY"
+                },
+                "award": {
+                  "src": "/public/hotels/nian&pau/images/tripadvisor2.png",
+                  "width": "47px",
+                  "height": "53px"
+                },
+                "amenities": [
+                  {
+                    "icon": "https://code.rateparity.com/aquavistahotels.com/2022/09/icon-3-1.svg",
+                    "name": "Free Wi-Fi"
+                  },
+                  {
+                    "icon": "https://code.rateparity.com/aquavistahotels.com/2022/09/icon-3-1.svg",
+                    "name": "ADSL Internet"
+                  },
+                  {
+                    "icon": "https://code.rateparity.com/aquavistahotels.com/2022/09/icon-3-1.svg",
+                    "name": "ADSL Internet"
+                  },
+                  {
+                    "icon": "https://code.rateparity.com/aquavistahotels.com/2022/09/icon-3-1.svg",
+                    "name": "ADSL Internet"
+                  }
+                ]
+              },
+              {
+                "image": "/public/hotels/nian&pau/images/hero.jpg",
+                "location": "Sarri 2, Psiri, Athens",
+                "lat": "",
+                "lng": "",
+                "title": "NIN&BAU SARRI 2",
+                "description": "",
+                "min_price": "225",
+                "link": {
+                  "pathname": "#",
+                  "api": "/pages/room/room1",
+                  "text": "CHECK AVAILABILITY"
+                },
+                "award": {
+                  "src": "/public/hotels/nian&pau/images/tripadvisor2.png",
+                  "width": "47px",
+                  "height": "53px"
+                },
+                "amenities": [
+                  {
+                    "icon": "https://code.rateparity.com/aquavistahotels.com/2022/09/icon-3-1.svg",
+                    "name": "Free Wi-Fi"
+                  },
+                  {
+                    "icon": "https://code.rateparity.com/aquavistahotels.com/2022/09/icon-3-1.svg",
+                    "name": "ADSL Internet"
+                  },
+                  {
+                    "icon": "https://code.rateparity.com/aquavistahotels.com/2022/09/icon-3-1.svg",
+                    "name": "ADSL Internet"
+                  },
+                  {
+                    "icon": "https://code.rateparity.com/aquavistahotels.com/2022/09/icon-3-1.svg",
+                    "name": "ADSL Internet"
+                  }
+                ]
+              }
+            ],
+            "heading": "AN URBAN LIFESTYLE EXPERIENCE IN ATHENS",
+            "map": {
+              "mapSettings": {
+                "lat": 36.429017,
+                "lng": 25.425946,
+                "center": [36.429017,25.425946],
+                "zoom": 15
+              },
+              "mapStyle": {
+                "height": "100%"
+              },
+              "items": [
+                {
+                  "lat": 36.429017,
+                  "lng": 25.425946,
+                  "text": "225",
+                  "link": {
+                    "pathname": "#"
+                  }
+                },
+                {
+                  "lat": 36.4311146,
+                  "lng": 25.4274488,
+                  "text": "225",
+                  "link": {
+                    "pathname": "#"
+                  }
+                },
+                {
+                  "lat": 36.4284731,
+                  "lng": 25.4299264,
+                  "text": "225",
+                  "link": {
+                    "pathname": "#"
+                  }
+                }
+              ]
+            },
+            "images": ["/public/hotels/nian&pau/images/tripadvisor2.png","/public/hotels/nian&pau/images/tripadvisor2.png","/public/hotels/nian&pau/images/tripadvisor2.png"],
+            "component": "map",
+            "css": {
+              "heading": {
+                "element": "div",
+                "class": "title-case-hero text-uppercase",
+                "color": "primary-white"
+              },
+              "title": {
+                "element": "div",
+                "class": "title-secondary",
+                "color": "primary-dark"
+              },
+              "description": {
+                "element": "div",
+                "class": "secondary-post-text",
+                "color": "primary-black"
+              },
+              "location": {
+                "element": "div",
+                "class": "text-primary",
+                "color": "primary-black"
+              },
+              "amenities": {
+                "element": "div",
+                "class": "text-small",
+                "color": "primary-black"
+              },
+              "link": {
+                "element": "button",
+                "class": "button-dark",
+                "color": "primary-dark"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "6": {
+    "wrapper": {
+      "fluid": false,
+      "css": {
+        "border": "0",
+        "backgroundColor": "#FFFFFF"
+      },
+      "rows": [
+        {
+          "css": {
+            "padding": "0",
+            "border": "0"
+          },
+          "columns": {
+            "sizes": [
+              "col-md-12"
+            ]
+          }
+        }
+      ]
+    },
+    "rows": [
+      {
+        "columns": [
+          {
+            "items": [
+              {
+                "link": "#",
+                "image": {
+                  "src": "/public/hotels/nian&pau/images/hero.jpg",
+                  "alt": "image"
+                },
+                "title": "DELUXE SUITES",
+                "description": "Stay with us at least 14 nights Get 20% OFF 22 Jun - 31 Dec"
+              },
+              {
+                "link": "#",
+                "image": {
+                  "src": "/public/hotels/nian&pau/images/hero.jpg",
+                  "alt": "image"
+                },
+                "title": "title"
+              },
+              {
+                "link": "#",
+                "image": {
+                  "src": "/public/hotels/nian&pau/images/hero.jpg",
+                  "alt": "image"
+                },
+                "title": "title"
+              }
+            ],
+            "css": {
+              "title": {
+                "element": "div",
+                "class": "title-secondary text-uppercase",
+                "color": "primary-black"
+              },
+              "button": {
+                "element": "div",
+                "class": "button-dark text-uppercase",
+                "color": "primary-black"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
   "idbName": "/pages/homepage",
   "schema": "schema-homepage",
   "SEO": {

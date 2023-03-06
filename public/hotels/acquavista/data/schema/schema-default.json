@@ -61,9 +61,45 @@
           }
         },
         {
+          "component_name": "Commons",
+          "template": "Text",
+          "order": 3,
+          "wrapper": {
+            "row": 0,
+            "col": 0
+          }
+        },
+        {
+          "component_name": "Empty",
+          "template": "Empty",
+          "order": 3,
+          "wrapper": {
+            "row": 1,
+            "col": 0
+          }
+        },
+        {
+          "component_name": "Commons",
+          "template": "Separator",
+          "order": 3,
+          "wrapper": {
+            "row": 1,
+            "col": 1
+          }
+        },
+        {
+          "component_name": "Commons",
+          "template": "Text",
+          "order": 3,
+          "wrapper": {
+            "row": 2,
+            "col": 0
+          }
+        },
+        {
           "component_name": "Tabs",
           "template": "Template1",
-          "order": 3,
+          "order": 4,
           "wrapper": {
             "row": 0,
             "col": 0
@@ -72,7 +108,7 @@
         {
           "component_name": "ImageList",
           "template": "Template2",
-          "order": 4,
+          "order": 5,
           "wrapper": {
             "row": 0,
             "col": 0
@@ -81,7 +117,7 @@
         {
           "component_name": "Modals",
           "template": "Template1",
-          "order": 5,
+          "order": 6,
           "wrapper": {
             "row": 0,
             "col": 0

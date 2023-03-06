@@ -29,6 +29,7 @@ function Page(props) {
             menu={header}
             header={header_components}
             footer={footer_components}
+            isScrolling={!!page?.header?.isScrolling}
             globals={globals}
         >
 

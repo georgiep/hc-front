@@ -240,6 +240,58 @@
       "fontFamily": "Poppins",
       "letterSpacing": "0.03em"
     }
+  },
+  ".text-small": {
+    "desktop": {
+      "fontStyle": "medium",
+      "fontWeight": "300",
+      "fontSize": "12px",
+      "lineHeight": "18px",
+      "fontFamily": "Poppins",
+      "letterSpacing": "0"
+    },
+    "tablet": {
+      "fontStyle": "medium",
+      "fontWeight": "300",
+      "fontSize": "12px",
+      "lineHeight": "18px",
+      "fontFamily": "Poppins",
+      "letterSpacing": "0"
+    },
+    "mobile": {
+      "fontStyle": "medium",
+      "fontWeight": "300",
+      "fontSize": "12px",
+      "lineHeight": "18px",
+      "fontFamily": "Poppins",
+      "letterSpacing": "0"
+    }
+  },
+  ".text-small-bold": {
+    "desktop": {
+      "fontStyle": "medium",
+      "fontWeight": "700",
+      "fontSize": "14px",
+      "lineHeight": "18px",
+      "fontFamily": "Poppins",
+      "letterSpacing": "0.05em"
+    },
+    "tablet": {
+      "fontStyle": "medium",
+      "fontWeight": "700",
+      "fontSize": "14px",
+      "lineHeight": "18px",
+      "fontFamily": "Poppins",
+      "letterSpacing": "0.05em"
+    },
+    "mobile": {
+      "fontStyle": "medium",
+      "fontWeight": "700",
+      "fontSize": "14px",
+      "lineHeight": "18px",
+      "fontFamily": "Poppins",
+      "letterSpacing": "0.05em"
+    }
   }
 }
 

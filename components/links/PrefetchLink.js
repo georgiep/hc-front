@@ -12,10 +12,10 @@ export default function PrefetchLink({ children, pathname, api, width, external 
   const [prefetchLink, setPrefetchLink] = useState(false)
   //const url = `/Page?lang=${language}&api=${api}&pathName=${pathname}&referrer=${referrer}`
   const url = `/Page?pathName=${pathname}&referrer=aquavista`
- 
+
   if(external){
     return(
-        <a href={pathname} target={'_blank'}>{children}</a>
+        <a href={pathname} target={'_blank'} rel="noreferrer">{children}</a>
     )
   }
 
@@ -28,13 +28,13 @@ export default function PrefetchLink({ children, pathname, api, width, external 
   }
 
   return (
-    <div
-      className={pathname === router.asPath ? 'link-prefetch active-link' : 'link-prefetch'}
-    >
-      <Link href={url} as={pathname} prefetch={false}>
-        <a>{children}</a>
-      </Link>
-      <style global jsx>{`
+      <div
+          className={pathname === router.asPath ? 'link-prefetch active-link' : 'link-prefetch'}
+      >
+        <Link href={url} as={pathname} prefetch={false}>
+          <a>{children}</a>
+        </Link>
+        <style global jsx>{`
         .link-prefetch a {
           color: inherit;
           text-decoration: none;
@@ -48,7 +48,7 @@ export default function PrefetchLink({ children, pathname, api, width, external 
           font-weight: 500;
         }
       `}</style>
-    </div>
+      </div>
   )
 }
 

@@ -20,8 +20,9 @@ const createMenuListAnimation = (length) => {
 
 let animation = createMenuListAnimation(11)
 
-const Template3 = () => {
+const Template3 = ({data}) => {
 
+    const { isScrolling } = data
 
     const {extra_large} = useContext(breakpointContext)
 
@@ -90,11 +91,11 @@ const Template3 = () => {
 
     return(
              <header className={'header-menu-layout-three'}>
-            <div className={`menu-top d-flex flex-nowrap justify-content-between ${scroll ? 'header-scrolling' : ''}`}>
+            <div className={`menu-top d-flex flex-nowrap justify-content-between ${scroll || isScrolling ? 'header-scrolling' : ''}`}>
                 <div className={'burger-menu'} onClick={toggleMenu}><BurgerMenuSvg/></div>
 
                 {
-                    !scrollY ? Router.asPath === '/' ?  <div className={'logo'} style={{width: '193px',height: '85px'}} onClick={scrollToTop}>
+                    (!scrollY && !isScrolling) ? Router.asPath === '/'  ?  <div className={'logo'} style={{width: '193px',height: '85px'}} onClick={scrollToTop}>
                             <ImageLoader src={'https://code.rateparity.com/aquavistahotels.com/2023/03/aquavista-logo-white.png'} priority={true} width={'193'} height={'85'} layout={'responsive'}/>
                         </div> : <PrefetchLink pathname={'/'}>
                             <div className={'logo'} style={{width: '193px',height: '85px'}}>
@@ -111,7 +112,7 @@ const Template3 = () => {
                 }
 
 
-                <div className={'book-now'}><a href={url} target={'_blank'}><button className={'button-fill text-nowrap'}>BOOK NOW</button></a></div>
+                <div className={'book-now'}><a rel="noreferrer" href={url} target={'_blank'}><button className={'button-fill text-nowrap'}>BOOK NOW</button></a></div>
             </div>
             <div className={!open ? 'menu' : 'menu open'} >
                 <div className={'close-menu'} onClick={toggleMenu}><CloseMenuSvg/></div>

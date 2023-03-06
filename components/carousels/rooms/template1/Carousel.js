@@ -1,7 +1,7 @@
 import React, {useEffect, useRef, useState} from 'react'
 import Slide from './Slide'
 import { NextArrow, PrevArrow } from 'components/commons/arrows/arrows'
-import useIntersection from "../../../hooks/useIntersection";
+import useIntersection from "../../../../hooks/useIntersection";
 
 const settingsSlider = {
     className: 'slider',

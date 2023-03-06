@@ -81,7 +81,7 @@ export default function LayoutVista(props) {
                 {header.map((Component, i) => {
                     return (
                         <React.Fragment key={i}>
-                            <Component data={props.menu} />
+                            <Component data={{...props.menu,isScrolling: props.isScrolling}} />
                         </React.Fragment>
                     )
                 })}

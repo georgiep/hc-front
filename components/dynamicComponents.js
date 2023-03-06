@@ -93,6 +93,7 @@ export const bodyListDynamic = {
         Template3: dynamic(() => import('components/carousels/template3/Template3'),{ssr:false}),
         Template4: dynamic(() => import('components/carousels/template4/Template4'),{ssr:false}),
         Template5: dynamic(() => import('components/carousels/template5/Template5'),{ssr:true}),
+        RoomTemplate1: dynamic(() => import('components/carousels/rooms/template1/Template1'),{ssr:true}),
         Multi: dynamic(() => import('components/carousels/MultiCarousel/Template1'),{ssr:false}),
         LatestPost: dynamic(() => import('components/carousels/latestPosts/Template1'),{ssr:false}),
         SpecialOffers: dynamic(() => import('components/displayPostTypes/special-offers/carousel/template1/Template1'),{ssr:false})
@@ -102,6 +103,7 @@ export const bodyListDynamic = {
     },
     Intro: {
         Template1: dynamic(() => import('components/body/intro/template1/Template1')),
+        Template2: dynamic(() => import('components/body/intro/template2/Template2'),{ssr:false}),
     },
     ImageList: {
         Template1: dynamic(() => import('components/body/list/listOfImages/Template1')),
@@ -136,6 +138,7 @@ export const bodyListDynamic = {
         MultipleMarkersWithImage: dynamic(() => import('components/maps/MultipleMarkersWithImage'),{ssr:false}),
         MapWithMultipleMarkersArray: dynamic(() => import('components/maps/MapWithMultipleMarkersArray'),{ssr:false}),
         SimpleMap: dynamic(() => import('components/maps/SimpleMap'),{ssr:false}),
+        SimpleMapWithMarkers: dynamic(() => import('components/maps/SimpleMapWithMarkers'),{ssr:false}),
     },
     Forms: {
         Template1: dynamic(() => import('components/body/forms/template1'))

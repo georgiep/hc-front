@@ -32,15 +32,14 @@ let linkPost = {
 const hotelParser = (data,link,allData) => {
 
     _hotelParseObj._HeroSliderWithBookingForm_Hero_oder_0_row_0_col_0 = {
-        "items": data.slider_gallery.map(item => {
+        "items": data.slider_gallery.length ? data.slider_gallery.map(item => {
             return{
                 "src":item.url.toString().replace('https://greece-hotel.info/admins/aquavistahotels/wp-content/uploads','https://code.rateparity.com/aquavistahotels.com'),
                 "alt": 'alt hotel image'
             }
-        }),
+        }) : null,
         "heading": data.intro_text
     }
-
 
     _hotelParseObj._Commons_Text_order_1_row_0_col_0 = {
         "text": data.text || null
@@ -48,6 +47,15 @@ const hotelParser = (data,link,allData) => {
 
     _hotelParseObj._Commons_Text_order_1_row_0_col_1 = {
         "text": data.description
+    }
+
+
+    _hotelParseObj.EXTRA_TEXT_TOP = {
+        "text": data.top_heading || null
+    }
+
+    _hotelParseObj.EXTRA_DESCRIPTION_TOP = {
+        "text": data.top_description || null
     }
 
     _hotelParseObj._Tabs_Template1_order_2_row_0_col_0 = {
@@ -75,7 +83,6 @@ const hotelParser = (data,link,allData) => {
         link: {pathname: '/special-offers', api: ''}
     }
 
-
     _hotelParseObj.breadcrumbs = {
         items: [
             {
@@ -91,6 +98,7 @@ const hotelParser = (data,link,allData) => {
 
     _hotelParseObj.fullWidth = data.fullwidth
 
+    _hotelParseObj.isScroll = data.isscroll
 
     return _hotelParseObj
 }
@@ -99,6 +107,9 @@ const hotelData = (parsed) => {
     return {
         "idbName": `/pages/facilities`,
         "schema": 'schema-default',
+        "header": {
+          "isScrolling": parsed.isScroll
+        },
         "SEO": {...parsed.SEO},
         "0": {
             "wrapper": {
@@ -149,12 +160,12 @@ const hotelData = (parsed) => {
                 "rows": [
                     {
                         "css": {
-                            "padding": "80px 0 40px 0",
+                            "padding": `${parsed._HeroSliderWithBookingForm_Hero_oder_0_row_0_col_0.items ? '80px 0 40px 0' : '120px 0 40px 0'}`,
                             "border": "0"
                         },
                         "columns": {
                             "sizes": [
-                                "col-md-12 animation--up"
+                                "col-md-12"
                             ]
                         }
                     }
@@ -187,11 +198,100 @@ const hotelData = (parsed) => {
                         "css": {
                             "padding": "40px 0 0 0",
                             "border": "0",
+                            ...(!parsed.EXTRA_DESCRIPTION_TOP.text  && { "display": "none" })
+                        },
+                        "columns": {
+                            "sizes": [
+                                "col-md-12"
+                            ]
+                        }
+                    },
+                    {
+                        "css": {
+                            "padding": "0",
+                            "border": "0",
+                            ...(!parsed.EXTRA_DESCRIPTION_TOP.text && { "display": "none" })
+                        },
+                        "columns": {
+                            "sizes": [
+                                "col-md-6",
+                                "col-md-6"
+                            ]
+                        }
+                    },
+                    {
+                        "css": {
+                            "padding": "0 0 40px 0",
+                            "border": "0"
+                        },
+                        "columns": {
+                            "sizes": [
+                                "col-md-12 "
+                            ]
+                        }
+                    }
+                ]
+            },
+            "rows": [
+                {
+                    "columns": [
+                        {
+                            ...parsed.EXTRA_TEXT_TOP,
+                            "css": {
+                                "element": "div",
+                                "class": "title-case-primary text-uppercase text-left text-sm-center",
+                                "color": "primary-dark",
+                                "maxWidth": "512px",
+                                "margin": "0 auto",
+                                "padding": "0 0 0 0"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "columns": [
+                        {},
+                        {
+                            "maxWidth": "367px",
+                            "color": "#04456D",
+                            "padding": "40px",
+                            "margin": "0 auto"
+                        }
+                    ]
+                },
+                {
+                    "columns": [
+                        {
+                            ...parsed.EXTRA_DESCRIPTION_TOP,
+                            "css": {
+                                "element": "div",
+                                "class": "main-text-body",
+                                "color": "primary-black",
+                                "margin": "0 auto",
+                                "padding": "0 0 0 0"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        "3": {
+            "wrapper": {
+                "fluid": parsed.fullWidth,
+                "css": {
+                    "border": "0",
+                    "backgroundColor": "#FFFFFF"
+                },
+                "rows": [
+                    {
+                        "css": {
+                            "padding": "40px 0 0 0",
+                            "border": "0",
                             ...(!parsed._Commons_Text_order_1_row_0_col_0.text  && { "display": "none" })
                         },
                         "columns": {
                             "sizes": [
-                                "col-md-12 animation--up"
+                                "col-md-12"
                             ]
                         }
                     },
@@ -203,8 +303,8 @@ const hotelData = (parsed) => {
                         },
                         "columns": {
                             "sizes": [
-                                "col-md-6 animation--up",
-                                "col-md-6 animation--up"
+                                "col-md-6",
+                                "col-md-6"
                             ]
                         }
                     },
@@ -215,7 +315,7 @@ const hotelData = (parsed) => {
                         },
                         "columns": {
                             "sizes": [
-                                "col-md-12 animation--up"
+                                "col-md-12 "
                             ]
                         }
                     }
@@ -264,13 +364,13 @@ const hotelData = (parsed) => {
                 }
             ]
         },
-        "3": {
+        "4": {
             "wrapper": {
                 "fluid": true,
                 "css": {
                     "border": "0",
                     "backgroundColor": "#FFFFFF",
-                    "padding": "80px 0 60px 0"
+                    "padding": "20px 0 60px 0"
                 },
                 "rows": [
                     {
@@ -282,7 +382,7 @@ const hotelData = (parsed) => {
                         },
                         "columns": {
                             "sizes": [
-                                "col-md-12 animation--up"
+                                "col-md-12"
                             ]
                         }
                     }
@@ -315,7 +415,7 @@ const hotelData = (parsed) => {
                 }
             ]
         },
-        "4": {
+        "5": {
             "wrapper": {
                 "fluid": true,
                 "css": {
@@ -333,7 +433,7 @@ const hotelData = (parsed) => {
                         },
                         "columns": {
                             "sizes": [
-                                "col-md-12 animation--up"
+                                "col-md-12 "
                             ]
                         }
                     }
@@ -359,7 +459,7 @@ const hotelData = (parsed) => {
                 }
             ]
         },
-        "5": {
+        "6": {
             "wrapper": {
                 "fluid": false,
                 "css": {

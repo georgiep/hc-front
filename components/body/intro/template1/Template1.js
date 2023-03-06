@@ -10,8 +10,6 @@ const Template1 = ({ data }) => {
 
     const { items, css, images, map, component } = data
 
-
-    console.log(images)
     return (
         <>
             <div className={'intro-container-template-1 position-relative'}>
